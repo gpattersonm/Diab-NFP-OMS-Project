@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-16"?>
+<xs:schema elementFormDefault="unqualified" id="OutgoingMessagesSchema" 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="EngineerUpdate">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" maxOccurs="1" name="Engineer">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element minOccurs="0" maxOccurs="1" name="Active" type="xs:boolean" />
+                            <xs:element minOccurs="0" maxOccurs="1" name="ID" type="xs:string" />
+                            <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+                            <xs:element minOccurs="0" maxOccurs="1" name="SOLicenseInactive" type="xs:boolean" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="Destination" type="xs:string" />
+            <xs:attribute name="CreatedBy" type="xs:string" />
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
