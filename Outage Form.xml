@@ -1,0 +1,1064 @@
+<Outage New="false" ObjectType="151">
+  <FormProperties>
+    <BackColor>-3941894</BackColor>
+    <ReadOnlyForm>False</ReadOnlyForm>
+    <EnabledForm T="230" />
+    <FormOpenMode>Normal</FormOpenMode>
+    <MobileKeyPropertyName>MobileKey</MobileKeyPropertyName>
+    <AutoSizeActive>True</AutoSizeActive>
+    <AutoSizeWidthPercentage>20</AutoSizeWidthPercentage>
+    <TemplateID>-1</TemplateID>
+    <Size>
+      <Width>715</Width>
+      <Height>699</Height>
+    </Size>
+    <Text>Outage Form</Text>
+    <AdvanceMode>true</AdvanceMode>
+  </FormProperties>
+  <TabProperties>
+    <Dock>Fill</Dock>
+    <ItemSize>
+      <Width>50</Width>
+      <Height>80</Height>
+    </ItemSize>
+    <SizeMode>Normal</SizeMode>
+    <Align>Left</Align>
+    <BackColor>-2830136</BackColor>
+    <ForeColor>-16777216</ForeColor>
+    <Font>
+      <Name>Microsoft Sans Serif</Name>
+      <Size>8.25</Size>
+      <Style>Regular</Style>
+    </Font>
+  </TabProperties>
+  <Category>
+    <Properties>
+      <EnabledTab T="230" />
+      <Visibility T="230" />
+      <ForeColor>-16777216</ForeColor>
+      <TemplateDef>&lt;TemplateDictionaries ShowForAll="true" ShowForNA="true" /&gt;</TemplateDef>
+      <Text>Outage</Text>
+      <AutoScroll>True</AutoScroll>
+    </Properties>
+    <Field>
+      <PropertyType>3</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName />
+      <MaxLength>200</MaxLength>
+      <MVItemName />
+      <PropertyName>OutageLocation</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <Multiline T="230" />
+        <MaxLength>200</MaxLength>
+        <Text>Outage Location</Text>
+        <Dock>Top</Dock>
+        <Location>
+          <X>3</X>
+          <Y>32</Y>
+        </Location>
+        <Size>
+          <Width>577</Width>
+          <Height>60</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>3</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName />
+      <MaxLength>64</MaxLength>
+      <MVItemName />
+      <PropertyName>OutageID</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <EnabledControl T="240" />
+        <Text>Outage ID</Text>
+        <Dock>Top</Dock>
+        <Location>
+          <X>3</X>
+          <Y>3</Y>
+        </Location>
+        <Size>
+          <Width>577</Width>
+          <Height>29</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>29</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName>Attachment</CollectionName>
+      <MaxLength>0</MaxLength>
+      <MVItemName>Attachment</MVItemName>
+      <PropertyName>Attachments</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <FileCountLimit>5</FileCountLimit>
+        <Text>Attachments</Text>
+        <Location>
+          <X>10</X>
+          <Y>591</Y>
+        </Location>
+        <Size>
+          <Width>365</Width>
+          <Height>140</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>23</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName>Device</CollectionName>
+      <MaxLength>0</MaxLength>
+      <MVItemName>Device</MVItemName>
+      <PropertyName>Devices</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <Columns>
+          <Column>
+            <Text>Device ID</Text>
+            <Width>70</Width>
+            <RelatedProperty>DeviceID</RelatedProperty>
+          </Column>
+          <Column>
+            <Text>Facility ID</Text>
+            <Width>70</Width>
+            <RelatedProperty>FacilityID</RelatedProperty>
+          </Column>
+          <Column>
+            <Text>Latitude</Text>
+            <Width>70</Width>
+            <RelatedProperty>Latitude</RelatedProperty>
+          </Column>
+          <Column>
+            <Text>Longitude</Text>
+            <Width>60</Width>
+            <RelatedProperty>Longitude</RelatedProperty>
+          </Column>
+        </Columns>
+        <AddVisible T="240" />
+        <UpdateVisible T="240" />
+        <DeleteVisible T="240" />
+        <Text>Devices</Text>
+        <Location>
+          <X>7</X>
+          <Y>100</Y>
+        </Location>
+        <Size>
+          <Width>280</Width>
+          <Height>90</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>3</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName />
+      <MaxLength>4000</MaxLength>
+      <MVItemName />
+      <PropertyName>CrewComments</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <Multiline T="230" />
+        <MaxLength>4000</MaxLength>
+        <Text>Crew Comments</Text>
+        <Location>
+          <X>11</X>
+          <Y>530</Y>
+        </Location>
+        <Size>
+          <Width>572</Width>
+          <Height>60</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>3</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName />
+      <MaxLength>4000</MaxLength>
+      <MVItemName />
+      <PropertyName>FollowUpDetails</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <Multiline T="230" />
+        <MaxLength>4000</MaxLength>
+        <Text>Follow Up Details</Text>
+        <Visibility T="210">
+          <Left T="103">
+            <OT>Outage</OT>
+            <N>FollowUpRequired</N>
+          </Left>
+          <Right T="104" DS="">True</Right>
+          <OP T="501" />
+        </Visibility>
+        <Location>
+          <X>11</X>
+          <Y>465</Y>
+        </Location>
+        <Size>
+          <Width>572</Width>
+          <Height>60</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>2</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName />
+      <MaxLength>0</MaxLength>
+      <MVItemName />
+      <PropertyName>FollowUpRequired</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <Text>Follow Up Required</Text>
+        <Location>
+          <X>7</X>
+          <Y>445</Y>
+        </Location>
+        <Size>
+          <Width>130</Width>
+          <Height>24</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>3</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName />
+      <MaxLength>4000</MaxLength>
+      <MVItemName />
+      <PropertyName>ActionTakenDesc</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <Multiline T="230" />
+        <MaxLength>4000</MaxLength>
+        <Text>Action Taken Description</Text>
+        <LabelWidth>80</LabelWidth>
+        <Visibility T="280">
+          <Prop T="103">
+            <OT>Outage</OT>
+            <N>ActionTaken</N>
+          </Prop>
+          <List>
+            <Prop T="104" DS="&lt;None&gt;">-1</Prop>
+          </List>
+        </Visibility>
+        <Location>
+          <X>7</X>
+          <Y>380</Y>
+        </Location>
+        <Size>
+          <Width>572</Width>
+          <Height>60</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>8</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName>OutageActionTaken</CollectionName>
+      <MaxLength>0</MaxLength>
+      <MVItemName />
+      <PropertyName>ActionTaken</PropertyName>
+      <DisplayedAttribute>Name</DisplayedAttribute>
+      <Properties>
+        <Text>Action Taken</Text>
+        <LabelWidth>80</LabelWidth>
+        <Location>
+          <X>7</X>
+          <Y>345</Y>
+        </Location>
+        <Size>
+          <Width>572</Width>
+          <Height>29</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>4</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName />
+      <MaxLength>0</MaxLength>
+      <MVItemName />
+      <PropertyName>ETR</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <Text>ETR</Text>
+        <Location>
+          <X>285</X>
+          <Y>122</Y>
+        </Location>
+        <Size>
+          <Width>248</Width>
+          <Height>28</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>8</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName>CauseCodes</CollectionName>
+      <MaxLength>0</MaxLength>
+      <MVItemName />
+      <PropertyName>Cause</PropertyName>
+      <DisplayedAttribute>Name</DisplayedAttribute>
+      <Properties>
+        <Text>Cause</Text>
+        <Location>
+          <X>285</X>
+          <Y>295</Y>
+        </Location>
+        <Size>
+          <Width>248</Width>
+          <Height>28</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>8</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName>OutageCode</CollectionName>
+      <MaxLength>0</MaxLength>
+      <MVItemName />
+      <PropertyName>Code</PropertyName>
+      <DisplayedAttribute>Name</DisplayedAttribute>
+      <Properties>
+        <Text>Code</Text>
+        <Location>
+          <X>8</X>
+          <Y>285</Y>
+        </Location>
+        <Size>
+          <Width>248</Width>
+          <Height>28</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>3</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName />
+      <MaxLength>7</MaxLength>
+      <MVItemName />
+      <PropertyName>PoleID</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <MaxLength>7</MaxLength>
+        <Text>Pole ID</Text>
+        <Location>
+          <X>8</X>
+          <Y>259</Y>
+        </Location>
+        <Size>
+          <Width>248</Width>
+          <Height>29</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>3</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName />
+      <MaxLength>2000</MaxLength>
+      <MVItemName />
+      <PropertyName>SiteHazard</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <MaxLength>2000</MaxLength>
+        <Text>Site Hazard</Text>
+        <LabelWidth>70</LabelWidth>
+        <Location>
+          <X>285</X>
+          <Y>265</Y>
+        </Location>
+        <Size>
+          <Width>248</Width>
+          <Height>29</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>3</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName />
+      <MaxLength>64</MaxLength>
+      <MVItemName />
+      <PropertyName>Origination</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <Text>Origination</Text>
+        <Location>
+          <X>8</X>
+          <Y>220</Y>
+        </Location>
+        <Size>
+          <Width>248</Width>
+          <Height>29</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>8</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName>OutagePriority</CollectionName>
+      <MaxLength>0</MaxLength>
+      <MVItemName />
+      <PropertyName>OutagePriority</PropertyName>
+      <DisplayedAttribute>Name</DisplayedAttribute>
+      <Properties>
+        <Text>Outage Priority</Text>
+        <LabelWidth>85</LabelWidth>
+        <Location>
+          <X>285</X>
+          <Y>235</Y>
+        </Location>
+        <Size>
+          <Width>248</Width>
+          <Height>29</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>2</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName />
+      <MaxLength>0</MaxLength>
+      <MVItemName />
+      <PropertyName>ThirdPartyDamage</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <Text>Third Party Damage</Text>
+        <Location>
+          <X>142</X>
+          <Y>194</Y>
+        </Location>
+        <Size>
+          <Width>98</Width>
+          <Height>24</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>2</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName />
+      <MaxLength>0</MaxLength>
+      <MVItemName />
+      <PropertyName>OutageRequired</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <Text>Outage Required</Text>
+        <Location>
+          <X>7</X>
+          <Y>194</Y>
+        </Location>
+        <Size>
+          <Width>88</Width>
+          <Height>24</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>3</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName />
+      <MaxLength>64</MaxLength>
+      <MVItemName />
+      <PropertyName>Confirmed</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <Text>Confirmed</Text>
+        <Location>
+          <X>285</X>
+          <Y>210</Y>
+        </Location>
+        <Size>
+          <Width>248</Width>
+          <Height>29</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>1</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName />
+      <MaxLength>0</MaxLength>
+      <MVItemName />
+      <PropertyName>CustomersAffected</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <Text>CustomersAffected</Text>
+        <Location>
+          <X>285</X>
+          <Y>180</Y>
+        </Location>
+        <Size>
+          <Width>248</Width>
+          <Height>29</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>10</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName />
+      <MaxLength>0</MaxLength>
+      <MVItemName />
+      <PropertyName>EstimatedRepairDuration</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <Text>Estimated Repair Duration</Text>
+        <LabelWidth>135</LabelWidth>
+        <Location>
+          <X>285</X>
+          <Y>150</Y>
+        </Location>
+        <Size>
+          <Width>248</Width>
+          <Height>29</Height>
+        </Size>
+      </Properties>
+    </Field>
+  </Category>
+  <Category>
+    <Properties>
+      <EnabledTab T="230" />
+      <Visibility T="230" />
+      <ForeColor>-16777216</ForeColor>
+      <TemplateDef>&lt;TemplateDictionaries ShowForAll="true" ShowForNA="true" /&gt;</TemplateDef>
+      <Text>Details</Text>
+      <AutoScroll>True</AutoScroll>
+    </Properties>
+    <Field>
+      <PropertyType>1</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName />
+      <MaxLength>0</MaxLength>
+      <MVItemName />
+      <PropertyName>CustomersAffected</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <EnabledControl T="240" />
+        <Text>CustomersAffected</Text>
+        <Dock>Top</Dock>
+        <Location>
+          <X>3</X>
+          <Y>377</Y>
+        </Location>
+        <Size>
+          <Width>593</Width>
+          <Height>28</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>2</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName />
+      <MaxLength>0</MaxLength>
+      <MVItemName />
+      <PropertyName>OutageRequired</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <Text>OutageRequired</Text>
+        <EnabledControl T="240" />
+        <Dock>Top</Dock>
+        <Location>
+          <X>3</X>
+          <Y>353</Y>
+        </Location>
+        <Size>
+          <Width>593</Width>
+          <Height>24</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>10</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName />
+      <MaxLength>0</MaxLength>
+      <MVItemName />
+      <PropertyName>EstimatedRepairDuration</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <EnabledControl T="240" />
+        <Text>Estimated Repair Duration</Text>
+        <LabelWidth>150</LabelWidth>
+        <Dock>Top</Dock>
+        <Location>
+          <X>3</X>
+          <Y>325</Y>
+        </Location>
+        <Size>
+          <Width>593</Width>
+          <Height>28</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>4</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName />
+      <MaxLength>0</MaxLength>
+      <MVItemName />
+      <PropertyName>ETR</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <EnabledControl T="240" />
+        <Text>ETR</Text>
+        <Dock>Top</Dock>
+        <Location>
+          <X>3</X>
+          <Y>297</Y>
+        </Location>
+        <Size>
+          <Width>593</Width>
+          <Height>28</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>23</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName>Device</CollectionName>
+      <MaxLength>0</MaxLength>
+      <MVItemName>Device</MVItemName>
+      <PropertyName>Devices</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <Columns>
+          <Column>
+            <Text>DeviceID</Text>
+            <Width>60</Width>
+            <RelatedProperty>DeviceID</RelatedProperty>
+          </Column>
+          <Column>
+            <Text>FacilityID</Text>
+            <Width>60</Width>
+            <RelatedProperty>FacilityID</RelatedProperty>
+          </Column>
+          <Column>
+            <Text>Latitude</Text>
+            <Width>60</Width>
+            <RelatedProperty>Latitude</RelatedProperty>
+          </Column>
+          <Column>
+            <Text>Longitude</Text>
+            <Width>60</Width>
+            <RelatedProperty>Longitude</RelatedProperty>
+          </Column>
+        </Columns>
+        <Text>Devices</Text>
+        <EnabledControl T="240" />
+        <Dock>Top</Dock>
+        <Location>
+          <X>3</X>
+          <Y>147</Y>
+        </Location>
+        <Size>
+          <Width>593</Width>
+          <Height>150</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>3</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName />
+      <MaxLength>64</MaxLength>
+      <MVItemName />
+      <PropertyName>Confirmed</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <EnabledControl T="240" />
+        <Text>Confirmed</Text>
+        <Dock>Top</Dock>
+        <Location>
+          <X>3</X>
+          <Y>118</Y>
+        </Location>
+        <Size>
+          <Width>593</Width>
+          <Height>29</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>3</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName />
+      <MaxLength>64</MaxLength>
+      <MVItemName />
+      <PropertyName>Origination</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <EnabledControl T="240" />
+        <Text>Origination</Text>
+        <Dock>Top</Dock>
+        <Location>
+          <X>3</X>
+          <Y>89</Y>
+        </Location>
+        <Size>
+          <Width>593</Width>
+          <Height>29</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>8</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName>OutagePriority</CollectionName>
+      <MaxLength>0</MaxLength>
+      <MVItemName />
+      <PropertyName>OutagePriority</PropertyName>
+      <DisplayedAttribute>Name</DisplayedAttribute>
+      <Properties>
+        <EnabledControl T="240" />
+        <Text>Priority</Text>
+        <Dock>Top</Dock>
+        <Location>
+          <X>3</X>
+          <Y>61</Y>
+        </Location>
+        <Size>
+          <Width>593</Width>
+          <Height>28</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>3</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName />
+      <MaxLength>200</MaxLength>
+      <MVItemName />
+      <PropertyName>OutageLocation</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <MaxLength>200</MaxLength>
+        <EnabledControl T="240" />
+        <Text>Location</Text>
+        <Dock>Top</Dock>
+        <Location>
+          <X>3</X>
+          <Y>32</Y>
+        </Location>
+        <Size>
+          <Width>593</Width>
+          <Height>29</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>3</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName />
+      <MaxLength>64</MaxLength>
+      <MVItemName />
+      <PropertyName>OutageID</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <EnabledControl T="240" />
+        <Text>OutageID</Text>
+        <Dock>Top</Dock>
+        <Location>
+          <X>3</X>
+          <Y>3</Y>
+        </Location>
+        <Size>
+          <Width>593</Width>
+          <Height>29</Height>
+        </Size>
+      </Properties>
+    </Field>
+  </Category>
+  <Category>
+    <Properties>
+      <EnabledTab T="230" />
+      <Visibility T="230" />
+      <ForeColor>-16777216</ForeColor>
+      <TemplateDef>&lt;TemplateDictionaries ShowForAll="true" ShowForNA="true" /&gt;</TemplateDef>
+      <Text>Close Out Information</Text>
+      <AutoScroll>True</AutoScroll>
+    </Properties>
+    <Field>
+      <PropertyType>19</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName />
+      <MaxLength>0</MaxLength>
+      <MVItemName />
+      <PropertyName />
+      <DisplayedAttribute />
+      <Properties>
+        <ContainerTabIndex>2</ContainerTabIndex>
+        <AdminType>
+          <Dll />
+          <ClassName />
+        </AdminType>
+        <CustomPanelDef>
+          <DLLName>Diabsolut.NFP.Mobile.Classic.dll</DLLName>
+          <ClassPath>Diabsolut.NFP.Mobile.Classic.Panels.LaunchARCFm</ClassPath>
+          <DLLPath>C:\Program Files (x86)\ClickSoftware\Service Optimization\Bin\</DLLPath>
+        </CustomPanelDef>
+        <Location>
+          <X>35</X>
+          <Y>479</Y>
+        </Location>
+        <Size>
+          <Width>225</Width>
+          <Height>50</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>29</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName>Attachment</CollectionName>
+      <MaxLength>0</MaxLength>
+      <MVItemName>Attachment</MVItemName>
+      <PropertyName>Attachments</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <Text>Attachments</Text>
+        <Dock>Top</Dock>
+        <Location>
+          <X>3</X>
+          <Y>318</Y>
+        </Location>
+        <Size>
+          <Width>593</Width>
+          <Height>150</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>3</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName />
+      <MaxLength>4000</MaxLength>
+      <MVItemName />
+      <PropertyName>CrewComments</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <MaxLength>4000</MaxLength>
+        <Text>Crew Comments</Text>
+        <LabelWidth>100</LabelWidth>
+        <Dock>Top</Dock>
+        <Location>
+          <X>3</X>
+          <Y>289</Y>
+        </Location>
+        <Size>
+          <Width>593</Width>
+          <Height>29</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>8</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName>OutageCode</CollectionName>
+      <MaxLength>0</MaxLength>
+      <MVItemName />
+      <PropertyName>Code</PropertyName>
+      <DisplayedAttribute>Name</DisplayedAttribute>
+      <Properties>
+        <Text>Code</Text>
+        <LabelWidth>80</LabelWidth>
+        <Dock>Top</Dock>
+        <Location>
+          <X>3</X>
+          <Y>261</Y>
+        </Location>
+        <Size>
+          <Width>593</Width>
+          <Height>28</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>8</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName>CauseCodes</CollectionName>
+      <MaxLength>0</MaxLength>
+      <MVItemName />
+      <PropertyName>Cause</PropertyName>
+      <DisplayedAttribute>Name</DisplayedAttribute>
+      <Properties>
+        <Text>Cause</Text>
+        <LabelWidth>80</LabelWidth>
+        <Dock>Top</Dock>
+        <Location>
+          <X>3</X>
+          <Y>233</Y>
+        </Location>
+        <Size>
+          <Width>593</Width>
+          <Height>28</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>3</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName />
+      <MaxLength>4000</MaxLength>
+      <MVItemName />
+      <PropertyName>FollowUpDetails</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <Multiline T="230" />
+        <MaxLength>4000</MaxLength>
+        <Text>Follow Up Details</Text>
+        <LabelWidth>80</LabelWidth>
+        <Dock>Top</Dock>
+        <Location>
+          <X>3</X>
+          <Y>185</Y>
+        </Location>
+        <Size>
+          <Width>593</Width>
+          <Height>48</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>2</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName />
+      <MaxLength>0</MaxLength>
+      <MVItemName />
+      <PropertyName>FollowUpRequired</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <Text>Follow Up Required</Text>
+        <Dock>Top</Dock>
+        <Location>
+          <X>3</X>
+          <Y>161</Y>
+        </Location>
+        <Size>
+          <Width>593</Width>
+          <Height>24</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>3</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName />
+      <MaxLength>4000</MaxLength>
+      <MVItemName />
+      <PropertyName>ActionTakenDesc</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <Multiline T="230" />
+        <MaxLength>4000</MaxLength>
+        <Text>Action Taken Description</Text>
+        <LabelWidth>80</LabelWidth>
+        <Dock>Top</Dock>
+        <Location>
+          <X>3</X>
+          <Y>113</Y>
+        </Location>
+        <Size>
+          <Width>593</Width>
+          <Height>48</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>8</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName>OutageActionTaken</CollectionName>
+      <MaxLength>0</MaxLength>
+      <MVItemName />
+      <PropertyName>ActionTaken</PropertyName>
+      <DisplayedAttribute>Name</DisplayedAttribute>
+      <Properties>
+        <Text>Action Taken</Text>
+        <LabelWidth>80</LabelWidth>
+        <Dock>Top</Dock>
+        <Location>
+          <X>3</X>
+          <Y>85</Y>
+        </Location>
+        <Size>
+          <Width>593</Width>
+          <Height>28</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>3</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName />
+      <MaxLength>7</MaxLength>
+      <MVItemName />
+      <PropertyName>PoleID</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <MaxLength>7</MaxLength>
+        <Text>Pole ID</Text>
+        <LabelWidth>80</LabelWidth>
+        <Dock>Top</Dock>
+        <Location>
+          <X>3</X>
+          <Y>56</Y>
+        </Location>
+        <Size>
+          <Width>593</Width>
+          <Height>29</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>3</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName />
+      <MaxLength>2000</MaxLength>
+      <MVItemName />
+      <PropertyName>SiteHazard</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <MaxLength>2000</MaxLength>
+        <Text>Site Hazard</Text>
+        <LabelWidth>80</LabelWidth>
+        <Dock>Top</Dock>
+        <Location>
+          <X>3</X>
+          <Y>27</Y>
+        </Location>
+        <Size>
+          <Width>593</Width>
+          <Height>29</Height>
+        </Size>
+      </Properties>
+    </Field>
+    <Field>
+      <PropertyType>2</PropertyType>
+      <ObjectName>Outage</ObjectName>
+      <CollectionName />
+      <MaxLength>0</MaxLength>
+      <MVItemName />
+      <PropertyName>ThirdPartyDamage</PropertyName>
+      <DisplayedAttribute />
+      <Properties>
+        <Text>Third Party Damage</Text>
+        <Dock>Top</Dock>
+        <Location>
+          <X>3</X>
+          <Y>3</Y>
+        </Location>
+        <Size>
+          <Width>593</Width>
+          <Height>24</Height>
+        </Size>
+      </Properties>
+    </Field>
+  </Category>
+</Outage>
