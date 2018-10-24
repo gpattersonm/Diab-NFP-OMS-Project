@@ -1,164 +1,178 @@
 <?xml version="1.0" encoding="utf-16"?>
-<xs:schema elementFormDefault="unqualified" id="OutgoingMessagesSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-	<xs:element name="IncidentUpdate">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" maxOccurs="1" name="Task">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element minOccurs="0" maxOccurs="1" name="CallID" type="xs:string" />
-							<xs:element minOccurs="0" maxOccurs="1" name="CompletedBy">
-								<xs:complexType>
-									<xs:sequence>
-										<xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
-									</xs:sequence>
-								</xs:complexType>
-							</xs:element>
-							<xs:element minOccurs="0" maxOccurs="1" name="CompletionTime">
-								<xs:simpleType>
-									<xs:restriction base="xs:token">
-										<xs:pattern value="[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}" />
-									</xs:restriction>
-								</xs:simpleType>
-							</xs:element>
-							<xs:element minOccurs="0" maxOccurs="1" name="DueDate">
-								<xs:simpleType>
-									<xs:restriction base="xs:token">
-										<xs:pattern value="[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}" />
-									</xs:restriction>
-								</xs:simpleType>
-							</xs:element>
-							<xs:element minOccurs="0" maxOccurs="1" name="EarlyStart">
-								<xs:simpleType>
-									<xs:restriction base="xs:token">
-										<xs:pattern value="[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}" />
-									</xs:restriction>
-								</xs:simpleType>
-							</xs:element>
-							<xs:element minOccurs="0" maxOccurs="1" name="Feeder" type="xs:string" />
-							<xs:element minOccurs="0" maxOccurs="1" name="IncompletionReason" type="xs:string" />
-							<xs:element minOccurs="0" maxOccurs="1" name="Number" type="xs:int" />
-							<xs:element minOccurs="0" maxOccurs="1" name="Outages">
-								<xs:complexType>
-									<xs:sequence>
-										<xs:element minOccurs="0" maxOccurs="unbounded" name="Value">
-											<xs:complexType>
-												<xs:sequence>
-													<xs:element minOccurs="0" maxOccurs="1" name="ActionTaken">
-														<xs:complexType>
-															<xs:sequence>
-																<xs:element minOccurs="0" maxOccurs="1" name="ActionCode" type="xs:string" />
-																<xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
-															</xs:sequence>
-														</xs:complexType>
-													</xs:element>
-													<xs:element minOccurs="0" maxOccurs="1" name="ActionTakenDesc" type="xs:string" />
-													<xs:element minOccurs="0" maxOccurs="1" name="Attachments">
-														<xs:complexType>
-															<xs:sequence>
-																<xs:element minOccurs="0" maxOccurs="unbounded" name="Value">
-																	<xs:complexType>
-																		<xs:sequence>
-																			<xs:element minOccurs="0" maxOccurs="1" name="FileIndex" type="xs:int" />
-																			<xs:element minOccurs="0" maxOccurs="1" name="FileName" type="xs:string" />
-																			<xs:element minOccurs="0" maxOccurs="1" name="URL" type="xs:string" />
-																		</xs:sequence>
-																		<xs:attribute name="Key" type="xs:int" />
-																	</xs:complexType>
-																</xs:element>
-															</xs:sequence>
-														</xs:complexType>
-													</xs:element>
-													<xs:element minOccurs="0" maxOccurs="1" name="Cause">
-														<xs:complexType>
-															<xs:sequence>
-																<xs:element minOccurs="0" maxOccurs="1" name="CauseCode" type="xs:string" />
-															</xs:sequence>
-														</xs:complexType>
-													</xs:element>
-													<xs:element minOccurs="0" maxOccurs="1" name="CrewComments" type="xs:string" />
-													<xs:element minOccurs="0" maxOccurs="1" name="EstimatedRepairDuration" type="xs:int" />
-													<xs:element minOccurs="0" maxOccurs="1" name="ETR">
-														<xs:simpleType>
-															<xs:restriction base="xs:token">
-																<xs:pattern value="[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}" />
-															</xs:restriction>
-														</xs:simpleType>
-													</xs:element>
-													<xs:element minOccurs="0" maxOccurs="1" name="FollowUpDetails" type="xs:string" />
-													<xs:element minOccurs="0" maxOccurs="1" name="FollowUpRequired" type="xs:boolean" />
-													<xs:element minOccurs="0" maxOccurs="1" name="OutageID" type="xs:string" />
-													<xs:element minOccurs="0" maxOccurs="1" name="OutageLocation" type="xs:string" />
-													<xs:element minOccurs="0" maxOccurs="1" name="OutagePriority">
-														<xs:complexType>
-															<xs:sequence>
-																<xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
-															</xs:sequence>
-														</xs:complexType>
-													</xs:element>
-													<xs:element minOccurs="0" maxOccurs="1" name="ThirdPartyDamage" type="xs:boolean" />
-												</xs:sequence>
-												<xs:attribute name="Key" type="xs:int" />
-											</xs:complexType>
-										</xs:element>
-									</xs:sequence>
-								</xs:complexType>
-							</xs:element>
-							<xs:element minOccurs="0" maxOccurs="1" name="Status">
-								<xs:complexType>
-									<xs:sequence>
-										<xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
-									</xs:sequence>
-								</xs:complexType>
-							</xs:element>
-							<xs:element minOccurs="0" maxOccurs="1" name="TaskTitle" type="xs:string" />
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element minOccurs="0" maxOccurs="1" name="Assignment">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element minOccurs="0" maxOccurs="1" name="Engineers">
-								<xs:complexType>
-									<xs:sequence>
-										<xs:element minOccurs="0" maxOccurs="unbounded" name="Value">
-											<xs:complexType>
-												<xs:sequence>
-													<xs:element minOccurs="0" maxOccurs="1" name="Engineer">
-														<xs:complexType>
-															<xs:sequence>
-																<xs:element minOccurs="0" maxOccurs="1" name="ID" type="xs:string" />
-																<xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
-															</xs:sequence>
-														</xs:complexType>
-													</xs:element>
-												</xs:sequence>
-												<xs:attribute name="Key" type="xs:int" />
-											</xs:complexType>
-										</xs:element>
-									</xs:sequence>
-								</xs:complexType>
-							</xs:element>
-							<xs:element minOccurs="0" maxOccurs="1" name="Finish">
-								<xs:simpleType>
-									<xs:restriction base="xs:token">
-										<xs:pattern value="[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}" />
-									</xs:restriction>
-								</xs:simpleType>
-							</xs:element>
-							<xs:element minOccurs="0" maxOccurs="1" name="Start">
-								<xs:simpleType>
-									<xs:restriction base="xs:token">
-										<xs:pattern value="[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}" />
-									</xs:restriction>
-								</xs:simpleType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-			</xs:sequence>
-			<xs:attribute name="Destination" type="xs:string" />
-			<xs:attribute name="CreatedBy" type="xs:string" />
-		</xs:complexType>
-	</xs:element>
+<xs:schema elementFormDefault="unqualified" id="OutgoingMessagesSchema" 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="IncidentUpdate">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" maxOccurs="1" name="Task">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element minOccurs="0" maxOccurs="1" name="CallID" type="xs:string" />
+                            <xs:element minOccurs="0" maxOccurs="1" name="CompletedBy">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element minOccurs="0" maxOccurs="1" name="CompletionTime">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:token">
+                                        <xs:pattern value="[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element minOccurs="0" maxOccurs="1" name="DueDate">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:token">
+                                        <xs:pattern value="[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element minOccurs="0" maxOccurs="1" name="EarlyStart">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:token">
+                                        <xs:pattern value="[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element minOccurs="0" maxOccurs="1" name="Feeder" type="xs:string" />
+                            <xs:element minOccurs="0" maxOccurs="1" name="IncompletionReason">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element minOccurs="0" maxOccurs="1" name="Number" type="xs:int" />
+                            <xs:element minOccurs="0" maxOccurs="1" name="Outages">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element minOccurs="0" maxOccurs="unbounded" name="Value">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element minOccurs="0" maxOccurs="1" name="ActionTaken">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element minOccurs="0" maxOccurs="1" name="ActionCode" type="xs:string" />
+                                                                <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0" maxOccurs="1" name="ActionTakenDesc" type="xs:string" />
+                                                    <xs:element minOccurs="0" maxOccurs="1" name="Attachments">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element minOccurs="0" maxOccurs="unbounded" name="Value">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element minOccurs="0" maxOccurs="1" name="FileIndex" type="xs:int" />
+                                                                            <xs:element minOccurs="0" maxOccurs="1" name="FileName" type="xs:string" />
+                                                                            <xs:element minOccurs="0" maxOccurs="1" name="URL" type="xs:string" />
+                                                                        </xs:sequence>
+                                                                        <xs:attribute name="Key" type="xs:int" />
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0" maxOccurs="1" name="Cause">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element minOccurs="0" maxOccurs="1" name="CauseCode" type="xs:string" />
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0" maxOccurs="1" name="CrewComments" type="xs:string" />
+                                                    <xs:element minOccurs="0" maxOccurs="1" name="EstimatedRepairDuration" type="xs:int" />
+                                                    <xs:element minOccurs="0" maxOccurs="1" name="ETR">
+                                                        <xs:simpleType>
+                                                            <xs:restriction base="xs:token">
+                                                                <xs:pattern value="[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}" />
+                                                            </xs:restriction>
+                                                        </xs:simpleType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0" maxOccurs="1" name="FollowUpDetails" type="xs:string" />
+                                                    <xs:element minOccurs="0" maxOccurs="1" name="FollowUpRequired" type="xs:boolean" />
+                                                    <xs:element minOccurs="0" maxOccurs="1" name="OutageID" type="xs:string" />
+                                                    <xs:element minOccurs="0" maxOccurs="1" name="OutageLocation" type="xs:string" />
+                                                    <xs:element minOccurs="0" maxOccurs="1" name="OutagePriority">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0" maxOccurs="1" name="SubCause">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element minOccurs="0" maxOccurs="1" name="CauseCode" type="xs:int" />
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0" maxOccurs="1" name="ThirdPartyDamage" type="xs:boolean" />
+                                                </xs:sequence>
+                                                <xs:attribute name="Key" type="xs:int" />
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element minOccurs="0" maxOccurs="1" name="Status">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element minOccurs="0" maxOccurs="1" name="TaskTitle" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element minOccurs="0" maxOccurs="1" name="Assignment">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element minOccurs="0" maxOccurs="1" name="Engineers">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element minOccurs="0" maxOccurs="unbounded" name="Value">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element minOccurs="0" maxOccurs="1" name="Engineer">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element minOccurs="0" maxOccurs="1" name="ID" type="xs:string" />
+                                                                <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute name="Key" type="xs:int" />
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element minOccurs="0" maxOccurs="1" name="Finish">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:token">
+                                        <xs:pattern value="[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element minOccurs="0" maxOccurs="1" name="Start">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:token">
+                                        <xs:pattern value="[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="Destination" type="xs:string" />
+            <xs:attribute name="CreatedBy" type="xs:string" />
+        </xs:complexType>
+    </xs:element>
 </xs:schema>
