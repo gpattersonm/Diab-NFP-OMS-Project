@@ -8,6 +8,7 @@
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element minOccurs="0" maxOccurs="1" name="CallID" type="xs:string" />
+                            <xs:element minOccurs="0" maxOccurs="1" name="City" type="xs:string" />
                             <xs:element minOccurs="0" maxOccurs="1" name="CompletedBy">
                                 <xs:complexType>
                                     <xs:sequence>
@@ -22,6 +23,8 @@
                                     </xs:restriction>
                                 </xs:simpleType>
                             </xs:element>
+                            <xs:element minOccurs="0" maxOccurs="1" name="Customer" type="xs:string" />
+                            <xs:element minOccurs="0" maxOccurs="1" name="CustomerPhoneNumber" type="xs:string" />
                             <xs:element minOccurs="0" maxOccurs="1" name="DueDate">
                                 <xs:simpleType>
                                     <xs:restriction base="xs:token">
@@ -118,6 +121,7 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
+                            <xs:element minOccurs="0" maxOccurs="1" name="ScheduleNotes" type="xs:string" />
                             <xs:element minOccurs="0" maxOccurs="1" name="Status">
                                 <xs:complexType>
                                     <xs:sequence>
@@ -125,7 +129,9 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
+                            <xs:element minOccurs="0" maxOccurs="1" name="Street" type="xs:string" />
                             <xs:element minOccurs="0" maxOccurs="1" name="TaskTitle" type="xs:string" />
+                            <xs:element minOccurs="0" maxOccurs="1" name="WorkLocation" type="xs:string" />
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
