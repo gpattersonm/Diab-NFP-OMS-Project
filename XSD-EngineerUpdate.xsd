@@ -8,8 +8,22 @@
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element minOccurs="0" maxOccurs="1" name="Active" type="xs:boolean" />
+                            <xs:element minOccurs="0" maxOccurs="1" name="EngineerType">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
                             <xs:element minOccurs="0" maxOccurs="1" name="ID" type="xs:string" />
                             <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+                            <xs:element minOccurs="0" maxOccurs="1" name="Region">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
                             <xs:element minOccurs="0" maxOccurs="1" name="SOLicenseInactive" type="xs:boolean" />
                         </xs:sequence>
                     </xs:complexType>
