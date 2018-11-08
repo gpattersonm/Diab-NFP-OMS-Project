@@ -5,30 +5,30 @@
         <ConfigFileTitle>Configuration File</ConfigFileTitle>
         <BuildVersion>1</BuildVersion>
         <SOVersion>8.1.10(9467)</SOVersion>
-        <ExportTime>2018-11-08T13:12:55.068051-03:30</ExportTime>
-        <ComputerName>NPCLKAPP6</ComputerName>
+        <ExportTime>2018-11-08T16:43:19.5389579-03:30</ExportTime>
+        <ComputerName>NPVMCLKAPP5</ComputerName>
         <Owner>gpatterson</Owner>
         <BuilderToolVersion>8.10.9467.105</BuilderToolVersion>
         <Description />
     </GlobalMetaData>
     <Queries />
     <Settings>
-        <ConfigurationStep SerialNumber="1" TimeStamp="2018-11-08T13:12:48.2352072-03:30" Title="Group (Groups of Tasks): All  - 1" Description="" DisableEvents="false" IsCustom="false">
-            <Item DisplayString="All Tasks" Key="924641296" CollectionName="Group" PathInExTree="Group\All Tasks" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+        <ConfigurationStep SerialNumber="1" TimeStamp="2018-11-08T16:43:12.9088729-03:30" Title="Group (Groups of Tasks): All  - 1" Description="" DisableEvents="false" IsCustom="false">
+            <Item DisplayString="All Tasks" Key="253548684" CollectionName="Group" PathInExTree="Group\All Tasks" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
                         <ImportExportObjectReferenceInfo>
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
-                                    <Key>924641296</Key>
+                                    <Key>253548684</Key>
                                     <Revision>1</Revision>
                                     <Stamp>
                                         <CreatedBy>NETWORK SERVICE</CreatedBy>
-                                        <TimeCreated>2018-09-14T17:40:39</TimeCreated>
+                                        <TimeCreated>2018-09-26T16:44:25</TimeCreated>
                                         <CreatingProcess>0</CreatingProcess>
                                         <ModifiedBy>NETWORK SERVICE</ModifiedBy>
-                                        <TimeModified>2018-09-14T17:40:39</TimeModified>
+                                        <TimeModified>2018-09-26T16:44:25</TimeModified>
                                         <ModifyingProcess>0</ModifyingProcess>
                                     </Stamp>
                                     <Name>All Tasks</Name>
@@ -1146,13 +1146,13 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
                                     <Key>656191597</Key>
-                                    <Revision>2</Revision>
+                                    <Revision>3</Revision>
                                     <Stamp>
                                         <CreatedBy>NFPOWER_DOMAIN\JPearce</CreatedBy>
                                         <TimeCreated>2012-04-13T15:08:42</TimeCreated>
                                         <CreatingProcess>0</CreatingProcess>
                                         <ModifiedBy>NETWORK SERVICE</ModifiedBy>
-                                        <TimeModified>2018-09-14T17:17:16</TimeModified>
+                                        <TimeModified>2018-09-26T16:38:44</TimeModified>
                                         <ModifyingProcess>0</ModifyingProcess>
                                     </Stamp>
                                     <Name>Daily work (&lt;= 7 Hrs)</Name>
@@ -1308,6 +1308,144 @@
                                         <CollectionName>TaskStatus</CollectionName>
                                         <ObjectReferenceWrapper>
                                             <ObjectReference xsi:type="TaskStatusReference" Key="124135428" DisplayString="Dispatched">Dispatched</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="EnRoute Tasks" Key="253561187" CollectionName="Group" PathInExTree="Group\EnRoute Tasks" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>253561187</Key>
+                                    <Revision>4</Revision>
+                                    <Stamp>
+                                        <CreatedBy>NETWORK SERVICE</CreatedBy>
+                                        <TimeCreated>2018-09-26T18:54:30</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NETWORK SERVICE</ModifiedBy>
+                                        <TimeModified>2018-11-08T14:09:05</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>EnRoute Tasks</Name>
+                                    <Body>&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124151810&lt;/VALUE&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>2</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Task</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124151810" DisplayString="En Route">En Route</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="GE - Completed Tasks" Key="253561186" CollectionName="Group" PathInExTree="Group\GE - Completed Tasks" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>253561186</Key>
+                                    <Revision>4</Revision>
+                                    <Stamp>
+                                        <CreatedBy>NETWORK SERVICE</CreatedBy>
+                                        <TimeCreated>2018-09-26T18:54:30</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NETWORK SERVICE</ModifiedBy>
+                                        <TimeModified>2018-11-08T14:09:05</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>GE - Completed Tasks</Name>
+                                    <Body>&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="501" TYPE_TEXT="Or" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135430&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124149762&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>2</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Task</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135430" DisplayString="Completed">Completed</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124149762" DisplayString="Complete With Followup">Complete With Followup</ObjectReference>
                                         </ObjectReferenceWrapper>
                                     </Reference>
                                 </ReferenceInfo>
@@ -2244,13 +2382,13 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
                                     <Key>790464524</Key>
-                                    <Revision>1</Revision>
+                                    <Revision>5</Revision>
                                     <Stamp>
                                         <CreatedBy>NFPOWER_DOMAIN\JPearce</CreatedBy>
                                         <TimeCreated>2011-10-20T10:39:57</TimeCreated>
                                         <CreatingProcess>0</CreatingProcess>
-                                        <ModifiedBy>NFPOWER_DOMAIN\JPearce</ModifiedBy>
-                                        <TimeModified>2011-10-20T10:39:57</TimeModified>
+                                        <ModifiedBy>NETWORK SERVICE</ModifiedBy>
+                                        <TimeModified>2018-11-08T14:09:05</TimeModified>
                                         <ModifyingProcess>0</ModifyingProcess>
                                     </Stamp>
                                     <Name>OnSite Tasks</Name>
@@ -2382,13 +2520,13 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
                                     <Key>790456321</Key>
-                                    <Revision>7</Revision>
+                                    <Revision>8</Revision>
                                     <Stamp>
                                         <CreatedBy>NFPOWER_DOMAIN\JPearce</CreatedBy>
                                         <TimeCreated>2011-07-26T16:11:50</TimeCreated>
                                         <CreatingProcess>0</CreatingProcess>
                                         <ModifiedBy>NETWORK SERVICE</ModifiedBy>
-                                        <TimeModified>2018-09-20T12:07:28</TimeModified>
+                                        <TimeModified>2018-08-27T13:44:44</TimeModified>
                                         <ModifyingProcess>0</ModifyingProcess>
                                     </Stamp>
                                     <Name>Optimizable Task - Service Work </Name>
@@ -2646,11 +2784,11 @@
                                         <TimeCreated>2007-05-30T11:19:20</TimeCreated>
                                         <CreatingProcess>0</CreatingProcess>
                                         <ModifiedBy>NETWORK SERVICE</ModifiedBy>
-                                        <TimeModified>2018-09-20T11:52:02</TimeModified>
+                                        <TimeModified>2018-08-27T13:21:11</TimeModified>
                                         <ModifyingProcess>0</ModifyingProcess>
                                     </Stamp>
                                     <Name>Optimizable Tasks</Name>
-                                    <Body>&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="500" TYPE_TEXT="And" /&gt;&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="501" TYPE_TEXT="Or" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135426&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135424&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145665&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;51&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;0&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;36&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="601" TYPE_TEXT="&amp;gt;" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;0&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;20&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="605" TYPE_TEXT="&amp;lt;&amp;gt;" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124809217&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
+                                    <Body>&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="500" TYPE_TEXT="And" /&gt;&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="501" TYPE_TEXT="Or" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135426&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135424&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;51&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;0&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;36&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="601" TYPE_TEXT="&amp;gt;" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;0&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;20&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124809217&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
                                     <GroupParameters />
                                     <GroupType>2</GroupType>
                                     <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
@@ -2702,24 +2840,6 @@
                                         <CollectionName>TaskStatus</CollectionName>
                                         <ObjectReferenceWrapper>
                                             <ObjectReference xsi:type="TaskStatusReference" Key="124135424" DisplayString="Open">Open</ObjectReference>
-                                        </ObjectReferenceWrapper>
-                                    </Reference>
-                                </ReferenceInfo>
-                                <ReferenceInfo>
-                                    <Mapping>CONDITION[1]/CONDITION[1]/CONDITION[3]/VALUE[@TYPE='200']/ID[1]</Mapping>
-                                    <Property>Condition</Property>
-                                    <Reference xsi:type="GenericPropertyReference">
-                                        <CollectionName>Task</CollectionName>
-                                        <PropertyName>Status</PropertyName>
-                                    </Reference>
-                                </ReferenceInfo>
-                                <ReferenceInfo>
-                                    <Mapping>CONDITION[1]/CONDITION[1]/CONDITION[3]/VALUE[@TYPE='201']</Mapping>
-                                    <Property>Condition</Property>
-                                    <Reference xsi:type="GenericObjectReference">
-                                        <CollectionName>TaskStatus</CollectionName>
-                                        <ObjectReferenceWrapper>
-                                            <ObjectReference xsi:type="TaskStatusReference" Key="124145665" DisplayString="Reviewed By Crew">Reviewed By Crew</ObjectReference>
                                         </ObjectReferenceWrapper>
                                     </Reference>
                                 </ReferenceInfo>
@@ -3028,6 +3148,102 @@
                                         <CollectionName>TaskTypeCategory</CollectionName>
                                         <ObjectReferenceWrapper>
                                             <ObjectReference xsi:type="TaskTypeCategoryReference" Key="128059392" DisplayString="Preventative Maintenance">Preventative Maintenance</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Optimize Service Tasks" Key="387749888" CollectionName="Group" PathInExTree="Group\Optimize Service Tasks" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>387749888</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>NETWORK SERVICE</CreatedBy>
+                                        <TimeCreated>2018-08-27T13:16:10</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NETWORK SERVICE</ModifiedBy>
+                                        <TimeModified>2018-08-27T13:16:10</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>Optimize Service Tasks</Name>
+                                    <Body>&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="500" TYPE_TEXT="And" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;20&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124819456&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="501" TYPE_TEXT="Or" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135424&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135426&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>2</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Task</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>TaskType</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskType</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskTypeReference" Key="124819456" DisplayString="Service Work">Service Work</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/CONDITION[1]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135424" DisplayString="Open">Open</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/CONDITION[2]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/CONDITION[2]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135426" DisplayString="Scheduled">Scheduled</ObjectReference>
                                         </ObjectReferenceWrapper>
                                     </Reference>
                                 </ReferenceInfo>
@@ -3642,6 +3858,8 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
+        </ConfigurationStep>
+        <ConfigurationStep SerialNumber="2" TimeStamp="2018-11-08T16:43:14.7496965-03:30" Title="Group (Groups of Tasks): All  - 1 Cont. - 2" Description="" DisableEvents="false" IsCustom="false">
             <Item DisplayString="Schedule Update -  Locked Tasks" Key="790437888" CollectionName="Group" PathInExTree="Group\Schedule Update -  Locked Tasks" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -4044,8 +4262,6 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-        </ConfigurationStep>
-        <ConfigurationStep SerialNumber="2" TimeStamp="2018-11-08T13:12:50.7624234-03:30" Title="Group (Groups of Tasks): All  - 1 Cont. - 2" Description="" DisableEvents="false" IsCustom="false">
             <Item DisplayString="Scheduled Not Ready to Sent" Key="790433793" CollectionName="Group" PathInExTree="Group\Scheduled Not Ready to Sent" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -4824,21 +5040,21 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Task - Schedule Priority - 1" Key="924641280" CollectionName="Group" PathInExTree="Group\Task - Schedule Priority - 1" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="Task - Schedule Priority - 1" Key="253548585" CollectionName="Group" PathInExTree="Group\Task - Schedule Priority - 1" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
                         <ImportExportObjectReferenceInfo>
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
-                                    <Key>924641280</Key>
-                                    <Revision>2</Revision>
+                                    <Key>253548585</Key>
+                                    <Revision>3</Revision>
                                     <Stamp>
                                         <CreatedBy>NETWORK SERVICE</CreatedBy>
-                                        <TimeCreated>2018-09-14T16:51:53</TimeCreated>
+                                        <TimeCreated>2018-09-26T16:35:00</TimeCreated>
                                         <CreatingProcess>0</CreatingProcess>
                                         <ModifiedBy>NETWORK SERVICE</ModifiedBy>
-                                        <TimeModified>2018-09-14T16:53:33</TimeModified>
+                                        <TimeModified>2018-09-26T16:38:42</TimeModified>
                                         <ModifyingProcess>0</ModifyingProcess>
                                     </Stamp>
                                     <Name>Task - Schedule Priority - 1</Name>
@@ -4884,21 +5100,21 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Task - Schedule Priority - 10" Key="924641289" CollectionName="Group" PathInExTree="Group\Task - Schedule Priority - 10" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="Task - Schedule Priority - 10" Key="253548586" CollectionName="Group" PathInExTree="Group\Task - Schedule Priority - 10" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
                         <ImportExportObjectReferenceInfo>
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
-                                    <Key>924641289</Key>
-                                    <Revision>2</Revision>
+                                    <Key>253548586</Key>
+                                    <Revision>3</Revision>
                                     <Stamp>
                                         <CreatedBy>NETWORK SERVICE</CreatedBy>
-                                        <TimeCreated>2018-09-14T16:59:59</TimeCreated>
+                                        <TimeCreated>2018-09-26T16:35:00</TimeCreated>
                                         <CreatingProcess>0</CreatingProcess>
                                         <ModifiedBy>NETWORK SERVICE</ModifiedBy>
-                                        <TimeModified>2018-09-14T17:00:50</TimeModified>
+                                        <TimeModified>2018-09-26T16:38:42</TimeModified>
                                         <ModifyingProcess>0</ModifyingProcess>
                                     </Stamp>
                                     <Name>Task - Schedule Priority - 10</Name>
@@ -4970,21 +5186,21 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Task - Schedule Priority - 11" Key="924641290" CollectionName="Group" PathInExTree="Group\Task - Schedule Priority - 11" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="Task - Schedule Priority - 11" Key="253548587" CollectionName="Group" PathInExTree="Group\Task - Schedule Priority - 11" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
                         <ImportExportObjectReferenceInfo>
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
-                                    <Key>924641290</Key>
-                                    <Revision>2</Revision>
+                                    <Key>253548587</Key>
+                                    <Revision>3</Revision>
                                     <Stamp>
                                         <CreatedBy>NETWORK SERVICE</CreatedBy>
-                                        <TimeCreated>2018-09-14T17:00:58</TimeCreated>
+                                        <TimeCreated>2018-09-26T16:35:00</TimeCreated>
                                         <CreatingProcess>0</CreatingProcess>
                                         <ModifiedBy>NETWORK SERVICE</ModifiedBy>
-                                        <TimeModified>2018-09-14T17:01:29</TimeModified>
+                                        <TimeModified>2018-09-26T16:38:42</TimeModified>
                                         <ModifyingProcess>0</ModifyingProcess>
                                     </Stamp>
                                     <Name>Task - Schedule Priority - 11</Name>
@@ -5056,21 +5272,21 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Task - Schedule Priority - 12" Key="924641291" CollectionName="Group" PathInExTree="Group\Task - Schedule Priority - 12" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="Task - Schedule Priority - 12" Key="253548588" CollectionName="Group" PathInExTree="Group\Task - Schedule Priority - 12" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
                         <ImportExportObjectReferenceInfo>
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
-                                    <Key>924641291</Key>
-                                    <Revision>2</Revision>
+                                    <Key>253548588</Key>
+                                    <Revision>3</Revision>
                                     <Stamp>
                                         <CreatedBy>NETWORK SERVICE</CreatedBy>
-                                        <TimeCreated>2018-09-14T17:01:41</TimeCreated>
+                                        <TimeCreated>2018-09-26T16:35:00</TimeCreated>
                                         <CreatingProcess>0</CreatingProcess>
                                         <ModifiedBy>NETWORK SERVICE</ModifiedBy>
-                                        <TimeModified>2018-09-14T17:03:30</TimeModified>
+                                        <TimeModified>2018-09-26T16:38:42</TimeModified>
                                         <ModifyingProcess>0</ModifyingProcess>
                                     </Stamp>
                                     <Name>Task - Schedule Priority - 12</Name>
@@ -5188,21 +5404,21 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Task - Schedule Priority - 13" Key="924641292" CollectionName="Group" PathInExTree="Group\Task - Schedule Priority - 13" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="Task - Schedule Priority - 13" Key="253548589" CollectionName="Group" PathInExTree="Group\Task - Schedule Priority - 13" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
                         <ImportExportObjectReferenceInfo>
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
-                                    <Key>924641292</Key>
-                                    <Revision>2</Revision>
+                                    <Key>253548589</Key>
+                                    <Revision>3</Revision>
                                     <Stamp>
                                         <CreatedBy>NETWORK SERVICE</CreatedBy>
-                                        <TimeCreated>2018-09-14T17:03:40</TimeCreated>
+                                        <TimeCreated>2018-09-26T16:35:00</TimeCreated>
                                         <CreatingProcess>0</CreatingProcess>
                                         <ModifiedBy>NETWORK SERVICE</ModifiedBy>
-                                        <TimeModified>2018-09-14T17:04:24</TimeModified>
+                                        <TimeModified>2018-09-26T16:38:42</TimeModified>
                                         <ModifyingProcess>0</ModifyingProcess>
                                     </Stamp>
                                     <Name>Task - Schedule Priority - 13</Name>
@@ -5248,21 +5464,21 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Task - Schedule Priority - 14" Key="924641293" CollectionName="Group" PathInExTree="Group\Task - Schedule Priority - 14" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="Task - Schedule Priority - 14" Key="253548590" CollectionName="Group" PathInExTree="Group\Task - Schedule Priority - 14" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
                         <ImportExportObjectReferenceInfo>
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
-                                    <Key>924641293</Key>
-                                    <Revision>2</Revision>
+                                    <Key>253548590</Key>
+                                    <Revision>3</Revision>
                                     <Stamp>
                                         <CreatedBy>NETWORK SERVICE</CreatedBy>
-                                        <TimeCreated>2018-09-14T17:04:31</TimeCreated>
+                                        <TimeCreated>2018-09-26T16:35:00</TimeCreated>
                                         <CreatingProcess>0</CreatingProcess>
                                         <ModifiedBy>NETWORK SERVICE</ModifiedBy>
-                                        <TimeModified>2018-09-14T17:04:49</TimeModified>
+                                        <TimeModified>2018-09-26T16:38:42</TimeModified>
                                         <ModifyingProcess>0</ModifyingProcess>
                                     </Stamp>
                                     <Name>Task - Schedule Priority - 14</Name>
@@ -5308,21 +5524,21 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Task - Schedule Priority - 15" Key="924641294" CollectionName="Group" PathInExTree="Group\Task - Schedule Priority - 15" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="Task - Schedule Priority - 15" Key="253548591" CollectionName="Group" PathInExTree="Group\Task - Schedule Priority - 15" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
                         <ImportExportObjectReferenceInfo>
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
-                                    <Key>924641294</Key>
-                                    <Revision>2</Revision>
+                                    <Key>253548591</Key>
+                                    <Revision>3</Revision>
                                     <Stamp>
                                         <CreatedBy>NETWORK SERVICE</CreatedBy>
-                                        <TimeCreated>2018-09-14T17:04:59</TimeCreated>
+                                        <TimeCreated>2018-09-26T16:35:00</TimeCreated>
                                         <CreatingProcess>0</CreatingProcess>
                                         <ModifiedBy>NETWORK SERVICE</ModifiedBy>
-                                        <TimeModified>2018-09-14T17:05:18</TimeModified>
+                                        <TimeModified>2018-09-26T16:38:42</TimeModified>
                                         <ModifyingProcess>0</ModifyingProcess>
                                     </Stamp>
                                     <Name>Task - Schedule Priority - 15</Name>
@@ -5368,21 +5584,21 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Task - Schedule Priority - 16" Key="924641295" CollectionName="Group" PathInExTree="Group\Task - Schedule Priority - 16" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="Task - Schedule Priority - 16" Key="253548592" CollectionName="Group" PathInExTree="Group\Task - Schedule Priority - 16" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
                         <ImportExportObjectReferenceInfo>
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
-                                    <Key>924641295</Key>
-                                    <Revision>2</Revision>
+                                    <Key>253548592</Key>
+                                    <Revision>3</Revision>
                                     <Stamp>
                                         <CreatedBy>NETWORK SERVICE</CreatedBy>
-                                        <TimeCreated>2018-09-14T17:05:25</TimeCreated>
+                                        <TimeCreated>2018-09-26T16:35:00</TimeCreated>
                                         <CreatingProcess>0</CreatingProcess>
                                         <ModifiedBy>NETWORK SERVICE</ModifiedBy>
-                                        <TimeModified>2018-09-14T17:05:46</TimeModified>
+                                        <TimeModified>2018-09-26T16:38:42</TimeModified>
                                         <ModifyingProcess>0</ModifyingProcess>
                                     </Stamp>
                                     <Name>Task - Schedule Priority - 16</Name>
@@ -5428,21 +5644,21 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Task - Schedule Priority - 2" Key="924641281" CollectionName="Group" PathInExTree="Group\Task - Schedule Priority - 2" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="Task - Schedule Priority - 2" Key="253548593" CollectionName="Group" PathInExTree="Group\Task - Schedule Priority - 2" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
                         <ImportExportObjectReferenceInfo>
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
-                                    <Key>924641281</Key>
-                                    <Revision>2</Revision>
+                                    <Key>253548593</Key>
+                                    <Revision>3</Revision>
                                     <Stamp>
                                         <CreatedBy>NETWORK SERVICE</CreatedBy>
-                                        <TimeCreated>2018-09-14T16:52:05</TimeCreated>
+                                        <TimeCreated>2018-09-26T16:35:00</TimeCreated>
                                         <CreatingProcess>0</CreatingProcess>
                                         <ModifiedBy>NETWORK SERVICE</ModifiedBy>
-                                        <TimeModified>2018-09-14T16:53:05</TimeModified>
+                                        <TimeModified>2018-09-26T16:38:42</TimeModified>
                                         <ModifyingProcess>0</ModifyingProcess>
                                     </Stamp>
                                     <Name>Task - Schedule Priority - 2</Name>
@@ -5506,21 +5722,21 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Task - Schedule Priority - 3" Key="924641282" CollectionName="Group" PathInExTree="Group\Task - Schedule Priority - 3" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="Task - Schedule Priority - 3" Key="253548594" CollectionName="Group" PathInExTree="Group\Task - Schedule Priority - 3" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
                         <ImportExportObjectReferenceInfo>
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
-                                    <Key>924641282</Key>
-                                    <Revision>2</Revision>
+                                    <Key>253548594</Key>
+                                    <Revision>3</Revision>
                                     <Stamp>
                                         <CreatedBy>NETWORK SERVICE</CreatedBy>
-                                        <TimeCreated>2018-09-14T16:53:54</TimeCreated>
+                                        <TimeCreated>2018-09-26T16:35:00</TimeCreated>
                                         <CreatingProcess>0</CreatingProcess>
                                         <ModifiedBy>NETWORK SERVICE</ModifiedBy>
-                                        <TimeModified>2018-09-14T16:54:29</TimeModified>
+                                        <TimeModified>2018-09-26T16:38:42</TimeModified>
                                         <ModifyingProcess>0</ModifyingProcess>
                                     </Stamp>
                                     <Name>Task - Schedule Priority - 3</Name>
@@ -5584,21 +5800,21 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Task - Schedule Priority - 4" Key="924641283" CollectionName="Group" PathInExTree="Group\Task - Schedule Priority - 4" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="Task - Schedule Priority - 4" Key="253548595" CollectionName="Group" PathInExTree="Group\Task - Schedule Priority - 4" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
                         <ImportExportObjectReferenceInfo>
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
-                                    <Key>924641283</Key>
-                                    <Revision>2</Revision>
+                                    <Key>253548595</Key>
+                                    <Revision>3</Revision>
                                     <Stamp>
                                         <CreatedBy>NETWORK SERVICE</CreatedBy>
-                                        <TimeCreated>2018-09-14T16:54:37</TimeCreated>
+                                        <TimeCreated>2018-09-26T16:35:00</TimeCreated>
                                         <CreatingProcess>0</CreatingProcess>
                                         <ModifiedBy>NETWORK SERVICE</ModifiedBy>
-                                        <TimeModified>2018-09-14T16:55:42</TimeModified>
+                                        <TimeModified>2018-09-26T16:38:42</TimeModified>
                                         <ModifyingProcess>0</ModifyingProcess>
                                     </Stamp>
                                     <Name>Task - Schedule Priority - 4</Name>
@@ -5670,21 +5886,21 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Task - Schedule Priority - 5" Key="924641284" CollectionName="Group" PathInExTree="Group\Task - Schedule Priority - 5" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="Task - Schedule Priority - 5" Key="253548596" CollectionName="Group" PathInExTree="Group\Task - Schedule Priority - 5" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
                         <ImportExportObjectReferenceInfo>
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
-                                    <Key>924641284</Key>
-                                    <Revision>2</Revision>
+                                    <Key>253548596</Key>
+                                    <Revision>3</Revision>
                                     <Stamp>
                                         <CreatedBy>NETWORK SERVICE</CreatedBy>
-                                        <TimeCreated>2018-09-14T16:55:46</TimeCreated>
+                                        <TimeCreated>2018-09-26T16:35:00</TimeCreated>
                                         <CreatingProcess>0</CreatingProcess>
                                         <ModifiedBy>NETWORK SERVICE</ModifiedBy>
-                                        <TimeModified>2018-09-14T16:56:26</TimeModified>
+                                        <TimeModified>2018-09-26T16:38:42</TimeModified>
                                         <ModifyingProcess>0</ModifyingProcess>
                                     </Stamp>
                                     <Name>Task - Schedule Priority - 5</Name>
@@ -5756,21 +5972,21 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Task - Schedule Priority - 6" Key="924641285" CollectionName="Group" PathInExTree="Group\Task - Schedule Priority - 6" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="Task - Schedule Priority - 6" Key="253548597" CollectionName="Group" PathInExTree="Group\Task - Schedule Priority - 6" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
                         <ImportExportObjectReferenceInfo>
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
-                                    <Key>924641285</Key>
-                                    <Revision>2</Revision>
+                                    <Key>253548597</Key>
+                                    <Revision>3</Revision>
                                     <Stamp>
                                         <CreatedBy>NETWORK SERVICE</CreatedBy>
-                                        <TimeCreated>2018-09-14T16:56:39</TimeCreated>
+                                        <TimeCreated>2018-09-26T16:35:00</TimeCreated>
                                         <CreatingProcess>0</CreatingProcess>
                                         <ModifiedBy>NETWORK SERVICE</ModifiedBy>
-                                        <TimeModified>2018-09-14T16:57:25</TimeModified>
+                                        <TimeModified>2018-09-26T16:38:42</TimeModified>
                                         <ModifyingProcess>0</ModifyingProcess>
                                     </Stamp>
                                     <Name>Task - Schedule Priority - 6</Name>
@@ -5842,21 +6058,21 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Task - Schedule Priority - 7" Key="924641286" CollectionName="Group" PathInExTree="Group\Task - Schedule Priority - 7" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="Task - Schedule Priority - 7" Key="253548598" CollectionName="Group" PathInExTree="Group\Task - Schedule Priority - 7" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
                         <ImportExportObjectReferenceInfo>
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
-                                    <Key>924641286</Key>
-                                    <Revision>2</Revision>
+                                    <Key>253548598</Key>
+                                    <Revision>3</Revision>
                                     <Stamp>
                                         <CreatedBy>NETWORK SERVICE</CreatedBy>
-                                        <TimeCreated>2018-09-14T16:57:39</TimeCreated>
+                                        <TimeCreated>2018-09-26T16:35:00</TimeCreated>
                                         <CreatingProcess>0</CreatingProcess>
                                         <ModifiedBy>NETWORK SERVICE</ModifiedBy>
-                                        <TimeModified>2018-09-14T16:58:08</TimeModified>
+                                        <TimeModified>2018-09-26T16:38:42</TimeModified>
                                         <ModifyingProcess>0</ModifyingProcess>
                                     </Stamp>
                                     <Name>Task - Schedule Priority - 7</Name>
@@ -5928,21 +6144,21 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Task - Schedule Priority - 8" Key="924641287" CollectionName="Group" PathInExTree="Group\Task - Schedule Priority - 8" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="Task - Schedule Priority - 8" Key="253548599" CollectionName="Group" PathInExTree="Group\Task - Schedule Priority - 8" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
                         <ImportExportObjectReferenceInfo>
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
-                                    <Key>924641287</Key>
-                                    <Revision>2</Revision>
+                                    <Key>253548599</Key>
+                                    <Revision>3</Revision>
                                     <Stamp>
                                         <CreatedBy>NETWORK SERVICE</CreatedBy>
-                                        <TimeCreated>2018-09-14T16:58:15</TimeCreated>
+                                        <TimeCreated>2018-09-26T16:35:00</TimeCreated>
                                         <CreatingProcess>0</CreatingProcess>
                                         <ModifiedBy>NETWORK SERVICE</ModifiedBy>
-                                        <TimeModified>2018-09-14T16:59:02</TimeModified>
+                                        <TimeModified>2018-09-26T16:38:42</TimeModified>
                                         <ModifyingProcess>0</ModifyingProcess>
                                     </Stamp>
                                     <Name>Task - Schedule Priority - 8</Name>
@@ -6014,21 +6230,21 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Task - Schedule Priority - 9" Key="924641288" CollectionName="Group" PathInExTree="Group\Task - Schedule Priority - 9" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="Task - Schedule Priority - 9" Key="253548600" CollectionName="Group" PathInExTree="Group\Task - Schedule Priority - 9" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
                         <ImportExportObjectReferenceInfo>
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
-                                    <Key>924641288</Key>
-                                    <Revision>2</Revision>
+                                    <Key>253548600</Key>
+                                    <Revision>3</Revision>
                                     <Stamp>
                                         <CreatedBy>NETWORK SERVICE</CreatedBy>
-                                        <TimeCreated>2018-09-14T16:59:06</TimeCreated>
+                                        <TimeCreated>2018-09-26T16:35:00</TimeCreated>
                                         <CreatingProcess>0</CreatingProcess>
                                         <ModifiedBy>NETWORK SERVICE</ModifiedBy>
-                                        <TimeModified>2018-09-14T16:59:49</TimeModified>
+                                        <TimeModified>2018-09-26T16:38:42</TimeModified>
                                         <ModifyingProcess>0</ModifyingProcess>
                                     </Stamp>
                                     <Name>Task - Schedule Priority - 9</Name>
@@ -6480,13 +6696,13 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
                                     <Key>790470667</Key>
-                                    <Revision>25</Revision>
+                                    <Revision>26</Revision>
                                     <Stamp>
                                         <CreatedBy>NFPOWER_DOMAIN\JPearce</CreatedBy>
                                         <TimeCreated>2012-05-29T22:06:14</TimeCreated>
                                         <CreatingProcess>0</CreatingProcess>
                                         <ModifiedBy>NETWORK SERVICE</ModifiedBy>
-                                        <TimeModified>2018-09-14T17:16:32</TimeModified>
+                                        <TimeModified>2018-09-26T16:38:44</TimeModified>
                                         <ModifyingProcess>0</ModifyingProcess>
                                     </Stamp>
                                     <Name>Trouble Calls</Name>

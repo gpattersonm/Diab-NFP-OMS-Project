@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+xml version="1.0" encoding="utf-8"?>
 <ConfigurationManagmentFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <GlobalMetaData>
         <ConfigFileTitle>Configuration File</ConfigFileTitle>
         <BuildVersion>1</BuildVersion>
         <SOVersion>8.1.10(9467)</SOVersion>
-        <ExportTime>2018-11-08T17:09:03.0253818-03:30</ExportTime>
-        <ComputerName>NPCLKAPP6</ComputerName>
+        <ExportTime>2018-11-08T17:10:38.0903647-03:30</ExportTime>
+        <ComputerName>NPVMCLKAPP5</ComputerName>
         <Owner>gpatterson</Owner>
         <BuilderToolVersion>8.10.9467.105</BuilderToolVersion>
         <Description />
@@ -77,14 +77,14 @@
                     </PropertyDefinition>
                     <LstProperties />
                 </Property>
-                <Property ImageKey="PropString" PathInExTree="Scheme\BusinessObjects\Task\Properties\IncompletionReason" Version="1" User="gpatterson" CollectionName="Task" PropertyName="IncompletionReason" IsMultiValue="false" IsKey="false" PropertyDetails="Type: String; Length: LengthOfString=128;ServerTypeCategory=Simple;ClientTypeCategory=Simple;ClientTypeSpecific=String;; ">
+                <Property ImageKey="PropString" PathInExTree="Scheme\BusinessObjects\Task\Properties\ZZZDoNotUse1" Version="1" User="gpatterson" CollectionName="Task" PropertyName="ZZZDoNotUse1" IsMultiValue="false" IsKey="false" PropertyDetails="Type: String; Length: LengthOfString=128;ServerTypeCategory=Simple;ClientTypeCategory=Simple;ClientTypeSpecific=String;; ">
                     <PropertyDefinition>
                         <ExtensionData />
                         <Action>AddOrUpdate</Action>
                         <ActionStatus>Success</ActionStatus>
                         <Collection>Task</Collection>
                         <ExtraData>LengthOfString=128;ServerTypeCategory=Simple;ClientTypeCategory=Simple;ClientTypeSpecific=String;</ExtraData>
-                        <Property>IncompletionReason</Property>
+                        <Property>ZZZDoNotUse1</Property>
                         <PropertyType>String</PropertyType>
                     </PropertyDefinition>
                     <LstProperties />
@@ -811,25 +811,25 @@
                     </PropertyDefinition>
                     <LstProperties />
                 </Property>
-                <Property ImageKey="PropString" PathInExTree="Scheme\BusinessObjects\Task\Properties\OutageOldPoleID" Version="1" User="gpatterson" CollectionName="Task" PropertyName="OutageOldPoleID" IsMultiValue="false" IsKey="false" PropertyDetails="Type: String; Length: LengthOfString=64;ServerTypeCategory=Simple;ClientTypeCategory=Simple;ClientTypeSpecific=String;; ">
+                <Property ImageKey="PropString" PathInExTree="Scheme\BusinessObjects\Task\Properties\OutageOldPoleID" Version="1" User="gpatterson" CollectionName="Task" PropertyName="OutageOldPoleID" IsMultiValue="false" IsKey="false" PropertyDetails="Type: String; Length: LengthOfString=7;ServerTypeCategory=Simple;ClientTypeCategory=Simple;ClientTypeSpecific=String;; ">
                     <PropertyDefinition>
                         <ExtensionData />
                         <Action>AddOrUpdate</Action>
                         <ActionStatus>Success</ActionStatus>
                         <Collection>Task</Collection>
-                        <ExtraData>LengthOfString=64;ServerTypeCategory=Simple;ClientTypeCategory=Simple;ClientTypeSpecific=String;</ExtraData>
+                        <ExtraData>LengthOfString=7;ServerTypeCategory=Simple;ClientTypeCategory=Simple;ClientTypeSpecific=String;</ExtraData>
                         <Property>OutageOldPoleID</Property>
                         <PropertyType>String</PropertyType>
                     </PropertyDefinition>
                     <LstProperties />
                 </Property>
-                <Property ImageKey="PropString" PathInExTree="Scheme\BusinessObjects\Task\Properties\OutagePoleID" Version="1" User="gpatterson" CollectionName="Task" PropertyName="OutagePoleID" IsMultiValue="false" IsKey="false" PropertyDetails="Type: String; Length: LengthOfString=64;ServerTypeCategory=Simple;ClientTypeCategory=Simple;ClientTypeSpecific=String;; ">
+                <Property ImageKey="PropString" PathInExTree="Scheme\BusinessObjects\Task\Properties\OutagePoleID" Version="1" User="gpatterson" CollectionName="Task" PropertyName="OutagePoleID" IsMultiValue="false" IsKey="false" PropertyDetails="Type: String; Length: LengthOfString=7;ServerTypeCategory=Simple;ClientTypeCategory=Simple;ClientTypeSpecific=String;; ">
                     <PropertyDefinition>
                         <ExtensionData />
                         <Action>AddOrUpdate</Action>
                         <ActionStatus>Success</ActionStatus>
                         <Collection>Task</Collection>
-                        <ExtraData>LengthOfString=64;ServerTypeCategory=Simple;ClientTypeCategory=Simple;ClientTypeSpecific=String;</ExtraData>
+                        <ExtraData>LengthOfString=7;ServerTypeCategory=Simple;ClientTypeCategory=Simple;ClientTypeSpecific=String;</ExtraData>
                         <Property>OutagePoleID</Property>
                         <PropertyType>String</PropertyType>
                     </PropertyDefinition>
@@ -3969,13 +3969,13 @@
                     </PropertyDefinition>
                     <LstProperties />
                 </Property>
-                <Property ImageKey="PropString" PathInExTree="Scheme\BusinessObjects\Task\Properties\OutageOldPoleID2" Version="1" User="gpatterson" CollectionName="Task" PropertyName="OutageOldPoleID2" IsMultiValue="false" IsKey="false" PropertyDetails="Type: String; Length: LengthOfString=64;ServerTypeCategory=Simple;ClientTypeCategory=Simple;ClientTypeSpecific=String;; ">
+                <Property ImageKey="PropString" PathInExTree="Scheme\BusinessObjects\Task\Properties\OutageOldPoleID2" Version="1" User="gpatterson" CollectionName="Task" PropertyName="OutageOldPoleID2" IsMultiValue="false" IsKey="false" PropertyDetails="Type: String; Length: LengthOfString=7;ServerTypeCategory=Simple;ClientTypeCategory=Simple;ClientTypeSpecific=String;; ">
                     <PropertyDefinition>
                         <ExtensionData />
                         <Action>AddOrUpdate</Action>
                         <ActionStatus>Success</ActionStatus>
                         <Collection>Task</Collection>
-                        <ExtraData>LengthOfString=64;ServerTypeCategory=Simple;ClientTypeCategory=Simple;ClientTypeSpecific=String;</ExtraData>
+                        <ExtraData>LengthOfString=7;ServerTypeCategory=Simple;ClientTypeCategory=Simple;ClientTypeSpecific=String;</ExtraData>
                         <Property>OutageOldPoleID2</Property>
                         <PropertyType>String</PropertyType>
                     </PropertyDefinition>
@@ -6954,6 +6954,115 @@
                     </PropertyDefinition>
                     <LstProperties />
                 </Property>
+                <Property ImageKey="PropBoolean" PathInExTree="Scheme\BusinessObjects\Task\Properties\DoNotUse3_ElectricalHazards_Ground" Version="1" User="gpatterson" CollectionName="Task" PropertyName="DoNotUse3_ElectricalHazards_Ground" IsMultiValue="false" IsKey="false" PropertyDetails="Type: Boolean">
+                    <PropertyDefinition>
+                        <ExtensionData />
+                        <Action>AddOrUpdate</Action>
+                        <ActionStatus>Success</ActionStatus>
+                        <Collection>Task</Collection>
+                        <ExtraData>IsBoolean=true;ServerTypeCategory=Simple;ClientTypeCategory=Simple;ClientTypeSpecific=Boolean;</ExtraData>
+                        <Property>DoNotUse3_ElectricalHazards_Ground</Property>
+                        <PropertyType>Boolean</PropertyType>
+                    </PropertyDefinition>
+                    <LstProperties />
+                </Property>
+                <Property ImageKey="PropDate" PathInExTree="Scheme\BusinessObjects\Task\Properties\CompletionTime" Version="1" User="gpatterson" CollectionName="Task" PropertyName="CompletionTime" IsMultiValue="false" IsKey="false" PropertyDetails="Type: Date">
+                    <PropertyDefinition>
+                        <ExtensionData />
+                        <Action>AddOrUpdate</Action>
+                        <ActionStatus>Success</ActionStatus>
+                        <Collection>Task</Collection>
+                        <DateTypeInfo>
+                            <ExtensionData />
+                            <ZeroSeconds>true</ZeroSeconds>
+                        </DateTypeInfo>
+                        <ExtraData>OutputInMinutes=1;</ExtraData>
+                        <Property>CompletionTime</Property>
+                        <PropertyType>Date</PropertyType>
+                    </PropertyDefinition>
+                    <LstProperties />
+                </Property>
+                <Property ImageKey="PropDate" PathInExTree="Scheme\BusinessObjects\Task\Properties\OnSiteTime" Version="1" User="gpatterson" CollectionName="Task" PropertyName="OnSiteTime" IsMultiValue="false" IsKey="false" PropertyDetails="Type: Date">
+                    <PropertyDefinition>
+                        <ExtensionData />
+                        <Action>AddOrUpdate</Action>
+                        <ActionStatus>Success</ActionStatus>
+                        <Collection>Task</Collection>
+                        <DateTypeInfo>
+                            <ExtensionData />
+                            <ZeroSeconds>true</ZeroSeconds>
+                        </DateTypeInfo>
+                        <ExtraData>OutputInMinutes=1;</ExtraData>
+                        <Property>OnSiteTime</Property>
+                        <PropertyType>Date</PropertyType>
+                    </PropertyDefinition>
+                    <LstProperties />
+                </Property>
+                <Property ImageKey="PropString" PathInExTree="Scheme\BusinessObjects\Task\Properties\SourceSystem" Version="1" User="gpatterson" CollectionName="Task" PropertyName="SourceSystem" IsMultiValue="false" IsKey="false" PropertyDetails="Type: String; Length: LengthOfString=64;; ">
+                    <PropertyDefinition>
+                        <ExtensionData />
+                        <Action>AddOrUpdate</Action>
+                        <ActionStatus>Success</ActionStatus>
+                        <Collection>Task</Collection>
+                        <ExtraData>LengthOfString=64;</ExtraData>
+                        <Property>SourceSystem</Property>
+                        <PropertyType>String</PropertyType>
+                    </PropertyDefinition>
+                    <LstProperties />
+                </Property>
+                <Property ImageKey="PropMV" PathInExTree="Scheme\BusinessObjects\Task\Properties\Outages" Version="1" User="gpatterson" CollectionName="Task" PropertyName="Outages" IsMultiValue="true" IsKey="false" PropertyDetails="Type: MultiValue; Enforce:True; ">
+                    <PropertyDefinition>
+                        <ExtensionData />
+                        <Action>AddOrUpdate</Action>
+                        <ActionStatus>Success</ActionStatus>
+                        <Collection>Task</Collection>
+                        <ExtraData>UniqueValue=true;</ExtraData>
+                        <MultiValueTypeInfo>
+                            <ExtensionData />
+                            <EnforceUniqueness>true</EnforceUniqueness>
+                            <ExtraData>ProductName=Outage;ProductID=20021;</ExtraData>
+                            <Item>Outage</Item>
+                        </MultiValueTypeInfo>
+                        <Property>Outages</Property>
+                        <PropertyType>MultiValue</PropertyType>
+                    </PropertyDefinition>
+                    <LstProperties>
+                        <ConfigurationSchemeProperty ImageKey="PropKey" PathInExTree="Scheme\BusinessObjects\Task\Properties\Outages\Outage" CollectionName="Task.Outages" PropertyName="Outage" IsMultiValue="false" IsKey="true" PropertyDetails="Type: Key; RelationTo: Outage; Identifier:OutageID; ">
+                            <PropertyDefinition>
+                                <ExtensionData />
+                                <Action>AddOrUpdate</Action>
+                                <ActionStatus>Success</ActionStatus>
+                                <Collection>Task.Outages</Collection>
+                                <ExtraData>CollectionIDForKey=150;AttributeIDForKey=3;GroupCollectionIDForKey=-1;IsParent=false;ServerTypeCategory=Simple;ClientTypeCategory=GeneralProductAggregate;ClientTypeSpecific=KeyName;</ExtraData>
+                                <KeyTypeInfo>
+                                    <ExtensionData />
+                                    <RelationTo>Outage</RelationTo>
+                                    <StringIdentifier>OutageID</StringIdentifier>
+                                </KeyTypeInfo>
+                                <Property>Outage</Property>
+                                <PropertyType>Key</PropertyType>
+                            </PropertyDefinition>
+                            <LstProperties />
+                        </ConfigurationSchemeProperty>
+                    </LstProperties>
+                </Property>
+                <Property ImageKey="PropKey" PathInExTree="Scheme\BusinessObjects\Task\Properties\IncompletionReason" Version="1" User="gpatterson" CollectionName="Task" PropertyName="IncompletionReason" IsMultiValue="false" IsKey="true" PropertyDetails="Type: Key; RelationTo: IncompletionReason; Identifier:Name; ">
+                    <PropertyDefinition>
+                        <ExtensionData />
+                        <Action>AddOrUpdate</Action>
+                        <ActionStatus>Success</ActionStatus>
+                        <Collection>Task</Collection>
+                        <ExtraData>CollectionIDForKey=270;AttributeIDForKey=2;GroupCollectionIDForKey=-1;IsParent=false;</ExtraData>
+                        <KeyTypeInfo>
+                            <ExtensionData />
+                            <RelationTo>IncompletionReason</RelationTo>
+                            <StringIdentifier>Name</StringIdentifier>
+                        </KeyTypeInfo>
+                        <Property>IncompletionReason</Property>
+                        <PropertyType>Key</PropertyType>
+                    </PropertyDefinition>
+                    <LstProperties />
+                </Property>
             </Properties>
             <Indexes>
                 <Index ImageKey="SchemeIndex" PathInExTree="Scheme\BusinessObjects\Task\Indexes\Task_Key,Status" Version="1" User="gpatterson" CollectionName="Task" IndexName="Task_Key,Status" IndexDetails="Type: Appplication; Unique: false; " IndexType="Application">
@@ -7137,6 +7246,20 @@
                         <Collection>Task</Collection>
                         <ProductContext>Region,ScheduleDate</ProductContext>
                         <Type>Application</Type>
+                        <Unique>NonUnique</Unique>
+                    </IndexDefinition>
+                </Index>
+                <Index ImageKey="BothIndex" PathInExTree="Scheme\BusinessObjects\Task\Indexes\Task_Outages.All.Outage" Version="1" User="gpatterson" CollectionName="Task" IndexName="Task_Outages.All.Outage" IndexDetails="Type: Application &amp; DB; Unique: false; " IndexType="Both">
+                    <IndexDefinition>
+                        <ExtensionData />
+                        <Action>AddOrUpdate</Action>
+                        <ActionStatus>Success</ActionStatus>
+                        <Clustered>false</Clustered>
+                        <Collection>Task</Collection>
+                        <ColumnsList>Outage</ColumnsList>
+                        <ProductContext>Outages.All.Outage</ProductContext>
+                        <Table>W6TASKS_OUTAGES</Table>
+                        <Type>Both</Type>
                         <Unique>NonUnique</Unique>
                     </IndexDefinition>
                 </Index>
@@ -7799,6 +7922,19 @@
                         <Clustered>false</Clustered>
                         <Collection>Task</Collection>
                         <ColumnsList>Holdoff_YesNo</ColumnsList>
+                        <Table>W6TASKS</Table>
+                        <Type>Database</Type>
+                        <Unique>NonUnique</Unique>
+                    </IndexDefinition>
+                </Index>
+                <Index ImageKey="DBIndex" PathInExTree="Scheme\BusinessObjects\Task\Indexes\Task_IncompletionReason" Version="1" User="gpatterson" CollectionName="Task" IndexName="Task_IncompletionReason" IndexDetails="Type: DB; Unique: false; " IndexType="Database">
+                    <IndexDefinition>
+                        <ExtensionData />
+                        <Action>AddOrUpdate</Action>
+                        <ActionStatus>Success</ActionStatus>
+                        <Clustered>false</Clustered>
+                        <Collection>Task</Collection>
+                        <ColumnsList>IncompletionReason</ColumnsList>
                         <Table>W6TASKS</Table>
                         <Type>Database</Type>
                         <Unique>NonUnique</Unique>

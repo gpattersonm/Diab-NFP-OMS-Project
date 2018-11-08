@@ -340,4 +340,10 @@
     <AuditEngineer>
         <Property>Name</Property>
     </AuditEngineer>
+    <Outage>
+        <Property>OutageID</Property>
+    </Outage>
+    <Device>
+        <Property>DeviceID</Property>
+    </Device>
 </ObjectReference>

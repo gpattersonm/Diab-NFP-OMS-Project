@@ -3,4 +3,12 @@
         <ID>78</ID>        <!--Property name to filter the Dictionary items-->
         <Property>UsedInMobile</Property>
     </Dictionary>
+    <Dictionary>        <!--Collection ID of the Dictionary-->
+        <ID>77</ID>        <!--Property name to filter the Dictionary items-->
+        <Property>UsedInMobile</Property>
+    </Dictionary>
+    <Dictionary>        <!--Collection ID of the Dictionary-->
+        <ID>272</ID>        <!--Property name to filter the Dictionary items-->
+        <Property>UsedInMobile</Property>
+    </Dictionary>
 </DictionariesFilters>

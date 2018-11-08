@@ -5,131 +5,649 @@
         <ConfigFileTitle>Configuration File</ConfigFileTitle>
         <BuildVersion>1</BuildVersion>
         <SOVersion>8.1.10(9467)</SOVersion>
-        <ExportTime>2018-11-08T13:18:52.1075397-03:30</ExportTime>
-        <ComputerName>NPCLKAPP6</ComputerName>
+        <ExportTime>2018-11-08T17:30:40.0077737-03:30</ExportTime>
+        <ComputerName>NPVMCLKAPP5</ComputerName>
         <Owner>gpatterson</Owner>
         <BuilderToolVersion>8.10.9467.105</BuilderToolVersion>
         <Description />
     </GlobalMetaData>
     <Queries />
     <Settings>
-        <ConfigurationStep SerialNumber="1" TimeStamp="2018-11-08T13:18:46.5695042-03:30" Title="GenericEventDefinition (Attachment): All" Description="" DisableEvents="false" IsCustom="false">
-            <Item DisplayString="Trigger Task Outgoing Message Attachments" Key="1166032896" CollectionName="GenericEventDefinition" PathInExTree="GenericEventDefinition\Trigger Task Outgoing Message Attachments" ParentInExTree="Attachment" ObjectType="GenericEventDefinition" ImageKey="GenericEvents" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+        <ConfigurationStep SerialNumber="1" TimeStamp="2018-11-08T17:30:35.8737207-03:30" Title="StandardSetting (Action Types): All" Description="" DisableEvents="false" IsCustom="false">
+            <Item DisplayString="Abort" Key="656295977" CollectionName="StandardSetting" PathInExTree="StandardSetting\Abort" ParentInExTree="Action Types" ObjectType="Setting" ImageKey="CentralSettingsItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
                         <ImportExportObjectReferenceInfo>
                             <Object>
-                                <Object xmlns="http://www.clicksoftware.com" xsi:type="GenericEventDefinition">
-                                    <Key>1166032896</Key>
-                                    <Revision>2</Revision>
-                                    <Name>Trigger Task Outgoing Message Attachments</Name>
-                                    <CollectionName>Attachment</CollectionName>
-                                    <ExaminedPropertyNames>
-                                        <PropertyName>FileIndex</PropertyName>
-                                        <PropertyName>FileName</PropertyName>
-                                        <PropertyName>URL</PropertyName>
-                                    </ExaminedPropertyNames>
-                                    <PreConditionOQL />
-                                    <PostConditionOQL />
-                                    <PreConditionGroup xsi:type="GroupReference" Key="-1" />
-                                    <PostConditionGroup xsi:type="GroupReference" Key="-1" />
-                                    <EventUsers>
-                                        <EventUser>
-                                            <Name>ALL USERS</Name>
-                                            <UserType>User</UserType>
-                                        </EventUser>
-                                    </EventUsers>
-                                    <Description />
-                                    <Bundle>0</Bundle>
-                                    <EvaluationPrecedence>1</EvaluationPrecedence>
-                                    <EventOperation>1</EventOperation>
-                                    <Actions>
-                                        <Action>
-                                            <ActionType>Trigger Task Outgoing Message Attachments</ActionType>
-                                            <Description />
-                                            <SourceProperty />
-                                            <TargetProperty />
-                                            <ValueLong>0</ValueLong>
-                                            <ValueBoolean>false</ValueBoolean>
-                                            <ValueString />
-                                            <ValueDate>1899-12-30T00:00:00</ValueDate>
-                                            <ValueDouble>0</ValueDouble>
-                                            <ValueDuration>0</ValueDuration>
-                                            <ValueKey />
-                                            <CustomData />
-                                            <ValueRelativeTime>0</ValueRelativeTime>
-                                            <AuxiliaryProperty />
-                                        </Action>
-                                    </Actions>
-                                    <Active>true</Active>
-                                    <UsageType>0</UsageType>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StandardSetting">
+                                    <Key>656295977</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>bmurphy</CreatedBy>
+                                        <TimeCreated>2015-02-19T17:31:51</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>bmurphy</ModifiedBy>
+                                        <TimeModified>2015-02-19T17:31:51</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Owner>[Application]</Owner>
+                                    <Category>Actions</Category>
+                                    <SubCategory>ActionType</SubCategory>
+                                    <Name>Abort</Name>
+                                    <Body>&lt;Type&gt;&lt;Enabled&gt;true&lt;/Enabled&gt;&lt;ActionType&gt;W6GenericUtilities.W6GenericEventActionAbort, W6GenericUtilities&lt;/ActionType&gt;&lt;SpecificUIType&gt;W6UtilitiesAdminUIs.GenericEvents.AbortActionForm, W6UtilitiesAdminUIs&lt;/SpecificUIType&gt;&lt;DisplayName&gt;Abort&lt;/DisplayName&gt;&lt;AppliesTo&gt;&lt;/AppliesTo&gt;&lt;CanBeUsedWith&gt;&lt;TimeDrivenEventAgent&gt;true&lt;/TimeDrivenEventAgent&gt;&lt;GenericEvents&gt;&lt;Create&gt;true&lt;/Create&gt;&lt;Update&gt;true&lt;/Update&gt;&lt;Delete&gt;true&lt;/Delete&gt;&lt;/GenericEvents&gt;&lt;/CanBeUsedWith&gt;&lt;/Type&gt;</Body>
                                 </Object>
                             </Object>
-                            <ReferenceInfos>
-                                <ReferenceInfo>
-                                    <Mapping>14</Mapping>
-                                    <Property>Schema</Property>
-                                </ReferenceInfo>
-                                <ReferenceInfo>
-                                    <Mapping>14</Mapping>
-                                    <Property>Schema</Property>
-                                </ReferenceInfo>
-                                <ReferenceInfo>
-                                    <Mapping>14</Mapping>
-                                    <Property>Schema</Property>
-                                </ReferenceInfo>
-                                <ReferenceInfo>
-                                    <Mapping>14</Mapping>
-                                    <Property>Schema</Property>
-                                </ReferenceInfo>
-                                <ReferenceInfo>
-                                    <Mapping />
-                                    <Property>CollectionName</Property>
-                                    <Reference xsi:type="GenericObjectReference">
-                                        <CollectionName>Attachment</CollectionName>
-                                    </Reference>
-                                </ReferenceInfo>
-                                <ReferenceInfo>
-                                    <Mapping />
-                                    <Property>PropertyName0</Property>
-                                    <Reference xsi:type="GenericPropertyReference">
-                                        <CollectionName>Attachment</CollectionName>
-                                        <PropertyName>FileIndex</PropertyName>
-                                    </Reference>
-                                </ReferenceInfo>
-                                <ReferenceInfo>
-                                    <Mapping />
-                                    <Property>PropertyName1</Property>
-                                    <Reference xsi:type="GenericPropertyReference">
-                                        <CollectionName>Attachment</CollectionName>
-                                        <PropertyName>FileName</PropertyName>
-                                    </Reference>
-                                </ReferenceInfo>
-                                <ReferenceInfo>
-                                    <Mapping />
-                                    <Property>PropertyName2</Property>
-                                    <Reference xsi:type="GenericPropertyReference">
-                                        <CollectionName>Attachment</CollectionName>
-                                        <PropertyName>URL</PropertyName>
-                                    </Reference>
-                                </ReferenceInfo>
-                                <ReferenceInfo>
-                                    <Mapping />
-                                    <Property>ActionType</Property>
-                                    <Reference xsi:type="GenericObjectReference">
-                                        <CollectionName>StandardSetting</CollectionName>
-                                        <ObjectReferenceWrapper>
-                                            <ObjectReference xsi:type="StandardSettingReference" Key="656310272">
-                                                <Owner>[Application]</Owner>
-                                                <Category>Actions</Category>
-                                                <SubCategory>ActionType</SubCategory>
-                                                <Name>Trigger Task Outgoing Message Attachments</Name>
-                                            </ObjectReference>
-                                        </ObjectReferenceWrapper>
-                                    </Reference>
-                                </ReferenceInfo>
-                            </ReferenceInfos>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Calculate property" Key="656297984" CollectionName="StandardSetting" PathInExTree="StandardSetting\Calculate property" ParentInExTree="Action Types" ObjectType="Setting" ImageKey="CentralSettingsItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StandardSetting">
+                                    <Key>656297984</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>bmurphy</CreatedBy>
+                                        <TimeCreated>2015-02-19T17:55:46</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>bmurphy</ModifiedBy>
+                                        <TimeModified>2015-02-19T17:55:48</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Owner>[Application]</Owner>
+                                    <Category>Actions</Category>
+                                    <SubCategory>ActionType</SubCategory>
+                                    <Name>Calculate property</Name>
+                                    <Body>&lt;Type&gt;&lt;DisplayName&gt;Calculate property&lt;/DisplayName&gt;&lt;Enabled&gt;true&lt;/Enabled&gt;&lt;ActionType&gt;W6GenericUtilities.W6ManipulatePropertyAction, W6GenericUtilities&lt;/ActionType&gt;&lt;SpecificUIType&gt;W6UtilitiesAdminUIs.GenericEvents.ManipulatePropertyAction, W6UtilitiesAdminUIs&lt;/SpecificUIType&gt;&lt;AppliesTo /&gt;&lt;CanBeUsedWith&gt;&lt;TimeDrivenEventAgent&gt;true&lt;/TimeDrivenEventAgent&gt;&lt;GenericEvents&gt;&lt;Create&gt;true&lt;/Create&gt;&lt;Update&gt;true&lt;/Update&gt;&lt;Delete&gt;false&lt;/Delete&gt;&lt;/GenericEvents&gt;&lt;/CanBeUsedWith&gt;&lt;SupportedOperations&gt;&lt;Operation&gt;PopulateObject&lt;/Operation&gt;&lt;/SupportedOperations&gt;&lt;/Type&gt;</Body>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Copy from object" Key="656295987" CollectionName="StandardSetting" PathInExTree="StandardSetting\Copy from object" ParentInExTree="Action Types" ObjectType="Setting" ImageKey="CentralSettingsItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StandardSetting">
+                                    <Key>656295987</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>bmurphy</CreatedBy>
+                                        <TimeCreated>2015-02-19T17:31:51</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>bmurphy</ModifiedBy>
+                                        <TimeModified>2015-02-19T17:31:51</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Owner>[Application]</Owner>
+                                    <Category>Actions</Category>
+                                    <SubCategory>ActionType</SubCategory>
+                                    <Name>Copy from object</Name>
+                                    <Body>&lt;Type&gt;&lt;DisplayName&gt;Copy from object&lt;/DisplayName&gt;&lt;Enabled&gt;true&lt;/Enabled&gt;&lt;ActionType&gt;W6GenericUtilities.W6GenericEventActionCopyFromReferencedObject, W6GenericUtilities&lt;/ActionType&gt;&lt;SpecificUIType&gt;W6UtilitiesAdminUIs.GenericEvents.CopyFromObjectAction, W6UtilitiesAdminUIs&lt;/SpecificUIType&gt;&lt;AppliesTo /&gt;&lt;CanBeUsedWith&gt;&lt;TimeDrivenEventAgent&gt;false&lt;/TimeDrivenEventAgent&gt;&lt;GenericEvents&gt;&lt;Create&gt;false&lt;/Create&gt;&lt;Update&gt;false&lt;/Update&gt;&lt;Delete&gt;false&lt;/Delete&gt;&lt;/GenericEvents&gt;&lt;/CanBeUsedWith&gt;&lt;SupportedOperations&gt;&lt;Operation&gt;PopulateObject&lt;/Operation&gt;&lt;/SupportedOperations&gt;&lt;/Type&gt;</Body>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Copy from referenced object" Key="656295980" CollectionName="StandardSetting" PathInExTree="StandardSetting\Copy from referenced object" ParentInExTree="Action Types" ObjectType="Setting" ImageKey="CentralSettingsItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StandardSetting">
+                                    <Key>656295980</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>bmurphy</CreatedBy>
+                                        <TimeCreated>2015-02-19T17:31:51</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>bmurphy</ModifiedBy>
+                                        <TimeModified>2015-02-19T17:31:51</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Owner>[Application]</Owner>
+                                    <Category>Actions</Category>
+                                    <SubCategory>ActionType</SubCategory>
+                                    <Name>Copy from referenced object</Name>
+                                    <Body>&lt;Type&gt;&lt;Enabled&gt;true&lt;/Enabled&gt;&lt;ActionType&gt;W6GenericUtilities.W6GenericEventActionCopyFromReferencedObject, W6GenericUtilities&lt;/ActionType&gt;&lt;SpecificUIType&gt;W6UtilitiesAdminUIs.GenericEvents.CopyFromReferencedObjectActionForm, W6UtilitiesAdminUIs&lt;/SpecificUIType&gt;&lt;DisplayName&gt;Copy from referenced object&lt;/DisplayName&gt;&lt;AppliesTo&gt;&lt;/AppliesTo&gt;&lt;CanBeUsedWith&gt;&lt;TimeDrivenEventAgent&gt;true&lt;/TimeDrivenEventAgent&gt;&lt;GenericEvents&gt;&lt;Create&gt;true&lt;/Create&gt;&lt;Update&gt;true&lt;/Update&gt;&lt;Delete&gt;false&lt;/Delete&gt;&lt;/GenericEvents&gt;&lt;/CanBeUsedWith&gt;&lt;SupportedOperations&gt;&lt;Operation&gt;PopulateObject&lt;/Operation&gt;&lt;/SupportedOperations&gt;&lt;/Type&gt;</Body>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Copy Multivalue Property to Object Property" Key="656316416" CollectionName="StandardSetting" PathInExTree="StandardSetting\Copy Multivalue Property to Object Property" ParentInExTree="Action Types" ObjectType="Setting" ImageKey="CentralSettingsItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StandardSetting">
+                                    <Key>656316416</Key>
+                                    <Revision>4</Revision>
+                                    <Stamp>
+                                        <CreatedBy>NETWORK SERVICE</CreatedBy>
+                                        <TimeCreated>2018-09-28T12:44:27</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NETWORK SERVICE</ModifiedBy>
+                                        <TimeModified>2018-11-08T14:09:06</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Owner>[Application]</Owner>
+                                    <Category>Actions</Category>
+                                    <SubCategory>ActionType</SubCategory>
+                                    <Name>Copy Multivalue Property to Object Property</Name>
+                                    <Body>&lt;Type&gt;&lt;DisplayName&gt;Copy Multivalue Property to Object Property&lt;/DisplayName&gt;&lt;Enabled&gt;true&lt;/Enabled&gt;&lt;ActionType&gt;Diabsolut.UpdateMVToProperty.SO.UpdateMVToPropAction, Diabsolut.UpdateMVToProperty.SO&lt;/ActionType&gt;&lt;SpecificUIType&gt;Diabsolut.UpdateMVToProperty.SO.UpdateMVToPropUI, Diabsolut.UpdateMVToProperty.SO&lt;/SpecificUIType&gt;&lt;AppliesTo&gt;&lt;Collection&gt;Outage&lt;/Collection&gt;&lt;Collection&gt;Task&lt;/Collection&gt;&lt;/AppliesTo&gt;&lt;CanBeUsedWith&gt;&lt;TimeDrivenEventAgent&gt;false&lt;/TimeDrivenEventAgent&gt;&lt;GenericEvents&gt;&lt;Create&gt;true&lt;/Create&gt;&lt;Update&gt;true&lt;/Update&gt;&lt;Delete&gt;false&lt;/Delete&gt;&lt;/GenericEvents&gt;&lt;/CanBeUsedWith&gt;&lt;SupportedOperations&gt;&lt;Operation&gt;PopulateObject&lt;/Operation&gt;&lt;/SupportedOperations&gt;&lt;/Type&gt;</Body>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Copy property" Key="656295978" CollectionName="StandardSetting" PathInExTree="StandardSetting\Copy property" ParentInExTree="Action Types" ObjectType="Setting" ImageKey="CentralSettingsItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StandardSetting">
+                                    <Key>656295978</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>bmurphy</CreatedBy>
+                                        <TimeCreated>2015-02-19T17:31:51</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>bmurphy</ModifiedBy>
+                                        <TimeModified>2015-02-19T17:31:51</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Owner>[Application]</Owner>
+                                    <Category>Actions</Category>
+                                    <SubCategory>ActionType</SubCategory>
+                                    <Name>Copy property</Name>
+                                    <Body>&lt;Type&gt;&lt;Enabled&gt;true&lt;/Enabled&gt;&lt;ActionType&gt;W6GenericUtilities.W6GenericEventActionCopy, W6GenericUtilities&lt;/ActionType&gt;&lt;SpecificUIType&gt;W6UtilitiesAdminUIs.GenericEvents.CopyPropertyAction, W6UtilitiesAdminUIs&lt;/SpecificUIType&gt;&lt;DisplayName&gt;Copy property&lt;/DisplayName&gt;&lt;AppliesTo&gt;&lt;/AppliesTo&gt;&lt;CanBeUsedWith&gt;&lt;TimeDrivenEventAgent&gt;true&lt;/TimeDrivenEventAgent&gt;&lt;GenericEvents&gt;&lt;Create&gt;true&lt;/Create&gt;&lt;Update&gt;true&lt;/Update&gt;&lt;Delete&gt;false&lt;/Delete&gt;&lt;/GenericEvents&gt;&lt;/CanBeUsedWith&gt;&lt;SupportedOperations&gt;&lt;Operation&gt;PopulateObject&lt;/Operation&gt;&lt;/SupportedOperations&gt;&lt;/Type&gt;</Body>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Create an object" Key="656295984" CollectionName="StandardSetting" PathInExTree="StandardSetting\Create an object" ParentInExTree="Action Types" ObjectType="Setting" ImageKey="CentralSettingsItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StandardSetting">
+                                    <Key>656295984</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>bmurphy</CreatedBy>
+                                        <TimeCreated>2015-02-19T17:31:51</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>bmurphy</ModifiedBy>
+                                        <TimeModified>2015-02-19T17:31:51</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Owner>[Application]</Owner>
+                                    <Category>Actions</Category>
+                                    <SubCategory>ActionType</SubCategory>
+                                    <Name>Create an object</Name>
+                                    <Body>&lt;Type&gt;&lt;DisplayName&gt;Create an object&lt;/DisplayName&gt;&lt;Enabled&gt;true&lt;/Enabled&gt;&lt;ActionType&gt;W6GenericUtilities.W6CreateObjectAction, W6GenericUtilities&lt;/ActionType&gt;&lt;SpecificUIType&gt;W6UtilitiesAdminUIs.GenericEvents.GenericCreateObject, W6UtilitiesAdminUIs&lt;/SpecificUIType&gt;&lt;AppliesTo /&gt;&lt;CanBeUsedWith&gt;&lt;TimeDrivenEventAgent&gt;true&lt;/TimeDrivenEventAgent&gt;&lt;GenericEvents&gt;&lt;Create&gt;true&lt;/Create&gt;&lt;Update&gt;true&lt;/Update&gt;&lt;Delete&gt;true&lt;/Delete&gt;&lt;/GenericEvents&gt;&lt;/CanBeUsedWith&gt;&lt;/Type&gt;</Body>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Create or update a referencing object" Key="656295992" CollectionName="StandardSetting" PathInExTree="StandardSetting\Create or update a referencing object" ParentInExTree="Action Types" ObjectType="Setting" ImageKey="CentralSettingsItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StandardSetting">
+                                    <Key>656295992</Key>
+                                    <Revision>2</Revision>
+                                    <Stamp>
+                                        <CreatedBy>bmurphy</CreatedBy>
+                                        <TimeCreated>2015-02-19T17:31:51</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>bmurphy</ModifiedBy>
+                                        <TimeModified>2015-02-19T17:55:48</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Owner>[Application]</Owner>
+                                    <Category>Actions</Category>
+                                    <SubCategory>ActionType</SubCategory>
+                                    <Name>Create or update a referencing object</Name>
+                                    <Body>&lt;Type&gt;&lt;DisplayName&gt;Create or update a referencing object&lt;/DisplayName&gt;&lt;Enabled&gt;true&lt;/Enabled&gt;&lt;ActionType&gt;W6GenericUtilities.W6CreateOrUpdateObjectAction, W6GenericUtilities&lt;/ActionType&gt;&lt;SpecificUIType&gt;W6UtilitiesAdminUIs.GenericEvents.CreateOrUpdateObject, W6UtilitiesAdminUIs&lt;/SpecificUIType&gt;&lt;AppliesTo /&gt;&lt;CanBeUsedWith&gt;&lt;TimeDrivenEventAgent&gt;true&lt;/TimeDrivenEventAgent&gt;&lt;GenericEvents&gt;&lt;Create&gt;false&lt;/Create&gt;&lt;Update&gt;true&lt;/Update&gt;&lt;Delete&gt;true&lt;/Delete&gt;&lt;/GenericEvents&gt;&lt;/CanBeUsedWith&gt;&lt;SupportedOperations /&gt;&lt;/Type&gt;</Body>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Create or update an object" Key="656297987" CollectionName="StandardSetting" PathInExTree="StandardSetting\Create or update an object" ParentInExTree="Action Types" ObjectType="Setting" ImageKey="CentralSettingsItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StandardSetting">
+                                    <Key>656297987</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>bmurphy</CreatedBy>
+                                        <TimeCreated>2015-02-19T17:55:47</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>bmurphy</ModifiedBy>
+                                        <TimeModified>2015-02-19T17:55:48</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Owner>[Application]</Owner>
+                                    <Category>Actions</Category>
+                                    <SubCategory>ActionType</SubCategory>
+                                    <Name>Create or update an object</Name>
+                                    <Body>&lt;Type&gt;&lt;DisplayName&gt;Create or update an object&lt;/DisplayName&gt;&lt;Enabled&gt;true&lt;/Enabled&gt;&lt;ActionType&gt;W6GenericUtilities.W6CreateOrUpdateObjectByGroupAction, W6GenericUtilities&lt;/ActionType&gt;&lt;SpecificUIType&gt;W6UtilitiesAdminUIs.GenericEvents.CreateOrUpdateObjectEx, W6UtilitiesAdminUIs&lt;/SpecificUIType&gt;&lt;AppliesTo /&gt;&lt;CanBeUsedWith&gt;&lt;TimeDrivenEventAgent&gt;true&lt;/TimeDrivenEventAgent&gt;&lt;GenericEvents&gt;&lt;Create&gt;true&lt;/Create&gt;&lt;Update&gt;true&lt;/Update&gt;&lt;Delete&gt;true&lt;/Delete&gt;&lt;/GenericEvents&gt;&lt;/CanBeUsedWith&gt;&lt;SupportedOperations /&gt;&lt;/Type&gt;</Body>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Delete" Key="656295988" CollectionName="StandardSetting" PathInExTree="StandardSetting\Delete" ParentInExTree="Action Types" ObjectType="Setting" ImageKey="CentralSettingsItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StandardSetting">
+                                    <Key>656295988</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>bmurphy</CreatedBy>
+                                        <TimeCreated>2015-02-19T17:31:51</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>bmurphy</ModifiedBy>
+                                        <TimeModified>2015-02-19T17:31:51</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Owner>[Application]</Owner>
+                                    <Category>Actions</Category>
+                                    <SubCategory>ActionType</SubCategory>
+                                    <Name>Delete</Name>
+                                    <Body>&lt;Type&gt;&lt;DisplayName&gt;Delete&lt;/DisplayName&gt;&lt;Enabled&gt;true&lt;/Enabled&gt;&lt;ActionType&gt;W6GenericUtilities.W6DeleteObjectAction, W6GenericUtilities&lt;/ActionType&gt;&lt;SpecificUIType /&gt;&lt;AppliesTo /&gt;&lt;CanBeUsedWith&gt;&lt;TimeDrivenEventAgent&gt;true&lt;/TimeDrivenEventAgent&gt;&lt;GenericEvents&gt;&lt;Create&gt;false&lt;/Create&gt;&lt;Update&gt;false&lt;/Update&gt;&lt;Delete&gt;false&lt;/Delete&gt;&lt;/GenericEvents&gt;&lt;/CanBeUsedWith&gt;&lt;/Type&gt;</Body>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Duplicate an object" Key="656295993" CollectionName="StandardSetting" PathInExTree="StandardSetting\Duplicate an object" ParentInExTree="Action Types" ObjectType="Setting" ImageKey="CentralSettingsItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StandardSetting">
+                                    <Key>656295993</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>bmurphy</CreatedBy>
+                                        <TimeCreated>2015-02-19T17:31:51</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>bmurphy</ModifiedBy>
+                                        <TimeModified>2015-02-19T17:31:51</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Owner>[Application]</Owner>
+                                    <Category>Actions</Category>
+                                    <SubCategory>ActionType</SubCategory>
+                                    <Name>Duplicate an object</Name>
+                                    <Body>&lt;Type&gt;&lt;DisplayName&gt;Duplicate an object&lt;/DisplayName&gt;&lt;Enabled&gt;true&lt;/Enabled&gt;&lt;ActionType&gt;W6GenericUtilities.W6GenericEventActionDuplicate, W6GenericUtilities&lt;/ActionType&gt;&lt;SpecificUIType&gt;W6UtilitiesAdminUIs.GenericEvents.GenericDuplicateObject, W6UtilitiesAdminUIs&lt;/SpecificUIType&gt;&lt;AppliesTo /&gt;&lt;CanBeUsedWith&gt;&lt;TimeDrivenEventAgent&gt;true&lt;/TimeDrivenEventAgent&gt;&lt;GenericEvents&gt;&lt;Create&gt;false&lt;/Create&gt;&lt;Update&gt;true&lt;/Update&gt;&lt;Delete&gt;true&lt;/Delete&gt;&lt;/GenericEvents&gt;&lt;/CanBeUsedWith&gt;&lt;SupportedOperations /&gt;&lt;/Type&gt;</Body>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="FileAttachmentSync" Key="656300035" CollectionName="StandardSetting" PathInExTree="StandardSetting\FileAttachmentSync" ParentInExTree="Action Types" ObjectType="Setting" ImageKey="CentralSettingsItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StandardSetting">
+                                    <Key>656300035</Key>
+                                    <Revision>2</Revision>
+                                    <Stamp>
+                                        <CreatedBy>NETWORK SERVICE</CreatedBy>
+                                        <TimeCreated>2015-02-19T18:03:30</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NETWORK SERVICE</ModifiedBy>
+                                        <TimeModified>2015-02-19T20:03:26</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Owner>[Application]</Owner>
+                                    <Category>Actions</Category>
+                                    <SubCategory>ActionType</SubCategory>
+                                    <Name>FileAttachmentSync</Name>
+                                    <Body>&lt;Type&gt;&lt;DisplayName&gt;FileAttachmentSync&lt;/DisplayName&gt;&lt;Enabled&gt;true&lt;/Enabled&gt;&lt;ActionType&gt;W6FileAttachment.Server.Agents.RepositorySynchronization, W6FileAttachment.Server&lt;/ActionType&gt;&lt;SpecificUIType /&gt;&lt;AppliesTo&gt;&lt;Collection&gt;Attachment&lt;/Collection&gt;&lt;/AppliesTo&gt;&lt;CanBeUsedWith&gt;&lt;TimeDrivenEventAgent&gt;true&lt;/TimeDrivenEventAgent&gt;&lt;GenericEvents&gt;&lt;Create&gt;false&lt;/Create&gt;&lt;Update&gt;false&lt;/Update&gt;&lt;Delete&gt;false&lt;/Delete&gt;&lt;/GenericEvents&gt;&lt;/CanBeUsedWith&gt;&lt;SupportedOperations /&gt;&lt;/Type&gt;</Body>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="RosterShiftRequest - Allocate candidate shift" Key="656295981" CollectionName="StandardSetting" PathInExTree="StandardSetting\RosterShiftRequest - Allocate candidate shift" ParentInExTree="Action Types" ObjectType="Setting" ImageKey="CentralSettingsItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StandardSetting">
+                                    <Key>656295981</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>bmurphy</CreatedBy>
+                                        <TimeCreated>2015-02-19T17:31:51</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>bmurphy</ModifiedBy>
+                                        <TimeModified>2015-02-19T17:31:51</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Owner>[Application]</Owner>
+                                    <Category>Actions</Category>
+                                    <SubCategory>ActionType</SubCategory>
+                                    <Name>RosterShiftRequest - Allocate candidate shift</Name>
+                                    <Body>&lt;Type&gt;&lt;DisplayName&gt;Allocate candidate shift&lt;/DisplayName&gt;&lt;Enabled&gt;true&lt;/Enabled&gt;&lt;ActionType&gt;W6GenericUtilities.RosterGenericEventOperations+AllocateCandidatesAction, W6GenericUtilities&lt;/ActionType&gt;&lt;SpecificUIType /&gt;&lt;AppliesTo&gt;&lt;Collection&gt;RosterShiftRequest&lt;/Collection&gt;&lt;/AppliesTo&gt;&lt;CanBeUsedWith&gt;&lt;TimeDrivenEventAgent&gt;true&lt;/TimeDrivenEventAgent&gt;&lt;GenericEvents&gt;&lt;Create&gt;true&lt;/Create&gt;&lt;Update&gt;true&lt;/Update&gt;&lt;Delete&gt;false&lt;/Delete&gt;&lt;/GenericEvents&gt;&lt;/CanBeUsedWith&gt;&lt;/Type&gt;</Body>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Send Butler Notification" Key="656297994" CollectionName="StandardSetting" PathInExTree="StandardSetting\Send Butler Notification" ParentInExTree="Action Types" ObjectType="Setting" ImageKey="CentralSettingsItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StandardSetting">
+                                    <Key>656297994</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>bmurphy</CreatedBy>
+                                        <TimeCreated>2015-02-19T17:55:47</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>bmurphy</ModifiedBy>
+                                        <TimeModified>2015-02-19T17:55:48</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Owner>[Application]</Owner>
+                                    <Category>Actions</Category>
+                                    <SubCategory>ActionType</SubCategory>
+                                    <Name>Send Butler Notification</Name>
+                                    <Body>&lt;Type&gt;&lt;DisplayName&gt;Send Butler Notification&lt;/DisplayName&gt;&lt;Enabled&gt;true&lt;/Enabled&gt;&lt;ActionType&gt;W6GenericUtilities.W6CreateButlerNotification, W6GenericUtilities&lt;/ActionType&gt;&lt;SpecificUIType&gt;W6UtilitiesAdminUIs.GenericEvents.SendButlerNotification, W6UtilitiesAdminUIs&lt;/SpecificUIType&gt;&lt;AppliesTo&gt;&lt;Collection&gt;Assignment&lt;/Collection&gt;&lt;Collection&gt;Engineer&lt;/Collection&gt;&lt;Collection&gt;RosterDemand&lt;/Collection&gt;&lt;Collection&gt;RosterShift&lt;/Collection&gt;&lt;Collection&gt;Task&lt;/Collection&gt;&lt;/AppliesTo&gt;&lt;CanBeUsedWith&gt;&lt;TimeDrivenEventAgent&gt;true&lt;/TimeDrivenEventAgent&gt;&lt;GenericEvents&gt;&lt;Create&gt;true&lt;/Create&gt;&lt;Update&gt;true&lt;/Update&gt;&lt;Delete&gt;true&lt;/Delete&gt;&lt;/GenericEvents&gt;&lt;/CanBeUsedWith&gt;&lt;SupportedOperations /&gt;&lt;/Type&gt;</Body>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="ServiceAlert – Copy path to GeographicDestinations" Key="656297988" CollectionName="StandardSetting" PathInExTree="StandardSetting\ServiceAlert – Copy path to GeographicDestinations" ParentInExTree="Action Types" ObjectType="Setting" ImageKey="CentralSettingsItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StandardSetting">
+                                    <Key>656297988</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>bmurphy</CreatedBy>
+                                        <TimeCreated>2015-02-19T17:55:47</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>bmurphy</ModifiedBy>
+                                        <TimeModified>2015-02-19T17:55:48</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Owner>[Application]</Owner>
+                                    <Category>Actions</Category>
+                                    <SubCategory>ActionType</SubCategory>
+                                    <Name>ServiceAlert – Copy path to GeographicDestinations</Name>
+                                    <Body>&lt;Type&gt;&lt;DisplayName&gt;Copy path to GeographicDestinations&lt;/DisplayName&gt;&lt;Enabled&gt;true&lt;/Enabled&gt;&lt;ActionType&gt;W6GenericUtilities.W6CopyPathToAlertMVAction, W6GenericUtilities&lt;/ActionType&gt;&lt;SpecificUIType /&gt;&lt;AppliesTo&gt;&lt;Collection&gt;ServiceAlert&lt;/Collection&gt;&lt;/AppliesTo&gt;&lt;CanBeUsedWith&gt;&lt;TimeDrivenEventAgent&gt;true&lt;/TimeDrivenEventAgent&gt;&lt;GenericEvents&gt;&lt;Create&gt;true&lt;/Create&gt;&lt;Update&gt;true&lt;/Update&gt;&lt;Delete&gt;false&lt;/Delete&gt;&lt;/GenericEvents&gt;&lt;/CanBeUsedWith&gt;&lt;SupportedOperations&gt;&lt;Operation&gt;PopulateObject&lt;/Operation&gt;&lt;/SupportedOperations&gt;&lt;/Type&gt;</Body>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="ServiceAlert - Set path" Key="656295985" CollectionName="StandardSetting" PathInExTree="StandardSetting\ServiceAlert - Set path" ParentInExTree="Action Types" ObjectType="Setting" ImageKey="CentralSettingsItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StandardSetting">
+                                    <Key>656295985</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>bmurphy</CreatedBy>
+                                        <TimeCreated>2015-02-19T17:31:51</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>bmurphy</ModifiedBy>
+                                        <TimeModified>2015-02-19T17:31:51</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Owner>[Application]</Owner>
+                                    <Category>Actions</Category>
+                                    <SubCategory>ActionType</SubCategory>
+                                    <Name>ServiceAlert - Set path</Name>
+                                    <Body>&lt;Type&gt;&lt;DisplayName&gt;Set path&lt;/DisplayName&gt;&lt;Enabled&gt;true&lt;/Enabled&gt;&lt;ActionType&gt;W6GenericUtilities.W6AddPathToAlertAction,W6GenericUtilities&lt;/ActionType&gt;&lt;SpecificUIType /&gt;&lt;AppliesTo&gt;&lt;Collection&gt;ServiceAlert&lt;/Collection&gt;&lt;/AppliesTo&gt;&lt;CanBeUsedWith&gt;&lt;TimeDrivenEventAgent&gt;true&lt;/TimeDrivenEventAgent&gt;&lt;GenericEvents&gt;&lt;Create&gt;true&lt;/Create&gt;&lt;Update&gt;true&lt;/Update&gt;&lt;Delete&gt;false&lt;/Delete&gt;&lt;/GenericEvents&gt;&lt;/CanBeUsedWith&gt;&lt;SupportedOperations&gt;&lt;Operation&gt;PopulateObject&lt;/Operation&gt;&lt;/SupportedOperations&gt;&lt;/Type&gt;</Body>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Set property" Key="656295979" CollectionName="StandardSetting" PathInExTree="StandardSetting\Set property" ParentInExTree="Action Types" ObjectType="Setting" ImageKey="CentralSettingsItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StandardSetting">
+                                    <Key>656295979</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>bmurphy</CreatedBy>
+                                        <TimeCreated>2015-02-19T17:31:51</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>bmurphy</ModifiedBy>
+                                        <TimeModified>2015-02-19T17:31:51</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Owner>[Application]</Owner>
+                                    <Category>Actions</Category>
+                                    <SubCategory>ActionType</SubCategory>
+                                    <Name>Set property</Name>
+                                    <Body>&lt;Type&gt;&lt;Enabled&gt;true&lt;/Enabled&gt;&lt;ActionType&gt;W6GenericUtilities.W6GenericEventActionSet, W6GenericUtilities&lt;/ActionType&gt;&lt;SpecificUIType&gt;W6UtilitiesAdminUIs.GenericEvents.SetPropertyAction, W6UtilitiesAdminUIs&lt;/SpecificUIType&gt;&lt;DisplayName&gt;Set property&lt;/DisplayName&gt;&lt;AppliesTo&gt;&lt;/AppliesTo&gt;&lt;CanBeUsedWith&gt;&lt;TimeDrivenEventAgent&gt;true&lt;/TimeDrivenEventAgent&gt;&lt;GenericEvents&gt;&lt;Create&gt;true&lt;/Create&gt;&lt;Update&gt;true&lt;/Update&gt;&lt;Delete&gt;false&lt;/Delete&gt;&lt;/GenericEvents&gt;&lt;/CanBeUsedWith&gt;&lt;SupportedOperations&gt;&lt;Operation&gt;PopulateObject&lt;/Operation&gt;&lt;/SupportedOperations&gt;&lt;/Type&gt;</Body>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Set property of referenced object" Key="656295983" CollectionName="StandardSetting" PathInExTree="StandardSetting\Set property of referenced object" ParentInExTree="Action Types" ObjectType="Setting" ImageKey="CentralSettingsItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StandardSetting">
+                                    <Key>656295983</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>bmurphy</CreatedBy>
+                                        <TimeCreated>2015-02-19T17:31:51</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>bmurphy</ModifiedBy>
+                                        <TimeModified>2015-02-19T17:31:51</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Owner>[Application]</Owner>
+                                    <Category>Actions</Category>
+                                    <SubCategory>ActionType</SubCategory>
+                                    <Name>Set property of referenced object</Name>
+                                    <Body>&lt;Type&gt;&lt;DisplayName&gt;Set property of referenced object&lt;/DisplayName&gt;&lt;Enabled&gt;true&lt;/Enabled&gt;&lt;ActionType&gt;W6GenericUtilities.W6SetPropertyOfReferencedObjectAction, W6GenericUtilities&lt;/ActionType&gt;&lt;SpecificUIType&gt;W6UtilitiesAdminUIs.GenericEvents.UpdateReferencedObjectAction, W6UtilitiesAdminUIs&lt;/SpecificUIType&gt;&lt;AppliesTo /&gt;&lt;CanBeUsedWith&gt;&lt;TimeDrivenEventAgent&gt;true&lt;/TimeDrivenEventAgent&gt;&lt;GenericEvents&gt;&lt;Create&gt;true&lt;/Create&gt;&lt;Update&gt;true&lt;/Update&gt;&lt;Delete&gt;true&lt;/Delete&gt;&lt;/GenericEvents&gt;&lt;/CanBeUsedWith&gt;&lt;/Type&gt;</Body>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Set property of referencing objects" Key="656295982" CollectionName="StandardSetting" PathInExTree="StandardSetting\Set property of referencing objects" ParentInExTree="Action Types" ObjectType="Setting" ImageKey="CentralSettingsItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StandardSetting">
+                                    <Key>656295982</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>bmurphy</CreatedBy>
+                                        <TimeCreated>2015-02-19T17:31:51</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>bmurphy</ModifiedBy>
+                                        <TimeModified>2015-02-19T17:31:51</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Owner>[Application]</Owner>
+                                    <Category>Actions</Category>
+                                    <SubCategory>ActionType</SubCategory>
+                                    <Name>Set property of referencing objects</Name>
+                                    <Body>&lt;Type&gt;&lt;DisplayName&gt;Set property of referencing objects&lt;/DisplayName&gt;&lt;Enabled&gt;true&lt;/Enabled&gt;&lt;ActionType&gt;W6GenericUtilities.W6SetPropertyOfReferencingObjectsAction, W6GenericUtilities&lt;/ActionType&gt;&lt;SpecificUIType&gt;W6UtilitiesAdminUIs.GenericEvents.ReverseUpdateActionForm, W6UtilitiesAdminUIs&lt;/SpecificUIType&gt;&lt;AppliesTo /&gt;&lt;CanBeUsedWith&gt;&lt;TimeDrivenEventAgent&gt;true&lt;/TimeDrivenEventAgent&gt;&lt;GenericEvents&gt;&lt;Create&gt;false&lt;/Create&gt;&lt;Update&gt;true&lt;/Update&gt;&lt;Delete&gt;true&lt;/Delete&gt;&lt;/GenericEvents&gt;&lt;/CanBeUsedWith&gt;&lt;/Type&gt;</Body>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Trigger Task Outgoing Message Attachments" Key="656310272" CollectionName="StandardSetting" PathInExTree="StandardSetting\Trigger Task Outgoing Message Attachments" ParentInExTree="Action Types" ObjectType="Setting" ImageKey="CentralSettingsItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StandardSetting">
+                                    <Key>656310272</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>NETWORK SERVICE</CreatedBy>
+                                        <TimeCreated>2016-03-16T19:15:27</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NETWORK SERVICE</ModifiedBy>
+                                        <TimeModified>2016-03-16T19:15:27</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Owner>[Application]</Owner>
+                                    <Category>Actions</Category>
+                                    <SubCategory>ActionType</SubCategory>
+                                    <Name>Trigger Task Outgoing Message Attachments</Name>
+                                    <Body>&lt;Type&gt;&lt;DisplayName&gt;Trigger Task Outgoing Message Attachments&lt;/DisplayName&gt;&lt;Enabled&gt;true&lt;/Enabled&gt;&lt;ActionType&gt;DiabsolutPT.ClickSchedule.TriggerTaskOutgoingMessageAttachments, DiabsolutPT.ClickSchedule.DiabFileAttachmentService&lt;/ActionType&gt;&lt;SpecificUIType /&gt;&lt;AppliesTo&gt;&lt;Collection&gt;Attachment&lt;/Collection&gt;&lt;/AppliesTo&gt;&lt;CanBeUsedWith&gt;&lt;TimeDrivenEventAgent&gt;false&lt;/TimeDrivenEventAgent&gt;&lt;GenericEvents&gt;&lt;Create&gt;false&lt;/Create&gt;&lt;Update&gt;true&lt;/Update&gt;&lt;Delete&gt;false&lt;/Delete&gt;&lt;/GenericEvents&gt;&lt;/CanBeUsedWith&gt;&lt;SupportedOperations&gt;&lt;Operation&gt;PopulateObject&lt;/Operation&gt;&lt;/SupportedOperations&gt;&lt;/Type&gt;</Body>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="VacationCalendar – Create AbsenceRequests" Key="656297996" CollectionName="StandardSetting" PathInExTree="StandardSetting\VacationCalendar – Create AbsenceRequests" ParentInExTree="Action Types" ObjectType="Setting" ImageKey="CentralSettingsItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StandardSetting">
+                                    <Key>656297996</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>bmurphy</CreatedBy>
+                                        <TimeCreated>2015-02-19T17:55:47</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>bmurphy</ModifiedBy>
+                                        <TimeModified>2015-02-19T17:55:48</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Owner>[Application]</Owner>
+                                    <Category>Actions</Category>
+                                    <SubCategory>ActionType</SubCategory>
+                                    <Name>VacationCalendar – Create AbsenceRequests</Name>
+                                    <Body>&lt;Type&gt;&lt;DisplayName&gt;Create AbsenceRequests&lt;/DisplayName&gt;&lt;Enabled&gt;true&lt;/Enabled&gt;&lt;ActionType&gt;W6GenericUtilities.W6CreateAbsenceRequestUponVCApprovalAction, W6GenericUtilities&lt;/ActionType&gt;&lt;SpecificUIType /&gt;&lt;AppliesTo&gt;&lt;Collection&gt;VacationCalendar&lt;/Collection&gt;&lt;/AppliesTo&gt;&lt;CanBeUsedWith&gt;&lt;TimeDrivenEventAgent&gt;true&lt;/TimeDrivenEventAgent&gt;&lt;GenericEvents&gt;&lt;Create&gt;true&lt;/Create&gt;&lt;Update&gt;true&lt;/Update&gt;&lt;Delete&gt;false&lt;/Delete&gt;&lt;/GenericEvents&gt;&lt;/CanBeUsedWith&gt;&lt;SupportedOperations /&gt;&lt;/Type&gt;</Body>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="VacationCalendar - Find next employees" Key="656297985" CollectionName="StandardSetting" PathInExTree="StandardSetting\VacationCalendar - Find next employees" ParentInExTree="Action Types" ObjectType="Setting" ImageKey="CentralSettingsItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StandardSetting">
+                                    <Key>656297985</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>bmurphy</CreatedBy>
+                                        <TimeCreated>2015-02-19T17:55:47</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>bmurphy</ModifiedBy>
+                                        <TimeModified>2015-02-19T17:55:48</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Owner>[Application]</Owner>
+                                    <Category>Actions</Category>
+                                    <SubCategory>ActionType</SubCategory>
+                                    <Name>VacationCalendar - Find next employees</Name>
+                                    <Body>&lt;Type&gt;&lt;DisplayName&gt;Find next employees&lt;/DisplayName&gt;&lt;Enabled&gt;true&lt;/Enabled&gt;&lt;ActionType&gt;W6GenericUtilities.W6SetEmployeesVacationSelection, W6GenericUtilities&lt;/ActionType&gt;&lt;SpecificUIType /&gt;&lt;AppliesTo&gt;&lt;Collection&gt;VacationCalendar&lt;/Collection&gt;&lt;/AppliesTo&gt;&lt;CanBeUsedWith&gt;&lt;TimeDrivenEventAgent&gt;true&lt;/TimeDrivenEventAgent&gt;&lt;GenericEvents&gt;&lt;Create&gt;false&lt;/Create&gt;&lt;Update&gt;false&lt;/Update&gt;&lt;Delete&gt;false&lt;/Delete&gt;&lt;/GenericEvents&gt;&lt;/CanBeUsedWith&gt;&lt;SupportedOperations /&gt;&lt;/Type&gt;</Body>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
                         </ImportExportObjectReferenceInfo>
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>

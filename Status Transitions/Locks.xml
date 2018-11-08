@@ -5,15 +5,15 @@
         <ConfigFileTitle>Configuration File</ConfigFileTitle>
         <BuildVersion>1</BuildVersion>
         <SOVersion>8.1.10(9467)</SOVersion>
-        <ExportTime>2018-11-08T15:33:45.1675291-03:30</ExportTime>
-        <ComputerName>NPCLKAPP6</ComputerName>
+        <ExportTime>2018-11-08T17:24:34.8850927-03:30</ExportTime>
+        <ComputerName>NPVMCLKAPP5</ComputerName>
         <Owner>gpatterson</Owner>
         <BuilderToolVersion>8.10.9467.105</BuilderToolVersion>
         <Description />
     </GlobalMetaData>
     <Queries />
     <Settings>
-        <ConfigurationStep SerialNumber="1" TimeStamp="2018-11-08T15:32:58.4608297-03:30" Title="StatusTransition (Lock): All" Description="" DisableEvents="false" IsCustom="false">
+        <ConfigurationStep SerialNumber="1" TimeStamp="2018-11-08T17:23:49.2701079-03:30" Title="StatusTransition (Lock): All" Description="" DisableEvents="false" IsCustom="false">
             <Item DisplayString="Lock Engineer Dispatched" Key="125931542" CollectionName="StatusTransition" PathInExTree="StatusTransition\Lock Engineer Dispatched" ParentInExTree="Lock Engineer" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">

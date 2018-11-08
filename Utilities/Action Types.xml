@@ -5,15 +5,15 @@
         <ConfigFileTitle>Configuration File</ConfigFileTitle>
         <BuildVersion>1</BuildVersion>
         <SOVersion>8.1.10(9467)</SOVersion>
-        <ExportTime>2018-11-08T13:17:09.2872806-03:30</ExportTime>
-        <ComputerName>NPCLKAPP6</ComputerName>
+        <ExportTime>2018-11-08T17:30:40.0077737-03:30</ExportTime>
+        <ComputerName>NPVMCLKAPP5</ComputerName>
         <Owner>gpatterson</Owner>
         <BuilderToolVersion>8.10.9467.105</BuilderToolVersion>
         <Description />
     </GlobalMetaData>
     <Queries />
     <Settings>
-        <ConfigurationStep SerialNumber="1" TimeStamp="2018-11-08T13:17:03.7180449-03:30" Title="StandardSetting (Action Types): All" Description="" DisableEvents="false" IsCustom="false">
+        <ConfigurationStep SerialNumber="1" TimeStamp="2018-11-08T17:30:35.8737207-03:30" Title="StandardSetting (Action Types): All" Description="" DisableEvents="false" IsCustom="false">
             <Item DisplayString="Abort" Key="656295977" CollectionName="StandardSetting" PathInExTree="StandardSetting\Abort" ParentInExTree="Action Types" ObjectType="Setting" ImageKey="CentralSettingsItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -123,6 +123,35 @@
                                     <SubCategory>ActionType</SubCategory>
                                     <Name>Copy from referenced object</Name>
                                     <Body>&lt;Type&gt;&lt;Enabled&gt;true&lt;/Enabled&gt;&lt;ActionType&gt;W6GenericUtilities.W6GenericEventActionCopyFromReferencedObject, W6GenericUtilities&lt;/ActionType&gt;&lt;SpecificUIType&gt;W6UtilitiesAdminUIs.GenericEvents.CopyFromReferencedObjectActionForm, W6UtilitiesAdminUIs&lt;/SpecificUIType&gt;&lt;DisplayName&gt;Copy from referenced object&lt;/DisplayName&gt;&lt;AppliesTo&gt;&lt;/AppliesTo&gt;&lt;CanBeUsedWith&gt;&lt;TimeDrivenEventAgent&gt;true&lt;/TimeDrivenEventAgent&gt;&lt;GenericEvents&gt;&lt;Create&gt;true&lt;/Create&gt;&lt;Update&gt;true&lt;/Update&gt;&lt;Delete&gt;false&lt;/Delete&gt;&lt;/GenericEvents&gt;&lt;/CanBeUsedWith&gt;&lt;SupportedOperations&gt;&lt;Operation&gt;PopulateObject&lt;/Operation&gt;&lt;/SupportedOperations&gt;&lt;/Type&gt;</Body>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Copy Multivalue Property to Object Property" Key="656316416" CollectionName="StandardSetting" PathInExTree="StandardSetting\Copy Multivalue Property to Object Property" ParentInExTree="Action Types" ObjectType="Setting" ImageKey="CentralSettingsItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StandardSetting">
+                                    <Key>656316416</Key>
+                                    <Revision>4</Revision>
+                                    <Stamp>
+                                        <CreatedBy>NETWORK SERVICE</CreatedBy>
+                                        <TimeCreated>2018-09-28T12:44:27</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NETWORK SERVICE</ModifiedBy>
+                                        <TimeModified>2018-11-08T14:09:06</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Owner>[Application]</Owner>
+                                    <Category>Actions</Category>
+                                    <SubCategory>ActionType</SubCategory>
+                                    <Name>Copy Multivalue Property to Object Property</Name>
+                                    <Body>&lt;Type&gt;&lt;DisplayName&gt;Copy Multivalue Property to Object Property&lt;/DisplayName&gt;&lt;Enabled&gt;true&lt;/Enabled&gt;&lt;ActionType&gt;Diabsolut.UpdateMVToProperty.SO.UpdateMVToPropAction, Diabsolut.UpdateMVToProperty.SO&lt;/ActionType&gt;&lt;SpecificUIType&gt;Diabsolut.UpdateMVToProperty.SO.UpdateMVToPropUI, Diabsolut.UpdateMVToProperty.SO&lt;/SpecificUIType&gt;&lt;AppliesTo&gt;&lt;Collection&gt;Outage&lt;/Collection&gt;&lt;Collection&gt;Task&lt;/Collection&gt;&lt;/AppliesTo&gt;&lt;CanBeUsedWith&gt;&lt;TimeDrivenEventAgent&gt;false&lt;/TimeDrivenEventAgent&gt;&lt;GenericEvents&gt;&lt;Create&gt;true&lt;/Create&gt;&lt;Update&gt;true&lt;/Update&gt;&lt;Delete&gt;false&lt;/Delete&gt;&lt;/GenericEvents&gt;&lt;/CanBeUsedWith&gt;&lt;SupportedOperations&gt;&lt;Operation&gt;PopulateObject&lt;/Operation&gt;&lt;/SupportedOperations&gt;&lt;/Type&gt;</Body>
                                 </Object>
                             </Object>
                             <ReferenceInfos />

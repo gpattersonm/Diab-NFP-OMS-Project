@@ -4,23 +4,23 @@
     <ConfigFileTitle>Configuration File</ConfigFileTitle>
     <BuildVersion>1</BuildVersion>
     <SOVersion>8.1.10(9467)</SOVersion>
-    <ExportTime>2018-11-08T13:02:54.5266014-03:30</ExportTime>
-    <ComputerName>NPCLKAPP6</ComputerName>
+    <ExportTime>2018-11-08T16:33:11.4431619-03:30</ExportTime>
+    <ComputerName>NPVMCLKAPP5</ComputerName>
     <Owner>gpatterson</Owner>
     <BuilderToolVersion>8.10.9467.105</BuilderToolVersion>
     <Description />
   </GlobalMetaData>
   <Queries />
   <Settings>
-    <ConfigurationStep SerialNumber="1" TimeStamp="2018-11-08T13:02:29.6132417-03:30" Title="TaskStatus: All" Description="" DisableEvents="false" IsCustom="false">
-      <Item DisplayString="Cancelled" Key="124143616" CollectionName="TaskStatus" PathInExTree="TaskStatus\Cancelled" ParentInExTree="TaskStatus" ObjectType="TaskStatus" ImageKey="DictionaryItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+    <ConfigurationStep SerialNumber="1" TimeStamp="2018-11-08T16:33:03.9082653-03:30" Title="TaskStatus: All" Description="" DisableEvents="false" IsCustom="false">
+      <Item DisplayString="Cancelled" Key="124143616" CollectionName="TaskStatus" PathInExTree="TaskStatus\Cancelled" ParentInExTree="TaskStatus" ObjectType="TaskStatus" ImageKey="DictionaryItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
         <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
           <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
             <ImportExportObjectReferenceInfo>
               <Object>
                 <Object xmlns="http://www.clicksoftware.com" xsi:type="TaskStatus">
                   <Key>124143616</Key>
-                  <Revision>7</Revision>
+                  <Revision>11</Revision>
                   <Name>Cancelled</Name>
                   <UsedInMobile>false</UsedInMobile>
                 </Object>
@@ -30,14 +30,14 @@
           </ImportExportObjectReferenceInfos>
         </ReferencedObjectsCollection>
       </Item>
-      <Item DisplayString="Cannot Do" Key="124145666" CollectionName="TaskStatus" PathInExTree="TaskStatus\Cannot Do" ParentInExTree="TaskStatus" ObjectType="TaskStatus" ImageKey="DictionaryItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+      <Item DisplayString="Cannot Do" Key="124145666" CollectionName="TaskStatus" PathInExTree="TaskStatus\Cannot Do" ParentInExTree="TaskStatus" ObjectType="TaskStatus" ImageKey="DictionaryItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
         <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
           <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
             <ImportExportObjectReferenceInfo>
               <Object>
                 <Object xmlns="http://www.clicksoftware.com" xsi:type="TaskStatus">
                   <Key>124145666</Key>
-                  <Revision>16</Revision>
+                  <Revision>20</Revision>
                   <Name>Cannot Do</Name>
                   <UsedInMobile>true</UsedInMobile>
                 </Object>
@@ -47,14 +47,14 @@
           </ImportExportObjectReferenceInfos>
         </ReferencedObjectsCollection>
       </Item>
-      <Item DisplayString="Complete With Followup" Key="124149762" CollectionName="TaskStatus" PathInExTree="TaskStatus\Complete With Followup" ParentInExTree="TaskStatus" ObjectType="TaskStatus" ImageKey="DictionaryItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+      <Item DisplayString="Complete With Followup" Key="124149762" CollectionName="TaskStatus" PathInExTree="TaskStatus\Complete With Followup" ParentInExTree="TaskStatus" ObjectType="TaskStatus" ImageKey="DictionaryItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
         <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
           <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
             <ImportExportObjectReferenceInfo>
               <Object>
                 <Object xmlns="http://www.clicksoftware.com" xsi:type="TaskStatus">
                   <Key>124149762</Key>
-                  <Revision>11</Revision>
+                  <Revision>15</Revision>
                   <Name>Complete With Followup</Name>
                   <UsedInMobile>true</UsedInMobile>
                 </Object>
@@ -64,14 +64,14 @@
           </ImportExportObjectReferenceInfos>
         </ReferencedObjectsCollection>
       </Item>
-      <Item DisplayString="Complete with Interruption" Key="124149760" CollectionName="TaskStatus" PathInExTree="TaskStatus\Complete with Interruption" ParentInExTree="TaskStatus" ObjectType="TaskStatus" ImageKey="DictionaryItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+      <Item DisplayString="Complete with Interruption" Key="124149760" CollectionName="TaskStatus" PathInExTree="TaskStatus\Complete with Interruption" ParentInExTree="TaskStatus" ObjectType="TaskStatus" ImageKey="DictionaryItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
         <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
           <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
             <ImportExportObjectReferenceInfo>
               <Object>
                 <Object xmlns="http://www.clicksoftware.com" xsi:type="TaskStatus">
                   <Key>124149760</Key>
-                  <Revision>12</Revision>
+                  <Revision>16</Revision>
                   <Name>Complete with Interruption</Name>
                   <UsedInMobile>true</UsedInMobile>
                 </Object>
@@ -81,14 +81,14 @@
           </ImportExportObjectReferenceInfos>
         </ReferencedObjectsCollection>
       </Item>
-      <Item DisplayString="Completed" Key="124135430" CollectionName="TaskStatus" PathInExTree="TaskStatus\Completed" ParentInExTree="TaskStatus" ObjectType="TaskStatus" ImageKey="DictionaryItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+      <Item DisplayString="Completed" Key="124135430" CollectionName="TaskStatus" PathInExTree="TaskStatus\Completed" ParentInExTree="TaskStatus" ObjectType="TaskStatus" ImageKey="DictionaryItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
         <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
           <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
             <ImportExportObjectReferenceInfo>
               <Object>
                 <Object xmlns="http://www.clicksoftware.com" xsi:type="TaskStatus">
                   <Key>124135430</Key>
-                  <Revision>15</Revision>
+                  <Revision>19</Revision>
                   <Name>Completed</Name>
                   <UsedInMobile>true</UsedInMobile>
                 </Object>
@@ -98,14 +98,14 @@
           </ImportExportObjectReferenceInfos>
         </ReferencedObjectsCollection>
       </Item>
-      <Item DisplayString="Dispatched" Key="124135428" CollectionName="TaskStatus" PathInExTree="TaskStatus\Dispatched" ParentInExTree="TaskStatus" ObjectType="TaskStatus" ImageKey="DictionaryItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+      <Item DisplayString="Dispatched" Key="124135428" CollectionName="TaskStatus" PathInExTree="TaskStatus\Dispatched" ParentInExTree="TaskStatus" ObjectType="TaskStatus" ImageKey="DictionaryItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
         <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
           <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
             <ImportExportObjectReferenceInfo>
               <Object>
                 <Object xmlns="http://www.clicksoftware.com" xsi:type="TaskStatus">
                   <Key>124135428</Key>
-                  <Revision>18</Revision>
+                  <Revision>22</Revision>
                   <Name>Dispatched</Name>
                   <UsedInMobile>true</UsedInMobile>
                 </Object>
@@ -115,14 +115,31 @@
           </ImportExportObjectReferenceInfos>
         </ReferencedObjectsCollection>
       </Item>
-      <Item DisplayString="In Jeopardy" Key="124135427" CollectionName="TaskStatus" PathInExTree="TaskStatus\In Jeopardy" ParentInExTree="TaskStatus" ObjectType="TaskStatus" ImageKey="DictionaryItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+      <Item DisplayString="En Route" Key="124151810" CollectionName="TaskStatus" PathInExTree="TaskStatus\En Route" ParentInExTree="TaskStatus" ObjectType="TaskStatus" ImageKey="DictionaryItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+        <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+            <ImportExportObjectReferenceInfo>
+              <Object>
+                <Object xmlns="http://www.clicksoftware.com" xsi:type="TaskStatus">
+                  <Key>124151810</Key>
+                  <Revision>4</Revision>
+                  <Name>En Route</Name>
+                  <UsedInMobile>true</UsedInMobile>
+                </Object>
+              </Object>
+              <ReferenceInfos />
+            </ImportExportObjectReferenceInfo>
+          </ImportExportObjectReferenceInfos>
+        </ReferencedObjectsCollection>
+      </Item>
+      <Item DisplayString="In Jeopardy" Key="124135427" CollectionName="TaskStatus" PathInExTree="TaskStatus\In Jeopardy" ParentInExTree="TaskStatus" ObjectType="TaskStatus" ImageKey="DictionaryItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
         <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
           <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
             <ImportExportObjectReferenceInfo>
               <Object>
                 <Object xmlns="http://www.clicksoftware.com" xsi:type="TaskStatus">
                   <Key>124135427</Key>
-                  <Revision>4</Revision>
+                  <Revision>8</Revision>
                   <Name>In Jeopardy</Name>
                   <UsedInMobile>false</UsedInMobile>
                 </Object>
@@ -132,14 +149,14 @@
           </ImportExportObjectReferenceInfos>
         </ReferencedObjectsCollection>
       </Item>
-      <Item DisplayString="In Progress" Key="124145668" CollectionName="TaskStatus" PathInExTree="TaskStatus\In Progress" ParentInExTree="TaskStatus" ObjectType="TaskStatus" ImageKey="DictionaryItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+      <Item DisplayString="In Progress" Key="124145668" CollectionName="TaskStatus" PathInExTree="TaskStatus\In Progress" ParentInExTree="TaskStatus" ObjectType="TaskStatus" ImageKey="DictionaryItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
         <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
           <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
             <ImportExportObjectReferenceInfo>
               <Object>
                 <Object xmlns="http://www.clicksoftware.com" xsi:type="TaskStatus">
                   <Key>124145668</Key>
-                  <Revision>13</Revision>
+                  <Revision>17</Revision>
                   <Name>In Progress</Name>
                   <UsedInMobile>true</UsedInMobile>
                 </Object>
@@ -149,14 +166,31 @@
           </ImportExportObjectReferenceInfos>
         </ReferencedObjectsCollection>
       </Item>
-      <Item DisplayString="On Hold" Key="124145664" CollectionName="TaskStatus" PathInExTree="TaskStatus\On Hold" ParentInExTree="TaskStatus" ObjectType="TaskStatus" ImageKey="DictionaryItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+      <Item DisplayString="Incomplete" Key="124151808" CollectionName="TaskStatus" PathInExTree="TaskStatus\Incomplete" ParentInExTree="TaskStatus" ObjectType="TaskStatus" ImageKey="DictionaryItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+        <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+            <ImportExportObjectReferenceInfo>
+              <Object>
+                <Object xmlns="http://www.clicksoftware.com" xsi:type="TaskStatus">
+                  <Key>124151808</Key>
+                  <Revision>5</Revision>
+                  <Name>Incomplete</Name>
+                  <UsedInMobile>false</UsedInMobile>
+                </Object>
+              </Object>
+              <ReferenceInfos />
+            </ImportExportObjectReferenceInfo>
+          </ImportExportObjectReferenceInfos>
+        </ReferencedObjectsCollection>
+      </Item>
+      <Item DisplayString="On Hold" Key="124145664" CollectionName="TaskStatus" PathInExTree="TaskStatus\On Hold" ParentInExTree="TaskStatus" ObjectType="TaskStatus" ImageKey="DictionaryItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
         <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
           <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
             <ImportExportObjectReferenceInfo>
               <Object>
                 <Object xmlns="http://www.clicksoftware.com" xsi:type="TaskStatus">
                   <Key>124145664</Key>
-                  <Revision>6</Revision>
+                  <Revision>10</Revision>
                   <Name>On Hold</Name>
                   <UsedInMobile>false</UsedInMobile>
                 </Object>
@@ -166,14 +200,14 @@
           </ImportExportObjectReferenceInfos>
         </ReferencedObjectsCollection>
       </Item>
-      <Item DisplayString="On-Site" Key="124135429" CollectionName="TaskStatus" PathInExTree="TaskStatus\On-Site" ParentInExTree="TaskStatus" ObjectType="TaskStatus" ImageKey="DictionaryItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+      <Item DisplayString="On-Site" Key="124135429" CollectionName="TaskStatus" PathInExTree="TaskStatus\On-Site" ParentInExTree="TaskStatus" ObjectType="TaskStatus" ImageKey="DictionaryItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
         <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
           <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
             <ImportExportObjectReferenceInfo>
               <Object>
                 <Object xmlns="http://www.clicksoftware.com" xsi:type="TaskStatus">
                   <Key>124135429</Key>
-                  <Revision>14</Revision>
+                  <Revision>18</Revision>
                   <Name>On-Site</Name>
                   <UsedInMobile>true</UsedInMobile>
                 </Object>
@@ -183,14 +217,14 @@
           </ImportExportObjectReferenceInfos>
         </ReferencedObjectsCollection>
       </Item>
-      <Item DisplayString="Open" Key="124135424" CollectionName="TaskStatus" PathInExTree="TaskStatus\Open" ParentInExTree="TaskStatus" ObjectType="TaskStatus" ImageKey="DictionaryItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+      <Item DisplayString="Open" Key="124135424" CollectionName="TaskStatus" PathInExTree="TaskStatus\Open" ParentInExTree="TaskStatus" ObjectType="TaskStatus" ImageKey="DictionaryItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
         <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
           <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
             <ImportExportObjectReferenceInfo>
               <Object>
                 <Object xmlns="http://www.clicksoftware.com" xsi:type="TaskStatus">
                   <Key>124135424</Key>
-                  <Revision>5</Revision>
+                  <Revision>9</Revision>
                   <Name>Open</Name>
                   <UsedInMobile>false</UsedInMobile>
                 </Object>
@@ -200,14 +234,14 @@
           </ImportExportObjectReferenceInfos>
         </ReferencedObjectsCollection>
       </Item>
-      <Item DisplayString="Redispatch" Key="124149761" CollectionName="TaskStatus" PathInExTree="TaskStatus\Redispatch" ParentInExTree="TaskStatus" ObjectType="TaskStatus" ImageKey="DictionaryItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+      <Item DisplayString="Redispatch" Key="124149761" CollectionName="TaskStatus" PathInExTree="TaskStatus\Redispatch" ParentInExTree="TaskStatus" ObjectType="TaskStatus" ImageKey="DictionaryItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
         <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
           <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
             <ImportExportObjectReferenceInfo>
               <Object>
                 <Object xmlns="http://www.clicksoftware.com" xsi:type="TaskStatus">
                   <Key>124149761</Key>
-                  <Revision>13</Revision>
+                  <Revision>17</Revision>
                   <Name>Redispatch</Name>
                   <UsedInMobile>true</UsedInMobile>
                 </Object>
@@ -217,14 +251,14 @@
           </ImportExportObjectReferenceInfos>
         </ReferencedObjectsCollection>
       </Item>
-      <Item DisplayString="Reviewed By Crew" Key="124145665" CollectionName="TaskStatus" PathInExTree="TaskStatus\Reviewed By Crew" ParentInExTree="TaskStatus" ObjectType="TaskStatus" ImageKey="DictionaryItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+      <Item DisplayString="Reviewed By Crew" Key="124145665" CollectionName="TaskStatus" PathInExTree="TaskStatus\Reviewed By Crew" ParentInExTree="TaskStatus" ObjectType="TaskStatus" ImageKey="DictionaryItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
         <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
           <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
             <ImportExportObjectReferenceInfo>
               <Object>
                 <Object xmlns="http://www.clicksoftware.com" xsi:type="TaskStatus">
                   <Key>124145665</Key>
-                  <Revision>15</Revision>
+                  <Revision>19</Revision>
                   <Name>Reviewed By Crew</Name>
                   <UsedInMobile>true</UsedInMobile>
                 </Object>
@@ -234,14 +268,14 @@
           </ImportExportObjectReferenceInfos>
         </ReferencedObjectsCollection>
       </Item>
-      <Item DisplayString="Scheduled" Key="124135426" CollectionName="TaskStatus" PathInExTree="TaskStatus\Scheduled" ParentInExTree="TaskStatus" ObjectType="TaskStatus" ImageKey="DictionaryItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+      <Item DisplayString="Scheduled" Key="124135426" CollectionName="TaskStatus" PathInExTree="TaskStatus\Scheduled" ParentInExTree="TaskStatus" ObjectType="TaskStatus" ImageKey="DictionaryItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
         <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
           <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
             <ImportExportObjectReferenceInfo>
               <Object>
                 <Object xmlns="http://www.clicksoftware.com" xsi:type="TaskStatus">
                   <Key>124135426</Key>
-                  <Revision>6</Revision>
+                  <Revision>10</Revision>
                   <Name>Scheduled</Name>
                   <UsedInMobile>false</UsedInMobile>
                 </Object>
@@ -251,7 +285,7 @@
           </ImportExportObjectReferenceInfos>
         </ReferencedObjectsCollection>
       </Item>
-      <Item DisplayString="Travel" Key="124145667" CollectionName="TaskStatus" PathInExTree="TaskStatus\Travel" ParentInExTree="TaskStatus" ObjectType="TaskStatus" ImageKey="DictionaryItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+      <Item DisplayString="Travel" Key="124145667" CollectionName="TaskStatus" PathInExTree="TaskStatus\Travel" ParentInExTree="TaskStatus" ObjectType="TaskStatus" ImageKey="DictionaryItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
         <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
           <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
             <ImportExportObjectReferenceInfo>

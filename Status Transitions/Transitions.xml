@@ -5,15 +5,15 @@
         <ConfigFileTitle>Configuration File</ConfigFileTitle>
         <BuildVersion>1</BuildVersion>
         <SOVersion>8.1.10(9467)</SOVersion>
-        <ExportTime>2018-11-08T13:07:31.4439765-03:30</ExportTime>
-        <ComputerName>NPCLKAPP6</ComputerName>
+        <ExportTime>2018-11-08T17:25:52.2776849-03:30</ExportTime>
+        <ComputerName>NPVMCLKAPP5</ComputerName>
         <Owner>gpatterson</Owner>
         <BuilderToolVersion>8.10.9467.105</BuilderToolVersion>
         <Description />
     </GlobalMetaData>
     <Queries />
     <Settings>
-        <ConfigurationStep SerialNumber="1" TimeStamp="2018-11-08T13:06:15.9706927-03:30" Title="StatusTransition (Allow Status Change): All  - 1" Description="" DisableEvents="false" IsCustom="false">
+        <ConfigurationStep SerialNumber="1" TimeStamp="2018-11-08T17:25:30.9210111-03:30" Title="StatusTransition (Allow Status Change): All" Description="" DisableEvents="false" IsCustom="false">
             <Item DisplayString="Allow Status change Cancelled Open ALL USERS" Key="125937664" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change Cancelled Open ALL USERS" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -22,7 +22,7 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
                                     <Key>125937664</Key>
-                                    <Revision>2</Revision>
+                                    <Revision>6</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124143616" DisplayString="Cancelled">Cancelled</StatusBefore>
                                     <StatusAfter xsi:type="TaskStatusReference" Key="124135424" DisplayString="Open">Open</StatusAfter>
@@ -45,7 +45,7 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
                                     <Key>125956101</Key>
-                                    <Revision>2</Revision>
+                                    <Revision>6</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124145666" DisplayString="Cannot Do">Cannot Do</StatusBefore>
                                     <StatusAfter xsi:type="TaskStatusReference" Key="124143616" DisplayString="Cancelled">Cancelled</StatusAfter>
@@ -68,7 +68,7 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
                                     <Key>260061184</Key>
-                                    <Revision>2</Revision>
+                                    <Revision>6</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124145666" DisplayString="Cannot Do">Cannot Do</StatusBefore>
                                     <StatusAfter xsi:type="TaskStatusReference" Key="124135430" DisplayString="Completed">Completed</StatusAfter>
@@ -91,7 +91,7 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
                                     <Key>125954062</Key>
-                                    <Revision>21</Revision>
+                                    <Revision>25</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124145666" DisplayString="Cannot Do">Cannot Do</StatusBefore>
                                     <StatusAfter xsi:type="TaskStatusReference" Key="124135428" DisplayString="Dispatched">Dispatched</StatusAfter>
@@ -146,7 +146,7 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
                                     <Key>125956096</Key>
-                                    <Revision>23</Revision>
+                                    <Revision>27</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124145666" DisplayString="Cannot Do">Cannot Do</StatusBefore>
                                     <StatusAfter xsi:type="TaskStatusReference" Key="124145664" DisplayString="On Hold">On Hold</StatusAfter>
@@ -199,7 +199,7 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
                                     <Key>125954063</Key>
-                                    <Revision>20</Revision>
+                                    <Revision>24</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124145666" DisplayString="Cannot Do">Cannot Do</StatusBefore>
                                     <StatusAfter xsi:type="TaskStatusReference" Key="124135424" DisplayString="Open">Open</StatusAfter>
@@ -248,7 +248,7 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
                                     <Key>125958144</Key>
-                                    <Revision>23</Revision>
+                                    <Revision>27</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124145666" DisplayString="Cannot Do">Cannot Do</StatusBefore>
                                     <StatusAfter xsi:type="TaskStatusReference" Key="124135426" DisplayString="Scheduled">Scheduled</StatusAfter>
@@ -295,170 +295,6 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Allow Status change Complete With Followup Cancelled nfpower_domain\jpearcejpearce" Key="260050951" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change Complete With Followup Cancelled nfpower_domain\jpearcejpearce" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
-                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
-                        <ImportExportObjectReferenceInfo>
-                            <Object>
-                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
-                                    <Key>260050951</Key>
-                                    <Revision>3</Revision>
-                                    <Name>Allow Status change</Name>
-                                    <StatusBefore xsi:type="TaskStatusReference" Key="124149762" DisplayString="Complete With Followup">Complete With Followup</StatusBefore>
-                                    <StatusAfter xsi:type="TaskStatusReference" Key="124143616" DisplayString="Cancelled">Cancelled</StatusAfter>
-                                    <StatusContext>0</StatusContext>
-                                    <Users>
-                                        <Name>nfpower_domain\jpearce</Name>
-                                        <Name>jpearce</Name>
-                                    </Users>
-                                </Object>
-                            </Object>
-                            <ReferenceInfos />
-                        </ImportExportObjectReferenceInfo>
-                    </ImportExportObjectReferenceInfos>
-                </ReferencedObjectsCollection>
-            </Item>
-            <Item DisplayString="Allow Status change Complete With Followup Completed ALL USERS" Key="260048896" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change Complete With Followup Completed ALL USERS" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
-                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
-                        <ImportExportObjectReferenceInfo>
-                            <Object>
-                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
-                                    <Key>260048896</Key>
-                                    <Revision>2</Revision>
-                                    <Name>Allow Status change</Name>
-                                    <StatusBefore xsi:type="TaskStatusReference" Key="124149762" DisplayString="Complete With Followup">Complete With Followup</StatusBefore>
-                                    <StatusAfter xsi:type="TaskStatusReference" Key="124135430" DisplayString="Completed">Completed</StatusAfter>
-                                    <StatusContext>0</StatusContext>
-                                    <Users>
-                                        <Name>ALL USERS</Name>
-                                    </Users>
-                                </Object>
-                            </Object>
-                            <ReferenceInfos />
-                        </ImportExportObjectReferenceInfo>
-                    </ImportExportObjectReferenceInfos>
-                </ReferencedObjectsCollection>
-            </Item>
-            <Item DisplayString="Allow Status change Complete With Followup Dispatched trockwoodbveycforddcorriganjclanceyjpearcelcrewsmsaundersNFPOWER_DOMAIN\bveynfpower_domain\cfordnfpower_domain\dcorrigannfpower_domain\jclanceynfpower_domain\jpearcenfpower_domain\lcrewsnfpower_domain\msaundersNFPOWER_DOMAIN\trockwoodnfpower_domain\wodriscollwodriscoll" Key="260050952" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change Complete With Followup Dispatched trockwoodbveycforddcorriganjclanceyjpearcelcrewsmsaundersNFPOWER_DOMAIN\bveynfpower_domain\cfordnfpower_domain\dcorrigannfpower_domain\jclanceynfpower_domain\jpearcenfpower_domain\lcrewsnfpower_domain\msaundersNFPOWER_DOMAIN\trockwoodnfpower_domain\wodriscollwodriscoll" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
-                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
-                        <ImportExportObjectReferenceInfo>
-                            <Object>
-                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
-                                    <Key>260050952</Key>
-                                    <Revision>17</Revision>
-                                    <Name>Allow Status change</Name>
-                                    <StatusBefore xsi:type="TaskStatusReference" Key="124149762" DisplayString="Complete With Followup">Complete With Followup</StatusBefore>
-                                    <StatusAfter xsi:type="TaskStatusReference" Key="124135428" DisplayString="Dispatched">Dispatched</StatusAfter>
-                                    <StatusContext>0</StatusContext>
-                                    <Users>
-                                        <Name>trockwood</Name>
-                                        <Name>bvey</Name>
-                                        <Name>cford</Name>
-                                        <Name>dcorrigan</Name>
-                                        <Name>jclancey</Name>
-                                        <Name>jpearce</Name>
-                                        <Name>lcrews</Name>
-                                        <Name>msaunders</Name>
-                                        <Name>NFPOWER_DOMAIN\bvey</Name>
-                                        <Name>nfpower_domain\cford</Name>
-                                        <Name>nfpower_domain\dcorrigan</Name>
-                                        <Name>nfpower_domain\jclancey</Name>
-                                        <Name>nfpower_domain\jpearce</Name>
-                                        <Name>nfpower_domain\lcrews</Name>
-                                        <Name>nfpower_domain\msaunders</Name>
-                                        <Name>NFPOWER_DOMAIN\trockwood</Name>
-                                        <Name>nfpower_domain\wodriscoll</Name>
-                                        <Name>wodriscoll</Name>
-                                    </Users>
-                                </Object>
-                            </Object>
-                            <ReferenceInfos />
-                        </ImportExportObjectReferenceInfo>
-                    </ImportExportObjectReferenceInfos>
-                </ReferencedObjectsCollection>
-            </Item>
-            <Item DisplayString="Allow Status change Complete with Interruption Completed ALL USERS" Key="260048897" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change Complete with Interruption Completed ALL USERS" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
-                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
-                        <ImportExportObjectReferenceInfo>
-                            <Object>
-                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
-                                    <Key>260048897</Key>
-                                    <Revision>4</Revision>
-                                    <Name>Allow Status change</Name>
-                                    <StatusBefore xsi:type="TaskStatusReference" Key="124149760" DisplayString="Complete with Interruption">Complete with Interruption</StatusBefore>
-                                    <StatusAfter xsi:type="TaskStatusReference" Key="124135430" DisplayString="Completed">Completed</StatusAfter>
-                                    <StatusContext>0</StatusContext>
-                                    <Users>
-                                        <Name>ALL USERS</Name>
-                                    </Users>
-                                </Object>
-                            </Object>
-                            <ReferenceInfos />
-                        </ImportExportObjectReferenceInfo>
-                    </ImportExportObjectReferenceInfos>
-                </ReferencedObjectsCollection>
-            </Item>
-            <Item DisplayString="Allow Status change Completed Dispatched trockwoodbmurphybveycfordclushdcorrigandpettenjclanceyjpearcelcrewsmsaundersnfpower_domain\NFPOWER_DOMAIN\biztalknfpower_domain\bmurphyNFPOWER_DOMAIN\bveynfpower_domain\cfordnfpower_domain\clushnfpower_domain\dcorrigannfpower_domain\dpettennfpower_domain\jclanceyNFPOWER_DOMAIN\jpearcenfpower_domain\lcrewsnfpower_domain\msaundersnfpower_domain\ppurcellnfpower_domain\sflynnNFPOWER_DOMAIN\trockwoodnfpower_domain\tsladenfpower_domain\wodriscollppurcellsflynntsladewodriscoll" Key="125829120" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change Completed Dispatched trockwoodbmurphybveycfordclushdcorrigandpettenjclanceyjpearcelcrewsmsaundersnfpower_domain\NFPOWER_DOMAIN\biztalknfpower_domain\bmurphyNFPOWER_DOMAIN\bveynfpower_domain\cfordnfpower_domain\clushnfpower_domain\dcorrigannfpower_domain\dpettennfpower_domain\jclanceyNFPOWER_DOMAIN\jpearcenfpower_domain\lcrewsnfpower_domain\msaundersnfpower_domain\ppurcellnfpower_domain\sflynnNFPOWER_DOMAIN\trockwoodnfpower_domain\tsladenfpower_domain\wodriscollppurcellsflynntsladewodriscoll" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
-                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
-                        <ImportExportObjectReferenceInfo>
-                            <Object>
-                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
-                                    <Key>125829120</Key>
-                                    <Revision>25</Revision>
-                                    <Name>Allow Status change</Name>
-                                    <StatusBefore xsi:type="TaskStatusReference" Key="124135430" DisplayString="Completed">Completed</StatusBefore>
-                                    <StatusAfter xsi:type="TaskStatusReference" Key="124135428" DisplayString="Dispatched">Dispatched</StatusAfter>
-                                    <StatusContext>0</StatusContext>
-                                    <Users>
-                                        <Name>trockwood</Name>
-                                        <Name>bmurphy</Name>
-                                        <Name>bvey</Name>
-                                        <Name>cford</Name>
-                                        <Name>clush</Name>
-                                        <Name>dcorrigan</Name>
-                                        <Name>dpetten</Name>
-                                        <Name>jclancey</Name>
-                                        <Name>jpearce</Name>
-                                        <Name>lcrews</Name>
-                                        <Name>msaunders</Name>
-                                        <Name>nfpower_domain\</Name>
-                                        <Name>NFPOWER_DOMAIN\biztalk</Name>
-                                        <Name>nfpower_domain\bmurphy</Name>
-                                        <Name>NFPOWER_DOMAIN\bvey</Name>
-                                        <Name>nfpower_domain\cford</Name>
-                                        <Name>nfpower_domain\clush</Name>
-                                        <Name>nfpower_domain\dcorrigan</Name>
-                                        <Name>nfpower_domain\dpetten</Name>
-                                        <Name>nfpower_domain\jclancey</Name>
-                                        <Name>NFPOWER_DOMAIN\jpearce</Name>
-                                        <Name>nfpower_domain\lcrews</Name>
-                                        <Name>nfpower_domain\msaunders</Name>
-                                        <Name>nfpower_domain\ppurcell</Name>
-                                        <Name>nfpower_domain\sflynn</Name>
-                                        <Name>NFPOWER_DOMAIN\trockwood</Name>
-                                        <Name>nfpower_domain\tslade</Name>
-                                        <Name>nfpower_domain\wodriscoll</Name>
-                                        <Name>ppurcell</Name>
-                                        <Name>sflynn</Name>
-                                        <Name>tslade</Name>
-                                        <Name>wodriscoll</Name>
-                                    </Users>
-                                </Object>
-                            </Object>
-                            <ReferenceInfos />
-                        </ImportExportObjectReferenceInfo>
-                    </ImportExportObjectReferenceInfos>
-                </ReferencedObjectsCollection>
-            </Item>
             <Item DisplayString="Allow Status change Dispatched Cancelled trockwoodachurchillbveyclushjclanceylcrewsmsaundersnfpower_domain\achurchillNFPOWER_DOMAIN\bveynfpower_domain\clushnfpower_domain\glockenfpower_domain\jclanceynfpower_domain\lcrewsnfpower_domain\msaundersNFPOWER_DOMAIN\trockwoodnfpower_domain\tsladenfpower_domain\wodriscolltsladewodriscoll" Key="125931524" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change Dispatched Cancelled trockwoodachurchillbveyclushjclanceylcrewsmsaundersnfpower_domain\achurchillNFPOWER_DOMAIN\bveynfpower_domain\clushnfpower_domain\glockenfpower_domain\jclanceynfpower_domain\lcrewsnfpower_domain\msaundersNFPOWER_DOMAIN\trockwoodnfpower_domain\tsladenfpower_domain\wodriscolltsladewodriscoll" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -467,7 +303,7 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
                                     <Key>125931524</Key>
-                                    <Revision>8</Revision>
+                                    <Revision>12</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124135428" DisplayString="Dispatched">Dispatched</StatusBefore>
                                     <StatusAfter xsi:type="TaskStatusReference" Key="124143616" DisplayString="Cancelled">Cancelled</StatusAfter>
@@ -500,71 +336,6 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Allow Status change Dispatched Cannot Do trockwoodbveyclushjclanceylcrewsmsaundersNFPOWER_DOMAIN\bveynfpower_domain\clushnfpower_domain\jclanceynfpower_domain\lcrewsnfpower_domain\msaundersNFPOWER_DOMAIN\trockwoodnfpower_domain\tsladenfpower_domain\wodriscolltsladewodriscoll" Key="125954056" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change Dispatched Cannot Do trockwoodbveyclushjclanceylcrewsmsaundersNFPOWER_DOMAIN\bveynfpower_domain\clushnfpower_domain\jclanceynfpower_domain\lcrewsnfpower_domain\msaundersNFPOWER_DOMAIN\trockwoodnfpower_domain\tsladenfpower_domain\wodriscolltsladewodriscoll" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
-                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
-                        <ImportExportObjectReferenceInfo>
-                            <Object>
-                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
-                                    <Key>125954056</Key>
-                                    <Revision>7</Revision>
-                                    <Name>Allow Status change</Name>
-                                    <StatusBefore xsi:type="TaskStatusReference" Key="124135428" DisplayString="Dispatched">Dispatched</StatusBefore>
-                                    <StatusAfter xsi:type="TaskStatusReference" Key="124145666" DisplayString="Cannot Do">Cannot Do</StatusAfter>
-                                    <StatusContext>0</StatusContext>
-                                    <Users>
-                                        <Name>trockwood</Name>
-                                        <Name>bvey</Name>
-                                        <Name>clush</Name>
-                                        <Name>jclancey</Name>
-                                        <Name>lcrews</Name>
-                                        <Name>msaunders</Name>
-                                        <Name>NFPOWER_DOMAIN\bvey</Name>
-                                        <Name>nfpower_domain\clush</Name>
-                                        <Name>nfpower_domain\jclancey</Name>
-                                        <Name>nfpower_domain\lcrews</Name>
-                                        <Name>nfpower_domain\msaunders</Name>
-                                        <Name>NFPOWER_DOMAIN\trockwood</Name>
-                                        <Name>nfpower_domain\tslade</Name>
-                                        <Name>nfpower_domain\wodriscoll</Name>
-                                        <Name>tslade</Name>
-                                        <Name>wodriscoll</Name>
-                                    </Users>
-                                </Object>
-                            </Object>
-                            <ReferenceInfos />
-                        </ImportExportObjectReferenceInfo>
-                    </ImportExportObjectReferenceInfos>
-                </ReferencedObjectsCollection>
-            </Item>
-            <Item DisplayString="Allow Status change Dispatched Complete With Followup NFPOWER_DOMAIN\biztalkjpearcenfpower_domain\jpearcenfpower_domain\sflynnsflynn" Key="260063234" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change Dispatched Complete With Followup NFPOWER_DOMAIN\biztalkjpearcenfpower_domain\jpearcenfpower_domain\sflynnsflynn" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
-                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
-                        <ImportExportObjectReferenceInfo>
-                            <Object>
-                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
-                                    <Key>260063234</Key>
-                                    <Revision>4</Revision>
-                                    <Name>Allow Status change</Name>
-                                    <StatusBefore xsi:type="TaskStatusReference" Key="124135428" DisplayString="Dispatched">Dispatched</StatusBefore>
-                                    <StatusAfter xsi:type="TaskStatusReference" Key="124149762" DisplayString="Complete With Followup">Complete With Followup</StatusAfter>
-                                    <StatusContext>0</StatusContext>
-                                    <Users>
-                                        <Name>NFPOWER_DOMAIN\biztalk</Name>
-                                        <Name>jpearce</Name>
-                                        <Name>nfpower_domain\jpearce</Name>
-                                        <Name>nfpower_domain\sflynn</Name>
-                                        <Name>sflynn</Name>
-                                    </Users>
-                                </Object>
-                            </Object>
-                            <ReferenceInfos />
-                        </ImportExportObjectReferenceInfo>
-                    </ImportExportObjectReferenceInfos>
-                </ReferencedObjectsCollection>
-            </Item>
             <Item DisplayString="Allow Status change Dispatched Completed biztalkjpearceNFPOWER_DOMAIN\biztalknfpower_domain\jpearcenfpower_domain\sflynnsflynn" Key="125931520" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change Dispatched Completed biztalkjpearceNFPOWER_DOMAIN\biztalknfpower_domain\jpearcenfpower_domain\sflynnsflynn" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -573,7 +344,7 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
                                     <Key>125931520</Key>
-                                    <Revision>21</Revision>
+                                    <Revision>25</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124135428" DisplayString="Dispatched">Dispatched</StatusBefore>
                                     <StatusAfter xsi:type="TaskStatusReference" Key="124135430" DisplayString="Completed">Completed</StatusAfter>
@@ -593,18 +364,18 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Allow Status change Dispatched In Progress ALL USERS" Key="125954057" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change Dispatched In Progress ALL USERS" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="Allow Status change Dispatched En Route ALL USERS" Key="260067333" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change Dispatched En Route ALL USERS" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
                         <ImportExportObjectReferenceInfo>
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
-                                    <Key>125954057</Key>
-                                    <Revision>2</Revision>
+                                    <Key>260067333</Key>
+                                    <Revision>4</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124135428" DisplayString="Dispatched">Dispatched</StatusBefore>
-                                    <StatusAfter xsi:type="TaskStatusReference" Key="124145668" DisplayString="In Progress">In Progress</StatusAfter>
+                                    <StatusAfter xsi:type="TaskStatusReference" Key="124151810" DisplayString="En Route">En Route</StatusAfter>
                                     <StatusContext>0</StatusContext>
                                     <Users>
                                         <Name>ALL USERS</Name>
@@ -616,30 +387,7 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Allow Status change Dispatched On-Site ALL USERS" Key="125954059" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change Dispatched On-Site ALL USERS" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
-                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
-                        <ImportExportObjectReferenceInfo>
-                            <Object>
-                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
-                                    <Key>125954059</Key>
-                                    <Revision>2</Revision>
-                                    <Name>Allow Status change</Name>
-                                    <StatusBefore xsi:type="TaskStatusReference" Key="124135428" DisplayString="Dispatched">Dispatched</StatusBefore>
-                                    <StatusAfter xsi:type="TaskStatusReference" Key="124135429" DisplayString="On-Site">On-Site</StatusAfter>
-                                    <StatusContext>0</StatusContext>
-                                    <Users>
-                                        <Name>ALL USERS</Name>
-                                    </Users>
-                                </Object>
-                            </Object>
-                            <ReferenceInfos />
-                        </ImportExportObjectReferenceInfo>
-                    </ImportExportObjectReferenceInfos>
-                </ReferencedObjectsCollection>
-            </Item>
-            <Item DisplayString="Allow Status change Dispatched Open jpearcebveycforddcorriganjclanceylcrewsmsaundersNFPOWER_DOMAIN\achurchillNFPOWER_DOMAIN\biztalkNFPOWER_DOMAIN\bveynfpower_domain\cfordnfpower_domain\dcorrigannfpower_domain\jclanceyNFPOWER_DOMAIN\jpearcenfpower_domain\lcrewsNFPOWER_DOMAIN\msaundersnfpower_domain\ppurcellNFPOWER_DOMAIN\sflynnNFPOWER_DOMAIN\swellsNFPOWER_DOMAIN\trockwoodnfpower_domain\tsladeNFPOWER_DOMAIN\wodriscollppurcellsflynnswellstrockwoodtsladewodriscoll" Key="125931552" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change Dispatched Open jpearcebveycforddcorriganjclanceylcrewsmsaundersNFPOWER_DOMAIN\achurchillNFPOWER_DOMAIN\biztalkNFPOWER_DOMAIN\bveynfpower_domain\cfordnfpower_domain\dcorrigannfpower_domain\jclanceyNFPOWER_DOMAIN\jpearcenfpower_domain\lcrewsNFPOWER_DOMAIN\msaundersnfpower_domain\ppurcellNFPOWER_DOMAIN\sflynnNFPOWER_DOMAIN\swellsNFPOWER_DOMAIN\trockwoodnfpower_domain\tsladeNFPOWER_DOMAIN\wodriscollppurcellsflynnswellstrockwoodtsladewodriscoll" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="Allow Status change Dispatched Open gpattersonbveycforddcorriganjclanceyjpearcelcrewsmsaundersNFPOWER_DOMAIN\achurchillNFPOWER_DOMAIN\biztalkNFPOWER_DOMAIN\bveynfpower_domain\cfordnfpower_domain\dcorrigannfpower_domain\jclanceyNFPOWER_DOMAIN\jpearcenfpower_domain\lcrewsNFPOWER_DOMAIN\msaundersnfpower_domain\ppurcellNFPOWER_DOMAIN\sflynnNFPOWER_DOMAIN\swellsNFPOWER_DOMAIN\trockwoodnfpower_domain\tsladeNFPOWER_DOMAIN\wodriscollppurcellsflynnswellstrockwoodtsladeWIN-RF015ULLERU\gpattersonwodriscoll" Key="125931552" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change Dispatched Open gpattersonbveycforddcorriganjclanceyjpearcelcrewsmsaundersNFPOWER_DOMAIN\achurchillNFPOWER_DOMAIN\biztalkNFPOWER_DOMAIN\bveynfpower_domain\cfordnfpower_domain\dcorrigannfpower_domain\jclanceyNFPOWER_DOMAIN\jpearcenfpower_domain\lcrewsNFPOWER_DOMAIN\msaundersnfpower_domain\ppurcellNFPOWER_DOMAIN\sflynnNFPOWER_DOMAIN\swellsNFPOWER_DOMAIN\trockwoodnfpower_domain\tsladeNFPOWER_DOMAIN\wodriscollppurcellsflynnswellstrockwoodtsladeWIN-RF015ULLERU\gpattersonwodriscoll" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
@@ -647,17 +395,18 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
                                     <Key>125931552</Key>
-                                    <Revision>21</Revision>
+                                    <Revision>25</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124135428" DisplayString="Dispatched">Dispatched</StatusBefore>
                                     <StatusAfter xsi:type="TaskStatusReference" Key="124135424" DisplayString="Open">Open</StatusAfter>
                                     <StatusContext>0</StatusContext>
                                     <Users>
-                                        <Name>jpearce</Name>
+                                        <Name>gpatterson</Name>
                                         <Name>bvey</Name>
                                         <Name>cford</Name>
                                         <Name>dcorrigan</Name>
                                         <Name>jclancey</Name>
+                                        <Name>jpearce</Name>
                                         <Name>lcrews</Name>
                                         <Name>msaunders</Name>
                                         <Name>NFPOWER_DOMAIN\achurchill</Name>
@@ -680,6 +429,7 @@
                                         <Name>swells</Name>
                                         <Name>trockwood</Name>
                                         <Name>tslade</Name>
+                                        <Name>WIN-RF015ULLERU\gpatterson</Name>
                                         <Name>wodriscoll</Name>
                                     </Users>
                                 </Object>
@@ -697,7 +447,7 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
                                     <Key>260048898</Key>
-                                    <Revision>2</Revision>
+                                    <Revision>6</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124135428" DisplayString="Dispatched">Dispatched</StatusBefore>
                                     <StatusAfter xsi:type="TaskStatusReference" Key="124145665" DisplayString="Reviewed By Crew">Reviewed By Crew</StatusAfter>
@@ -712,67 +462,44 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Allow Status change Dispatched Scheduled nbridgerahallettbiztalkbveycfordclushdpettenecorriganewiltjerglockejclanceyjfeehanjjanesjpearcelbreenlcrewsmsaundersnfpower_domainnfpower_domain\ahallettnfpower_domain\biztalkNFPOWER_DOMAIN\bveynfpower_domain\cfordnfpower_domain\clushnfpower_domain\dpettennfpower_domain\ecorrigannfpower_domain\ewiltjernfpower_domain\glockenfpower_domain\jclanceynfpower_domain\jfeehannfpower_domain\jjanesnfpower_domain\jpearcenfpower_domain\lbreennfpower_domain\lcrewsnfpower_domain\msaundersnfpower_domain\Msnelgrovenfpower_domain\nbridgernfpower_domain\noldfordnfpower_domain\nrosenfpower_domain\saylesnfpower_domain\sflynnNFPOWER_DOMAIN\trockwoodnfpower_domain\wodriscollnoldfordnrosesaylestrockwoodwodriscoll" Key="260050950" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change Dispatched Scheduled nbridgerahallettbiztalkbveycfordclushdpettenecorriganewiltjerglockejclanceyjfeehanjjanesjpearcelbreenlcrewsmsaundersnfpower_domainnfpower_domain\ahallettnfpower_domain\biztalkNFPOWER_DOMAIN\bveynfpower_domain\cfordnfpower_domain\clushnfpower_domain\dpettennfpower_domain\ecorrigannfpower_domain\ewiltjernfpower_domain\glockenfpower_domain\jclanceynfpower_domain\jfeehannfpower_domain\jjanesnfpower_domain\jpearcenfpower_domain\lbreennfpower_domain\lcrewsnfpower_domain\msaundersnfpower_domain\Msnelgrovenfpower_domain\nbridgernfpower_domain\noldfordnfpower_domain\nrosenfpower_domain\saylesnfpower_domain\sflynnNFPOWER_DOMAIN\trockwoodnfpower_domain\wodriscollnoldfordnrosesaylestrockwoodwodriscoll" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="Allow Status change En Route Incomplete ALL USERS" Key="260067334" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change En Route Incomplete ALL USERS" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
                         <ImportExportObjectReferenceInfo>
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
-                                    <Key>260050950</Key>
-                                    <Revision>17</Revision>
+                                    <Key>260067334</Key>
+                                    <Revision>4</Revision>
                                     <Name>Allow Status change</Name>
-                                    <StatusBefore xsi:type="TaskStatusReference" Key="124135428" DisplayString="Dispatched">Dispatched</StatusBefore>
-                                    <StatusAfter xsi:type="TaskStatusReference" Key="124135426" DisplayString="Scheduled">Scheduled</StatusAfter>
+                                    <StatusBefore xsi:type="TaskStatusReference" Key="124151810" DisplayString="En Route">En Route</StatusBefore>
+                                    <StatusAfter xsi:type="TaskStatusReference" Key="124151808" DisplayString="Incomplete">Incomplete</StatusAfter>
                                     <StatusContext>0</StatusContext>
                                     <Users>
-                                        <Name>nbridger</Name>
-                                        <Name>ahallett</Name>
-                                        <Name>biztalk</Name>
-                                        <Name>bvey</Name>
-                                        <Name>cford</Name>
-                                        <Name>clush</Name>
-                                        <Name>dpetten</Name>
-                                        <Name>ecorrigan</Name>
-                                        <Name>ewiltjer</Name>
-                                        <Name>glocke</Name>
-                                        <Name>jclancey</Name>
-                                        <Name>jfeehan</Name>
-                                        <Name>jjanes</Name>
-                                        <Name>jpearce</Name>
-                                        <Name>lbreen</Name>
-                                        <Name>lcrews</Name>
-                                        <Name>msaunders</Name>
-                                        <Name>nfpower_domain</Name>
-                                        <Name>nfpower_domain\ahallett</Name>
-                                        <Name>nfpower_domain\biztalk</Name>
-                                        <Name>NFPOWER_DOMAIN\bvey</Name>
-                                        <Name>nfpower_domain\cford</Name>
-                                        <Name>nfpower_domain\clush</Name>
-                                        <Name>nfpower_domain\dpetten</Name>
-                                        <Name>nfpower_domain\ecorrigan</Name>
-                                        <Name>nfpower_domain\ewiltjer</Name>
-                                        <Name>nfpower_domain\glocke</Name>
-                                        <Name>nfpower_domain\jclancey</Name>
-                                        <Name>nfpower_domain\jfeehan</Name>
-                                        <Name>nfpower_domain\jjanes</Name>
-                                        <Name>nfpower_domain\jpearce</Name>
-                                        <Name>nfpower_domain\lbreen</Name>
-                                        <Name>nfpower_domain\lcrews</Name>
-                                        <Name>nfpower_domain\msaunders</Name>
-                                        <Name>nfpower_domain\Msnelgrove</Name>
-                                        <Name>nfpower_domain\nbridger</Name>
-                                        <Name>nfpower_domain\noldford</Name>
-                                        <Name>nfpower_domain\nrose</Name>
-                                        <Name>nfpower_domain\sayles</Name>
-                                        <Name>nfpower_domain\sflynn</Name>
-                                        <Name>NFPOWER_DOMAIN\trockwood</Name>
-                                        <Name>nfpower_domain\wodriscoll</Name>
-                                        <Name>noldford</Name>
-                                        <Name>nrose</Name>
-                                        <Name>sayles</Name>
-                                        <Name>trockwood</Name>
-                                        <Name>wodriscoll</Name>
+                                        <Name>ALL USERS</Name>
+                                    </Users>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Allow Status change En Route On-Site ALL USERS" Key="260067335" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change En Route On-Site ALL USERS" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
+                                    <Key>260067335</Key>
+                                    <Revision>4</Revision>
+                                    <Name>Allow Status change</Name>
+                                    <StatusBefore xsi:type="TaskStatusReference" Key="124151810" DisplayString="En Route">En Route</StatusBefore>
+                                    <StatusAfter xsi:type="TaskStatusReference" Key="124135429" DisplayString="On-Site">On-Site</StatusAfter>
+                                    <StatusContext>0</StatusContext>
+                                    <Users>
+                                        <Name>ALL USERS</Name>
                                     </Users>
                                 </Object>
                             </Object>
@@ -789,7 +516,7 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
                                     <Key>125954061</Key>
-                                    <Revision>18</Revision>
+                                    <Revision>22</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124145668" DisplayString="In Progress">In Progress</StatusBefore>
                                     <StatusAfter xsi:type="TaskStatusReference" Key="124143616" DisplayString="Cancelled">Cancelled</StatusAfter>
@@ -840,7 +567,7 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
                                     <Key>125954060</Key>
-                                    <Revision>2</Revision>
+                                    <Revision>6</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124145668" DisplayString="In Progress">In Progress</StatusBefore>
                                     <StatusAfter xsi:type="TaskStatusReference" Key="124145666" DisplayString="Cannot Do">Cannot Do</StatusAfter>
@@ -863,7 +590,7 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
                                     <Key>260050957</Key>
-                                    <Revision>3</Revision>
+                                    <Revision>7</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124145668" DisplayString="In Progress">In Progress</StatusBefore>
                                     <StatusAfter xsi:type="TaskStatusReference" Key="124135430" DisplayString="Completed">Completed</StatusAfter>
@@ -887,7 +614,7 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
                                     <Key>125954054</Key>
-                                    <Revision>2</Revision>
+                                    <Revision>6</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124145668" DisplayString="In Progress">In Progress</StatusBefore>
                                     <StatusAfter xsi:type="TaskStatusReference" Key="124135428" DisplayString="Dispatched">Dispatched</StatusAfter>
@@ -910,7 +637,7 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
                                     <Key>125954055</Key>
-                                    <Revision>2</Revision>
+                                    <Revision>6</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124145668" DisplayString="In Progress">In Progress</StatusBefore>
                                     <StatusAfter xsi:type="TaskStatusReference" Key="124135429" DisplayString="On-Site">On-Site</StatusAfter>
@@ -925,7 +652,7 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Allow Status change On Hold Cancelled Biztalkjpearcenfpower_domain\biztalknfpower_domain\jpearce" Key="260059136" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change On Hold Cancelled Biztalkjpearcenfpower_domain\biztalknfpower_domain\jpearce" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="Allow Status change On Hold Cancelled nfpower_domain\jpearcejpearce" Key="260059136" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change On Hold Cancelled nfpower_domain\jpearcejpearce" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
@@ -933,16 +660,14 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
                                     <Key>260059136</Key>
-                                    <Revision>3</Revision>
+                                    <Revision>7</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124145664" DisplayString="On Hold">On Hold</StatusBefore>
                                     <StatusAfter xsi:type="TaskStatusReference" Key="124143616" DisplayString="Cancelled">Cancelled</StatusAfter>
                                     <StatusContext>0</StatusContext>
                                     <Users>
-                                        <Name>Biztalk</Name>
-                                        <Name>jpearce</Name>
-                                        <Name>nfpower_domain\biztalk</Name>
                                         <Name>nfpower_domain\jpearce</Name>
+                                        <Name>jpearce</Name>
                                     </Users>
                                 </Object>
                             </Object>
@@ -959,56 +684,10 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
                                     <Key>125956097</Key>
-                                    <Revision>2</Revision>
+                                    <Revision>6</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124145664" DisplayString="On Hold">On Hold</StatusBefore>
                                     <StatusAfter xsi:type="TaskStatusReference" Key="124135424" DisplayString="Open">Open</StatusAfter>
-                                    <StatusContext>0</StatusContext>
-                                    <Users>
-                                        <Name>ALL USERS</Name>
-                                    </Users>
-                                </Object>
-                            </Object>
-                            <ReferenceInfos />
-                        </ImportExportObjectReferenceInfo>
-                    </ImportExportObjectReferenceInfos>
-                </ReferencedObjectsCollection>
-            </Item>
-            <Item DisplayString="Allow Status change On-Site Cancelled ALL USERS" Key="260050954" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change On-Site Cancelled ALL USERS" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
-                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
-                        <ImportExportObjectReferenceInfo>
-                            <Object>
-                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
-                                    <Key>260050954</Key>
-                                    <Revision>2</Revision>
-                                    <Name>Allow Status change</Name>
-                                    <StatusBefore xsi:type="TaskStatusReference" Key="124135429" DisplayString="On-Site">On-Site</StatusBefore>
-                                    <StatusAfter xsi:type="TaskStatusReference" Key="124143616" DisplayString="Cancelled">Cancelled</StatusAfter>
-                                    <StatusContext>0</StatusContext>
-                                    <Users>
-                                        <Name>ALL USERS</Name>
-                                    </Users>
-                                </Object>
-                            </Object>
-                            <ReferenceInfos />
-                        </ImportExportObjectReferenceInfo>
-                    </ImportExportObjectReferenceInfos>
-                </ReferencedObjectsCollection>
-            </Item>
-            <Item DisplayString="Allow Status change On-Site Cannot Do ALL USERS" Key="125954051" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change On-Site Cannot Do ALL USERS" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
-                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
-                        <ImportExportObjectReferenceInfo>
-                            <Object>
-                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
-                                    <Key>125954051</Key>
-                                    <Revision>2</Revision>
-                                    <Name>Allow Status change</Name>
-                                    <StatusBefore xsi:type="TaskStatusReference" Key="124135429" DisplayString="On-Site">On-Site</StatusBefore>
-                                    <StatusAfter xsi:type="TaskStatusReference" Key="124145666" DisplayString="Cannot Do">Cannot Do</StatusAfter>
                                     <StatusContext>0</StatusContext>
                                     <Users>
                                         <Name>ALL USERS</Name>
@@ -1028,33 +707,10 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
                                     <Key>260048901</Key>
-                                    <Revision>2</Revision>
+                                    <Revision>6</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124135429" DisplayString="On-Site">On-Site</StatusBefore>
                                     <StatusAfter xsi:type="TaskStatusReference" Key="124149762" DisplayString="Complete With Followup">Complete With Followup</StatusAfter>
-                                    <StatusContext>0</StatusContext>
-                                    <Users>
-                                        <Name>ALL USERS</Name>
-                                    </Users>
-                                </Object>
-                            </Object>
-                            <ReferenceInfos />
-                        </ImportExportObjectReferenceInfo>
-                    </ImportExportObjectReferenceInfos>
-                </ReferencedObjectsCollection>
-            </Item>
-            <Item DisplayString="Allow Status change On-Site Complete with Interruption ALL USERS" Key="260048902" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change On-Site Complete with Interruption ALL USERS" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
-                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
-                        <ImportExportObjectReferenceInfo>
-                            <Object>
-                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
-                                    <Key>260048902</Key>
-                                    <Revision>2</Revision>
-                                    <Name>Allow Status change</Name>
-                                    <StatusBefore xsi:type="TaskStatusReference" Key="124135429" DisplayString="On-Site">On-Site</StatusBefore>
-                                    <StatusAfter xsi:type="TaskStatusReference" Key="124149760" DisplayString="Complete with Interruption">Complete with Interruption</StatusAfter>
                                     <StatusContext>0</StatusContext>
                                     <Users>
                                         <Name>ALL USERS</Name>
@@ -1074,7 +730,7 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
                                     <Key>125954053</Key>
-                                    <Revision>2</Revision>
+                                    <Revision>6</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124135429" DisplayString="On-Site">On-Site</StatusBefore>
                                     <StatusAfter xsi:type="TaskStatusReference" Key="124135430" DisplayString="Completed">Completed</StatusAfter>
@@ -1089,41 +745,18 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Allow Status change On-Site Dispatched ALL USERS" Key="125954052" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change On-Site Dispatched ALL USERS" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="Allow Status change On-Site Incomplete ALL USERS" Key="260067336" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change On-Site Incomplete ALL USERS" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
                         <ImportExportObjectReferenceInfo>
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
-                                    <Key>125954052</Key>
-                                    <Revision>13</Revision>
+                                    <Key>260067336</Key>
+                                    <Revision>4</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124135429" DisplayString="On-Site">On-Site</StatusBefore>
-                                    <StatusAfter xsi:type="TaskStatusReference" Key="124135428" DisplayString="Dispatched">Dispatched</StatusAfter>
-                                    <StatusContext>0</StatusContext>
-                                    <Users>
-                                        <Name>ALL USERS</Name>
-                                    </Users>
-                                </Object>
-                            </Object>
-                            <ReferenceInfos />
-                        </ImportExportObjectReferenceInfo>
-                    </ImportExportObjectReferenceInfos>
-                </ReferencedObjectsCollection>
-            </Item>
-            <Item DisplayString="Allow Status change On-Site In Progress ALL USERS" Key="125954050" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change On-Site In Progress ALL USERS" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
-                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
-                        <ImportExportObjectReferenceInfo>
-                            <Object>
-                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
-                                    <Key>125954050</Key>
-                                    <Revision>2</Revision>
-                                    <Name>Allow Status change</Name>
-                                    <StatusBefore xsi:type="TaskStatusReference" Key="124135429" DisplayString="On-Site">On-Site</StatusBefore>
-                                    <StatusAfter xsi:type="TaskStatusReference" Key="124145668" DisplayString="In Progress">In Progress</StatusAfter>
+                                    <StatusAfter xsi:type="TaskStatusReference" Key="124151808" DisplayString="Incomplete">Incomplete</StatusAfter>
                                     <StatusContext>0</StatusContext>
                                     <Users>
                                         <Name>ALL USERS</Name>
@@ -1143,7 +776,7 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
                                     <Key>125931529</Key>
-                                    <Revision>2</Revision>
+                                    <Revision>6</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124135424" DisplayString="Open">Open</StatusBefore>
                                     <StatusAfter xsi:type="TaskStatusReference" Key="124143616" DisplayString="Cancelled">Cancelled</StatusAfter>
@@ -1166,7 +799,7 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
                                     <Key>260050956</Key>
-                                    <Revision>21</Revision>
+                                    <Revision>25</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124135424" DisplayString="Open">Open</StatusBefore>
                                     <StatusAfter xsi:type="TaskStatusReference" Key="124145664" DisplayString="On Hold">On Hold</StatusAfter>
@@ -1216,7 +849,7 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
                                     <Key>125949952</Key>
-                                    <Revision>12</Revision>
+                                    <Revision>16</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124135424" DisplayString="Open">Open</StatusBefore>
                                     <StatusAfter xsi:type="TaskStatusReference" Key="124135426" DisplayString="Scheduled">Scheduled</StatusAfter>
@@ -1239,7 +872,7 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
                                     <Key>260063232</Key>
-                                    <Revision>3</Revision>
+                                    <Revision>7</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124149761" DisplayString="Redispatch">Redispatch</StatusBefore>
                                     <StatusAfter xsi:type="TaskStatusReference" Key="124143616" DisplayString="Cancelled">Cancelled</StatusAfter>
@@ -1262,7 +895,7 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
                                     <Key>260063233</Key>
-                                    <Revision>3</Revision>
+                                    <Revision>7</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124149761" DisplayString="Redispatch">Redispatch</StatusBefore>
                                     <StatusAfter xsi:type="TaskStatusReference" Key="124135430" DisplayString="Completed">Completed</StatusAfter>
@@ -1277,90 +910,40 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Allow Status change Reviewed By Crew Cancelled ALL USERS" Key="260050953" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change Reviewed By Crew Cancelled ALL USERS" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="Allow Status change Reviewed By Crew Cancelled cfordecorriganjclanceyjpearcelcrewsmsaundersnfpower_domain\bveynfpower_domain\cfordnfpower_domain\ecorrigannfpower_domain\jclanceynfpower_domain\jpearcenfpower_domain\lcrewsnfpower_domain\msaundersnfpower_domain\sflynnnfpower_domain\swellsnfpower_domain\trockwoodnfpower_domain\wodriscollppurcellsflynnswellswodriscoll" Key="260069378" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change Reviewed By Crew Cancelled cfordecorriganjclanceyjpearcelcrewsmsaundersnfpower_domain\bveynfpower_domain\cfordnfpower_domain\ecorrigannfpower_domain\jclanceynfpower_domain\jpearcenfpower_domain\lcrewsnfpower_domain\msaundersnfpower_domain\sflynnnfpower_domain\swellsnfpower_domain\trockwoodnfpower_domain\wodriscollppurcellsflynnswellswodriscoll" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
                         <ImportExportObjectReferenceInfo>
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
-                                    <Key>260050953</Key>
-                                    <Revision>2</Revision>
+                                    <Key>260069378</Key>
+                                    <Revision>4</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124145665" DisplayString="Reviewed By Crew">Reviewed By Crew</StatusBefore>
                                     <StatusAfter xsi:type="TaskStatusReference" Key="124143616" DisplayString="Cancelled">Cancelled</StatusAfter>
                                     <StatusContext>0</StatusContext>
                                     <Users>
-                                        <Name>ALL USERS</Name>
-                                    </Users>
-                                </Object>
-                            </Object>
-                            <ReferenceInfos />
-                        </ImportExportObjectReferenceInfo>
-                    </ImportExportObjectReferenceInfos>
-                </ReferencedObjectsCollection>
-            </Item>
-            <Item DisplayString="Allow Status change Reviewed By Crew Cannot Do ALL USERS" Key="260048907" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change Reviewed By Crew Cannot Do ALL USERS" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
-                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
-                        <ImportExportObjectReferenceInfo>
-                            <Object>
-                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
-                                    <Key>260048907</Key>
-                                    <Revision>2</Revision>
-                                    <Name>Allow Status change</Name>
-                                    <StatusBefore xsi:type="TaskStatusReference" Key="124145665" DisplayString="Reviewed By Crew">Reviewed By Crew</StatusBefore>
-                                    <StatusAfter xsi:type="TaskStatusReference" Key="124145666" DisplayString="Cannot Do">Cannot Do</StatusAfter>
-                                    <StatusContext>0</StatusContext>
-                                    <Users>
-                                        <Name>ALL USERS</Name>
-                                    </Users>
-                                </Object>
-                            </Object>
-                            <ReferenceInfos />
-                        </ImportExportObjectReferenceInfo>
-                    </ImportExportObjectReferenceInfos>
-                </ReferencedObjectsCollection>
-            </Item>
-            <Item DisplayString="Allow Status change Reviewed By Crew Dispatched NFPOWER_DOMAIN\trockwoodcfordecorriganjclanceyjpearcelcrewsmsaundersnfpowernfpower_domainNFPOWER_DOMAIN\bveynfpower_domain\cfordNFPOWER_DOMAIN\ecorriganNFPOWER_DOMAIN\jclanceyNFPOWER_DOMAIN\jpearcenfpower_domain\lcrewsNFPOWER_DOMAIN\msaundersnfpower_domain\ppurcellNFPOWER_DOMAIN\sflynnNFPOWER_DOMAIN\swelllsNFPOWER_DOMAIN\wodriscollppurcellsflynnswellstrockwoodwodriscoll" Key="260052992" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change Reviewed By Crew Dispatched NFPOWER_DOMAIN\trockwoodcfordecorriganjclanceyjpearcelcrewsmsaundersnfpowernfpower_domainNFPOWER_DOMAIN\bveynfpower_domain\cfordNFPOWER_DOMAIN\ecorriganNFPOWER_DOMAIN\jclanceyNFPOWER_DOMAIN\jpearcenfpower_domain\lcrewsNFPOWER_DOMAIN\msaundersnfpower_domain\ppurcellNFPOWER_DOMAIN\sflynnNFPOWER_DOMAIN\swelllsNFPOWER_DOMAIN\wodriscollppurcellsflynnswellstrockwoodwodriscoll" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
-                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
-                        <ImportExportObjectReferenceInfo>
-                            <Object>
-                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
-                                    <Key>260052992</Key>
-                                    <Revision>18</Revision>
-                                    <Name>Allow Status change</Name>
-                                    <StatusBefore xsi:type="TaskStatusReference" Key="124145665" DisplayString="Reviewed By Crew">Reviewed By Crew</StatusBefore>
-                                    <StatusAfter xsi:type="TaskStatusReference" Key="124135428" DisplayString="Dispatched">Dispatched</StatusAfter>
-                                    <StatusContext>0</StatusContext>
-                                    <Users>
-                                        <Name>NFPOWER_DOMAIN\trockwood</Name>
                                         <Name>cford</Name>
                                         <Name>ecorrigan</Name>
                                         <Name>jclancey</Name>
                                         <Name>jpearce</Name>
                                         <Name>lcrews</Name>
                                         <Name>msaunders</Name>
-                                        <Name>nfpower</Name>
-                                        <Name>nfpower_domain</Name>
-                                        <Name>NFPOWER_DOMAIN\bvey</Name>
+                                        <Name>nfpower_domain\bvey</Name>
                                         <Name>nfpower_domain\cford</Name>
-                                        <Name>NFPOWER_DOMAIN\ecorrigan</Name>
-                                        <Name>NFPOWER_DOMAIN\jclancey</Name>
-                                        <Name>NFPOWER_DOMAIN\jpearce</Name>
+                                        <Name>nfpower_domain\ecorrigan</Name>
+                                        <Name>nfpower_domain\jclancey</Name>
+                                        <Name>nfpower_domain\jpearce</Name>
                                         <Name>nfpower_domain\lcrews</Name>
-                                        <Name>NFPOWER_DOMAIN\msaunders</Name>
-                                        <Name>nfpower_domain\ppurcell</Name>
-                                        <Name>NFPOWER_DOMAIN\sflynn</Name>
-                                        <Name>NFPOWER_DOMAIN\swellls</Name>
-                                        <Name>NFPOWER_DOMAIN\wodriscoll</Name>
+                                        <Name>nfpower_domain\msaunders</Name>
+                                        <Name>nfpower_domain\sflynn</Name>
+                                        <Name>nfpower_domain\swells</Name>
+                                        <Name>nfpower_domain\trockwood</Name>
+                                        <Name>nfpower_domain\wodriscoll</Name>
                                         <Name>ppurcell</Name>
                                         <Name>sflynn</Name>
                                         <Name>swells</Name>
-                                        <Name>trockwood</Name>
                                         <Name>wodriscoll</Name>
                                     </Users>
                                 </Object>
@@ -1370,18 +953,61 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Allow Status change Reviewed By Crew In Progress ALL USERS" Key="260048909" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change Reviewed By Crew In Progress ALL USERS" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="Allow Status change Reviewed By Crew Dispatched cfordecorriganjclanceyjpearcelcrewsmsaundersnfpower_domain\bveynfpower_domain\cfordnfpower_domain\ecorrigannfpower_domain\jclanceynfpower_domain\jpearcenfpower_domain\lcrewsnfpower_domain\msaundersnfpower_domain\sflynnnfpower_domain\swellsnfpower_domain\trockwoodnfpower_domain\wodriscollppurcellsflynnswellswodriscoll" Key="260069376" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change Reviewed By Crew Dispatched cfordecorriganjclanceyjpearcelcrewsmsaundersnfpower_domain\bveynfpower_domain\cfordnfpower_domain\ecorrigannfpower_domain\jclanceynfpower_domain\jpearcenfpower_domain\lcrewsnfpower_domain\msaundersnfpower_domain\sflynnnfpower_domain\swellsnfpower_domain\trockwoodnfpower_domain\wodriscollppurcellsflynnswellswodriscoll" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
                         <ImportExportObjectReferenceInfo>
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
-                                    <Key>260048909</Key>
-                                    <Revision>2</Revision>
+                                    <Key>260069376</Key>
+                                    <Revision>3</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124145665" DisplayString="Reviewed By Crew">Reviewed By Crew</StatusBefore>
-                                    <StatusAfter xsi:type="TaskStatusReference" Key="124145668" DisplayString="In Progress">In Progress</StatusAfter>
+                                    <StatusAfter xsi:type="TaskStatusReference" Key="124135428" DisplayString="Dispatched">Dispatched</StatusAfter>
+                                    <StatusContext>0</StatusContext>
+                                    <Users>
+                                        <Name>cford</Name>
+                                        <Name>ecorrigan</Name>
+                                        <Name>jclancey</Name>
+                                        <Name>jpearce</Name>
+                                        <Name>lcrews</Name>
+                                        <Name>msaunders</Name>
+                                        <Name>nfpower_domain\bvey</Name>
+                                        <Name>nfpower_domain\cford</Name>
+                                        <Name>nfpower_domain\ecorrigan</Name>
+                                        <Name>nfpower_domain\jclancey</Name>
+                                        <Name>nfpower_domain\jpearce</Name>
+                                        <Name>nfpower_domain\lcrews</Name>
+                                        <Name>nfpower_domain\msaunders</Name>
+                                        <Name>nfpower_domain\sflynn</Name>
+                                        <Name>nfpower_domain\swells</Name>
+                                        <Name>nfpower_domain\trockwood</Name>
+                                        <Name>nfpower_domain\wodriscoll</Name>
+                                        <Name>ppurcell</Name>
+                                        <Name>sflynn</Name>
+                                        <Name>swells</Name>
+                                        <Name>wodriscoll</Name>
+                                    </Users>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Allow Status change Reviewed By Crew En Route ALL USERS" Key="260067337" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change Reviewed By Crew En Route ALL USERS" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
+                                    <Key>260067337</Key>
+                                    <Revision>4</Revision>
+                                    <Name>Allow Status change</Name>
+                                    <StatusBefore xsi:type="TaskStatusReference" Key="124145665" DisplayString="Reviewed By Crew">Reviewed By Crew</StatusBefore>
+                                    <StatusAfter xsi:type="TaskStatusReference" Key="124151810" DisplayString="En Route">En Route</StatusAfter>
                                     <StatusContext>0</StatusContext>
                                     <Users>
                                         <Name>ALL USERS</Name>
@@ -1393,44 +1019,41 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Allow Status change Reviewed By Crew On-Site ALL USERS" Key="260048906" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change Reviewed By Crew On-Site ALL USERS" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="Allow Status change Reviewed By Crew Open cfordecorriganjclanceyjpearcelcrewsmsaundersnfpower_domain\bveynfpower_domain\cfordnfpower_domain\ecorrigannfpower_domain\jclanceynfpower_domain\jpearcenfpower_domain\lcrewsnfpower_domain\msaundersnfpower_domain\sflynnnfpower_domain\swellsnfpower_domain\trockwoodnfpower_domain\wodriscollppurcellsflynnswellswodriscoll" Key="260069377" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change Reviewed By Crew Open cfordecorriganjclanceyjpearcelcrewsmsaundersnfpower_domain\bveynfpower_domain\cfordnfpower_domain\ecorrigannfpower_domain\jclanceynfpower_domain\jpearcenfpower_domain\lcrewsnfpower_domain\msaundersnfpower_domain\sflynnnfpower_domain\swellsnfpower_domain\trockwoodnfpower_domain\wodriscollppurcellsflynnswellswodriscoll" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
                         <ImportExportObjectReferenceInfo>
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
-                                    <Key>260048906</Key>
-                                    <Revision>2</Revision>
-                                    <Name>Allow Status change</Name>
-                                    <StatusBefore xsi:type="TaskStatusReference" Key="124145665" DisplayString="Reviewed By Crew">Reviewed By Crew</StatusBefore>
-                                    <StatusAfter xsi:type="TaskStatusReference" Key="124135429" DisplayString="On-Site">On-Site</StatusAfter>
-                                    <StatusContext>0</StatusContext>
-                                    <Users>
-                                        <Name>ALL USERS</Name>
-                                    </Users>
-                                </Object>
-                            </Object>
-                            <ReferenceInfos />
-                        </ImportExportObjectReferenceInfo>
-                    </ImportExportObjectReferenceInfos>
-                </ReferencedObjectsCollection>
-            </Item>
-            <Item DisplayString="Allow Status change Reviewed By Crew Open ALL USERS" Key="260055040" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change Reviewed By Crew Open ALL USERS" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
-                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
-                        <ImportExportObjectReferenceInfo>
-                            <Object>
-                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
-                                    <Key>260055040</Key>
-                                    <Revision>2</Revision>
+                                    <Key>260069377</Key>
+                                    <Revision>4</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124145665" DisplayString="Reviewed By Crew">Reviewed By Crew</StatusBefore>
                                     <StatusAfter xsi:type="TaskStatusReference" Key="124135424" DisplayString="Open">Open</StatusAfter>
                                     <StatusContext>0</StatusContext>
                                     <Users>
-                                        <Name>ALL USERS</Name>
+                                        <Name>cford</Name>
+                                        <Name>ecorrigan</Name>
+                                        <Name>jclancey</Name>
+                                        <Name>jpearce</Name>
+                                        <Name>lcrews</Name>
+                                        <Name>msaunders</Name>
+                                        <Name>nfpower_domain\bvey</Name>
+                                        <Name>nfpower_domain\cford</Name>
+                                        <Name>nfpower_domain\ecorrigan</Name>
+                                        <Name>nfpower_domain\jclancey</Name>
+                                        <Name>nfpower_domain\jpearce</Name>
+                                        <Name>nfpower_domain\lcrews</Name>
+                                        <Name>nfpower_domain\msaunders</Name>
+                                        <Name>nfpower_domain\sflynn</Name>
+                                        <Name>nfpower_domain\swells</Name>
+                                        <Name>nfpower_domain\trockwood</Name>
+                                        <Name>nfpower_domain\wodriscoll</Name>
+                                        <Name>ppurcell</Name>
+                                        <Name>sflynn</Name>
+                                        <Name>swells</Name>
+                                        <Name>wodriscoll</Name>
                                     </Users>
                                 </Object>
                             </Object>
@@ -1447,7 +1070,7 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
                                     <Key>125931525</Key>
-                                    <Revision>14</Revision>
+                                    <Revision>18</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124135426" DisplayString="Scheduled">Scheduled</StatusBefore>
                                     <StatusAfter xsi:type="TaskStatusReference" Key="124143616" DisplayString="Cancelled">Cancelled</StatusAfter>
@@ -1470,7 +1093,7 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
                                     <Key>260050958</Key>
-                                    <Revision>2</Revision>
+                                    <Revision>6</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124135426" DisplayString="Scheduled">Scheduled</StatusBefore>
                                     <StatusAfter xsi:type="TaskStatusReference" Key="124135430" DisplayString="Completed">Completed</StatusAfter>
@@ -1494,7 +1117,7 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
                                     <Key>125954049</Key>
-                                    <Revision>8</Revision>
+                                    <Revision>12</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124135426" DisplayString="Scheduled">Scheduled</StatusBefore>
                                     <StatusAfter xsi:type="TaskStatusReference" Key="124135428" DisplayString="Dispatched">Dispatched</StatusAfter>
@@ -1509,7 +1132,7 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Allow Status change Scheduled Open nfpower_domain\nrosebveycforddcorriganjclanceyjpearcelcrewsmsaundersNFPOWER_DOMAIN\biztalkNFPOWER_DOMAIN\bveynfpower_domain\cfordnfpower_domain\dcorigannfpower_domain\jclanceyNFPOWER_DOMAIN\jpearcenfpower_domain\lcrewsNFPOWER_DOMAIN\msaundersNFPOWER_DOMAIN\noldfordNFPOWER_DOMAIN\sflynnNFPOWER_DOMAIN\swellsNFPOWER_DOMAIN\trockwoodnfpower_domain\tsladeNFPOWER_DOMAIN\wodriscollnoldfordnrosesflynnswellstrockwoodtsladewodriscoll" Key="125954048" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change Scheduled Open nfpower_domain\nrosebveycforddcorriganjclanceyjpearcelcrewsmsaundersNFPOWER_DOMAIN\biztalkNFPOWER_DOMAIN\bveynfpower_domain\cfordnfpower_domain\dcorigannfpower_domain\jclanceyNFPOWER_DOMAIN\jpearcenfpower_domain\lcrewsNFPOWER_DOMAIN\msaundersNFPOWER_DOMAIN\noldfordNFPOWER_DOMAIN\sflynnNFPOWER_DOMAIN\swellsNFPOWER_DOMAIN\trockwoodnfpower_domain\tsladeNFPOWER_DOMAIN\wodriscollnoldfordnrosesflynnswellstrockwoodtsladewodriscoll" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="Allow Status change Scheduled Open bveycforddcorrigandiabsolut\gpattersongpattersonjclanceyjpearcelcrewsmsaundersNFPOWER_DOMAIN\biztalkNFPOWER_DOMAIN\bveynfpower_domain\cfordnfpower_domain\dcorigannfpower_domain\jclanceyNFPOWER_DOMAIN\jpearcenfpower_domain\lcrewsNFPOWER_DOMAIN\msaundersNFPOWER_DOMAIN\noldfordnfpower_domain\nroseNFPOWER_DOMAIN\sflynnNFPOWER_DOMAIN\swellsNFPOWER_DOMAIN\trockwoodnfpower_domain\tsladeNFPOWER_DOMAIN\wodriscollnoldfordnrosesflynnswellstrockwoodtsladeWIN-RF015ULLERU\gpattersonwodriscoll" Key="125954048" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Status change Scheduled Open bveycforddcorrigandiabsolut\gpattersongpattersonjclanceyjpearcelcrewsmsaundersNFPOWER_DOMAIN\biztalkNFPOWER_DOMAIN\bveynfpower_domain\cfordnfpower_domain\dcorigannfpower_domain\jclanceyNFPOWER_DOMAIN\jpearcenfpower_domain\lcrewsNFPOWER_DOMAIN\msaundersNFPOWER_DOMAIN\noldfordnfpower_domain\nroseNFPOWER_DOMAIN\sflynnNFPOWER_DOMAIN\swellsNFPOWER_DOMAIN\trockwoodnfpower_domain\tsladeNFPOWER_DOMAIN\wodriscollnoldfordnrosesflynnswellstrockwoodtsladeWIN-RF015ULLERU\gpattersonwodriscoll" ParentInExTree="Allow Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
@@ -1517,16 +1140,17 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
                                     <Key>125954048</Key>
-                                    <Revision>20</Revision>
+                                    <Revision>26</Revision>
                                     <Name>Allow Status change</Name>
                                     <StatusBefore xsi:type="TaskStatusReference" Key="124135426" DisplayString="Scheduled">Scheduled</StatusBefore>
                                     <StatusAfter xsi:type="TaskStatusReference" Key="124135424" DisplayString="Open">Open</StatusAfter>
                                     <StatusContext>0</StatusContext>
                                     <Users>
-                                        <Name>nfpower_domain\nrose</Name>
                                         <Name>bvey</Name>
                                         <Name>cford</Name>
                                         <Name>dcorrigan</Name>
+                                        <Name>diabsolut\gpatterson</Name>
+                                        <Name>gpatterson</Name>
                                         <Name>jclancey</Name>
                                         <Name>jpearce</Name>
                                         <Name>lcrews</Name>
@@ -1540,6 +1164,7 @@
                                         <Name>nfpower_domain\lcrews</Name>
                                         <Name>NFPOWER_DOMAIN\msaunders</Name>
                                         <Name>NFPOWER_DOMAIN\noldford</Name>
+                                        <Name>nfpower_domain\nrose</Name>
                                         <Name>NFPOWER_DOMAIN\sflynn</Name>
                                         <Name>NFPOWER_DOMAIN\swells</Name>
                                         <Name>NFPOWER_DOMAIN\trockwood</Name>
@@ -1551,6 +1176,7 @@
                                         <Name>swells</Name>
                                         <Name>trockwood</Name>
                                         <Name>tslade</Name>
+                                        <Name>WIN-RF015ULLERU\gpatterson</Name>
                                         <Name>wodriscoll</Name>
                                     </Users>
                                 </Object>
@@ -1560,8 +1186,6 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-        </ConfigurationStep>
-        <ConfigurationStep SerialNumber="2" TimeStamp="2018-11-08T13:07:08.8706318-03:30" Title="StatusTransition (Allow Task Create In Status): All" Description="" DisableEvents="false" IsCustom="false">
             <Item DisplayString="Allow Task Create In Status Dispatched ALL USERS" Key="260065281" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Task Create In Status Dispatched ALL USERS" ParentInExTree="Allow Task Create In Status" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -1608,8 +1232,6 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-        </ConfigurationStep>
-        <ConfigurationStep SerialNumber="3" TimeStamp="2018-11-08T13:07:17.481887-03:30" Title="StatusTransition (Allow Task Delete In Status): All" Description="" DisableEvents="false" IsCustom="false">
             <Item DisplayString="Allow Task Delete In Status Cancelled NFPOWER_DOMAIN\biztalk" Key="125931537" CollectionName="StatusTransition" PathInExTree="StatusTransition\Allow Task Delete In Status Cancelled NFPOWER_DOMAIN\biztalk" ParentInExTree="Allow Task Delete In Status" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">

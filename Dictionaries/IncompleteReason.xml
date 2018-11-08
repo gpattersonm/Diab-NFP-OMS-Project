@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigurationManagmentFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <GlobalMetaData>
+        <ConfigFileTitle>Configuration File</ConfigFileTitle>
+        <BuildVersion>1</BuildVersion>
+        <SOVersion>8.1.10(9467)</SOVersion>
+        <ExportTime>2018-11-08T16:31:41.8512133-03:30</ExportTime>
+        <ComputerName>NPVMCLKAPP5</ComputerName>
+        <Owner>gpatterson</Owner>
+        <BuilderToolVersion>8.10.9467.105</BuilderToolVersion>
+        <Description />
+    </GlobalMetaData>
+    <Queries />
+    <Settings>
+        <ConfigurationStep SerialNumber="1" TimeStamp="2018-11-08T16:31:35.4707315-03:30" Title="IncompletionReason: All" Description="" DisableEvents="false" IsCustom="false">
+            <Item DisplayString="Animal or Hazard" Key="1200359464" CollectionName="IncompletionReason" PathInExTree="IncompletionReason\Animal or Hazard" ParentInExTree="IncompletionReason" ObjectType="IncompletionReason" ImageKey="DictionaryItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="IncompletionReason">
+                                    <Key>1200359464</Key>
+                                    <Revision>4</Revision>
+                                    <Name>Animal or Hazard</Name>
+                                    <UsedInMobile>true</UsedInMobile>
+                                    <Description />
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Customer Cancelled" Key="1200359465" CollectionName="IncompletionReason" PathInExTree="IncompletionReason\Customer Cancelled" ParentInExTree="IncompletionReason" ObjectType="IncompletionReason" ImageKey="DictionaryItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="IncompletionReason">
+                                    <Key>1200359465</Key>
+                                    <Revision>4</Revision>
+                                    <Name>Customer Cancelled</Name>
+                                    <UsedInMobile>true</UsedInMobile>
+                                    <Description />
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Customer No Show" Key="1200359466" CollectionName="IncompletionReason" PathInExTree="IncompletionReason\Customer No Show" ParentInExTree="IncompletionReason" ObjectType="IncompletionReason" ImageKey="DictionaryItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="IncompletionReason">
+                                    <Key>1200359466</Key>
+                                    <Revision>4</Revision>
+                                    <Name>Customer No Show</Name>
+                                    <UsedInMobile>true</UsedInMobile>
+                                    <Description />
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Damaged Equipment" Key="1200359467" CollectionName="IncompletionReason" PathInExTree="IncompletionReason\Damaged Equipment" ParentInExTree="IncompletionReason" ObjectType="IncompletionReason" ImageKey="DictionaryItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="IncompletionReason">
+                                    <Key>1200359467</Key>
+                                    <Revision>4</Revision>
+                                    <Name>Damaged Equipment</Name>
+                                    <UsedInMobile>true</UsedInMobile>
+                                    <Description />
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Equipment or Material Required" Key="1200359468" CollectionName="IncompletionReason" PathInExTree="IncompletionReason\Equipment or Material Required" ParentInExTree="IncompletionReason" ObjectType="IncompletionReason" ImageKey="DictionaryItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="IncompletionReason">
+                                    <Key>1200359468</Key>
+                                    <Revision>4</Revision>
+                                    <Name>Equipment or Material Required</Name>
+                                    <UsedInMobile>true</UsedInMobile>
+                                    <Description />
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Illness/Injury" Key="1200359469" CollectionName="IncompletionReason" PathInExTree="IncompletionReason\Illness/Injury" ParentInExTree="IncompletionReason" ObjectType="IncompletionReason" ImageKey="DictionaryItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="IncompletionReason">
+                                    <Key>1200359469</Key>
+                                    <Revision>4</Revision>
+                                    <Name>Illness/Injury</Name>
+                                    <UsedInMobile>true</UsedInMobile>
+                                    <Description />
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="No Access" Key="1200359470" CollectionName="IncompletionReason" PathInExTree="IncompletionReason\No Access" ParentInExTree="IncompletionReason" ObjectType="IncompletionReason" ImageKey="DictionaryItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="IncompletionReason">
+                                    <Key>1200359470</Key>
+                                    <Revision>4</Revision>
+                                    <Name>No Access</Name>
+                                    <UsedInMobile>true</UsedInMobile>
+                                    <Description />
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Office Request/Emergency" Key="1200359471" CollectionName="IncompletionReason" PathInExTree="IncompletionReason\Office Request/Emergency" ParentInExTree="IncompletionReason" ObjectType="IncompletionReason" ImageKey="DictionaryItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="IncompletionReason">
+                                    <Key>1200359471</Key>
+                                    <Revision>4</Revision>
+                                    <Name>Office Request/Emergency</Name>
+                                    <UsedInMobile>true</UsedInMobile>
+                                    <Description />
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Traffic Control Required" Key="1200359472" CollectionName="IncompletionReason" PathInExTree="IncompletionReason\Traffic Control Required" ParentInExTree="IncompletionReason" ObjectType="IncompletionReason" ImageKey="DictionaryItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="IncompletionReason">
+                                    <Key>1200359472</Key>
+                                    <Revision>4</Revision>
+                                    <Name>Traffic Control Required</Name>
+                                    <UsedInMobile>true</UsedInMobile>
+                                    <Description />
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Weather" Key="1200359473" CollectionName="IncompletionReason" PathInExTree="IncompletionReason\Weather" ParentInExTree="IncompletionReason" ObjectType="IncompletionReason" ImageKey="DictionaryItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="IncompletionReason">
+                                    <Key>1200359473</Key>
+                                    <Revision>4</Revision>
+                                    <Name>Weather</Name>
+                                    <UsedInMobile>true</UsedInMobile>
+                                    <Description />
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+        </ConfigurationStep>
+    </Settings>
+    <Scheme />
+</ConfigurationManagmentFile>
