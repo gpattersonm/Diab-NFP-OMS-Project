@@ -1,0 +1,2930 @@
+<?xml version="1.0" encoding="UTF-8"?>
+-<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" 
+    xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" 
+    xmlns:wsa10="http://www.w3.org/2005/08/addressing" 
+    xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" 
+    xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" 
+    xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" 
+    xmlns:i0="http://www.clicksoftware.com" 
+    xmlns:wsp="http://www.w3.org/ns/ws-policy" 
+    xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" 
+    xmlns:tns="http://tempuri.org/" 
+    xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+    xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" 
+    xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" 
+    xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" 
+    xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://tempuri.org/" name="W6ServiceOptimizationService">-    <wsp:Policy wsu:Id="CustomBinding_ServiceOptimizationService_policy">-        <wsp:ExactlyOne>-            <wsp:All>
+                <wsap:UsingAddressing/>
+            </wsp:All>
+        </wsp:ExactlyOne>
+    </wsp:Policy>
+    <wsdl:import location="http://localhost/SO/IntegrationServices/ServiceOptimizationService.svc?wsdl=wsdl0" namespace="http://www.clicksoftware.com"/>
+    <wsdl:types/>
+-    <wsdl:binding name="CustomBinding_ServiceOptimizationService" type="i0:ServiceOptimizationService">
+        <wsp:PolicyReference URI="#CustomBinding_ServiceOptimizationService_policy"/>
+        <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+-        <wsdl:operation name="SetStatusFlow">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/SetStatusFlow"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="DeleteStatusFlow">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/DeleteStatusFlow"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetAllowedStatusFlowTransitions">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetAllowedStatusFlowTransitions"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetUserStatusFlowTransitions">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetUserStatusFlowTransitions"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CalculateRelatedObject">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CalculateRelatedObject"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetTimeAccountStatement">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetTimeAccountStatement"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CheckSoftwareUpdates">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CheckSoftwareUpdates"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CheckServerHealth">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CheckServerHealth"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="TestConnection">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/TestConnection"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetAgentsStatus">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetAgentsStatus"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetAddressGeocode">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetAddressGeocode"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="StopAgent">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/StopAgent"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetServerTime">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetServerTime"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetAgentOperations">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetAgentOperations"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetLogicDomain">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetLogicDomain"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="StopPolling">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/StopPolling"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetPollingStatus">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetPollingStatus"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetServicesDescription">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetServicesDescription"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="Dispatch">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/Dispatch"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetDefaultRouteParameters">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetDefaultRouteParameters"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetDefaultRouteParametersWithKeys">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetDefaultRouteParametersWithKeys"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="QueryRouteWithKeysAndParams">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/QueryRouteWithKeysAndParams"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="QueryRouteWithKeys">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/QueryRouteWithKeys"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="QueryRouteWithLocations">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/QueryRouteWithLocations"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="QueryRouteWithNarrativeWithKeys">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/QueryRouteWithNarrativeWithKeys"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="QueryRouteWithNarrativeWithLocations">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/QueryRouteWithNarrativeWithLocations"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GenerateOutgoingMessagesXmlSchema">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GenerateOutgoingMessagesXmlSchema"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetAlerts">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetAlerts"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetAlertsEx">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetAlertsEx"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetNotifications">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetNotifications"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetNotificationsEx">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetNotificationsEx"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="ObjectReferencingOperations">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/ObjectReferencingOperations"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="EngineerGetCandidatesTasks">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/EngineerGetCandidatesTasks"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetNextValidStatuses">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetNextValidStatuses"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCollections">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCollections"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCollectionsScheme">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCollectionsScheme"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCollectionIndexes">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCollectionIndexes"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetSettings">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetSettings"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetTimeZones">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetTimeZones"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetTimeZonesEx">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetTimeZonesEx"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CreateCalendar">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CreateCalendar"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="DeleteCalendar">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/DeleteCalendar"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCalendar">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCalendar"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCalendarIntervals">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCalendarIntervals"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCalendarIntervalsEx">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCalendarIntervalsEx"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCalendarsIntervals">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCalendarsIntervals"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCalendarsIntervalsEx">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCalendarsIntervalsEx"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="UpdateCalendar">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/UpdateCalendar"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCalendars">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCalendars"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCalendarsLogicalIntervals">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCalendarsLogicalIntervals"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCalendarsLogicalIntervalsEx">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCalendarsLogicalIntervalsEx"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="UpdateCalendars">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/UpdateCalendars"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CheckTimePhasedWeeklyLevel">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CheckTimePhasedWeeklyLevel"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CreateResource">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CreateResource"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="DeleteResource">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/DeleteResource"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetResource">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetResource"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetResources">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetResources"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="UpdateResource">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/UpdateResource"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetResourcesGroups">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetResourcesGroups"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetResourceByLoginProperty">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetResourceByLoginProperty"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CreateNonAvailability">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CreateNonAvailability"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="DeleteNonAvailability">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/DeleteNonAvailability"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CreateDictionaryItem">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CreateDictionaryItem"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="DeleteDictionaryItem">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/DeleteDictionaryItem"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="UpdateDictionaryItem">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/UpdateDictionaryItem"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetDictionaryItem">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetDictionaryItem"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetDictionaryTypes">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetDictionaryTypes"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetDictionaryItemChildren">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetDictionaryItemChildren"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetDictionaryItemParents">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetDictionaryItemParents"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetNavigationTree">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetNavigationTree"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="ExecuteOperation">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/ExecuteOperation"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="ExecuteMultipleOperations">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/ExecuteMultipleOperations"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetObjects">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetObjects"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetObjectsEx">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetObjectsEx"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetReferencedObjects">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetReferencedObjects"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="SetReferencedObjects">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/SetReferencedObjects"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CountObjects">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CountObjects"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="UpdateObjects">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/UpdateObjects"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="DeleteObjects">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/DeleteObjects"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="ConvertDates">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/ConvertDates"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetObjectsReferences">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetObjectsReferences"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetSetting">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetSetting"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetUserSetting">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetUserSetting"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetUserSettings">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetUserSettings"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="UpdateSetting">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/UpdateSetting"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="UpdateUserSetting">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/UpdateUserSetting"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="DeleteSetting">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/DeleteSetting"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="DeleteUserSetting">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/DeleteUserSetting"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CreateSetting">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CreateSetting"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CreateUserSetting">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CreateUserSetting"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>-    <wsdl:binding name="CustomBinding_ServiceOptimizationService1" type="i0:ServiceOptimizationService">
+        <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+-        <wsdl:operation name="SetStatusFlow">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/SetStatusFlow"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="DeleteStatusFlow">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/DeleteStatusFlow"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetAllowedStatusFlowTransitions">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetAllowedStatusFlowTransitions"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetUserStatusFlowTransitions">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetUserStatusFlowTransitions"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CalculateRelatedObject">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CalculateRelatedObject"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetTimeAccountStatement">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetTimeAccountStatement"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CheckSoftwareUpdates">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CheckSoftwareUpdates"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CheckServerHealth">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CheckServerHealth"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="TestConnection">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/TestConnection"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetAgentsStatus">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetAgentsStatus"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetAddressGeocode">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetAddressGeocode"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="StopAgent">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/StopAgent"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetServerTime">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetServerTime"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetAgentOperations">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetAgentOperations"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetLogicDomain">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetLogicDomain"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="StopPolling">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/StopPolling"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetPollingStatus">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetPollingStatus"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetServicesDescription">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetServicesDescription"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="Dispatch">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/Dispatch"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetDefaultRouteParameters">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetDefaultRouteParameters"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetDefaultRouteParametersWithKeys">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetDefaultRouteParametersWithKeys"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="QueryRouteWithKeysAndParams">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/QueryRouteWithKeysAndParams"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="QueryRouteWithKeys">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/QueryRouteWithKeys"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="QueryRouteWithLocations">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/QueryRouteWithLocations"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="QueryRouteWithNarrativeWithKeys">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/QueryRouteWithNarrativeWithKeys"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="QueryRouteWithNarrativeWithLocations">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/QueryRouteWithNarrativeWithLocations"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GenerateOutgoingMessagesXmlSchema">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GenerateOutgoingMessagesXmlSchema"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetAlerts">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetAlerts"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetAlertsEx">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetAlertsEx"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetNotifications">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetNotifications"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetNotificationsEx">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetNotificationsEx"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="ObjectReferencingOperations">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/ObjectReferencingOperations"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="EngineerGetCandidatesTasks">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/EngineerGetCandidatesTasks"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetNextValidStatuses">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetNextValidStatuses"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCollections">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCollections"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCollectionsScheme">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCollectionsScheme"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCollectionIndexes">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCollectionIndexes"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetSettings">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetSettings"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetTimeZones">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetTimeZones"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetTimeZonesEx">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetTimeZonesEx"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CreateCalendar">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CreateCalendar"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="DeleteCalendar">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/DeleteCalendar"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCalendar">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCalendar"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCalendarIntervals">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCalendarIntervals"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCalendarIntervalsEx">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCalendarIntervalsEx"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCalendarsIntervals">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCalendarsIntervals"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCalendarsIntervalsEx">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCalendarsIntervalsEx"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="UpdateCalendar">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/UpdateCalendar"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCalendars">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCalendars"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCalendarsLogicalIntervals">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCalendarsLogicalIntervals"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCalendarsLogicalIntervalsEx">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCalendarsLogicalIntervalsEx"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="UpdateCalendars">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/UpdateCalendars"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CheckTimePhasedWeeklyLevel">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CheckTimePhasedWeeklyLevel"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CreateResource">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CreateResource"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="DeleteResource">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/DeleteResource"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetResource">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetResource"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetResources">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetResources"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="UpdateResource">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/UpdateResource"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetResourcesGroups">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetResourcesGroups"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetResourceByLoginProperty">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetResourceByLoginProperty"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CreateNonAvailability">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CreateNonAvailability"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="DeleteNonAvailability">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/DeleteNonAvailability"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CreateDictionaryItem">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CreateDictionaryItem"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="DeleteDictionaryItem">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/DeleteDictionaryItem"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="UpdateDictionaryItem">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/UpdateDictionaryItem"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetDictionaryItem">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetDictionaryItem"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetDictionaryTypes">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetDictionaryTypes"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetDictionaryItemChildren">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetDictionaryItemChildren"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetDictionaryItemParents">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetDictionaryItemParents"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetNavigationTree">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetNavigationTree"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="ExecuteOperation">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/ExecuteOperation"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="ExecuteMultipleOperations">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/ExecuteMultipleOperations"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetObjects">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetObjects"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetObjectsEx">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetObjectsEx"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetReferencedObjects">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetReferencedObjects"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="SetReferencedObjects">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/SetReferencedObjects"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CountObjects">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CountObjects"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="UpdateObjects">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/UpdateObjects"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="DeleteObjects">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/DeleteObjects"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="ConvertDates">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/ConvertDates"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetObjectsReferences">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetObjectsReferences"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetSetting">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetSetting"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetUserSetting">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetUserSetting"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetUserSettings">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetUserSettings"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="UpdateSetting">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/UpdateSetting"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="UpdateUserSetting">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/UpdateUserSetting"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="DeleteSetting">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/DeleteSetting"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="DeleteUserSetting">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/DeleteUserSetting"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CreateSetting">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CreateSetting"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CreateUserSetting">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CreateUserSetting"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>-    <wsdl:binding name="CustomBinding_ServiceOptimizationService2" type="i0:ServiceOptimizationService">
+        <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+-        <wsdl:operation name="SetStatusFlow">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/SetStatusFlow"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="DeleteStatusFlow">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/DeleteStatusFlow"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetAllowedStatusFlowTransitions">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetAllowedStatusFlowTransitions"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetUserStatusFlowTransitions">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetUserStatusFlowTransitions"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CalculateRelatedObject">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CalculateRelatedObject"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetTimeAccountStatement">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetTimeAccountStatement"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CheckSoftwareUpdates">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CheckSoftwareUpdates"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CheckServerHealth">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CheckServerHealth"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="TestConnection">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/TestConnection"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetAgentsStatus">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetAgentsStatus"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetAddressGeocode">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetAddressGeocode"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="StopAgent">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/StopAgent"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetServerTime">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetServerTime"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetAgentOperations">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetAgentOperations"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetLogicDomain">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetLogicDomain"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="StopPolling">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/StopPolling"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetPollingStatus">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetPollingStatus"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetServicesDescription">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetServicesDescription"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="Dispatch">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/Dispatch"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetDefaultRouteParameters">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetDefaultRouteParameters"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetDefaultRouteParametersWithKeys">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetDefaultRouteParametersWithKeys"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="QueryRouteWithKeysAndParams">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/QueryRouteWithKeysAndParams"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="QueryRouteWithKeys">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/QueryRouteWithKeys"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="QueryRouteWithLocations">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/QueryRouteWithLocations"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="QueryRouteWithNarrativeWithKeys">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/QueryRouteWithNarrativeWithKeys"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="QueryRouteWithNarrativeWithLocations">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/QueryRouteWithNarrativeWithLocations"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GenerateOutgoingMessagesXmlSchema">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GenerateOutgoingMessagesXmlSchema"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetAlerts">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetAlerts"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetAlertsEx">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetAlertsEx"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetNotifications">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetNotifications"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetNotificationsEx">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetNotificationsEx"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="ObjectReferencingOperations">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/ObjectReferencingOperations"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="EngineerGetCandidatesTasks">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/EngineerGetCandidatesTasks"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetNextValidStatuses">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetNextValidStatuses"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCollections">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCollections"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCollectionsScheme">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCollectionsScheme"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCollectionIndexes">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCollectionIndexes"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetSettings">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetSettings"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetTimeZones">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetTimeZones"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetTimeZonesEx">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetTimeZonesEx"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CreateCalendar">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CreateCalendar"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="DeleteCalendar">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/DeleteCalendar"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCalendar">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCalendar"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCalendarIntervals">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCalendarIntervals"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCalendarIntervalsEx">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCalendarIntervalsEx"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCalendarsIntervals">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCalendarsIntervals"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCalendarsIntervalsEx">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCalendarsIntervalsEx"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="UpdateCalendar">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/UpdateCalendar"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCalendars">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCalendars"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCalendarsLogicalIntervals">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCalendarsLogicalIntervals"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCalendarsLogicalIntervalsEx">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCalendarsLogicalIntervalsEx"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="UpdateCalendars">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/UpdateCalendars"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CheckTimePhasedWeeklyLevel">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CheckTimePhasedWeeklyLevel"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CreateResource">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CreateResource"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="DeleteResource">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/DeleteResource"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetResource">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetResource"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetResources">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetResources"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="UpdateResource">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/UpdateResource"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetResourcesGroups">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetResourcesGroups"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetResourceByLoginProperty">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetResourceByLoginProperty"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CreateNonAvailability">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CreateNonAvailability"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="DeleteNonAvailability">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/DeleteNonAvailability"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CreateDictionaryItem">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CreateDictionaryItem"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="DeleteDictionaryItem">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/DeleteDictionaryItem"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="UpdateDictionaryItem">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/UpdateDictionaryItem"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetDictionaryItem">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetDictionaryItem"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetDictionaryTypes">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetDictionaryTypes"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetDictionaryItemChildren">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetDictionaryItemChildren"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetDictionaryItemParents">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetDictionaryItemParents"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetNavigationTree">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetNavigationTree"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="ExecuteOperation">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/ExecuteOperation"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="ExecuteMultipleOperations">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/ExecuteMultipleOperations"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetObjects">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetObjects"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetObjectsEx">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetObjectsEx"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetReferencedObjects">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetReferencedObjects"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="SetReferencedObjects">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/SetReferencedObjects"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CountObjects">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CountObjects"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="UpdateObjects">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/UpdateObjects"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="DeleteObjects">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/DeleteObjects"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="ConvertDates">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/ConvertDates"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetObjectsReferences">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetObjectsReferences"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetSetting">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetSetting"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetUserSetting">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetUserSetting"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetUserSettings">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetUserSettings"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="UpdateSetting">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/UpdateSetting"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="UpdateUserSetting">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/UpdateUserSetting"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="DeleteSetting">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/DeleteSetting"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="DeleteUserSetting">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/DeleteUserSetting"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CreateSetting">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CreateSetting"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CreateUserSetting">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CreateUserSetting"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>-    <wsdl:binding name="W6InProcSxpIntBinding_ServiceOptimizationService" type="i0:ServiceOptimizationService">
+        <soap:binding transport="http://schemas.clicksoftware.com/soap/inproc"/>
+-        <wsdl:operation name="SetStatusFlow">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/SetStatusFlow"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="DeleteStatusFlow">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/DeleteStatusFlow"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetAllowedStatusFlowTransitions">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetAllowedStatusFlowTransitions"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetUserStatusFlowTransitions">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetUserStatusFlowTransitions"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CalculateRelatedObject">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CalculateRelatedObject"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetTimeAccountStatement">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetTimeAccountStatement"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CheckSoftwareUpdates">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CheckSoftwareUpdates"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CheckServerHealth">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CheckServerHealth"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="TestConnection">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/TestConnection"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetAgentsStatus">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetAgentsStatus"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetAddressGeocode">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetAddressGeocode"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="StopAgent">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/StopAgent"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetServerTime">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetServerTime"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetAgentOperations">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetAgentOperations"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetLogicDomain">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetLogicDomain"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="StopPolling">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/StopPolling"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetPollingStatus">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetPollingStatus"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetServicesDescription">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetServicesDescription"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="Dispatch">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/Dispatch"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetDefaultRouteParameters">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetDefaultRouteParameters"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetDefaultRouteParametersWithKeys">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetDefaultRouteParametersWithKeys"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="QueryRouteWithKeysAndParams">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/QueryRouteWithKeysAndParams"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="QueryRouteWithKeys">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/QueryRouteWithKeys"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="QueryRouteWithLocations">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/QueryRouteWithLocations"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="QueryRouteWithNarrativeWithKeys">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/QueryRouteWithNarrativeWithKeys"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="QueryRouteWithNarrativeWithLocations">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/QueryRouteWithNarrativeWithLocations"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GenerateOutgoingMessagesXmlSchema">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GenerateOutgoingMessagesXmlSchema"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetAlerts">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetAlerts"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetAlertsEx">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetAlertsEx"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetNotifications">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetNotifications"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetNotificationsEx">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetNotificationsEx"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="ObjectReferencingOperations">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/ObjectReferencingOperations"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="EngineerGetCandidatesTasks">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/EngineerGetCandidatesTasks"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetNextValidStatuses">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetNextValidStatuses"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCollections">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCollections"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCollectionsScheme">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCollectionsScheme"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCollectionIndexes">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCollectionIndexes"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetSettings">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetSettings"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetTimeZones">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetTimeZones"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetTimeZonesEx">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetTimeZonesEx"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CreateCalendar">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CreateCalendar"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="DeleteCalendar">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/DeleteCalendar"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCalendar">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCalendar"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCalendarIntervals">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCalendarIntervals"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCalendarIntervalsEx">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCalendarIntervalsEx"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCalendarsIntervals">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCalendarsIntervals"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCalendarsIntervalsEx">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCalendarsIntervalsEx"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="UpdateCalendar">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/UpdateCalendar"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCalendars">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCalendars"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCalendarsLogicalIntervals">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCalendarsLogicalIntervals"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetCalendarsLogicalIntervalsEx">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetCalendarsLogicalIntervalsEx"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="UpdateCalendars">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/UpdateCalendars"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CheckTimePhasedWeeklyLevel">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CheckTimePhasedWeeklyLevel"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CreateResource">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CreateResource"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="DeleteResource">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/DeleteResource"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetResource">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetResource"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetResources">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetResources"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="UpdateResource">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/UpdateResource"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetResourcesGroups">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetResourcesGroups"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetResourceByLoginProperty">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetResourceByLoginProperty"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CreateNonAvailability">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CreateNonAvailability"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="DeleteNonAvailability">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/DeleteNonAvailability"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CreateDictionaryItem">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CreateDictionaryItem"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="DeleteDictionaryItem">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/DeleteDictionaryItem"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="UpdateDictionaryItem">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/UpdateDictionaryItem"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetDictionaryItem">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetDictionaryItem"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetDictionaryTypes">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetDictionaryTypes"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetDictionaryItemChildren">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetDictionaryItemChildren"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetDictionaryItemParents">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetDictionaryItemParents"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetNavigationTree">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetNavigationTree"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="ExecuteOperation">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/ExecuteOperation"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="ExecuteMultipleOperations">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/ExecuteMultipleOperations"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetObjects">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetObjects"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetObjectsEx">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetObjectsEx"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetReferencedObjects">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetReferencedObjects"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="SetReferencedObjects">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/SetReferencedObjects"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CountObjects">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CountObjects"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="UpdateObjects">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/UpdateObjects"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="DeleteObjects">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/DeleteObjects"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="ConvertDates">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/ConvertDates"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetObjectsReferences">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetObjectsReferences"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetSetting">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetSetting"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetUserSetting">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetUserSetting"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="GetUserSettings">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/GetUserSettings"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="UpdateSetting">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/UpdateSetting"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="UpdateUserSetting">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/UpdateUserSetting"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="DeleteSetting">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/DeleteSetting"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="DeleteUserSetting">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/DeleteUserSetting"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CreateSetting">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CreateSetting"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>-        <wsdl:operation name="CreateUserSetting">
+            <soap:operation style="document" soapAction="http://www.clicksoftware.com/ServiceOptimizationService/CreateUserSetting"/>
+-            <wsdl:input>
+                <soap:header use="literal" part="Header" message="i0:OptionalParameters"/>
+                <soap:body use="literal"/>
+            </wsdl:input>-            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>-    <wsdl:service name="W6ServiceOptimizationService">-        <wsdl:port name="CustomBinding_ServiceOptimizationService" binding="tns:CustomBinding_ServiceOptimizationService">
+            <soap:address location="http://localhost/SO/IntegrationServices/ServiceOptimizationService.svc/SxpInt"/>
+-            <wsa:EndpointReference>
+                <wsa:Address>http://localhost/SO/IntegrationServices/ServiceOptimizationService.svc/SxpInt</wsa:Address>
+            </wsa:EndpointReference>
+        </wsdl:port>-        <wsdl:port name="CustomBinding_ServiceOptimizationService1" binding="tns:CustomBinding_ServiceOptimizationService1">
+            <soap:address location="http://localhost/SO/IntegrationServices/ServiceOptimizationService.svc/BasicHttpInt"/>
+        </wsdl:port>-        <wsdl:port name="CustomBinding_ServiceOptimizationService2" binding="tns:CustomBinding_ServiceOptimizationService2">
+            <soap:address location="http://localhost/SO/IntegrationServices/ServiceOptimizationService.svc/BasicHttpIntOneWay"/>
+        </wsdl:port>-        <wsdl:port name="W6InProcSxpIntBinding_ServiceOptimizationService" binding="tns:W6InProcSxpIntBinding_ServiceOptimizationService">
+            <soap:address location="w6.inproc://npvmclkapp5.nfpower.nf.ca:80/SO/IntegrationServices/ServiceOptimizationService.svc/InProcSxpInt"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>
