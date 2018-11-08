@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigurationManagmentFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <GlobalMetaData>
+        <ConfigFileTitle>Configuration File</ConfigFileTitle>
+        <BuildVersion>1</BuildVersion>
+        <SOVersion>8.1.10(9467)</SOVersion>
+        <ExportTime>2018-11-08T15:35:01.6236192-03:30</ExportTime>
+        <ComputerName>NPCLKAPP6</ComputerName>
+        <Owner>gpatterson</Owner>
+        <BuilderToolVersion>8.10.9467.105</BuilderToolVersion>
+        <Description />
+    </GlobalMetaData>
+    <Queries />
+    <Settings>
+        <ConfigurationStep SerialNumber="1" TimeStamp="2018-11-08T15:34:26.4453937-03:30" Title="StatusTransition (Automatic Transitions): All" Description="" DisableEvents="false" IsCustom="false">
+            <Item DisplayString="Default Task Status Open ALL USERS" Key="125931538" CollectionName="StatusTransition" PathInExTree="StatusTransition\Default Task Status Open ALL USERS" ParentInExTree="Default Task Status" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
+                                    <Key>125931538</Key>
+                                    <Revision>1</Revision>
+                                    <Name>Default Task Status</Name>
+                                    <StatusBefore xsi:type="TaskStatusReference" Key="124135424" DisplayString="Open">Open</StatusBefore>
+                                    <StatusAfter xsi:type="TaskStatusReference" Key="124135424" DisplayString="Open">Open</StatusAfter>
+                                    <StatusContext>15</StatusContext>
+                                    <Users>
+                                        <Name>ALL USERS</Name>
+                                    </Users>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Status Change On Schedule Open Scheduled ALL USERS" Key="125931544" CollectionName="StatusTransition" PathInExTree="StatusTransition\Status Change On Schedule Open Scheduled ALL USERS" ParentInExTree="Status Change On Schedule" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
+                                    <Key>125931544</Key>
+                                    <Revision>4</Revision>
+                                    <Name>Status Change On Schedule</Name>
+                                    <StatusBefore xsi:type="TaskStatusReference" Key="124135424" DisplayString="Open">Open</StatusBefore>
+                                    <StatusAfter xsi:type="TaskStatusReference" Key="124135426" DisplayString="Scheduled">Scheduled</StatusAfter>
+                                    <StatusContext>1</StatusContext>
+                                    <Users>
+                                        <Name>ALL USERS</Name>
+                                    </Users>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Status Change On UnSchedule Dispatched Open nfpower_domain\jpearcenfpower" Key="125933568" CollectionName="StatusTransition" PathInExTree="StatusTransition\Status Change On UnSchedule Dispatched Open nfpower_domain\jpearcenfpower" ParentInExTree="Status Change On UnSchedule" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
+                                    <Key>125933568</Key>
+                                    <Revision>3</Revision>
+                                    <Name>Status Change On UnSchedule</Name>
+                                    <StatusBefore xsi:type="TaskStatusReference" Key="124135428" DisplayString="Dispatched">Dispatched</StatusBefore>
+                                    <StatusAfter xsi:type="TaskStatusReference" Key="124135424" DisplayString="Open">Open</StatusAfter>
+                                    <StatusContext>2</StatusContext>
+                                    <Users>
+                                        <Name>nfpower_domain\jpearce</Name>
+                                        <Name>nfpower</Name>
+                                    </Users>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Status Change On UnSchedule On Hold Open ALL USERS" Key="125956098" CollectionName="StatusTransition" PathInExTree="StatusTransition\Status Change On UnSchedule On Hold Open ALL USERS" ParentInExTree="Status Change On UnSchedule" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
+                                    <Key>125956098</Key>
+                                    <Revision>1</Revision>
+                                    <Name>Status Change On UnSchedule</Name>
+                                    <StatusBefore xsi:type="TaskStatusReference" Key="124145664" DisplayString="On Hold">On Hold</StatusBefore>
+                                    <StatusAfter xsi:type="TaskStatusReference" Key="124135424" DisplayString="Open">Open</StatusAfter>
+                                    <StatusContext>2</StatusContext>
+                                    <Users>
+                                        <Name>ALL USERS</Name>
+                                    </Users>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Status Change On UnSchedule Open Open nfpower_domain\tmichaud" Key="125941760" CollectionName="StatusTransition" PathInExTree="StatusTransition\Status Change On UnSchedule Open Open nfpower_domain\tmichaud" ParentInExTree="Status Change On UnSchedule" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
+                                    <Key>125941760</Key>
+                                    <Revision>3</Revision>
+                                    <Name>Status Change On UnSchedule</Name>
+                                    <StatusBefore xsi:type="TaskStatusReference" Key="124135424" DisplayString="Open">Open</StatusBefore>
+                                    <StatusAfter xsi:type="TaskStatusReference" Key="124135424" DisplayString="Open">Open</StatusAfter>
+                                    <StatusContext>2</StatusContext>
+                                    <Users>
+                                        <Name>nfpower_domain\tmichaud</Name>
+                                    </Users>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Status Change On UnSchedule Scheduled Open bveycfordclushdcorriganjclanceyjpearcelcrewsmsaundersNFPOWER_DOMAIN\biztalkNFPOWER_DOMAIN\bveynfpower_domain\cfordNFPOWER_DOMAIN\clushNFPOWER_DOMAIN\dcorriganNFPOWER_DOMAIN\jclanceyNFPOWER_DOMAIN\jpearcenfpower_domain\lcrewsNFPOWER_DOMAIN\msaundersnfpower_domain\noldfordnfpower_domain\nrosenfpower_domain\ppurcellNFPOWER_DOMAIN\sflynnNFPOWER_DOMAIN\swellsNFPOWER_DOMAIN\trockwoodnfpower_domain\tsladeNFPOWER_DOMAIN\wodriscollnoldfordnroseppurcellsflynnswellstrockwoodtsladewodriscoll" Key="125931546" CollectionName="StatusTransition" PathInExTree="StatusTransition\Status Change On UnSchedule Scheduled Open bveycfordclushdcorriganjclanceyjpearcelcrewsmsaundersNFPOWER_DOMAIN\biztalkNFPOWER_DOMAIN\bveynfpower_domain\cfordNFPOWER_DOMAIN\clushNFPOWER_DOMAIN\dcorriganNFPOWER_DOMAIN\jclanceyNFPOWER_DOMAIN\jpearcenfpower_domain\lcrewsNFPOWER_DOMAIN\msaundersnfpower_domain\noldfordnfpower_domain\nrosenfpower_domain\ppurcellNFPOWER_DOMAIN\sflynnNFPOWER_DOMAIN\swellsNFPOWER_DOMAIN\trockwoodnfpower_domain\tsladeNFPOWER_DOMAIN\wodriscollnoldfordnroseppurcellsflynnswellstrockwoodtsladewodriscoll" ParentInExTree="Status Change On UnSchedule" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
+                                    <Key>125931546</Key>
+                                    <Revision>20</Revision>
+                                    <Name>Status Change On UnSchedule</Name>
+                                    <StatusBefore xsi:type="TaskStatusReference" Key="124135426" DisplayString="Scheduled">Scheduled</StatusBefore>
+                                    <StatusAfter xsi:type="TaskStatusReference" Key="124135424" DisplayString="Open">Open</StatusAfter>
+                                    <StatusContext>2</StatusContext>
+                                    <Users>
+                                        <Name>bvey</Name>
+                                        <Name>cford</Name>
+                                        <Name>clush</Name>
+                                        <Name>dcorrigan</Name>
+                                        <Name>jclancey</Name>
+                                        <Name>jpearce</Name>
+                                        <Name>lcrews</Name>
+                                        <Name>msaunders</Name>
+                                        <Name>NFPOWER_DOMAIN\biztalk</Name>
+                                        <Name>NFPOWER_DOMAIN\bvey</Name>
+                                        <Name>nfpower_domain\cford</Name>
+                                        <Name>NFPOWER_DOMAIN\clush</Name>
+                                        <Name>NFPOWER_DOMAIN\dcorrigan</Name>
+                                        <Name>NFPOWER_DOMAIN\jclancey</Name>
+                                        <Name>NFPOWER_DOMAIN\jpearce</Name>
+                                        <Name>nfpower_domain\lcrews</Name>
+                                        <Name>NFPOWER_DOMAIN\msaunders</Name>
+                                        <Name>nfpower_domain\noldford</Name>
+                                        <Name>nfpower_domain\nrose</Name>
+                                        <Name>nfpower_domain\ppurcell</Name>
+                                        <Name>NFPOWER_DOMAIN\sflynn</Name>
+                                        <Name>NFPOWER_DOMAIN\swells</Name>
+                                        <Name>NFPOWER_DOMAIN\trockwood</Name>
+                                        <Name>nfpower_domain\tslade</Name>
+                                        <Name>NFPOWER_DOMAIN\wodriscoll</Name>
+                                        <Name>noldford</Name>
+                                        <Name>nrose</Name>
+                                        <Name>ppurcell</Name>
+                                        <Name>sflynn</Name>
+                                        <Name>swells</Name>
+                                        <Name>trockwood</Name>
+                                        <Name>tslade</Name>
+                                        <Name>wodriscoll</Name>
+                                    </Users>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="UnSchedule On Status Change Cannot Do Cancelled ALL USERS" Key="125956100" CollectionName="StatusTransition" PathInExTree="StatusTransition\UnSchedule On Status Change Cannot Do Cancelled ALL USERS" ParentInExTree="UnSchedule On Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
+                                    <Key>125956100</Key>
+                                    <Revision>1</Revision>
+                                    <Name>UnSchedule On Status Change</Name>
+                                    <StatusBefore xsi:type="TaskStatusReference" Key="124145666" DisplayString="Cannot Do">Cannot Do</StatusBefore>
+                                    <StatusAfter xsi:type="TaskStatusReference" Key="124143616" DisplayString="Cancelled">Cancelled</StatusAfter>
+                                    <StatusContext>3</StatusContext>
+                                    <Users>
+                                        <Name>ALL USERS</Name>
+                                    </Users>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="UnSchedule On Status Change Cannot Do On Hold trockwoodbveycfordclushdcorrigandpettenjclanceyjpearcelcrewsmsaundersNFPOWER_DOMAIN\biztalkNFPOWER_DOMAIN\bveynfpower_domain\cfordNFPOWER_DOMAIN\clushNFPOWER_DOMAIN\dcorrigannfpower_domain\dpettenNFPOWER_DOMAIN\jclanceyNFPOWER_DOMAIN\jpearcenfpower_domain\lcrewsNFPOWER_DOMAIN\msaundersnfpower_domain\ppurcellNFPOWER_DOMAIN\sflynnNFPOWER_DOMAIN\trockwoodnfpower_domain\tsladeNFPOWER_DOMAIN\wodriscollppurcellsflynntsladeWodriscoll" Key="125956099" CollectionName="StatusTransition" PathInExTree="StatusTransition\UnSchedule On Status Change Cannot Do On Hold trockwoodbveycfordclushdcorrigandpettenjclanceyjpearcelcrewsmsaundersNFPOWER_DOMAIN\biztalkNFPOWER_DOMAIN\bveynfpower_domain\cfordNFPOWER_DOMAIN\clushNFPOWER_DOMAIN\dcorrigannfpower_domain\dpettenNFPOWER_DOMAIN\jclanceyNFPOWER_DOMAIN\jpearcenfpower_domain\lcrewsNFPOWER_DOMAIN\msaundersnfpower_domain\ppurcellNFPOWER_DOMAIN\sflynnNFPOWER_DOMAIN\trockwoodnfpower_domain\tsladeNFPOWER_DOMAIN\wodriscollppurcellsflynntsladeWodriscoll" ParentInExTree="UnSchedule On Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
+                                    <Key>125956099</Key>
+                                    <Revision>19</Revision>
+                                    <Name>UnSchedule On Status Change</Name>
+                                    <StatusBefore xsi:type="TaskStatusReference" Key="124145666" DisplayString="Cannot Do">Cannot Do</StatusBefore>
+                                    <StatusAfter xsi:type="TaskStatusReference" Key="124145664" DisplayString="On Hold">On Hold</StatusAfter>
+                                    <StatusContext>3</StatusContext>
+                                    <Users>
+                                        <Name>trockwood</Name>
+                                        <Name>bvey</Name>
+                                        <Name>cford</Name>
+                                        <Name>clush</Name>
+                                        <Name>dcorrigan</Name>
+                                        <Name>dpetten</Name>
+                                        <Name>jclancey</Name>
+                                        <Name>jpearce</Name>
+                                        <Name>lcrews</Name>
+                                        <Name>msaunders</Name>
+                                        <Name>NFPOWER_DOMAIN\biztalk</Name>
+                                        <Name>NFPOWER_DOMAIN\bvey</Name>
+                                        <Name>nfpower_domain\cford</Name>
+                                        <Name>NFPOWER_DOMAIN\clush</Name>
+                                        <Name>NFPOWER_DOMAIN\dcorrigan</Name>
+                                        <Name>nfpower_domain\dpetten</Name>
+                                        <Name>NFPOWER_DOMAIN\jclancey</Name>
+                                        <Name>NFPOWER_DOMAIN\jpearce</Name>
+                                        <Name>nfpower_domain\lcrews</Name>
+                                        <Name>NFPOWER_DOMAIN\msaunders</Name>
+                                        <Name>nfpower_domain\ppurcell</Name>
+                                        <Name>NFPOWER_DOMAIN\sflynn</Name>
+                                        <Name>NFPOWER_DOMAIN\trockwood</Name>
+                                        <Name>nfpower_domain\tslade</Name>
+                                        <Name>NFPOWER_DOMAIN\wodriscoll</Name>
+                                        <Name>ppurcell</Name>
+                                        <Name>sflynn</Name>
+                                        <Name>tslade</Name>
+                                        <Name>Wodriscoll</Name>
+                                    </Users>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="UnSchedule On Status Change Completed Open NFPOWER_DOMAIN\tmichaudtmichaud" Key="125939712" CollectionName="StatusTransition" PathInExTree="StatusTransition\UnSchedule On Status Change Completed Open NFPOWER_DOMAIN\tmichaudtmichaud" ParentInExTree="UnSchedule On Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
+                                    <Key>125939712</Key>
+                                    <Revision>1</Revision>
+                                    <Name>UnSchedule On Status Change</Name>
+                                    <StatusBefore xsi:type="TaskStatusReference" Key="124135430" DisplayString="Completed">Completed</StatusBefore>
+                                    <StatusAfter xsi:type="TaskStatusReference" Key="124135424" DisplayString="Open">Open</StatusAfter>
+                                    <StatusContext>3</StatusContext>
+                                    <Users>
+                                        <Name>NFPOWER_DOMAIN\tmichaud</Name>
+                                        <Name>tmichaud</Name>
+                                    </Users>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="UnSchedule On Status Change Dispatched Cancelled ALL USERS" Key="125931548" CollectionName="StatusTransition" PathInExTree="StatusTransition\UnSchedule On Status Change Dispatched Cancelled ALL USERS" ParentInExTree="UnSchedule On Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
+                                    <Key>125931548</Key>
+                                    <Revision>3</Revision>
+                                    <Name>UnSchedule On Status Change</Name>
+                                    <StatusBefore xsi:type="TaskStatusReference" Key="124135428" DisplayString="Dispatched">Dispatched</StatusBefore>
+                                    <StatusAfter xsi:type="TaskStatusReference" Key="124143616" DisplayString="Cancelled">Cancelled</StatusAfter>
+                                    <StatusContext>3</StatusContext>
+                                    <Users>
+                                        <Name>ALL USERS</Name>
+                                    </Users>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="UnSchedule On Status Change Dispatched Open nfpower_domain\jpearcejpearce" Key="125931551" CollectionName="StatusTransition" PathInExTree="StatusTransition\UnSchedule On Status Change Dispatched Open nfpower_domain\jpearcejpearce" ParentInExTree="UnSchedule On Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
+                                    <Key>125931551</Key>
+                                    <Revision>3</Revision>
+                                    <Name>UnSchedule On Status Change</Name>
+                                    <StatusBefore xsi:type="TaskStatusReference" Key="124135428" DisplayString="Dispatched">Dispatched</StatusBefore>
+                                    <StatusAfter xsi:type="TaskStatusReference" Key="124135424" DisplayString="Open">Open</StatusAfter>
+                                    <StatusContext>3</StatusContext>
+                                    <Users>
+                                        <Name>nfpower_domain\jpearce</Name>
+                                        <Name>jpearce</Name>
+                                    </Users>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="UnSchedule On Status Change Reviewed By Crew Cancelled ALL USERS" Key="260050955" CollectionName="StatusTransition" PathInExTree="StatusTransition\UnSchedule On Status Change Reviewed By Crew Cancelled ALL USERS" ParentInExTree="UnSchedule On Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
+                                    <Key>260050955</Key>
+                                    <Revision>1</Revision>
+                                    <Name>UnSchedule On Status Change</Name>
+                                    <StatusBefore xsi:type="TaskStatusReference" Key="124145665" DisplayString="Reviewed By Crew">Reviewed By Crew</StatusBefore>
+                                    <StatusAfter xsi:type="TaskStatusReference" Key="124143616" DisplayString="Cancelled">Cancelled</StatusAfter>
+                                    <StatusContext>3</StatusContext>
+                                    <Users>
+                                        <Name>ALL USERS</Name>
+                                    </Users>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="UnSchedule On Status Change Reviewed By Crew Open ALL USERS" Key="260057088" CollectionName="StatusTransition" PathInExTree="StatusTransition\UnSchedule On Status Change Reviewed By Crew Open ALL USERS" ParentInExTree="UnSchedule On Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
+                                    <Key>260057088</Key>
+                                    <Revision>1</Revision>
+                                    <Name>UnSchedule On Status Change</Name>
+                                    <StatusBefore xsi:type="TaskStatusReference" Key="124145665" DisplayString="Reviewed By Crew">Reviewed By Crew</StatusBefore>
+                                    <StatusAfter xsi:type="TaskStatusReference" Key="124135424" DisplayString="Open">Open</StatusAfter>
+                                    <StatusContext>3</StatusContext>
+                                    <Users>
+                                        <Name>ALL USERS</Name>
+                                    </Users>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="UnSchedule On Status Change Scheduled Cancelled trockwoodbveycfordclushcrewsdcorriganjclanceyjpearcemsaundersNFPOWER_DOMAIN\achurchillNFPOWER_DOMAIN\biztalkNFPOWER_DOMAIN\bveynfpower_domain\cfordNFPOWER_DOMAIN\clushNFPOWER_DOMAIN\dcorriganNFPOWER_DOMAIN\jclanceyNFPOWER_DOMAIN\jpearcenfpower_domain\lcrewsNFPOWER_DOMAIN\msaundersnfpower_domain\ppurcellNFPOWER_DOMAIN\sflynnNFPOWER_DOMAIN\trockwoodnfpower_domain\tsladeNFPOWER_DOMAIN\wodriscollppurcellsflynntsladewodriscoll" Key="125931550" CollectionName="StatusTransition" PathInExTree="StatusTransition\UnSchedule On Status Change Scheduled Cancelled trockwoodbveycfordclushcrewsdcorriganjclanceyjpearcemsaundersNFPOWER_DOMAIN\achurchillNFPOWER_DOMAIN\biztalkNFPOWER_DOMAIN\bveynfpower_domain\cfordNFPOWER_DOMAIN\clushNFPOWER_DOMAIN\dcorriganNFPOWER_DOMAIN\jclanceyNFPOWER_DOMAIN\jpearcenfpower_domain\lcrewsNFPOWER_DOMAIN\msaundersnfpower_domain\ppurcellNFPOWER_DOMAIN\sflynnNFPOWER_DOMAIN\trockwoodnfpower_domain\tsladeNFPOWER_DOMAIN\wodriscollppurcellsflynntsladewodriscoll" ParentInExTree="UnSchedule On Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
+                                    <Key>125931550</Key>
+                                    <Revision>13</Revision>
+                                    <Name>UnSchedule On Status Change</Name>
+                                    <StatusBefore xsi:type="TaskStatusReference" Key="124135426" DisplayString="Scheduled">Scheduled</StatusBefore>
+                                    <StatusAfter xsi:type="TaskStatusReference" Key="124143616" DisplayString="Cancelled">Cancelled</StatusAfter>
+                                    <StatusContext>3</StatusContext>
+                                    <Users>
+                                        <Name>trockwood</Name>
+                                        <Name>bvey</Name>
+                                        <Name>cford</Name>
+                                        <Name>clush</Name>
+                                        <Name>crews</Name>
+                                        <Name>dcorrigan</Name>
+                                        <Name>jclancey</Name>
+                                        <Name>jpearce</Name>
+                                        <Name>msaunders</Name>
+                                        <Name>NFPOWER_DOMAIN\achurchill</Name>
+                                        <Name>NFPOWER_DOMAIN\biztalk</Name>
+                                        <Name>NFPOWER_DOMAIN\bvey</Name>
+                                        <Name>nfpower_domain\cford</Name>
+                                        <Name>NFPOWER_DOMAIN\clush</Name>
+                                        <Name>NFPOWER_DOMAIN\dcorrigan</Name>
+                                        <Name>NFPOWER_DOMAIN\jclancey</Name>
+                                        <Name>NFPOWER_DOMAIN\jpearce</Name>
+                                        <Name>nfpower_domain\lcrews</Name>
+                                        <Name>NFPOWER_DOMAIN\msaunders</Name>
+                                        <Name>nfpower_domain\ppurcell</Name>
+                                        <Name>NFPOWER_DOMAIN\sflynn</Name>
+                                        <Name>NFPOWER_DOMAIN\trockwood</Name>
+                                        <Name>nfpower_domain\tslade</Name>
+                                        <Name>NFPOWER_DOMAIN\wodriscoll</Name>
+                                        <Name>ppurcell</Name>
+                                        <Name>sflynn</Name>
+                                        <Name>tslade</Name>
+                                        <Name>wodriscoll</Name>
+                                    </Users>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="UnSchedule On Status Change Scheduled Open ALL USERS" Key="260057089" CollectionName="StatusTransition" PathInExTree="StatusTransition\UnSchedule On Status Change Scheduled Open ALL USERS" ParentInExTree="UnSchedule On Status Change" ObjectType="StatusTransition" ImageKey="StatusTransitionItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="StatusTransition">
+                                    <Key>260057089</Key>
+                                    <Revision>1</Revision>
+                                    <Name>UnSchedule On Status Change</Name>
+                                    <StatusBefore xsi:type="TaskStatusReference" Key="124135426" DisplayString="Scheduled">Scheduled</StatusBefore>
+                                    <StatusAfter xsi:type="TaskStatusReference" Key="124135424" DisplayString="Open">Open</StatusAfter>
+                                    <StatusContext>3</StatusContext>
+                                    <Users>
+                                        <Name>ALL USERS</Name>
+                                    </Users>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos />
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+        </ConfigurationStep>
+    </Settings>
+    <Scheme />
+</ConfigurationManagmentFile>
