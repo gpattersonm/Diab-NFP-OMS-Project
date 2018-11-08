@@ -1,0 +1,70 @@
+<Destinations>
+    <Destination Name="Main">
+        <Address Type="0">http://localhost/SO/IntegrationServices/DefOutputQS.aspx</Address>
+        <TranslatorOut Type="1"></TranslatorOut>
+        <TranslatorIn Type="1"></TranslatorIn>
+        <QueryString>1</QueryString>
+        <Async>0</Async>
+        <SendISOFormat>0</SendISOFormat>
+        <SendMessageID>0</SendMessageID>
+        <TimeZone></TimeZone>
+        <SendSOAP>true</SendSOAP>
+        <Credentials>
+            <UseCredentials>false</UseCredentials>
+            <UserName></UserName>
+            <Password></Password>
+            <Domain></Domain>
+        </Credentials>
+    </Destination>
+    <Destination Name="TaskUpdate">
+        <Address Type="0">http://np022304bt/CrewScheduling/CrewScheduling_ClickOutgoingMessages_Receive_TaskUpdate.svc</Address>
+        <TranslatorOut Type="1"></TranslatorOut>
+        <TranslatorIn Type="1"></TranslatorIn>
+        <QueryString>0</QueryString>
+        <Async>0</Async>
+        <SendISOFormat>0</SendISOFormat>
+        <SendMessageID>0</SendMessageID>
+        <SendSOAP>true</SendSOAP>
+        <TimeZone></TimeZone>
+        <Credentials>
+            <UseCredentials>false</UseCredentials>
+            <UserName></UserName>
+            <Password></Password>
+            <Domain></Domain>
+        </Credentials>
+    </Destination>
+    <Destination Name="UpdateAssignment">
+        <Address Type="0">http://np022304bt/CrewScheduling/CrewScheduling_ClickOutgoingMessages_Receive_UpdateAssignment.svc</Address>
+        <TranslatorOut Type="1"></TranslatorOut>
+        <TranslatorIn Type="1"></TranslatorIn>
+        <QueryString>0</QueryString>
+        <Async>0</Async>
+        <SendISOFormat>0</SendISOFormat>
+        <SendMessageID>0</SendMessageID>
+        <SendSOAP>true</SendSOAP>
+        <TimeZone></TimeZone>
+        <Credentials>
+            <UseCredentials>false</UseCredentials>
+            <UserName></UserName>
+            <Password></Password>
+            <Domain></Domain>
+        </Credentials>
+    </Destination>
+    <Destination Name="DeleteAssignment">
+        <Address Type="0">http://np022304bt/CrewScheduling/CrewScheduling_ClickOutgoingMessages_Receive_DeleteAssignment.svc</Address>
+        <TranslatorOut Type="1"></TranslatorOut>
+        <TranslatorIn Type="1"></TranslatorIn>
+        <QueryString>0</QueryString>
+        <Async>0</Async>
+        <SendISOFormat>0</SendISOFormat>
+        <SendMessageID>0</SendMessageID>
+        <SendSOAP>true</SendSOAP>
+        <TimeZone></TimeZone>
+        <Credentials>
+            <UseCredentials>false</UseCredentials>
+            <UserName></UserName>
+            <Password></Password>
+            <Domain></Domain>
+        </Credentials>
+    </Destination>
+</Destinations>
