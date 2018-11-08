@@ -1,0 +1,2038 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigurationManagmentFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <GlobalMetaData>
+        <ConfigFileTitle>Configuration File</ConfigFileTitle>
+        <BuildVersion>1</BuildVersion>
+        <SOVersion>8.1.10(9467)</SOVersion>
+        <ExportTime>2018-11-08T13:15:19.6497778-03:30</ExportTime>
+        <ComputerName>NPCLKAPP6</ComputerName>
+        <Owner>gpatterson</Owner>
+        <BuilderToolVersion>8.10.9467.105</BuilderToolVersion>
+        <Description />
+    </GlobalMetaData>
+    <Queries />
+    <Settings>
+        <ConfigurationStep SerialNumber="1" TimeStamp="2018-11-08T13:12:48.2352072-03:30" Title="Group (Groups of Tasks): All  - 1" Description="" DisableEvents="false" IsCustom="false">
+            <Item DisplayString="All Tasks" Key="924641296" CollectionName="Group" PathInExTree="Group\All Tasks" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>924641296</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>NETWORK SERVICE</CreatedBy>
+                                        <TimeCreated>2018-09-14T17:40:39</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NETWORK SERVICE</ModifiedBy>
+                                        <TimeModified>2018-09-14T17:40:39</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>All Tasks</Name>
+                                    <Body />
+                                    <GroupParameters />
+                                    <GroupType>2</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Task</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Area Optimizable Task - Service Work" Key="790403257" CollectionName="Group" PathInExTree="Group\Area Optimizable Task - Service Work" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>790403257</Key>
+                                    <Revision>3</Revision>
+                                    <Stamp>
+                                        <CreatedBy>NFPOWER_DOMAIN\JPearce</CreatedBy>
+                                        <TimeCreated>2013-08-26T14:30:20</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NFPOWER_DOMAIN\JPearce</ModifiedBy>
+                                        <TimeModified>2013-10-17T13:32:08</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>Area Optimizable Task - Service Work</Name>
+                                    <Body>&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="500" TYPE_TEXT="And" /&gt;&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="501" TYPE_TEXT="Or" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135424&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135426&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145665&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;51&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;0&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;36&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="601" TYPE_TEXT="&amp;gt;" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;0&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;21&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="603" TYPE_TEXT="&amp;lt;" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;28800&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;20&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124819456&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;102&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="605" TYPE_TEXT="&amp;lt;&amp;gt;" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;127414272&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;12&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="605" TYPE_TEXT="&amp;lt;&amp;gt;" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124012544&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;102&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="605" TYPE_TEXT="&amp;lt;&amp;gt;" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;127404040&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;102&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="605" TYPE_TEXT="&amp;lt;&amp;gt;" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;127404042&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>2</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Task</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/CONDITION[1]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135424" DisplayString="Open">Open</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/CONDITION[2]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135426" DisplayString="Scheduled">Scheduled</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/CONDITION[3]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/CONDITION[3]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124145665" DisplayString="Reviewed By Crew">Reviewed By Crew</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Pinned</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[3]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Latitude</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[4]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Duration</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[5]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>TaskType</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[5]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskType</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskTypeReference" Key="124819456" DisplayString="Service Work">Service Work</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[6]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Classification</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[6]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>WorkClassification</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="WorkClassificationReference" Key="127414272" DisplayString="Disconnect/Reconnect">Disconnect/Reconnect</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[7]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Region</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[7]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Region</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="RegionReference" Key="124012544" DisplayString="SJN">SJN</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[8]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Classification</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[8]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>WorkClassification</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="WorkClassificationReference" Key="127404040" DisplayString="Outage Streetlight">Outage Streetlight</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[9]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Classification</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[9]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>WorkClassification</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="WorkClassificationReference" Key="127404042" DisplayString="Provisioning Service - Aliant Fibre">Provisioning Service - Aliant Fibre</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Area SL" Key="924606509" CollectionName="Group" PathInExTree="Group\Area SL" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>924606509</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>NFPOWER_DOMAIN\jpearce</CreatedBy>
+                                        <TimeCreated>2013-06-25T09:58:26</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NFPOWER_DOMAIN\jpearce</ModifiedBy>
+                                        <TimeModified>2013-06-25T09:58:26</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>Area SL</Name>
+                                    <Body>&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="500" TYPE_TEXT="And" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135424&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;12&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="605" TYPE_TEXT="&amp;lt;&amp;gt;" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124012544&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;102&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;127404040&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;20&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124819456&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>2</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Task</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135424" DisplayString="Open">Open</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Region</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Region</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="RegionReference" Key="124012544" DisplayString="SJN">SJN</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[3]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Classification</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[3]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>WorkClassification</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="WorkClassificationReference" Key="127404040" DisplayString="Outage Streetlight">Outage Streetlight</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[4]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>TaskType</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[4]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskType</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskTypeReference" Key="124819456" DisplayString="Service Work">Service Work</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Cancelled Tasks" Key="790423552" CollectionName="Group" PathInExTree="Group\Cancelled Tasks" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>790423552</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>RDLIRITT60\IUSR_ENG_LPT</CreatedBy>
+                                        <TimeCreated>2007-07-05T08:33:40</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>RDLIRITT60\IUSR_ENG_LPT</ModifiedBy>
+                                        <TimeModified>2007-07-05T08:33:40</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>Cancelled Tasks</Name>
+                                    <Body />
+                                    <GroupParameters />
+                                    <GroupType>2</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound>2;11;</LowBound>
+                                    <HighBound>2;11;@9-124143616#9-124143616</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Task</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>2;11;@9-124143616#9-124143616</Mapping>
+                                    <Property>INDEX_INTERVAL_UPPER_BOUND</Property>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>LowerBound</Property>
+                                    <Reference xsi:type="GenericIndexReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <ProductContextString>Status</ProductContextString>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>LowerBound</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>0</Mapping>
+                                    <Property>LowerBound</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124143616" DisplayString="Cancelled">Cancelled</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>UpperBound</Property>
+                                    <Reference xsi:type="GenericIndexReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <ProductContextString>Status</ProductContextString>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>UpperBound</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>0</Mapping>
+                                    <Property>UpperBound</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124143616" DisplayString="Cancelled">Cancelled</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Cannot Do By Crew Tasks" Key="790470662" CollectionName="Group" PathInExTree="Group\Cannot Do By Crew Tasks" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>790470662</Key>
+                                    <Revision>2</Revision>
+                                    <Stamp>
+                                        <CreatedBy>NFPOWER_DOMAIN\JPearce</CreatedBy>
+                                        <TimeCreated>2012-05-29T21:52:53</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NFPOWER_DOMAIN\JPearce</ModifiedBy>
+                                        <TimeModified>2012-06-04T10:54:03</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>Cannot Do By Crew Tasks</Name>
+                                    <Body>&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145666&lt;/VALUE&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>2</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Task</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124145666" DisplayString="Cannot Do">Cannot Do</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Capacity Reservation - Included" Key="1058880597" CollectionName="Group" PathInExTree="Group\Capacity Reservation - Included" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>1058880597</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>NFPOWER_DOMAIN\tmichaud</CreatedBy>
+                                        <TimeCreated>2011-03-08T07:16:12</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NFPOWER_DOMAIN\tmichaud</ModifiedBy>
+                                        <TimeModified>2011-03-08T07:16:12</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>Capacity Reservation - Included</Name>
+                                    <Body>&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="501" TYPE_TEXT="Or" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;83&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;127141888&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;83&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;127141889&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;83&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;127141890&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;83&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;127141891&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;83&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;127141892&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>2</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Task</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>CapacityBucket</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>CapacityBucket</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="CapacityBucketReference" Key="127141888" DisplayString="CustomerGrowth">CustomerGrowth</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>CapacityBucket</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>CapacityBucket</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="CapacityBucketReference" Key="127141889" DisplayString="Longevity">Longevity</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[3]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>CapacityBucket</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[3]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>CapacityBucket</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="CapacityBucketReference" Key="127141890" DisplayString="Maintenance">Maintenance</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[4]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>CapacityBucket</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[4]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>CapacityBucket</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="CapacityBucketReference" Key="127141891" DisplayString="Revenue">Revenue</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[5]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>CapacityBucket</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[5]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>CapacityBucket</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="CapacityBucketReference" Key="127141892" DisplayString="SubGen">SubGen</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Complete Tasks with Followup" Key="790470663" CollectionName="Group" PathInExTree="Group\Complete Tasks with Followup" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>790470663</Key>
+                                    <Revision>2</Revision>
+                                    <Stamp>
+                                        <CreatedBy>NFPOWER_DOMAIN\JPearce</CreatedBy>
+                                        <TimeCreated>2012-05-29T21:54:25</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NFPOWER_DOMAIN\JPearce</ModifiedBy>
+                                        <TimeModified>2012-06-04T10:48:49</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>Complete Tasks with Followup</Name>
+                                    <Body>&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="500" TYPE_TEXT="And" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;20&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124821504&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124149762&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>2</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Task</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>TaskType</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskType</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskTypeReference" Key="124821504" DisplayString="Trouble Work">Trouble Work</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124149762" DisplayString="Complete With Followup">Complete With Followup</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Complete Tasks with Interruption" Key="790470664" CollectionName="Group" PathInExTree="Group\Complete Tasks with Interruption" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>790470664</Key>
+                                    <Revision>2</Revision>
+                                    <Stamp>
+                                        <CreatedBy>NFPOWER_DOMAIN\JPearce</CreatedBy>
+                                        <TimeCreated>2012-05-29T21:56:21</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NFPOWER_DOMAIN\JPearce</ModifiedBy>
+                                        <TimeModified>2012-06-04T10:49:53</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>Complete Tasks with Interruption</Name>
+                                    <Body>&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="500" TYPE_TEXT="And" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;20&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124821504&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124149760&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>2</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Task</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>TaskType</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskType</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskTypeReference" Key="124821504" DisplayString="Trouble Work">Trouble Work</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124149760" DisplayString="Complete with Interruption">Complete with Interruption</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Complete With Follow Up (All Work Types)" Key="521932819" CollectionName="Group" PathInExTree="Group\Complete With Follow Up (All Work Types)" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>521932819</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>NETWORK SERVICE</CreatedBy>
+                                        <TimeCreated>2015-04-07T14:34:02</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NETWORK SERVICE</ModifiedBy>
+                                        <TimeModified>2015-04-07T14:34:03</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>Complete With Follow Up (All Work Types)</Name>
+                                    <Body>&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="501" TYPE_TEXT="Or" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124149762&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;20&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="605" TYPE_TEXT="&amp;lt;&amp;gt;" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124821504&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>2</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Task</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124149762" DisplayString="Complete With Followup">Complete With Followup</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>TaskType</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskType</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskTypeReference" Key="124821504" DisplayString="Trouble Work">Trouble Work</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Complete With Interruption (All Work Types)" Key="521932820" CollectionName="Group" PathInExTree="Group\Complete With Interruption (All Work Types)" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>521932820</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>NETWORK SERVICE</CreatedBy>
+                                        <TimeCreated>2015-04-07T14:35:10</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NETWORK SERVICE</ModifiedBy>
+                                        <TimeModified>2015-04-07T14:35:10</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>Complete With Interruption (All Work Types)</Name>
+                                    <Body>&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="501" TYPE_TEXT="Or" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124149760&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;20&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="605" TYPE_TEXT="&amp;lt;&amp;gt;" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124821504&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>2</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Task</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124149760" DisplayString="Complete with Interruption">Complete with Interruption</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>TaskType</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskType</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskTypeReference" Key="124821504" DisplayString="Trouble Work">Trouble Work</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Complete Work With FollowUp" Key="790489099" CollectionName="Group" PathInExTree="Group\Complete Work With FollowUp" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>790489099</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>NFPOWER_DOMAIN\JPearce</CreatedBy>
+                                        <TimeCreated>2013-03-25T13:25:21</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NFPOWER_DOMAIN\JPearce</ModifiedBy>
+                                        <TimeModified>2013-03-25T13:25:21</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>Complete Work With FollowUp</Name>
+                                    <Body>&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="500" TYPE_TEXT="And" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;20&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="605" TYPE_TEXT="&amp;lt;&amp;gt;" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124821504&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124149762&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>2</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Task</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>TaskType</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskType</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskTypeReference" Key="124821504" DisplayString="Trouble Work">Trouble Work</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124149762" DisplayString="Complete With Followup">Complete With Followup</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Completed Tasks" Key="790421506" CollectionName="Group" PathInExTree="Group\Completed Tasks" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>790421506</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>CLICKSOFTWARE\ronit.eliav</CreatedBy>
+                                        <TimeCreated>2007-06-11T18:59:47</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>CLICKSOFTWARE\ronit.eliav</ModifiedBy>
+                                        <TimeModified>2007-06-11T18:59:47</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>Completed Tasks</Name>
+                                    <Body>&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="501" TYPE_TEXT="Or"/&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="="/&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135430&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="="/&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145668&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>2</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Task</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135430" DisplayString="Completed">Completed</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124145668" DisplayString="In Progress">In Progress</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Daily work (&lt;= 7 Hrs)" Key="656191597" CollectionName="Group" PathInExTree="Group\Daily work (&lt;= 7 Hrs)" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>656191597</Key>
+                                    <Revision>2</Revision>
+                                    <Stamp>
+                                        <CreatedBy>NFPOWER_DOMAIN\JPearce</CreatedBy>
+                                        <TimeCreated>2012-04-13T15:08:42</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NETWORK SERVICE</ModifiedBy>
+                                        <TimeModified>2018-09-14T17:17:16</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>Daily work (&lt;= 7 Hrs)</Name>
+                                    <Body>&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;21&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="604" TYPE_TEXT="&amp;lt;=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;25200&lt;/VALUE&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>2</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Task</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Duration</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Daily Work (&gt; 7 Hrs)" Key="656191598" CollectionName="Group" PathInExTree="Group\Daily Work (&gt; 7 Hrs)" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>656191598</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>NFPOWER_DOMAIN\JPearce</CreatedBy>
+                                        <TimeCreated>2012-04-13T15:10:12</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NFPOWER_DOMAIN\JPearce</ModifiedBy>
+                                        <TimeModified>2012-04-13T15:10:12</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>Daily Work (&gt; 7 Hrs)</Name>
+                                    <Body>&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="500" TYPE_TEXT="And" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;21&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="601" TYPE_TEXT="&amp;gt;" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;25200&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;20&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124809217&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>2</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Task</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Duration</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>TaskType</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskType</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskTypeReference" Key="124809217" DisplayString="Line Work">Line Work</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Dispatched Tasks" Key="790415360" CollectionName="Group" PathInExTree="Group\Dispatched Tasks" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>790415360</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>CLICKSOFTWARE\ronit.eliav</CreatedBy>
+                                        <TimeCreated>2007-06-05T10:34:22</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>CLICKSOFTWARE\ronit.eliav</ModifiedBy>
+                                        <TimeModified>2007-06-05T10:34:22</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>Dispatched Tasks</Name>
+                                    <Body>&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="="/&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135428&lt;/VALUE&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>2</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Task</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135428" DisplayString="Dispatched">Dispatched</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Geocoded Tasks" Key="790450180" CollectionName="Group" PathInExTree="Group\Geocoded Tasks" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>790450180</Key>
+                                    <Revision>3</Revision>
+                                    <Stamp>
+                                        <CreatedBy>NFPOWER_DOMAIN\mburns</CreatedBy>
+                                        <TimeCreated>2010-11-15T17:00:28</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NFPOWER_DOMAIN\tmichaud</ModifiedBy>
+                                        <TimeModified>2010-12-06T13:36:43</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>Geocoded Tasks</Name>
+                                    <Body>&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="502" TYPE_TEXT="Not" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;36&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;0&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>2</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Task</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Latitude</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Geocoded Tasks NOT" Key="924616704" CollectionName="Group" PathInExTree="Group\Geocoded Tasks NOT" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>924616704</Key>
+                                    <Revision>3</Revision>
+                                    <Stamp>
+                                        <CreatedBy>NFPOWER_DOMAIN\tmichaud</CreatedBy>
+                                        <TimeCreated>2010-12-15T17:36:48</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NFPOWER_DOMAIN\tmichaud</ModifiedBy>
+                                        <TimeModified>2010-12-15T17:57:12</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>Geocoded Tasks NOT</Name>
+                                    <Body>&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="501" TYPE_TEXT="Or" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;36&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;0&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;36&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;47561425&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>2</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Task</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Latitude</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Latitude</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="High Priority Tasks" Key="790419459" CollectionName="Group" PathInExTree="Group\High Priority Tasks" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>790419459</Key>
+                                    <Revision>2</Revision>
+                                    <Stamp>
+                                        <CreatedBy>CLICKSOFTWARE\ronit.eliav</CreatedBy>
+                                        <TimeCreated>2007-06-08T17:08:47</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NFPOWER_DOMAIN\jpearce</ModifiedBy>
+                                        <TimeModified>2013-06-27T10:00:20</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>High Priority Tasks</Name>
+                                    <Body>&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="501" TYPE_TEXT="Or" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;8&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="604" TYPE_TEXT="&amp;lt;=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;3&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="500" TYPE_TEXT="And" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;102&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;127404040&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;12&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="605" TYPE_TEXT="&amp;lt;&amp;gt;" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124012544&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>2</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Task</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Priority</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Classification</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/CONDITION[1]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>WorkClassification</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="WorkClassificationReference" Key="127404040" DisplayString="Outage Streetlight">Outage Streetlight</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/CONDITION[2]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Region</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/CONDITION[2]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Region</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="RegionReference" Key="124012544" DisplayString="SJN">SJN</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="In Jeopardy Tasks" Key="790421507" CollectionName="Group" PathInExTree="Group\In Jeopardy Tasks" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>790421507</Key>
+                                    <Revision>2</Revision>
+                                    <Stamp>
+                                        <CreatedBy>CLICKSOFTWARE\ronit.eliav</CreatedBy>
+                                        <TimeCreated>2007-06-11T19:03:16</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>CLICKSOFTWARE\ronit.eliav</ModifiedBy>
+                                        <TimeModified>2007-06-12T19:32:29</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>In Jeopardy Tasks</Name>
+                                    <Body>&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;50&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="="/&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;-1&lt;/VALUE&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>2</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Task</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>InJeopardy</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="In Progress Tasks" Key="253524045" CollectionName="Group" PathInExTree="Group\In Progress Tasks" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>253524045</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>NETWORK SERVICE</CreatedBy>
+                                        <TimeCreated>2015-04-14T19:17:58</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NETWORK SERVICE</ModifiedBy>
+                                        <TimeModified>2015-04-14T19:17:58</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>In Progress Tasks</Name>
+                                    <Body>&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145668&lt;/VALUE&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>2</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Task</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124145668" DisplayString="In Progress">In Progress</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Locked Tasks" Key="790417408" CollectionName="Group" PathInExTree="Group\Locked Tasks" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>790417408</Key>
+                                    <Revision>6</Revision>
+                                    <Stamp>
+                                        <CreatedBy>CLICKSOFTWARE\ronit.eliav</CreatedBy>
+                                        <TimeCreated>2007-06-05T18:35:13</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>CLICKSOFTWARE\ronit.eliav</ModifiedBy>
+                                        <TimeModified>2007-06-12T19:32:46</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>Locked Tasks</Name>
+                                    <Body>&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="501" TYPE_TEXT="Or"/&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="="/&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145666&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;51&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="="/&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;-1&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="="/&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145667&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="="/&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135428&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="="/&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135430&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="="/&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135429&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="="/&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145668&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>2</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Task</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124145666" DisplayString="Cannot Do">Cannot Do</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Pinned</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[3]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[3]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124145667" DisplayString="Travel">Travel</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[4]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[4]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135428" DisplayString="Dispatched">Dispatched</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[5]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[5]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135430" DisplayString="Completed">Completed</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[6]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[6]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135429" DisplayString="On-Site">On-Site</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[7]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[7]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124145668" DisplayString="In Progress">In Progress</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Low Priority Tasks" Key="790419460" CollectionName="Group" PathInExTree="Group\Low Priority Tasks" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>790419460</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>CLICKSOFTWARE\ronit.eliav</CreatedBy>
+                                        <TimeCreated>2007-06-08T17:09:41</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>CLICKSOFTWARE\ronit.eliav</ModifiedBy>
+                                        <TimeModified>2007-06-08T17:09:41</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>Low Priority Tasks</Name>
+                                    <Body>&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;8&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="602" TYPE_TEXT="&amp;gt;="/&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;8&lt;/VALUE&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>2</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Task</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Priority</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Metric - Scheduled Tasks -  Customer Growth" Key="924588032" CollectionName="Group" PathInExTree="Group\Metric - Scheduled Tasks -  Customer Growth" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>924588032</Key>
+                                    <Revision>2</Revision>
+                                    <Stamp>
+                                        <CreatedBy>NFPOWER_DOMAIN\tmichaud</CreatedBy>
+                                        <TimeCreated>2010-12-06T23:14:52</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NFPOWER_DOMAIN\tmichaud</ModifiedBy>
+                                        <TimeModified>2010-12-06T23:15:12</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>Metric - Scheduled Tasks -  Customer Growth</Name>
+                                    <Body>&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="500" TYPE_TEXT="And" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;46&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;-1&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;83&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;127141888&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>2</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Task</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>IsScheduled</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>CapacityBucket</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>CapacityBucket</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="CapacityBucketReference" Key="127141888" DisplayString="CustomerGrowth">CustomerGrowth</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Metric - Scheduled Tasks -  Longevity" Key="924588033" CollectionName="Group" PathInExTree="Group\Metric - Scheduled Tasks -  Longevity" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>924588033</Key>
+                                    <Revision>3</Revision>
+                                    <Stamp>
+                                        <CreatedBy>NFPOWER_DOMAIN\tmichaud</CreatedBy>
+                                        <TimeCreated>2010-12-06T23:15:23</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NFPOWER_DOMAIN\tmichaud</ModifiedBy>
+                                        <TimeModified>2010-12-06T23:19:16</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>Metric - Scheduled Tasks -  Longevity</Name>
+                                    <Body>&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="500" TYPE_TEXT="And" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;46&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;-1&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;83&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;127141889&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>2</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Task</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>IsScheduled</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>CapacityBucket</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>CapacityBucket</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="CapacityBucketReference" Key="127141889" DisplayString="Longevity">Longevity</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Metric - Scheduled Tasks -  Revenue" Key="924583961" CollectionName="Group" PathInExTree="Group\Metric - Scheduled Tasks -  Revenue" ParentInExTree="Groups of Tasks" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>924583961</Key>
+                                    <Revision>3</Revision>
+                                    <Stamp>
+                                        <CreatedBy>NFPOWER_DOMAIN\tmichaud</CreatedBy>
+                                        <TimeCreated>2010-12-06T15:51:38</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NFPOWER_DOMAIN\tmichaud</ModifiedBy>
+                                        <TimeModified>2010-12-06T23:14:40</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>Metric - Scheduled Tasks -  Revenue</Name>
+                                    <Body>&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="500" TYPE_TEXT="And" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;46&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;-1&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;83&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;127141891&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>2</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Task</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>IsScheduled</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>CapacityBucket</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>CapacityBucket</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="CapacityBucketReference" Key="127141891" DisplayString="Revenue">Revenue</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+        </ConfigurationStep>
+    </Settings>
+    <Scheme />
+</ConfigurationManagmentFile>
