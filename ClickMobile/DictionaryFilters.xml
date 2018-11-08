@@ -1,0 +1,6 @@
+<DictionariesFilters>    <!--Filter configuration sample-->
+    <Dictionary>        <!--Collection ID of the Dictionary-->
+        <ID>78</ID>        <!--Property name to filter the Dictionary items-->
+        <Property>UsedInMobile</Property>
+    </Dictionary>
+</DictionariesFilters>
