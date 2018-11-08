@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigurationManagmentFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <GlobalMetaData>
+        <ConfigFileTitle>Configuration File</ConfigFileTitle>
+        <BuildVersion>1</BuildVersion>
+        <SOVersion>8.1.10(9467)</SOVersion>
+        <ExportTime>2018-11-08T13:27:43.5561464-03:30</ExportTime>
+        <ComputerName>NPCLKAPP6</ComputerName>
+        <Owner>gpatterson</Owner>
+        <BuilderToolVersion>8.10.9467.105</BuilderToolVersion>
+        <Description />
+    </GlobalMetaData>
+    <Queries />
+    <Settings>
+        <ConfigurationStep SerialNumber="6" TimeStamp="2018-11-08T13:22:05.5175795-03:30" Title="Server Events" Description="" DisableEvents="false" IsCustom="true">
+            <Item xsi:type="MultipleServerEvents" DisplayString="W6BFAssignment" Key="39725971" CollectionName="W6BFAssignment" PathInExTree="System Events\W6BFAssignment" ParentInExTree="Product Events" ObjectType="MultipleServerEvents" ImageKey="CentralSettingsItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
+                <Events>
+                    <Event Active="true" Type="W6UtilitiesEvents.W6CapacityReservationAssignmentEvent, W6UtilitiesEvents" />
+                    <Event Type="W6StatusFlowLib.W6StatusFlow, W6StatusFlowLib" Active="true" />
+                    <Event Type="W6UtilitiesEvents.W6LockedAssignmentEvent, W6UtilitiesEvents" Active="true" />
+                    <Event Type="W6UtilitiesEvents.W6HandleNA, W6UtilitiesEvents" Active="true" />
+                    <Event Type="W6GISGeocodeServices.W6AssignmentGeocodeEvent,W6GISGeocodeServices" Active="true" />
+                    <Event Type="W6UtilitiesEvents.W6MetricDateEvent, W6UtilitiesEvents" Active="true" />
+                    <Event Type="W6IntEvents.W6IntAssignment, W6IntEvents" Active="true" />
+                    <Event Type="W6CMServer.W6CMAssignmentEvent, W6CMServer" Active="true" />
+                    <Event Type="W6AuditLib.W6Audit, W6AuditLib" Active="true" />
+                </Events>
+            </Item>
+            <Item xsi:type="MultipleServerEvents" DisplayString="W6BFCrewAllocation" Key="63687043" CollectionName="W6BFCrewAllocation" PathInExTree="System Events\W6BFCrewAllocation" ParentInExTree="Product Events" ObjectType="MultipleServerEvents" ImageKey="CentralSettingsItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
+                <Events>
+                    <Event Type="W6CMServer.W6CMCrewAllocationEvent, W6CMServer" Active="false" />
+                    <Event Type="W6CMServer.W6CMCrewAllocationForScheduleEvent, W6CMServer" Active="false" />
+                </Events>
+            </Item>
+            <Item xsi:type="MultipleServerEvents" DisplayString="W6BFEngineer" Key="58376831" CollectionName="W6BFEngineer" PathInExTree="System Events\W6BFEngineer" ParentInExTree="Product Events" ObjectType="MultipleServerEvents" ImageKey="CentralSettingsItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
+                <Events>
+                    <Event Type="W6UtilitiesEvents.W6AdjacentDistrictsEvent, W6UtilitiesEvents" Active="true" />
+                    <Event Type="W6GISGeocodeServices.W6EngineerGeocodeEvent,W6GISGeocodeServices" Active="true" />
+                    <Event Type="W6CMServer.W6CMEngineerEvent, W6CMServer" Active="false" />
+                </Events>
+            </Item>
+            <Item xsi:type="MultipleServerEvents" DisplayString="W6BFTask" Key="30902896" CollectionName="W6BFTask" PathInExTree="System Events\W6BFTask" ParentInExTree="Product Events" ObjectType="MultipleServerEvents" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <Events>
+                    <Event Type="W6UtilitiesEvents.W6TaskDerivationEvent, W6UtilitiesEvents" Active="true" />
+                    <Event Type="W6UtilitiesEvents.W6JeopardyStateEvent, W6UtilitiesEvents" Active="true" />
+                    <Event Active="true" Type="W6UtilitiesEvents.W6CapacityReservationTaskEvent, W6UtilitiesEvents" />
+                    <Event Type="W6StatusFlowLib.W6StatusFlow, W6StatusFlowLib" Active="true" />
+                    <Event Type="W6UtilitiesEvents.W6DisplayStatusEvent, W6UtilitiesEvents" Active="true" />
+                    <Event Type="W6GISGeocodeServices.W6TaskGeocodeEvent,W6GISGeocodeServices" Active="true" />
+                    <Event Type="Diabsolut.SchedulePriority.SO.SetSchedulePriority, Diabsolut.SchedulePriority.SO" Active="true" />
+                    <Event Type="W6UtilitiesEvents.W6MetricDateEvent, W6UtilitiesEvents" Active="true" />
+                    <Event Type="W6IntEvents.W6IntTask, W6IntEvents" Active="true" />
+                    <Event Active="false" Type="NFPSvrLib.SetDispatchDate, NFPSvrLib" />
+                    <Event Type="W6CMServer.W6CMTaskEvent, W6CMServer" Active="true" />
+                    <Event Type="W6AuditLib.W6Audit, W6AuditLib" Active="true" />
+                </Events>
+            </Item>
+            <Item xsi:type="MultipleServerEvents" DisplayString="W6BFTimesheet" Key="20106686" CollectionName="W6BFTimesheet" PathInExTree="System Events\W6BFTimesheet" ParentInExTree="Product Events" ObjectType="MultipleServerEvents" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <Events>
+                    <Event Type="W6CMServer.W6CMTimesheetEvent, W6CMServer" Active="true" />
+                </Events>
+            </Item>
+            <Item xsi:type="MultipleServerEvents" DisplayString="W6PDictionary" Key="18028880" CollectionName="W6PDictionary" PathInExTree="System Events\W6PDictionary" ParentInExTree="Product Events" ObjectType="MultipleServerEvents" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <Events>
+                    <Event Type="Diabsolut.CoreLibrary.ValidateData, DiabsolutCoreLib" Active="true" />
+                    <Event Type="W6CMServer.W6CMDictionaryEvent, W6CMServer" Active="false&#xD;&#xA;" />
+                </Events>
+            </Item>
+            <Item xsi:type="MultipleServerEvents" DisplayString="W6PSession" Key="51053199" CollectionName="W6PSession" PathInExTree="System Events\W6PSession" ParentInExTree="Product Events" ObjectType="MultipleServerEvents" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <Events>
+                    <Event Type="W6CMServer.W6CMSessionEvent, W6CMServer" Active="true" />
+                </Events>
+            </Item>
+        </ConfigurationStep>
+        <ConfigurationStep SerialNumber="7" TimeStamp="2018-11-08T13:22:05.5175795-03:30" Title="System Events" Description="" DisableEvents="false" IsCustom="true">
+            <Item xsi:type="SystemEvent" DisplayString="001 Assignment: W6UtilitiesCustom.W6HandleRelocationWithNAEvent, W6UtilitiesCustom" Key="34419228" CollectionName="Assignment" PathInExTree="Assignment\001 Assignment: W6UtilitiesCustom.W6HandleRelocationWithNAEvent, W6UtilitiesCustom" ParentInExTree="EventSystem" ObjectType="SystemEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <SystemEvent AddBeforeClassID="">
+                    <Item CollectionID="0">
+                        <ClassID Active="false" Type="COM">W6UtilitiesCustom.W6HandleRelocationWithNAEvent, W6UtilitiesCustom</ClassID>
+                    </Item>
+                </SystemEvent>
+            </Item>
+            <Item xsi:type="SystemEvent" DisplayString="002 Attachment: W6FileAttachment.Server.Events.RepositorySynchronization, W6FileAttachment.Server" Key="41337601" CollectionName="Attachment" PathInExTree="Attachment\002 Attachment: W6FileAttachment.Server.Events.RepositorySynchronization, W6FileAttachment.Server" ParentInExTree="EventSystem" ObjectType="SystemEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <SystemEvent AddBeforeClassID="W6GenericUtilities.W6GenericEvent, W6GenericUtilities">
+                    <Item CollectionID="30000200">
+                        <ClassID Active="true" Type="COM">W6FileAttachment.Server.Events.RepositorySynchronization, W6FileAttachment.Server</ClassID>
+                    </Item>
+                </SystemEvent>
+            </Item>
+            <Item xsi:type="SystemEvent" DisplayString="003 Attachment: W6GenericUtilities.W6GenericEvent, W6GenericUtilities" Key="36494097" CollectionName="Attachment" PathInExTree="Attachment\003 Attachment: W6GenericUtilities.W6GenericEvent, W6GenericUtilities" ParentInExTree="EventSystem" ObjectType="SystemEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <SystemEvent AddBeforeClassID="">
+                    <Item CollectionID="30000200">
+                        <ClassID Active="true" Type="COM">W6GenericUtilities.W6GenericEvent, W6GenericUtilities</ClassID>
+                    </Item>
+                </SystemEvent>
+            </Item>
+            <Item xsi:type="SystemEvent" DisplayString="004 Contract: W6RosterObjectModel.W6ContractEvent, W6RosterObjectModel" Key="60011419" CollectionName="Contract" PathInExTree="Contract\004 Contract: W6RosterObjectModel.W6ContractEvent, W6RosterObjectModel" ParentInExTree="EventSystem" ObjectType="SystemEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <SystemEvent AddBeforeClassID="">
+                    <Item CollectionID="112">
+                        <ClassID Active="true" Type="COM">W6RosterObjectModel.W6ContractEvent, W6RosterObjectModel</ClassID>
+                    </Item>
+                </SystemEvent>
+            </Item>
+            <Item xsi:type="SystemEvent" DisplayString="005 CrewAllocation: W6UtilitiesCustom.W6CrewMaintainLastAllocationDateEvent, W6UtilitiesCustom" Key="3231866" CollectionName="CrewAllocation" PathInExTree="CrewAllocation\005 CrewAllocation: W6UtilitiesCustom.W6CrewMaintainLastAllocationDateEvent, W6UtilitiesCustom" ParentInExTree="EventSystem" ObjectType="SystemEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <SystemEvent AddBeforeClassID="W6UtilitiesCustom.W6MarkUnderStaffedCrewTasksEvent, W6UtilitiesCustom">
+                    <Item CollectionID="23">
+                        <ClassID Active="true" Type="COM">W6UtilitiesCustom.W6CrewMaintainLastAllocationDateEvent, W6UtilitiesCustom</ClassID>
+                    </Item>
+                </SystemEvent>
+            </Item>
+            <Item xsi:type="SystemEvent" DisplayString="006 CrewAllocation: W6UtilitiesCustom.W6MarkUnderStaffedCrewTasksEvent, W6UtilitiesCustom" Key="29086798" CollectionName="CrewAllocation" PathInExTree="CrewAllocation\006 CrewAllocation: W6UtilitiesCustom.W6MarkUnderStaffedCrewTasksEvent, W6UtilitiesCustom" ParentInExTree="EventSystem" ObjectType="SystemEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <SystemEvent AddBeforeClassID="W6UtilitiesCustom.W6CrewAllocationOverlappingAssignmentsEvent, W6UtilitiesCustom">
+                    <Item CollectionID="23">
+                        <ClassID Active="true" Type="COM">W6UtilitiesCustom.W6MarkUnderStaffedCrewTasksEvent, W6UtilitiesCustom</ClassID>
+                    </Item>
+                </SystemEvent>
+            </Item>
+            <Item xsi:type="SystemEvent" DisplayString="007 CrewAllocation: W6UtilitiesCustom.W6CrewAllocationOverlappingAssignmentsEvent, W6UtilitiesCustom" Key="60454592" CollectionName="CrewAllocation" PathInExTree="CrewAllocation\007 CrewAllocation: W6UtilitiesCustom.W6CrewAllocationOverlappingAssignmentsEvent, W6UtilitiesCustom" ParentInExTree="EventSystem" ObjectType="SystemEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <SystemEvent AddBeforeClassID="W6UtilitiesCustom.W6HandleRelocationWithNAEvent, W6UtilitiesCustom">
+                    <Item CollectionID="23">
+                        <ClassID Active="true" Type="COM">W6UtilitiesCustom.W6CrewAllocationOverlappingAssignmentsEvent, W6UtilitiesCustom</ClassID>
+                    </Item>
+                </SystemEvent>
+            </Item>
+            <Item xsi:type="SystemEvent" DisplayString="008 CrewAllocation: W6UtilitiesCustom.W6HandleRelocationWithNAEvent, W6UtilitiesCustom" Key="7220417" CollectionName="CrewAllocation" PathInExTree="CrewAllocation\008 CrewAllocation: W6UtilitiesCustom.W6HandleRelocationWithNAEvent, W6UtilitiesCustom" ParentInExTree="EventSystem" ObjectType="SystemEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <SystemEvent AddBeforeClassID="">
+                    <Item CollectionID="23">
+                        <ClassID Active="false" Type="COM">W6UtilitiesCustom.W6HandleRelocationWithNAEvent, W6UtilitiesCustom</ClassID>
+                    </Item>
+                </SystemEvent>
+            </Item>
+            <Item xsi:type="SystemEvent" DisplayString="009 Engineer: W6UtilitiesCustom.W6PropagateUpdatesToRelocationsEvent, W6UtilitiesCustom" Key="64983754" CollectionName="Engineer" PathInExTree="Engineer\009 Engineer: W6UtilitiesCustom.W6PropagateUpdatesToRelocationsEvent, W6UtilitiesCustom" ParentInExTree="EventSystem" ObjectType="SystemEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <SystemEvent AddBeforeClassID="W6AuditLib.W6Audit, W6AuditLib">
+                    <Item CollectionID="8">
+                        <ClassID Active="true" Type="COM">W6UtilitiesCustom.W6PropagateUpdatesToRelocationsEvent, W6UtilitiesCustom</ClassID>
+                    </Item>
+                </SystemEvent>
+            </Item>
+            <Item xsi:type="SystemEvent" DisplayString="010 PlanDemand: W6PlanCustom.W6PlanMaintainConsistency, W6PlanCustom" Key="47982876" CollectionName="PlanDemand" PathInExTree="PlanDemand\010 PlanDemand: W6PlanCustom.W6PlanMaintainConsistency, W6PlanCustom" ParentInExTree="EventSystem" ObjectType="SystemEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <SystemEvent AddBeforeClassID="">
+                    <Item CollectionID="4">
+                        <ClassID Active="true" Type="COM">W6PlanCustom.W6PlanMaintainConsistency, W6PlanCustom</ClassID>
+                    </Item>
+                </SystemEvent>
+            </Item>
+            <Item xsi:type="SystemEvent" DisplayString="011 RosterCrewType: W6RosterObjectModel.W6CrewDemandTypesPathConsistencyEvent,W6RosterObjectModel" Key="29192704" CollectionName="RosterCrewType" PathInExTree="RosterCrewType\011 RosterCrewType: W6RosterObjectModel.W6CrewDemandTypesPathConsistencyEvent,W6RosterObjectModel" ParentInExTree="EventSystem" ObjectType="SystemEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <SystemEvent AddBeforeClassID="">
+                    <Item CollectionID="10000103">
+                        <ClassID Active="true" Type="COM">W6RosterObjectModel.W6CrewDemandTypesPathConsistencyEvent,W6RosterObjectModel</ClassID>
+                    </Item>
+                </SystemEvent>
+            </Item>
+            <Item xsi:type="SystemEvent" DisplayString="012 RosterDemand: W6RosterObjectModel.W6ValidateDemandModeOnDemandEvent,W6RosterObjectModel" Key="61407752" CollectionName="RosterDemand" PathInExTree="RosterDemand\012 RosterDemand: W6RosterObjectModel.W6ValidateDemandModeOnDemandEvent,W6RosterObjectModel" ParentInExTree="EventSystem" ObjectType="SystemEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <SystemEvent AddBeforeClassID="W6RosterObjectModel.W6PreventOverlappingIntervalDemandEvent,W6RosterObjectModel">
+                    <Item CollectionID="202">
+                        <ClassID Active="true" Type="COM">W6RosterObjectModel.W6ValidateDemandModeOnDemandEvent,W6RosterObjectModel</ClassID>
+                    </Item>
+                </SystemEvent>
+            </Item>
+            <Item xsi:type="SystemEvent" DisplayString="013 RosterDemand: W6RosterObjectModel.W6PreventOverlappingIntervalDemandEvent,W6RosterObjectModel" Key="15798860" CollectionName="RosterDemand" PathInExTree="RosterDemand\013 RosterDemand: W6RosterObjectModel.W6PreventOverlappingIntervalDemandEvent,W6RosterObjectModel" ParentInExTree="EventSystem" ObjectType="SystemEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <SystemEvent AddBeforeClassID="W6RosterObjectModel.W6ShiftDemandUniquenessEvent,W6RosterObjectModel">
+                    <Item CollectionID="202">
+                        <ClassID Active="false" Type="COM">W6RosterObjectModel.W6PreventOverlappingIntervalDemandEvent,W6RosterObjectModel</ClassID>
+                    </Item>
+                </SystemEvent>
+            </Item>
+            <Item xsi:type="SystemEvent" DisplayString="014 RosterDemand: W6RosterObjectModel.W6ShiftDemandUniquenessEvent,W6RosterObjectModel" Key="7972012" CollectionName="RosterDemand" PathInExTree="RosterDemand\014 RosterDemand: W6RosterObjectModel.W6ShiftDemandUniquenessEvent,W6RosterObjectModel" ParentInExTree="EventSystem" ObjectType="SystemEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <SystemEvent AddBeforeClassID="">
+                    <Item CollectionID="202">
+                        <ClassID Active="true" Type="COM">W6RosterObjectModel.W6ShiftDemandUniquenessEvent,W6RosterObjectModel</ClassID>
+                    </Item>
+                </SystemEvent>
+            </Item>
+            <Item xsi:type="SystemEvent" DisplayString="015 RosterDemandType: W6RosterObjectModel.W6DemandTypePathConsistencyEvent,W6RosterObjectModel" Key="4639251" CollectionName="RosterDemandType" PathInExTree="RosterDemandType\015 RosterDemandType: W6RosterObjectModel.W6DemandTypePathConsistencyEvent,W6RosterObjectModel" ParentInExTree="EventSystem" ObjectType="SystemEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <SystemEvent AddBeforeClassID="">
+                    <Item CollectionID="266">
+                        <ClassID Active="true" Type="COM">W6RosterObjectModel.W6DemandTypePathConsistencyEvent,W6RosterObjectModel</ClassID>
+                    </Item>
+                </SystemEvent>
+            </Item>
+            <Item xsi:type="SystemEvent" DisplayString="016 RosterResourceAllocation: W6RosterObjectModel.W6PreventConcurrentLocationsEvent, W6RosterObjectModel" Key="41753265" CollectionName="RosterResourceAllocation" PathInExTree="RosterResourceAllocation\016 RosterResourceAllocation: W6RosterObjectModel.W6PreventConcurrentLocationsEvent, W6RosterObjectModel" ParentInExTree="EventSystem" ObjectType="SystemEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <SystemEvent AddBeforeClassID="W6RosterObjectModel.W6PreventConcurrentReplacementsEvent, W6RosterObjectModel">
+                    <Item CollectionID="201">
+                        <ClassID Active="true" Type="COM">W6RosterObjectModel.W6PreventConcurrentLocationsEvent, W6RosterObjectModel</ClassID>
+                    </Item>
+                </SystemEvent>
+            </Item>
+            <Item xsi:type="SystemEvent" DisplayString="017 RosterResourceAllocation: W6RosterObjectModel.W6PreventConcurrentReplacementsEvent, W6RosterObjectModel" Key="40235071" CollectionName="RosterResourceAllocation" PathInExTree="RosterResourceAllocation\017 RosterResourceAllocation: W6RosterObjectModel.W6PreventConcurrentReplacementsEvent, W6RosterObjectModel" ParentInExTree="EventSystem" ObjectType="SystemEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <SystemEvent AddBeforeClassID="W6RosterObjectModel.W6RelocationOverlayingLocationEvent,W6RosterObjectModel">
+                    <Item CollectionID="201">
+                        <ClassID Active="true" Type="COM">W6RosterObjectModel.W6PreventConcurrentReplacementsEvent, W6RosterObjectModel</ClassID>
+                    </Item>
+                </SystemEvent>
+            </Item>
+            <Item xsi:type="SystemEvent" DisplayString="018 RosterResourceAllocation: W6RosterObjectModel.W6RelocationOverlayingLocationEvent,W6RosterObjectModel" Key="26571327" CollectionName="RosterResourceAllocation" PathInExTree="RosterResourceAllocation\018 RosterResourceAllocation: W6RosterObjectModel.W6RelocationOverlayingLocationEvent,W6RosterObjectModel" ParentInExTree="EventSystem" ObjectType="SystemEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <SystemEvent AddBeforeClassID="">
+                    <Item CollectionID="201">
+                        <ClassID Active="true" Type="COM">W6RosterObjectModel.W6RelocationOverlayingLocationEvent,W6RosterObjectModel</ClassID>
+                    </Item>
+                </SystemEvent>
+            </Item>
+            <Item xsi:type="SystemEvent" DisplayString="019 RosterShift: W6RosterObjectModel.W6PreventOverlappingRosterShiftsEvent, W6RosterObjectModel" Key="37815352" CollectionName="RosterShift" PathInExTree="RosterShift\019 RosterShift: W6RosterObjectModel.W6PreventOverlappingRosterShiftsEvent, W6RosterObjectModel" ParentInExTree="EventSystem" ObjectType="SystemEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <SystemEvent AddBeforeClassID="W6RosterObjectModel.W6ForceAvailabilityTypeEvent, W6RosterObjectModel">
+                    <Item CollectionID="200">
+                        <ClassID Active="true" Type="COM">W6RosterObjectModel.W6PreventOverlappingRosterShiftsEvent, W6RosterObjectModel</ClassID>
+                    </Item>
+                </SystemEvent>
+            </Item>
+            <Item xsi:type="SystemEvent" DisplayString="020 RosterShift: W6RosterObjectModel.W6ForceAvailabilityTypeEvent, W6RosterObjectModel" Key="4793853" CollectionName="RosterShift" PathInExTree="RosterShift\020 RosterShift: W6RosterObjectModel.W6ForceAvailabilityTypeEvent, W6RosterObjectModel" ParentInExTree="EventSystem" ObjectType="SystemEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <SystemEvent AddBeforeClassID="W6RosterObjectModel.W6ValidateDemandModeOnShiftEvent,W6RosterObjectModel">
+                    <Item CollectionID="200">
+                        <ClassID Active="true" Type="COM">W6RosterObjectModel.W6ForceAvailabilityTypeEvent, W6RosterObjectModel</ClassID>
+                    </Item>
+                </SystemEvent>
+            </Item>
+            <Item xsi:type="SystemEvent" DisplayString="021 RosterShift: W6RosterObjectModel.W6ValidateDemandModeOnShiftEvent,W6RosterObjectModel" Key="43144677" CollectionName="RosterShift" PathInExTree="RosterShift\021 RosterShift: W6RosterObjectModel.W6ValidateDemandModeOnShiftEvent,W6RosterObjectModel" ParentInExTree="EventSystem" ObjectType="SystemEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <SystemEvent AddBeforeClassID="W6RosterObjectModel.W6MaintainShiftSyncWithCalendarEvent, W6RosterObjectModel">
+                    <Item CollectionID="200">
+                        <ClassID Active="true" Type="COM">W6RosterObjectModel.W6ValidateDemandModeOnShiftEvent,W6RosterObjectModel</ClassID>
+                    </Item>
+                </SystemEvent>
+            </Item>
+            <Item xsi:type="SystemEvent" DisplayString="022 RosterShift: W6RosterObjectModel.W6MaintainShiftSyncWithCalendarEvent, W6RosterObjectModel" Key="52757779" CollectionName="RosterShift" PathInExTree="RosterShift\022 RosterShift: W6RosterObjectModel.W6MaintainShiftSyncWithCalendarEvent, W6RosterObjectModel" ParentInExTree="EventSystem" ObjectType="SystemEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <SystemEvent AddBeforeClassID="W6RosterObjectModel.W6PreventShiftsOverlayingCoreUnavailabilityEvent, W6RosterObjectModel">
+                    <Item CollectionID="200">
+                        <ClassID Active="false" Type="COM">W6RosterObjectModel.W6MaintainShiftSyncWithCalendarEvent, W6RosterObjectModel</ClassID>
+                    </Item>
+                </SystemEvent>
+            </Item>
+            <Item xsi:type="SystemEvent" DisplayString="023 RosterShift: W6RosterObjectModel.W6PreventShiftsOverlayingCoreUnavailabilityEvent, W6RosterObjectModel" Key="5057967" CollectionName="RosterShift" PathInExTree="RosterShift\023 RosterShift: W6RosterObjectModel.W6PreventShiftsOverlayingCoreUnavailabilityEvent, W6RosterObjectModel" ParentInExTree="EventSystem" ObjectType="SystemEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <SystemEvent AddBeforeClassID="">
+                    <Item CollectionID="200">
+                        <ClassID Active="false" Type="COM">W6RosterObjectModel.W6PreventShiftsOverlayingCoreUnavailabilityEvent, W6RosterObjectModel</ClassID>
+                    </Item>
+                </SystemEvent>
+            </Item>
+            <Item xsi:type="SystemEvent" DisplayString="024 Setting: W6CMServer.W6CMDictionariesFiltersSettingEvent, W6CMServer" Key="45521706" CollectionName="Setting" PathInExTree="Setting\024 Setting: W6CMServer.W6CMDictionariesFiltersSettingEvent, W6CMServer" ParentInExTree="EventSystem" ObjectType="SystemEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <SystemEvent AddBeforeClassID="">
+                    <Item CollectionID="15">
+                        <ClassID Active="true" Type="COM">W6CMServer.W6CMDictionariesFiltersSettingEvent, W6CMServer</ClassID>
+                    </Item>
+                </SystemEvent>
+            </Item>
+            <Item xsi:type="SystemEvent" DisplayString="025 ShiftTemplate: W6RosterObjectModel.W6ForceAvailabilityTypeEvent, W6RosterObjectModel" Key="7042173" CollectionName="ShiftTemplate" PathInExTree="ShiftTemplate\025 ShiftTemplate: W6RosterObjectModel.W6ForceAvailabilityTypeEvent, W6RosterObjectModel" ParentInExTree="EventSystem" ObjectType="SystemEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <SystemEvent AddBeforeClassID="">
+                    <Item CollectionID="114">
+                        <ClassID Active="true" Type="COM">W6RosterObjectModel.W6ForceAvailabilityTypeEvent, W6RosterObjectModel</ClassID>
+                    </Item>
+                </SystemEvent>
+            </Item>
+            <Item xsi:type="SystemEvent" DisplayString="026 StatusFlow: W6GenericUtilities.W6StatusFlowValidationEvent, W6GenericUtilities" Key="63379561" CollectionName="StatusFlow" PathInExTree="StatusFlow\026 StatusFlow: W6GenericUtilities.W6StatusFlowValidationEvent, W6GenericUtilities" ParentInExTree="EventSystem" ObjectType="SystemEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <SystemEvent AddBeforeClassID="">
+                    <Item CollectionID="11000051">
+                        <ClassID Active="true" Type="COM">W6GenericUtilities.W6StatusFlowValidationEvent, W6GenericUtilities</ClassID>
+                    </Item>
+                </SystemEvent>
+            </Item>
+            <Item xsi:type="SystemEvent" DisplayString="027 Task: W6UtilitiesCustom.W6TaskRejectEvent, W6UtilitiesCustom" Key="33545144" CollectionName="Task" PathInExTree="Task\027 Task: W6UtilitiesCustom.W6TaskRejectEvent, W6UtilitiesCustom" ParentInExTree="EventSystem" ObjectType="SystemEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <SystemEvent AddBeforeClassID="">
+                    <Item CollectionID="2">
+                        <ClassID Active="true" Type="COM">W6UtilitiesCustom.W6TaskRejectEvent, W6UtilitiesCustom</ClassID>
+                    </Item>
+                </SystemEvent>
+            </Item>
+            <Item xsi:type="SystemEvent" DisplayString="028 UserSetting: W6CMServer.W6CMMobileUserSettingEvent, W6CMServer" Key="33470841" CollectionName="UserSetting" PathInExTree="UserSetting\028 UserSetting: W6CMServer.W6CMMobileUserSettingEvent, W6CMServer" ParentInExTree="EventSystem" ObjectType="SystemEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <SystemEvent AddBeforeClassID="">
+                    <Item CollectionID="17">
+                        <ClassID Active="true" Type="COM">W6CMServer.W6CMMobileUserSettingEvent, W6CMServer</ClassID>
+                    </Item>
+                </SystemEvent>
+            </Item>
+            <Item xsi:type="SystemEvent" DisplayString="029 Engineer: W6AuditLib.W6Audit, W6AuditLib" Key="32802119" CollectionName="Engineer" PathInExTree="Engineer\029 Engineer: W6AuditLib.W6Audit, W6AuditLib" ParentInExTree="EventSystem" ObjectType="SystemEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <SystemEvent AddBeforeClassID="">
+                    <Item CollectionID="8">
+                        <ClassID Active="true" Type="COM">W6AuditLib.W6Audit, W6AuditLib</ClassID>
+                    </Item>
+                </SystemEvent>
+            </Item>
+        </ConfigurationStep>
+    </Settings>
+    <Scheme />
+</ConfigurationManagmentFile>

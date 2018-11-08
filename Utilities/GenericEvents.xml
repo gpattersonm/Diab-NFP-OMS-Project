@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigurationManagmentFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <GlobalMetaData>
+        <ConfigFileTitle>Configuration File</ConfigFileTitle>
+        <BuildVersion>1</BuildVersion>
+        <SOVersion>8.1.10(9467)</SOVersion>
+        <ExportTime>2018-11-08T13:18:52.1075397-03:30</ExportTime>
+        <ComputerName>NPCLKAPP6</ComputerName>
+        <Owner>gpatterson</Owner>
+        <BuilderToolVersion>8.10.9467.105</BuilderToolVersion>
+        <Description />
+    </GlobalMetaData>
+    <Queries />
+    <Settings>
+        <ConfigurationStep SerialNumber="1" TimeStamp="2018-11-08T13:18:46.5695042-03:30" Title="GenericEventDefinition (Attachment): All" Description="" DisableEvents="false" IsCustom="false">
+            <Item DisplayString="Trigger Task Outgoing Message Attachments" Key="1166032896" CollectionName="GenericEventDefinition" PathInExTree="GenericEventDefinition\Trigger Task Outgoing Message Attachments" ParentInExTree="Attachment" ObjectType="GenericEventDefinition" ImageKey="GenericEvents" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="GenericEventDefinition">
+                                    <Key>1166032896</Key>
+                                    <Revision>2</Revision>
+                                    <Name>Trigger Task Outgoing Message Attachments</Name>
+                                    <CollectionName>Attachment</CollectionName>
+                                    <ExaminedPropertyNames>
+                                        <PropertyName>FileIndex</PropertyName>
+                                        <PropertyName>FileName</PropertyName>
+                                        <PropertyName>URL</PropertyName>
+                                    </ExaminedPropertyNames>
+                                    <PreConditionOQL />
+                                    <PostConditionOQL />
+                                    <PreConditionGroup xsi:type="GroupReference" Key="-1" />
+                                    <PostConditionGroup xsi:type="GroupReference" Key="-1" />
+                                    <EventUsers>
+                                        <EventUser>
+                                            <Name>ALL USERS</Name>
+                                            <UserType>User</UserType>
+                                        </EventUser>
+                                    </EventUsers>
+                                    <Description />
+                                    <Bundle>0</Bundle>
+                                    <EvaluationPrecedence>1</EvaluationPrecedence>
+                                    <EventOperation>1</EventOperation>
+                                    <Actions>
+                                        <Action>
+                                            <ActionType>Trigger Task Outgoing Message Attachments</ActionType>
+                                            <Description />
+                                            <SourceProperty />
+                                            <TargetProperty />
+                                            <ValueLong>0</ValueLong>
+                                            <ValueBoolean>false</ValueBoolean>
+                                            <ValueString />
+                                            <ValueDate>1899-12-30T00:00:00</ValueDate>
+                                            <ValueDouble>0</ValueDouble>
+                                            <ValueDuration>0</ValueDuration>
+                                            <ValueKey />
+                                            <CustomData />
+                                            <ValueRelativeTime>0</ValueRelativeTime>
+                                            <AuxiliaryProperty />
+                                        </Action>
+                                    </Actions>
+                                    <Active>true</Active>
+                                    <UsageType>0</UsageType>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping>14</Mapping>
+                                    <Property>Schema</Property>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>14</Mapping>
+                                    <Property>Schema</Property>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>14</Mapping>
+                                    <Property>Schema</Property>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>14</Mapping>
+                                    <Property>Schema</Property>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>CollectionName</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Attachment</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>PropertyName0</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Attachment</CollectionName>
+                                        <PropertyName>FileIndex</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>PropertyName1</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Attachment</CollectionName>
+                                        <PropertyName>FileName</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>PropertyName2</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Attachment</CollectionName>
+                                        <PropertyName>URL</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>ActionType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>StandardSetting</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="StandardSettingReference" Key="656310272">
+                                                <Owner>[Application]</Owner>
+                                                <Category>Actions</Category>
+                                                <SubCategory>ActionType</SubCategory>
+                                                <Name>Trigger Task Outgoing Message Attachments</Name>
+                                            </ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+        </ConfigurationStep>
+    </Settings>
+    <Scheme />
+</ConfigurationManagmentFile>
