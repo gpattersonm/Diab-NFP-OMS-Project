@@ -5,7 +5,7 @@
         <ConfigFileTitle>Configuration File</ConfigFileTitle>
         <BuildVersion>1</BuildVersion>
         <SOVersion>8.1.10(9467)</SOVersion>
-        <ExportTime>2018-11-15T15:41:21.5756-05:00</ExportTime>
+        <ExportTime>2018-11-15T15:47:57.1604-05:00</ExportTime>
         <ComputerName>WIN-RF015ULLERU</ComputerName>
         <Owner>gpatterson</Owner>
         <BuilderToolVersion>8.10.9467.105</BuilderToolVersion>
@@ -13,8 +13,8 @@
     </GlobalMetaData>
     <Queries />
     <Settings>
-        <ConfigurationStep SerialNumber="3" TimeStamp="2018-11-15T15:41:00.7964-05:00" Title="Outgoing Messages" Description="" DisableEvents="false" IsCustom="true">
-            <Item xsi:type="OutgoingMessageItem" DisplayString="EngineerUpdate Engineer_OnAdd" Key="2479977" CollectionName="Outgoing Message" ParentInExTree="OutgoingMessages" ObjectType="OutgoingMessageItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
+        <ConfigurationStep SerialNumber="3" TimeStamp="2018-11-15T15:47:24.9776-05:00" Title="Outgoing Messages" Description="" DisableEvents="false" IsCustom="true">
+            <Item xsi:type="OutgoingMessageItem" DisplayString="EngineerUpdate Engineer_OnAdd" Key="25096836" CollectionName="Outgoing Message" ParentInExTree="OutgoingMessages" ObjectType="OutgoingMessageItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
                 <MessageType Name="EngineerUpdate" Action="">
                     <Destinations>Main</Destinations>
                     <SendOnEvents>
@@ -30,7 +30,7 @@
                     </Parameters>
                 </MessageType>
             </Item>
-            <Item xsi:type="OutgoingMessageItem" DisplayString="EngineerUpdate Engineer_OnUpdate" Key="66660433" CollectionName="Outgoing Message" ParentInExTree="OutgoingMessages" ObjectType="OutgoingMessageItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
+            <Item xsi:type="OutgoingMessageItem" DisplayString="EngineerUpdate Engineer_OnUpdate" Key="19577827" CollectionName="Outgoing Message" ParentInExTree="OutgoingMessages" ObjectType="OutgoingMessageItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
                 <MessageType Name="EngineerUpdate" Action="EngineerUpdate">
                     <Destinations>Main</Destinations>
                     <SendOnEvents>
@@ -59,7 +59,7 @@
                     </Parameters>
                 </MessageType>
             </Item>
-            <Item xsi:type="OutgoingMessageItem" DisplayString="IncidentUpdate Task_OnUpdate" Key="30785969" CollectionName="Outgoing Message" ParentInExTree="OutgoingMessages" ObjectType="OutgoingMessageItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
+            <Item xsi:type="OutgoingMessageItem" DisplayString="IncidentUpdate Task_OnUpdate" Key="42300179" CollectionName="Outgoing Message" ParentInExTree="OutgoingMessages" ObjectType="OutgoingMessageItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
                 <MessageType Name="IncidentUpdate" Action="IncidentUpdate">
                     <Destinations>Main</Destinations>
                     <SendOnEvents>
@@ -73,12 +73,17 @@
                             <PrevTask></PrevTask>
                         </Properties>
                         <Priority />
-                        <ObjectCriterias />
+                        <ObjectCriterias>
+                            <Item>
+                                <PrevObjectCriteria>OGM - IncidentUpdate Before</PrevObjectCriteria>
+                                <ObjectCriteria>OGM - IncidentUpdate Before</ObjectCriteria>
+                            </Item>
+                        </ObjectCriterias>
                         <MessageTranslators />
                     </Parameters>
                 </MessageType>
             </Item>
-            <Item xsi:type="OutgoingMessageItem" DisplayString="SXPAssignmentDelete Assignment_OnDelete" Key="10635570" CollectionName="Outgoing Message" ParentInExTree="OutgoingMessages" ObjectType="OutgoingMessageItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
+            <Item xsi:type="OutgoingMessageItem" DisplayString="SXPAssignmentDelete Assignment_OnDelete" Key="3762492" CollectionName="Outgoing Message" ParentInExTree="OutgoingMessages" ObjectType="OutgoingMessageItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
                 <MessageType Name="SXPAssignmentDelete" Action="SXPAssignmentDelete">
                     <Destinations>DeleteAssignment</Destinations>
                     <SendOnEvents>
@@ -101,7 +106,7 @@
                     </Parameters>
                 </MessageType>
             </Item>
-            <Item xsi:type="OutgoingMessageItem" DisplayString="SXPAssignmentUpdate Assignment_OnUpdate" Key="56174843" CollectionName="Outgoing Message" ParentInExTree="OutgoingMessages" ObjectType="OutgoingMessageItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
+            <Item xsi:type="OutgoingMessageItem" DisplayString="SXPAssignmentUpdate Assignment_OnUpdate" Key="36326405" CollectionName="Outgoing Message" ParentInExTree="OutgoingMessages" ObjectType="OutgoingMessageItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
                 <MessageType Name="SXPAssignmentUpdate" Action="SXPAssignmentUpdate">
                     <Destinations>UpdateAssignment</Destinations>
                     <SendOnEvents>
@@ -125,7 +130,7 @@
                     </Parameters>
                 </MessageType>
             </Item>
-            <Item xsi:type="OutgoingMessageItem" DisplayString="SXPTaskUpdate Task_OnUpdate" Key="53868469" CollectionName="Outgoing Message" ParentInExTree="OutgoingMessages" ObjectType="OutgoingMessageItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
+            <Item xsi:type="OutgoingMessageItem" DisplayString="SXPTaskUpdate Task_OnUpdate" Key="56757654" CollectionName="Outgoing Message" ParentInExTree="OutgoingMessages" ObjectType="OutgoingMessageItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
                 <MessageType Name="SXPTaskUpdate" Action="SXPTaskUpdate">
                     <Destinations>TaskUpdate</Destinations>
                     <SendOnEvents>
@@ -141,108 +146,44 @@
                         <Priority />
                         <ObjectCriterias>
                             <Item>
-                                <PrevObjectCriteria>Cannot Do By Crew Tasks</PrevObjectCriteria>
-                                <ObjectCriteria>Completed Tasks</ObjectCriteria>
+                                <PrevObjectCriteria>OGM - SXPTaskUpdate - Cannot Do - Before</PrevObjectCriteria>
+                                <ObjectCriteria>OGM - SXPTaskUpdate - Cannot Do - After</ObjectCriteria>
                             </Item>
                             <Item>
-                                <PrevObjectCriteria>Cannot Do By Crew Tasks</PrevObjectCriteria>
-                                <ObjectCriteria>Dispatched Tasks</ObjectCriteria>
+                                <PrevObjectCriteria>OGM - SXPTaskUpdate - Complete with Followup - Before</PrevObjectCriteria>
+                                <ObjectCriteria>OGM - SXPTaskUpdate - Complete with Followup - After</ObjectCriteria>
                             </Item>
                             <Item>
-                                <PrevObjectCriteria>Cannot Do By Crew Tasks</PrevObjectCriteria>
-                                <ObjectCriteria>Open Tasks</ObjectCriteria>
+                                <PrevObjectCriteria>OGM - SXPTaskUpdate - Dispatched - Before</PrevObjectCriteria>
+                                <ObjectCriteria>OGM - SXPTaskUpdate - Dispatched - After</ObjectCriteria>
                             </Item>
                             <Item>
-                                <PrevObjectCriteria>Complete Work With FollowUp</PrevObjectCriteria>
-                                <ObjectCriteria>Completed Tasks</ObjectCriteria>
+                                <PrevObjectCriteria>OGM - SXPTaskUpdate - OnSite - Before</PrevObjectCriteria>
+                                <ObjectCriteria>OGM - SXPTaskUpdate - OnSite - After</ObjectCriteria>
                             </Item>
                             <Item>
-                                <PrevObjectCriteria>Dispatched Tasks</PrevObjectCriteria>
-                                <ObjectCriteria>Scheduled Not Ready to Sent</ObjectCriteria>
+                                <PrevObjectCriteria>OGM - SXPTaskUpdate - Open - Before</PrevObjectCriteria>
+                                <ObjectCriteria>OGM - SXPTaskUpdate - Open - After</ObjectCriteria>
                             </Item>
                             <Item>
-                                <PrevObjectCriteria>Dispatched Tasks</PrevObjectCriteria>
-                                <ObjectCriteria>OnSite Tasks</ObjectCriteria>
+                                <PrevObjectCriteria>OGM - SXPTaskUpdate - Review by Crew - Before</PrevObjectCriteria>
+                                <ObjectCriteria>OGM - SXPTaskUpdate - Review by Crew - After</ObjectCriteria>
                             </Item>
                             <Item>
-                                <PrevObjectCriteria>Dispatched Tasks</PrevObjectCriteria>
-                                <ObjectCriteria>Reviewed By Crew Tasks</ObjectCriteria>
+                                <PrevObjectCriteria>OGM - SXPTaskUpdate - Scheduled but no assignment - Before</PrevObjectCriteria>
+                                <ObjectCriteria>OGM - SXPTaskUpdate - Scheduled but no assignment - After</ObjectCriteria>
                             </Item>
                             <Item>
-                                <PrevObjectCriteria>Dispatched Tasks</PrevObjectCriteria>
-                                <ObjectCriteria>Cannot Do By Crew Tasks</ObjectCriteria>
+                                <PrevObjectCriteria>OGM - SXPTaskUpdate - Scheduled Not Ready to Sent - Before</PrevObjectCriteria>
+                                <ObjectCriteria>OGM - SXPTaskUpdate - Scheduled Not Ready to Sent - After</ObjectCriteria>
                             </Item>
                             <Item>
-                                <PrevObjectCriteria>Dispatched Tasks</PrevObjectCriteria>
-                                <ObjectCriteria>Redispatched Tasks</ObjectCriteria>
+                                <PrevObjectCriteria>OGM - SXPTaskUpdate - InProgress - Before</PrevObjectCriteria>
+                                <ObjectCriteria>OGM - SXPTaskUpdate - InProgress - After</ObjectCriteria>
                             </Item>
                             <Item>
-                                <PrevObjectCriteria>Dispatched Tasks</PrevObjectCriteria>
-                                <ObjectCriteria>Scheduled but no assignment</ObjectCriteria>
-                            </Item>
-                            <Item>
-                                <PrevObjectCriteria>OnSite Tasks</PrevObjectCriteria>
-                                <ObjectCriteria>Completed Tasks</ObjectCriteria>
-                            </Item>
-                            <Item>
-                                <PrevObjectCriteria>OnSite Tasks</PrevObjectCriteria>
-                                <ObjectCriteria>Cannot Do By Crew Tasks</ObjectCriteria>
-                            </Item>
-                            <Item>
-                                <PrevObjectCriteria>OnSite Tasks</PrevObjectCriteria>
-                                <ObjectCriteria>Complete Tasks with Interruption</ObjectCriteria>
-                            </Item>
-                            <Item>
-                                <PrevObjectCriteria>OnSite Tasks</PrevObjectCriteria>
-                                <ObjectCriteria>Redispatched Tasks</ObjectCriteria>
-                            </Item>
-                            <Item>
-                                <PrevObjectCriteria>OnSite Tasks</PrevObjectCriteria>
-                                <ObjectCriteria>Complete Tasks with Followup</ObjectCriteria>
-                            </Item>
-                            <Item>
-                                <PrevObjectCriteria>Open Tasks</PrevObjectCriteria>
-                                <ObjectCriteria>Scheduled Status Tasks</ObjectCriteria>
-                            </Item>
-                            <Item>
-                                <PrevObjectCriteria>Reviewed By Crew Tasks</PrevObjectCriteria>
-                                <ObjectCriteria>Cannot Do By Crew Tasks</ObjectCriteria>
-                            </Item>
-                            <Item>
-                                <PrevObjectCriteria>Reviewed By Crew Tasks</PrevObjectCriteria>
-                                <ObjectCriteria>Redispatched Tasks</ObjectCriteria>
-                            </Item>
-                            <Item>
-                                <PrevObjectCriteria>Reviewed By Crew Tasks</PrevObjectCriteria>
-                                <ObjectCriteria>OnSite Tasks</ObjectCriteria>
-                            </Item>
-                            <Item>
-                                <PrevObjectCriteria>Reviewed By Crew Tasks</PrevObjectCriteria>
-                                <ObjectCriteria>Completed Tasks</ObjectCriteria>
-                            </Item>
-                            <Item>
-                                <PrevObjectCriteria>Scheduled but no assignment</PrevObjectCriteria>
-                                <ObjectCriteria>Dispatched Tasks</ObjectCriteria>
-                            </Item>
-                            <Item>
-                                <PrevObjectCriteria>Scheduled Not Ready to Sent</PrevObjectCriteria>
-                                <ObjectCriteria>Scheduled Ready to Sent</ObjectCriteria>
-                            </Item>
-                            <Item>
-                                <PrevObjectCriteria>OnSite Tasks</PrevObjectCriteria>
-                                <ObjectCriteria>Complete With Follow Up (All Work Types)</ObjectCriteria>
-                            </Item>
-                            <Item>
-                                <PrevObjectCriteria>OnSite Tasks</PrevObjectCriteria>
-                                <ObjectCriteria>Complete With Interruption (All Work Types)</ObjectCriteria>
-                            </Item>
-                            <Item>
-                                <PrevObjectCriteria>In Progress Tasks</PrevObjectCriteria>
-                                <ObjectCriteria>Completed Tasks</ObjectCriteria>
-                            </Item>
-                            <Item>
-                                <PrevObjectCriteria>Trigger Task Outgoing Message Attachments - False</PrevObjectCriteria>
-                                <ObjectCriteria>Trigger Task Outgoing Message Attachments - True</ObjectCriteria>
+                                <PrevObjectCriteria>OGM - SXPTaskUpdate -  Attachments - Before</PrevObjectCriteria>
+                                <ObjectCriteria>OGM - SXPTaskUpdate -  Attachments - After</ObjectCriteria>
                             </Item>
                         </ObjectCriterias>
                         <MessageTranslators />
