@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigurationManagmentFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <GlobalMetaData>
+        <ConfigFileTitle>Configuration File</ConfigFileTitle>
+        <BuildVersion>1</BuildVersion>
+        <SOVersion>8.1.10(9467)</SOVersion>
+        <ExportTime>2018-11-15T15:41:21.5756-05:00</ExportTime>
+        <ComputerName>WIN-RF015ULLERU</ComputerName>
+        <Owner>gpatterson</Owner>
+        <BuilderToolVersion>8.10.9467.105</BuilderToolVersion>
+        <Description />
+    </GlobalMetaData>
+    <Queries />
+    <Settings>
+        <ConfigurationStep SerialNumber="3" TimeStamp="2018-11-15T15:41:00.7964-05:00" Title="Outgoing Messages" Description="" DisableEvents="false" IsCustom="true">
+            <Item xsi:type="OutgoingMessageItem" DisplayString="EngineerUpdate Engineer_OnAdd" Key="2479977" CollectionName="Outgoing Message" ParentInExTree="OutgoingMessages" ObjectType="OutgoingMessageItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
+                <MessageType Name="EngineerUpdate" Action="">
+                    <Destinations>Main</Destinations>
+                    <SendOnEvents>
+                        <Item>Engineer_OnAdd</Item>
+                    </SendOnEvents>
+                    <Parameters>
+                        <Properties>
+                            <Engineer>Active;EngineerType.Name;ID;Name;Region.Name;SOLicenseInactive</Engineer>
+                        </Properties>
+                        <Priority />
+                        <ObjectCriterias />
+                        <MessageTranslators />
+                    </Parameters>
+                </MessageType>
+            </Item>
+            <Item xsi:type="OutgoingMessageItem" DisplayString="EngineerUpdate Engineer_OnUpdate" Key="66660433" CollectionName="Outgoing Message" ParentInExTree="OutgoingMessages" ObjectType="OutgoingMessageItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
+                <MessageType Name="EngineerUpdate" Action="EngineerUpdate">
+                    <Destinations>Main</Destinations>
+                    <SendOnEvents>
+                        <Item>Engineer_OnUpdate</Item>
+                    </SendOnEvents>
+                    <Parameters>
+                        <Properties>
+                            <Engineer>Active;EngineerType.Name;ID;Name;Region.Name;SOLicenseInactive</Engineer>
+                        </Properties>
+                        <Priority />
+                        <ObjectCriterias>
+                            <Item>
+                                <PrevObjectCriteria>OGM - Active Licensed Engineers</PrevObjectCriteria>
+                                <ObjectCriteria>OGM - Inactive / Unlicensed Engineers</ObjectCriteria>
+                            </Item>
+                            <Item>
+                                <PrevObjectCriteria>OGM - Inactive / Unlicensed Engineers</PrevObjectCriteria>
+                                <ObjectCriteria>OGM - Active Licensed Engineers</ObjectCriteria>
+                            </Item>
+                            <Item>
+                                <PrevObjectCriteria>OGM - Active Licensed Engineers</PrevObjectCriteria>
+                                <ObjectCriteria>OGM - Active Licensed Engineers</ObjectCriteria>
+                            </Item>
+                        </ObjectCriterias>
+                        <MessageTranslators />
+                    </Parameters>
+                </MessageType>
+            </Item>
+            <Item xsi:type="OutgoingMessageItem" DisplayString="IncidentUpdate Task_OnUpdate" Key="30785969" CollectionName="Outgoing Message" ParentInExTree="OutgoingMessages" ObjectType="OutgoingMessageItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
+                <MessageType Name="IncidentUpdate" Action="IncidentUpdate">
+                    <Destinations>Main</Destinations>
+                    <SendOnEvents>
+                        <Item>Task_OnUpdate</Item>
+                    </SendOnEvents>
+                    <Parameters>
+                        <Properties>
+                            <Engineer></Engineer>
+                            <Task>CallID;City;CompletedBy.Name;CompletionTime;Customer;CustomerPhoneNumber;DueDate;EarlyStart;Feeder;IncompletionReason.Name;Number;Outages.ActionTaken.ActionCode;Outages.ActionTaken.Name;Outages.ActionTakenDesc;Outages.Attachments.FileIndex;Outages.Attachments.FileName;Outages.Attachments.URL;Outages.Cause.CauseCode;Outages.CrewComments;Outages.EstimatedRepairDuration;Outages.ETR;Outages.FollowUpDetails;Outages.FollowUpRequired;Outages.OutageID;Outages.OutageLocation;Outages.OutagePriority.Name;Outages.SubCause.CauseCode;Outages.ThirdPartyDamage;ScheduleNotes;Status.Name;Street;TaskTitle;WorkLocation</Task>
+                            <Assignment>Engineers.Engineer.ID;Engineers.Engineer.Name;Finish;Start</Assignment>
+                            <PrevTask></PrevTask>
+                        </Properties>
+                        <Priority />
+                        <ObjectCriterias />
+                        <MessageTranslators />
+                    </Parameters>
+                </MessageType>
+            </Item>
+            <Item xsi:type="OutgoingMessageItem" DisplayString="SXPAssignmentDelete Assignment_OnDelete" Key="10635570" CollectionName="Outgoing Message" ParentInExTree="OutgoingMessages" ObjectType="OutgoingMessageItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
+                <MessageType Name="SXPAssignmentDelete" Action="SXPAssignmentDelete">
+                    <Destinations>DeleteAssignment</Destinations>
+                    <SendOnEvents>
+                        <Item>Assignment_OnDelete</Item>
+                    </SendOnEvents>
+                    <Parameters>
+                        <Properties>
+                            <Engineer></Engineer>
+                            <Task>CallID;Number;Status.Name</Task>
+                            <Assignment></Assignment>
+                        </Properties>
+                        <Priority />
+                        <ObjectCriterias>
+                            <Item>
+                                <PrevObjectCriteria />
+                                <ObjectCriteria>Assignments To Send</ObjectCriteria>
+                            </Item>
+                        </ObjectCriterias>
+                        <MessageTranslators />
+                    </Parameters>
+                </MessageType>
+            </Item>
+            <Item xsi:type="OutgoingMessageItem" DisplayString="SXPAssignmentUpdate Assignment_OnUpdate" Key="56174843" CollectionName="Outgoing Message" ParentInExTree="OutgoingMessages" ObjectType="OutgoingMessageItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
+                <MessageType Name="SXPAssignmentUpdate" Action="SXPAssignmentUpdate">
+                    <Destinations>UpdateAssignment</Destinations>
+                    <SendOnEvents>
+                        <Item>Assignment_OnUpdate</Item>
+                    </SendOnEvents>
+                    <Parameters>
+                        <Properties>
+                            <Engineer>ID;Name</Engineer>
+                            <Task>CallID;Number;Status.Name</Task>
+                            <Assignment>Finish;Start</Assignment>
+                            <PrevAssignment></PrevAssignment>
+                        </Properties>
+                        <Priority />
+                        <ObjectCriterias>
+                            <Item>
+                                <PrevObjectCriteria>Assignments To Send</PrevObjectCriteria>
+                                <ObjectCriteria>Assignments To Send</ObjectCriteria>
+                            </Item>
+                        </ObjectCriterias>
+                        <MessageTranslators />
+                    </Parameters>
+                </MessageType>
+            </Item>
+            <Item xsi:type="OutgoingMessageItem" DisplayString="SXPTaskUpdate Task_OnUpdate" Key="53868469" CollectionName="Outgoing Message" ParentInExTree="OutgoingMessages" ObjectType="OutgoingMessageItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
+                <MessageType Name="SXPTaskUpdate" Action="SXPTaskUpdate">
+                    <Destinations>TaskUpdate</Destinations>
+                    <SendOnEvents>
+                        <Item>Task_OnUpdate</Item>
+                    </SendOnEvents>
+                    <Parameters>
+                        <Properties>
+                            <Engineer>ID;Name</Engineer>
+                            <Task>ActionTaken.ActionCode;ActionTaken.Name;AllConnectionsTight.Key;Attachments.FileName;Attachments.URL;AuthorizationNumber;AuthorizedDate;BillAccountNumber;BillingMultiplier;BillingMultiplierVerified.Key;CallID;CannotDoDetails;Cause.CauseCode;Cause.Name;Cell;City;Classification.Name;ClosingComments;CompletedBy.EmployeeOI;CompletedBy.Name;ContactPhoneNumber;CoverUpInstalled.Name;CoverUpTruckType.Name;CUPermitEndDate;CUPermitNumber;CUPermitStartDate;CUReturnDrop;CurrentRead;Customer;DemandBase;DemandMeter;DemandRead;DemandRead2;Duration;Electrician;ErrorOfMeteringVerified.Key;ETA.Key;ETA.Name;FA_NewMeterB;FA_NewReadingB;FA_NewSerialB;FA_OldMeterB;FA_OldReadingB;FA_OldSerialB;FARNewReading2;FAROldMeter1;FAROldReading1;FAROldReading2;FAROldSerialNumber1;Feeder;FieldNotes;FlaggersRequired;FoundInspectionResults.Key;GroundingCTs.Key;GroundingMeter.Key;GroundingPTs.Key;InspectionStatus.Key;Install_Inspect_Seq_Number;InstallationDrawingNumber;Key;LeftInspectionResults.Key;LotNumber;MeterBase;MeterCircuitConductorLength;MeterDemandRead;MeteredService;MeteringErrorPercent;MeterInstallationNumber;MeterKh;MeterLeftOnSite;MeterLocation.Key;MeterLocation.Name;MeterNotes;MeterNumber;MeterPolarity.Key;MeterSealIntact.Key;MeterTestBlock.Key;MeterTestBlockPositions.Key;MeterWorkRequired;MTR_RDG_KwH;Nature_Of_Load.Key;NewPoleID2;NewPoleID3;NewPoleID4;NewPoleID5;NewPoleID6;NewStreetlight2;NewStreetlight3;NewStreetlight4;NewStreetlight5;NewStreetlight6;NextToMeterNumber;Number;OldStreetlightNumber;OldStreetlightNumber2;OutageActionTaken.ActionCode;OutageActionTaken.Name;OutageActionTakenDesc;OutageCompletionDetails;OutageFollowUpDetails;OutageFollowUpReqd.Key;OutageInterruption.Key;OutageInterruptionCustomersAffected;OutageInterruptionDuration;OutageOldPoleID;OutageOldPoleID2;OutagePoleID;OutageThirdPartyDamage;Phase.Name;PoleSequence.Aliant_Comments;PoleSequence.Aliant_Completion_Order;PoleSequence.Aliant_DropsLateralsWouldNotReach;PoleSequence.Aliant_SplicingRequired;PoleSequence.Persona_Comments;PoleSequence.Persona_Completion_Order;PoleSequence.Persona_DropsLateralsWouldNotReach;PoleSequence.Persona_SplicingRequired;PoleSequence.PoleID;PoleSequence.ReadyForRemoval;PoleSequence.Roger_Completion_Order;PoleSequence.Rogers_Comments;PoleSequence.Rogers_DropsLateralsWouldNotReach;PoleSequence.Rogers_SplicingRequired;Region.Key;RemovedDrop.Name;RemovedMeter.Name;ScheduleNotes;SealNumCabinet1;SealNumCabinet2;SealNumCabinet3;SealNumCT1;SealNumCT2;SealNumCT3;SealNumPT1;SealNumPT2;SealNumPT3;SealsFoundIntact.Key;SealsLeftIntact.Key;SerialNumber;ServiceLeft.Name;ServiceSize;State;Status.Name;Street;StreetlightNumber;TaskTitle;TaskType.Name;TestDataCurrentPrimaryLA;TestDataCurrentPrimaryLB;TestDataCurrentPrimaryLC;TestDataCurrentSecondaryLA;TestDataCurrentSecondaryLB;TestDataCurrentSecondaryLC;TestDataVoltageEAB;TestDataVoltageEAN;TestDataVoltageEBC;TestDataVoltageEBN;TestDataVoltageECA;TestDataVoltageECN;TestDataVoltageENGND;TestSet_EquipUsed_Code.Key;TransferAliantJUS;TransferAliantNonJUS;TransferPersonaJUS;TransferPersonaNonJUS;TransferRequired;TransferRogersJUS;TransferRogersNonJUS;TriggerOutgoingMessageAttachments;UGRequired;Voltage;Wire;WiringColourCode.Key;WiringColourCodeOther;WiringTraced.Key;WorkClassification;WorkCompletedOn;WorkDetails;WorkLocation;WorkStartedOn;WorkType.Name</Task>
+                            <Assignment>Finish;Start</Assignment>
+                            <PrevTask></PrevTask>
+                        </Properties>
+                        <Priority />
+                        <ObjectCriterias>
+                            <Item>
+                                <PrevObjectCriteria>Cannot Do By Crew Tasks</PrevObjectCriteria>
+                                <ObjectCriteria>Completed Tasks</ObjectCriteria>
+                            </Item>
+                            <Item>
+                                <PrevObjectCriteria>Cannot Do By Crew Tasks</PrevObjectCriteria>
+                                <ObjectCriteria>Dispatched Tasks</ObjectCriteria>
+                            </Item>
+                            <Item>
+                                <PrevObjectCriteria>Cannot Do By Crew Tasks</PrevObjectCriteria>
+                                <ObjectCriteria>Open Tasks</ObjectCriteria>
+                            </Item>
+                            <Item>
+                                <PrevObjectCriteria>Complete Work With FollowUp</PrevObjectCriteria>
+                                <ObjectCriteria>Completed Tasks</ObjectCriteria>
+                            </Item>
+                            <Item>
+                                <PrevObjectCriteria>Dispatched Tasks</PrevObjectCriteria>
+                                <ObjectCriteria>Scheduled Not Ready to Sent</ObjectCriteria>
+                            </Item>
+                            <Item>
+                                <PrevObjectCriteria>Dispatched Tasks</PrevObjectCriteria>
+                                <ObjectCriteria>OnSite Tasks</ObjectCriteria>
+                            </Item>
+                            <Item>
+                                <PrevObjectCriteria>Dispatched Tasks</PrevObjectCriteria>
+                                <ObjectCriteria>Reviewed By Crew Tasks</ObjectCriteria>
+                            </Item>
+                            <Item>
+                                <PrevObjectCriteria>Dispatched Tasks</PrevObjectCriteria>
+                                <ObjectCriteria>Cannot Do By Crew Tasks</ObjectCriteria>
+                            </Item>
+                            <Item>
+                                <PrevObjectCriteria>Dispatched Tasks</PrevObjectCriteria>
+                                <ObjectCriteria>Redispatched Tasks</ObjectCriteria>
+                            </Item>
+                            <Item>
+                                <PrevObjectCriteria>Dispatched Tasks</PrevObjectCriteria>
+                                <ObjectCriteria>Scheduled but no assignment</ObjectCriteria>
+                            </Item>
+                            <Item>
+                                <PrevObjectCriteria>OnSite Tasks</PrevObjectCriteria>
+                                <ObjectCriteria>Completed Tasks</ObjectCriteria>
+                            </Item>
+                            <Item>
+                                <PrevObjectCriteria>OnSite Tasks</PrevObjectCriteria>
+                                <ObjectCriteria>Cannot Do By Crew Tasks</ObjectCriteria>
+                            </Item>
+                            <Item>
+                                <PrevObjectCriteria>OnSite Tasks</PrevObjectCriteria>
+                                <ObjectCriteria>Complete Tasks with Interruption</ObjectCriteria>
+                            </Item>
+                            <Item>
+                                <PrevObjectCriteria>OnSite Tasks</PrevObjectCriteria>
+                                <ObjectCriteria>Redispatched Tasks</ObjectCriteria>
+                            </Item>
+                            <Item>
+                                <PrevObjectCriteria>OnSite Tasks</PrevObjectCriteria>
+                                <ObjectCriteria>Complete Tasks with Followup</ObjectCriteria>
+                            </Item>
+                            <Item>
+                                <PrevObjectCriteria>Open Tasks</PrevObjectCriteria>
+                                <ObjectCriteria>Scheduled Status Tasks</ObjectCriteria>
+                            </Item>
+                            <Item>
+                                <PrevObjectCriteria>Reviewed By Crew Tasks</PrevObjectCriteria>
+                                <ObjectCriteria>Cannot Do By Crew Tasks</ObjectCriteria>
+                            </Item>
+                            <Item>
+                                <PrevObjectCriteria>Reviewed By Crew Tasks</PrevObjectCriteria>
+                                <ObjectCriteria>Redispatched Tasks</ObjectCriteria>
+                            </Item>
+                            <Item>
+                                <PrevObjectCriteria>Reviewed By Crew Tasks</PrevObjectCriteria>
+                                <ObjectCriteria>OnSite Tasks</ObjectCriteria>
+                            </Item>
+                            <Item>
+                                <PrevObjectCriteria>Reviewed By Crew Tasks</PrevObjectCriteria>
+                                <ObjectCriteria>Completed Tasks</ObjectCriteria>
+                            </Item>
+                            <Item>
+                                <PrevObjectCriteria>Scheduled but no assignment</PrevObjectCriteria>
+                                <ObjectCriteria>Dispatched Tasks</ObjectCriteria>
+                            </Item>
+                            <Item>
+                                <PrevObjectCriteria>Scheduled Not Ready to Sent</PrevObjectCriteria>
+                                <ObjectCriteria>Scheduled Ready to Sent</ObjectCriteria>
+                            </Item>
+                            <Item>
+                                <PrevObjectCriteria>OnSite Tasks</PrevObjectCriteria>
+                                <ObjectCriteria>Complete With Follow Up (All Work Types)</ObjectCriteria>
+                            </Item>
+                            <Item>
+                                <PrevObjectCriteria>OnSite Tasks</PrevObjectCriteria>
+                                <ObjectCriteria>Complete With Interruption (All Work Types)</ObjectCriteria>
+                            </Item>
+                            <Item>
+                                <PrevObjectCriteria>In Progress Tasks</PrevObjectCriteria>
+                                <ObjectCriteria>Completed Tasks</ObjectCriteria>
+                            </Item>
+                            <Item>
+                                <PrevObjectCriteria>Trigger Task Outgoing Message Attachments - False</PrevObjectCriteria>
+                                <ObjectCriteria>Trigger Task Outgoing Message Attachments - True</ObjectCriteria>
+                            </Item>
+                        </ObjectCriterias>
+                        <MessageTranslators />
+                    </Parameters>
+                </MessageType>
+            </Item>
+        </ConfigurationStep>
+    </Settings>
+    <Scheme />
+</ConfigurationManagmentFile>
