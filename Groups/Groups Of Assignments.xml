@@ -5,7 +5,7 @@
         <ConfigFileTitle>Configuration File</ConfigFileTitle>
         <BuildVersion>1</BuildVersion>
         <SOVersion>8.1.10(9467)</SOVersion>
-        <ExportTime>2018-11-08T16:34:44.1395503-03:30</ExportTime>
+        <ExportTime>2018-11-16T13:38:21.1848527-03:30</ExportTime>
         <ComputerName>NPVMCLKAPP5</ComputerName>
         <Owner>gpatterson</Owner>
         <BuilderToolVersion>8.10.9467.105</BuilderToolVersion>
@@ -648,17 +648,17 @@
                             <Object>
                                 <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
                                     <Key>790388737</Key>
-                                    <Revision>19</Revision>
+                                    <Revision>20</Revision>
                                     <Stamp>
                                         <CreatedBy>NFPOWER_DOMAIN\JPearce</CreatedBy>
                                         <TimeCreated>2011-10-18T16:34:37</TimeCreated>
                                         <CreatingProcess>0</CreatingProcess>
                                         <ModifiedBy>NETWORK SERVICE</ModifiedBy>
-                                        <TimeModified>2018-11-08T14:09:05</TimeModified>
+                                        <TimeModified>2018-11-15T12:07:15</TimeModified>
                                         <ModifyingProcess>0</ModifyingProcess>
                                     </Stamp>
                                     <Name>ClickMobile - Mobile Assignments</Name>
-                                    <Body>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="501" TYPE_TEXT="Or" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145667&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135429&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124151810&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145665&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135430&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124151808&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124149760&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145666&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145668&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124149762&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135428&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;-1&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
+                                    <Body>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="501" TYPE_TEXT="Or" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145667&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135429&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124151810&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145665&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135430&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124151808&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124149760&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145666&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145668&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124149762&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124143616&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135428&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;-1&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
                                     <GroupParameters />
                                     <GroupType>0</GroupType>
                                     <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
@@ -959,12 +959,38 @@
                                     <Reference xsi:type="GenericObjectReference">
                                         <CollectionName>TaskStatus</CollectionName>
                                         <ObjectReferenceWrapper>
-                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135428" DisplayString="Dispatched">Dispatched</ObjectReference>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124143616" DisplayString="Cancelled">Cancelled</ObjectReference>
                                         </ObjectReferenceWrapper>
                                     </Reference>
                                 </ReferenceInfo>
                                 <ReferenceInfo>
                                     <Mapping>CONDITION[1]/CONDITION[12]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[12]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[12]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135428" DisplayString="Dispatched">Dispatched</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[13]/VALUE[@TYPE='200']/ID[1]</Mapping>
                                     <Property>Condition</Property>
                                     <Reference xsi:type="GenericPropertyReference">
                                         <CollectionName>Assignment</CollectionName>
