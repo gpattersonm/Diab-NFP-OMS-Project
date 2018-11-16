@@ -5,7 +5,7 @@
         <ConfigFileTitle>Configuration File</ConfigFileTitle>
         <BuildVersion>1</BuildVersion>
         <SOVersion>8.1.10(9467)</SOVersion>
-        <ExportTime>2018-11-16T11:36:00.4364-05:00</ExportTime>
+        <ExportTime>2018-11-16T11:43:23.9132-05:00</ExportTime>
         <ComputerName>WIN-RF015ULLERU</ComputerName>
         <Owner>gpatterson</Owner>
         <BuilderToolVersion>8.10.9467.105</BuilderToolVersion>
@@ -13,8 +13,8 @@
     </GlobalMetaData>
     <Queries />
     <Settings>
-        <ConfigurationStep SerialNumber="1" TimeStamp="2018-11-16T11:35:56.3492-05:00" Title="Group (Groups of Assignments): All" Description="" DisableEvents="false" IsCustom="false">
-            <Item DisplayString="Area TC To Be Dispatched" Key="253495348" CollectionName="Group" PathInExTree="Group\Area TC To Be Dispatched" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+        <ConfigurationStep SerialNumber="1" TimeStamp="2018-11-16T11:43:19.8416-05:00" Title="Group (Groups of Assignments): All" Description="" DisableEvents="false" IsCustom="false">
+            <Item DisplayString="Area TC To Be Dispatched" Key="253495348" CollectionName="Group" PathInExTree="Group\Area TC To Be Dispatched" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
@@ -150,7 +150,7 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Assignments To Send" Key="790433792" CollectionName="Group" PathInExTree="Group\Assignments To Send" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="Assignments To Send" Key="790433792" CollectionName="Group" PathInExTree="Group\Assignments To Send" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
@@ -374,7 +374,7 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Before Travel Tasks" Key="790417410" CollectionName="Group" PathInExTree="Group\Before Travel Tasks" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="Before Travel Tasks" Key="790417410" CollectionName="Group" PathInExTree="Group\Before Travel Tasks" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
@@ -468,7 +468,7 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="ClickMobile - Completed Assignments" Key="790388738" CollectionName="Group" PathInExTree="Group\ClickMobile - Completed Assignments" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="ClickMobile - Completed Assignments" Key="790388738" CollectionName="Group" PathInExTree="Group\ClickMobile - Completed Assignments" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
@@ -640,7 +640,7 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="ClickMobile - Mobile Assignments" Key="790388737" CollectionName="Group" PathInExTree="Group\ClickMobile - Mobile Assignments" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="ClickMobile - Mobile Assignments" Key="790388737" CollectionName="Group" PathInExTree="Group\ClickMobile - Mobile Assignments" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
@@ -1002,7 +1002,7 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="ClickMobile - To Be Dispatched Assignments" Key="790388739" CollectionName="Group" PathInExTree="Group\ClickMobile - To Be Dispatched Assignments" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="ClickMobile - To Be Dispatched Assignments" Key="790388739" CollectionName="Group" PathInExTree="Group\ClickMobile - To Be Dispatched Assignments" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
@@ -1070,7 +1070,7 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="ClickMobile Assignments" Key="790439936" CollectionName="Group" PathInExTree="Group\ClickMobile Assignments" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="ClickMobile Assignments" Key="790439936" CollectionName="Group" PathInExTree="Group\ClickMobile Assignments" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
@@ -1302,7 +1302,7 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Completed Assignments" Key="790419456" CollectionName="Group" PathInExTree="Group\Completed Assignments" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="Completed Assignments" Key="790419456" CollectionName="Group" PathInExTree="Group\Completed Assignments" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
@@ -1396,7 +1396,279 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Scheduled Tasks" Key="790419458" CollectionName="Group" PathInExTree="Group\Scheduled Tasks" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="OGM - Assignments To Send" Key="790415362" CollectionName="Group" PathInExTree="Group\OGM - Assignments To Send" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>790415362</Key>
+                                    <Revision>2</Revision>
+                                    <Stamp>
+                                        <CreatedBy>NETWORK SERVICE</CreatedBy>
+                                        <TimeCreated>2018-11-16T11:37:32</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NETWORK SERVICE</ModifiedBy>
+                                        <TimeModified>2018-11-16T11:40:20</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>OGM - Assignments To Send</Name>
+                                    <Body>&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="500" TYPE_TEXT="And" /&gt;&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="501" TYPE_TEXT="Or" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135428&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145665&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135429&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145667&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145666&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145668&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135430&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;602&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="605" TYPE_TEXT="&amp;lt;&amp;gt;" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;Responder&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="500" TYPE_TEXT="And" /&gt;&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="502" TYPE_TEXT="Not" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="608" TYPE_TEXT="Include" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;TC&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="502" TYPE_TEXT="Not" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="608" TYPE_TEXT="Include" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;DA&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>0</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/CONDITION[1]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135428" DisplayString="Dispatched">Dispatched</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/CONDITION[2]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124145665" DisplayString="Reviewed By Crew">Reviewed By Crew</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/CONDITION[3]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/CONDITION[3]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/CONDITION[3]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135429" DisplayString="On-Site">On-Site</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/CONDITION[4]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/CONDITION[4]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/CONDITION[4]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124145667" DisplayString="Travel">Travel</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/CONDITION[5]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/CONDITION[5]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/CONDITION[5]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124145666" DisplayString="Cannot Do">Cannot Do</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/CONDITION[6]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/CONDITION[6]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/CONDITION[6]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124145668" DisplayString="In Progress">In Progress</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/CONDITION[7]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/CONDITION[7]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/CONDITION[7]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135430" DisplayString="Completed">Completed</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>SourceSystem</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[3]/CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[3]/CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>CallID</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[3]/CONDITION[2]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[3]/CONDITION[2]/CONDITION[1]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>CallID</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Scheduled Tasks" Key="790419458" CollectionName="Group" PathInExTree="Group\Scheduled Tasks" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
@@ -1464,7 +1736,7 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="TC To Be Dispatched" Key="790470670" CollectionName="Group" PathInExTree="Group\TC To Be Dispatched" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="TC To Be Dispatched" Key="790470670" CollectionName="Group" PathInExTree="Group\TC To Be Dispatched" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
@@ -1558,7 +1830,7 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="To Be Dispatched" Key="790419457" CollectionName="Group" PathInExTree="Group\To Be Dispatched" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="To Be Dispatched" Key="790419457" CollectionName="Group" PathInExTree="Group\To Be Dispatched" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
@@ -1652,7 +1924,7 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Travel Tasks" Key="790417411" CollectionName="Group" PathInExTree="Group\Travel Tasks" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="Travel Tasks" Key="790417411" CollectionName="Group" PathInExTree="Group\Travel Tasks" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
@@ -1720,7 +1992,7 @@
                     </ImportExportObjectReferenceInfos>
                 </ReferencedObjectsCollection>
             </Item>
-            <Item DisplayString="Unlocked Assignments" Key="790421504" CollectionName="Group" PathInExTree="Group\Unlocked Assignments" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+            <Item DisplayString="Unlocked Assignments" Key="790421504" CollectionName="Group" PathInExTree="Group\Unlocked Assignments" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" User="gpatterson" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
                 <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                     <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
