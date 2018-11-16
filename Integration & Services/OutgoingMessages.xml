@@ -5,7 +5,7 @@
         <ConfigFileTitle>Configuration File</ConfigFileTitle>
         <BuildVersion>1</BuildVersion>
         <SOVersion>8.1.10(9467)</SOVersion>
-        <ExportTime>2018-11-15T18:22:38.530395-03:30</ExportTime>
+        <ExportTime>2018-11-16T13:56:54.2747229-03:30</ExportTime>
         <ComputerName>NPVMCLKAPP5</ComputerName>
         <Owner>gpatterson</Owner>
         <BuilderToolVersion>8.10.9467.105</BuilderToolVersion>
@@ -13,9 +13,9 @@
     </GlobalMetaData>
     <Queries />
     <Settings>
-        <ConfigurationStep SerialNumber="3" TimeStamp="2018-11-08T16:57:34.4767185-03:30" Title="Outgoing Messages" Description="" DisableEvents="false" IsCustom="true">
-            <Item xsi:type="OutgoingMessageItem" DisplayString="EngineerUpdate Engineer_OnAdd" Key="66898301" CollectionName="Outgoing Message" ParentInExTree="OutgoingMessages" ObjectType="OutgoingMessageItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
-                <MessageType Name="EngineerUpdate" Action="">
+        <ConfigurationStep SerialNumber="3" TimeStamp="2018-11-16T13:50:35.0338609-03:30" Title="Outgoing Messages" Description="" DisableEvents="false" IsCustom="true">
+            <Item xsi:type="OutgoingMessageItem" DisplayString="EngineerUpdate Engineer_OnAdd" Key="28184617" CollectionName="Outgoing Message" ParentInExTree="OutgoingMessages" ObjectType="OutgoingMessageItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
+                <MessageType Name="EngineerUpdate" Action="EngineerUpdate">
                     <Destinations>EngineerUpdate</Destinations>
                     <SendOnEvents>
                         <Item>Engineer_OnAdd</Item>
@@ -30,7 +30,7 @@
                     </Parameters>
                 </MessageType>
             </Item>
-            <Item xsi:type="OutgoingMessageItem" DisplayString="EngineerUpdate Engineer_OnUpdate" Key="50053294" CollectionName="Outgoing Message" ParentInExTree="OutgoingMessages" ObjectType="OutgoingMessageItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
+            <Item xsi:type="OutgoingMessageItem" DisplayString="EngineerUpdate Engineer_OnUpdate" Key="1252607" CollectionName="Outgoing Message" ParentInExTree="OutgoingMessages" ObjectType="OutgoingMessageItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
                 <MessageType Name="EngineerUpdate" Action="EngineerUpdate">
                     <Destinations>EngineerUpdate</Destinations>
                     <SendOnEvents>
@@ -59,7 +59,7 @@
                     </Parameters>
                 </MessageType>
             </Item>
-            <Item xsi:type="OutgoingMessageItem" DisplayString="IncidentUpdate Task_OnUpdate" Key="27784979" CollectionName="Outgoing Message" ParentInExTree="OutgoingMessages" ObjectType="OutgoingMessageItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
+            <Item xsi:type="OutgoingMessageItem" DisplayString="IncidentUpdate Task_OnUpdate" Key="34352342" CollectionName="Outgoing Message" ParentInExTree="OutgoingMessages" ObjectType="OutgoingMessageItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
                 <MessageType Name="IncidentUpdate" Action="IncidentUpdate">
                     <Destinations>IncidentUpdate</Destinations>
                     <SendOnEvents>
@@ -83,7 +83,7 @@
                     </Parameters>
                 </MessageType>
             </Item>
-            <Item xsi:type="OutgoingMessageItem" DisplayString="SXPAssignmentDelete Assignment_OnDelete" Key="35990804" CollectionName="Outgoing Message" ParentInExTree="OutgoingMessages" ObjectType="OutgoingMessageItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
+            <Item xsi:type="OutgoingMessageItem" DisplayString="SXPAssignmentDelete Assignment_OnDelete" Key="31076309" CollectionName="Outgoing Message" ParentInExTree="OutgoingMessages" ObjectType="OutgoingMessageItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
                 <MessageType Name="SXPAssignmentDelete" Action="SXPAssignmentDelete">
                     <Destinations>DeleteAssignment</Destinations>
                     <SendOnEvents>
@@ -99,14 +99,14 @@
                         <ObjectCriterias>
                             <Item>
                                 <PrevObjectCriteria />
-                                <ObjectCriteria>Assignments To Send</ObjectCriteria>
+                                <ObjectCriteria>OGM - Assignments To Send</ObjectCriteria>
                             </Item>
                         </ObjectCriterias>
                         <MessageTranslators />
                     </Parameters>
                 </MessageType>
             </Item>
-            <Item xsi:type="OutgoingMessageItem" DisplayString="SXPAssignmentUpdate Assignment_OnUpdate" Key="29574043" CollectionName="Outgoing Message" ParentInExTree="OutgoingMessages" ObjectType="OutgoingMessageItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
+            <Item xsi:type="OutgoingMessageItem" DisplayString="SXPAssignmentUpdate Assignment_OnUpdate" Key="34153125" CollectionName="Outgoing Message" ParentInExTree="OutgoingMessages" ObjectType="OutgoingMessageItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
                 <MessageType Name="SXPAssignmentUpdate" Action="SXPAssignmentUpdate">
                     <Destinations>UpdateAssignment</Destinations>
                     <SendOnEvents>
@@ -122,15 +122,15 @@
                         <Priority />
                         <ObjectCriterias>
                             <Item>
-                                <PrevObjectCriteria>Assignments To Send</PrevObjectCriteria>
-                                <ObjectCriteria>Assignments To Send</ObjectCriteria>
+                                <PrevObjectCriteria>OGM - Assignments To Send</PrevObjectCriteria>
+                                <ObjectCriteria>OGM - Assignments To Send</ObjectCriteria>
                             </Item>
                         </ObjectCriterias>
                         <MessageTranslators />
                     </Parameters>
                 </MessageType>
             </Item>
-            <Item xsi:type="OutgoingMessageItem" DisplayString="SXPTaskUpdate Task_OnUpdate" Key="46687245" CollectionName="Outgoing Message" ParentInExTree="OutgoingMessages" ObjectType="OutgoingMessageItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
+            <Item xsi:type="OutgoingMessageItem" DisplayString="SXPTaskUpdate Task_OnUpdate" Key="14939758" CollectionName="Outgoing Message" ParentInExTree="OutgoingMessages" ObjectType="OutgoingMessageItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
                 <MessageType Name="SXPTaskUpdate" Action="SXPTaskUpdate">
                     <Destinations>TaskUpdate</Destinations>
                     <SendOnEvents>
@@ -184,6 +184,10 @@
                             <Item>
                                 <PrevObjectCriteria>OGM - SXPTaskUpdate -  Attachments - Before</PrevObjectCriteria>
                                 <ObjectCriteria>OGM - SXPTaskUpdate -  Attachments - After</ObjectCriteria>
+                            </Item>
+                            <Item>
+                                <PrevObjectCriteria>OGM - SXPTaskUpdate - En Route - Before</PrevObjectCriteria>
+                                <ObjectCriteria>OGM - SXPTaskUpdate - En Route - After</ObjectCriteria>
                             </Item>
                         </ObjectCriterias>
                         <MessageTranslators />
