@@ -1,0 +1,1940 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigurationManagmentFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <GlobalMetaData>
+        <ConfigFileTitle>Configuration File</ConfigFileTitle>
+        <BuildVersion>1</BuildVersion>
+        <SOVersion>8.1.10(9467)</SOVersion>
+        <ExportTime>2018-11-16T11:36:00.4364-05:00</ExportTime>
+        <ComputerName>WIN-RF015ULLERU</ComputerName>
+        <Owner>gpatterson</Owner>
+        <BuilderToolVersion>8.10.9467.105</BuilderToolVersion>
+        <Description />
+    </GlobalMetaData>
+    <Queries />
+    <Settings>
+        <ConfigurationStep SerialNumber="1" TimeStamp="2018-11-16T11:35:56.3492-05:00" Title="Group (Groups of Assignments): All" Description="" DisableEvents="false" IsCustom="false">
+            <Item DisplayString="Area TC To Be Dispatched" Key="253495348" CollectionName="Group" PathInExTree="Group\Area TC To Be Dispatched" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>253495348</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>NFPOWER_DOMAIN\jpearce</CreatedBy>
+                                        <TimeCreated>2013-06-12T13:36:28</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NFPOWER_DOMAIN\jpearce</ModifiedBy>
+                                        <TimeModified>2013-06-12T13:36:28</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>Area TC To Be Dispatched</Name>
+                                    <Body>&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="500" TYPE_TEXT="And" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135426&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;22&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="607" TYPE_TEXT="Intersect" /&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;22&lt;/ID&gt;&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;20&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124821504&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;12&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="605" TYPE_TEXT="&amp;lt;&amp;gt;" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124012544&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>0</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135426" DisplayString="Scheduled">Scheduled</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>RequiredEngineers</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[3]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[3]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>TaskType</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[3]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskType</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskTypeReference" Key="124821504" DisplayString="Trouble Work">Trouble Work</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[4]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[4]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Region</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[4]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Region</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="RegionReference" Key="124012544" DisplayString="SJN">SJN</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Assignments To Send" Key="790433792" CollectionName="Group" PathInExTree="Group\Assignments To Send" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>790433792</Key>
+                                    <Revision>2</Revision>
+                                    <Stamp>
+                                        <CreatedBy>CLICKSOFTWARE\ronit.eliav</CreatedBy>
+                                        <TimeCreated>2007-07-28T21:35:44</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>CLICKSOFTWARE\w6-qa</ModifiedBy>
+                                        <TimeModified>2008-04-03T17:00:47</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>Assignments To Send</Name>
+                                    <Body>&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="501" TYPE_TEXT="Or"/&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="="/&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135428&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="="/&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145665&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="="/&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135429&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="="/&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145667&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="="/&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145666&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="="/&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145668&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="="/&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135430&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>0</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135428" DisplayString="Dispatched">Dispatched</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124145665" DisplayString="Reviewed By Crew">Reviewed By Crew</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[3]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[3]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[3]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135429" DisplayString="On-Site">On-Site</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[4]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[4]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[4]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124145667" DisplayString="Travel">Travel</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[5]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[5]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[5]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124145666" DisplayString="Cannot Do">Cannot Do</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[6]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[6]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[6]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124145668" DisplayString="In Progress">In Progress</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[7]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[7]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[7]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135430" DisplayString="Completed">Completed</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Before Travel Tasks" Key="790417410" CollectionName="Group" PathInExTree="Group\Before Travel Tasks" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>790417410</Key>
+                                    <Revision>3</Revision>
+                                    <Stamp>
+                                        <CreatedBy>CLICKSOFTWARE\ronit.eliav</CreatedBy>
+                                        <TimeCreated>2007-06-06T00:46:15</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NFPOWER_DOMAIN\SFlynn</ModifiedBy>
+                                        <TimeModified>2011-10-20T09:54:07</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>Before Travel Tasks</Name>
+                                    <Body>&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="501" TYPE_TEXT="Or" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145668&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135428&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>0</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124145668" DisplayString="In Progress">In Progress</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135428" DisplayString="Dispatched">Dispatched</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="ClickMobile - Completed Assignments" Key="790388738" CollectionName="Group" PathInExTree="Group\ClickMobile - Completed Assignments" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>790388738</Key>
+                                    <Revision>10</Revision>
+                                    <Stamp>
+                                        <CreatedBy>NFPOWER_DOMAIN\JPearce</CreatedBy>
+                                        <TimeCreated>2011-10-18T16:34:38</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NETWORK SERVICE</ModifiedBy>
+                                        <TimeModified>2018-10-24T12:28:54</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>ClickMobile - Completed Assignments</Name>
+                                    <Body>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="501" TYPE_TEXT="Or" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124143616&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145666&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124149762&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135430&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124149760&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>0</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124143616" DisplayString="Cancelled">Cancelled</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124145666" DisplayString="Cannot Do">Cannot Do</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[3]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[3]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[3]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124149762" DisplayString="Complete With Followup">Complete With Followup</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[4]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[4]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[4]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135430" DisplayString="Completed">Completed</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[5]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[5]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[5]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124149760" DisplayString="Complete with Interruption">Complete with Interruption</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="ClickMobile - Mobile Assignments" Key="790388737" CollectionName="Group" PathInExTree="Group\ClickMobile - Mobile Assignments" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>790388737</Key>
+                                    <Revision>18</Revision>
+                                    <Stamp>
+                                        <CreatedBy>NFPOWER_DOMAIN\JPearce</CreatedBy>
+                                        <TimeCreated>2011-10-18T16:34:37</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NETWORK SERVICE</ModifiedBy>
+                                        <TimeModified>2018-11-09T15:32:55</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>ClickMobile - Mobile Assignments</Name>
+                                    <Body>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="501" TYPE_TEXT="Or" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145667&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135429&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124151810&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145665&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135430&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124151808&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124149760&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145666&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145668&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124149762&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124143616&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135428&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;-1&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>0</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124145667" DisplayString="Travel">Travel</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135429" DisplayString="On-Site">On-Site</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[3]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[3]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[3]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124151810" DisplayString="En Route">En Route</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[4]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[4]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[4]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124145665" DisplayString="Reviewed By Crew">Reviewed By Crew</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[5]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[5]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[5]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135430" DisplayString="Completed">Completed</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[6]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[6]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[6]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124151808" DisplayString="Incomplete">Incomplete</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[7]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[7]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[7]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124149760" DisplayString="Complete with Interruption">Complete with Interruption</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[8]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[8]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[8]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124145666" DisplayString="Cannot Do">Cannot Do</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[9]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[9]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[9]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124145668" DisplayString="In Progress">In Progress</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[10]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[10]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[10]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124149762" DisplayString="Complete With Followup">Complete With Followup</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[11]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[11]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[11]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124143616" DisplayString="Cancelled">Cancelled</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[12]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[12]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[12]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135428" DisplayString="Dispatched">Dispatched</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[13]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="ClickMobile - To Be Dispatched Assignments" Key="790388739" CollectionName="Group" PathInExTree="Group\ClickMobile - To Be Dispatched Assignments" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>790388739</Key>
+                                    <Revision>6</Revision>
+                                    <Stamp>
+                                        <CreatedBy>NFPOWER_DOMAIN\JPearce</CreatedBy>
+                                        <TimeCreated>2011-10-18T16:34:39</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NETWORK SERVICE</ModifiedBy>
+                                        <TimeModified>2018-10-24T12:28:55</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>ClickMobile - To Be Dispatched Assignments</Name>
+                                    <Body>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135426&lt;/VALUE&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>0</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135426" DisplayString="Scheduled">Scheduled</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="ClickMobile Assignments" Key="790439936" CollectionName="Group" PathInExTree="Group\ClickMobile Assignments" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>790439936</Key>
+                                    <Revision>4</Revision>
+                                    <Stamp>
+                                        <CreatedBy>RDLIRITT60\IUSR_ENG_LPT</CreatedBy>
+                                        <TimeCreated>2007-11-06T16:57:15</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NFPOWER_DOMAIN\JPearce</ModifiedBy>
+                                        <TimeModified>2013-03-07T15:44:26</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>ClickMobile Assignments</Name>
+                                    <Body>&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="501" TYPE_TEXT="Or" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135428&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145666&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135430&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145668&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135429&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145665&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145667&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;-1&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>0</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135428" DisplayString="Dispatched">Dispatched</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124145666" DisplayString="Cannot Do">Cannot Do</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[3]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[3]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[3]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135430" DisplayString="Completed">Completed</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[4]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[4]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[4]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124145668" DisplayString="In Progress">In Progress</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[5]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[5]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[5]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135429" DisplayString="On-Site">On-Site</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[6]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[6]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[6]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124145665" DisplayString="Reviewed By Crew">Reviewed By Crew</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[7]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[7]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[7]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124145667" DisplayString="Travel">Travel</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[8]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Completed Assignments" Key="790419456" CollectionName="Group" PathInExTree="Group\Completed Assignments" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>790419456</Key>
+                                    <Revision>2</Revision>
+                                    <Stamp>
+                                        <CreatedBy>CLICKSOFTWARE\ronit.eliav</CreatedBy>
+                                        <TimeCreated>2007-06-07T15:38:47</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NFPOWER_DOMAIN\JPearce</ModifiedBy>
+                                        <TimeModified>2011-10-19T21:39:54</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>Completed Assignments</Name>
+                                    <Body>&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="501" TYPE_TEXT="Or" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135430&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145666&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>0</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135430" DisplayString="Completed">Completed</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124145666" DisplayString="Cannot Do">Cannot Do</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Scheduled Tasks" Key="790419458" CollectionName="Group" PathInExTree="Group\Scheduled Tasks" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>790419458</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>CLICKSOFTWARE\ronit.eliav</CreatedBy>
+                                        <TimeCreated>2007-06-08T12:17:27</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>CLICKSOFTWARE\ronit.eliav</ModifiedBy>
+                                        <TimeModified>2007-06-08T12:17:27</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>Scheduled Tasks</Name>
+                                    <Body>&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="="/&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135426&lt;/VALUE&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>0</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135426" DisplayString="Scheduled">Scheduled</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="TC To Be Dispatched" Key="790470670" CollectionName="Group" PathInExTree="Group\TC To Be Dispatched" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>790470670</Key>
+                                    <Revision>7</Revision>
+                                    <Stamp>
+                                        <CreatedBy>NFPOWER_DOMAIN\JPearce</CreatedBy>
+                                        <TimeCreated>2012-05-30T12:05:10</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>NETWORK SERVICE</ModifiedBy>
+                                        <TimeModified>2018-09-26T16:38:47</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>TC To Be Dispatched</Name>
+                                    <Body>&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="500" TYPE_TEXT="And" /&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135426&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;20&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="=" /&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124821504&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>0</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135426" DisplayString="Scheduled">Scheduled</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>TaskType</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskType</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskTypeReference" Key="124821504" DisplayString="Trouble Work">Trouble Work</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="To Be Dispatched" Key="790419457" CollectionName="Group" PathInExTree="Group\To Be Dispatched" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>790419457</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>CLICKSOFTWARE\ronit.eliav</CreatedBy>
+                                        <TimeCreated>2007-06-07T15:44:28</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>CLICKSOFTWARE\ronit.eliav</ModifiedBy>
+                                        <TimeModified>2007-06-07T15:44:28</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>To Be Dispatched</Name>
+                                    <Body>&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="501" TYPE_TEXT="Or"/&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="="/&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145665&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="="/&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135426&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>0</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124145665" DisplayString="Reviewed By Crew">Reviewed By Crew</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135426" DisplayString="Scheduled">Scheduled</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Travel Tasks" Key="790417411" CollectionName="Group" PathInExTree="Group\Travel Tasks" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>790417411</Key>
+                                    <Revision>1</Revision>
+                                    <Stamp>
+                                        <CreatedBy>CLICKSOFTWARE\ronit.eliav</CreatedBy>
+                                        <TimeCreated>2007-06-06T01:27:31</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>CLICKSOFTWARE\ronit.eliav</ModifiedBy>
+                                        <TimeModified>2007-06-06T01:27:31</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>Travel Tasks</Name>
+                                    <Body>&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="600" TYPE_TEXT="="/&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145667&lt;/VALUE&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>0</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124145667" DisplayString="Travel">Travel</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+            <Item DisplayString="Unlocked Assignments" Key="790421504" CollectionName="Group" PathInExTree="Group\Unlocked Assignments" ParentInExTree="Groups of Assignments" ObjectType="Group" ImageKey="GroupItem" Version="1" SubCategory="" IsCustom="false" MergeWithExMultiValue="false">
+                <ReferencedObjectsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ImportExportObjectReferenceInfos xmlns="http://www.clicksoftware.com">
+                        <ImportExportObjectReferenceInfo>
+                            <Object>
+                                <Object xmlns="http://www.clicksoftware.com" xsi:type="Group">
+                                    <Key>790421504</Key>
+                                    <Revision>4</Revision>
+                                    <Stamp>
+                                        <CreatedBy>CLICKSOFTWARE\ronit.eliav</CreatedBy>
+                                        <TimeCreated>2007-06-11T14:32:59</TimeCreated>
+                                        <CreatingProcess>0</CreatingProcess>
+                                        <ModifiedBy>RDLIRITT60\IUSR_ENG_LPT</ModifiedBy>
+                                        <TimeModified>2007-10-28T09:37:52</TimeModified>
+                                        <ModifyingProcess>0</ModifyingProcess>
+                                    </Stamp>
+                                    <Name>Unlocked Assignments</Name>
+                                    <Body>&lt;CONDITION TYPE="100" TYPE_TEXT="Logic Condition"&gt;&lt;OPERATION TYPE="500" TYPE_TEXT="And"/&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;51&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="605" TYPE_TEXT="&amp;lt;&amp;gt;"/&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;-1&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="605" TYPE_TEXT="&amp;lt;&amp;gt;"/&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145666&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="605" TYPE_TEXT="&amp;lt;&amp;gt;"/&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135429&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="605" TYPE_TEXT="&amp;lt;&amp;gt;"/&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145667&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="605" TYPE_TEXT="&amp;lt;&amp;gt;"/&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135430&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="605" TYPE_TEXT="&amp;lt;&amp;gt;"/&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124145668&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;CONDITION TYPE="101" TYPE_TEXT="Arithmetic Condition"&gt;&lt;VALUE TYPE="200" TYPE_TEXT="Property Value"&gt;&lt;ID&gt;3&lt;/ID&gt;&lt;ID&gt;9&lt;/ID&gt;&lt;/VALUE&gt;&lt;OPERATION TYPE="605" TYPE_TEXT="&amp;lt;&amp;gt;"/&gt;&lt;VALUE TYPE="201" TYPE_TEXT="Const Value"&gt;124135428&lt;/VALUE&gt;&lt;/CONDITION&gt;&lt;/CONDITION&gt;</Body>
+                                    <GroupParameters />
+                                    <GroupType>0</GroupType>
+                                    <ScriptProgID>W6PCustomVCLib.W6POQLGroupEngine, W6PCustomVCLib</ScriptProgID>
+                                    <IsGroupUnique>false</IsGroupUnique>
+                                    <LowBound />
+                                    <HighBound>@#</HighBound>
+                                    <Paging />
+                                    <LastRefreshTime>1900-01-01T00:00:00</LastRefreshTime>
+                                </Object>
+                            </Object>
+                            <ReferenceInfos>
+                                <ReferenceInfo>
+                                    <Mapping />
+                                    <Property>GroupType</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[1]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Pinned</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[2]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124145666" DisplayString="Cannot Do">Cannot Do</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[3]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[3]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[3]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135429" DisplayString="On-Site">On-Site</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[4]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[4]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[4]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124145667" DisplayString="Travel">Travel</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[5]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[5]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[5]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135430" DisplayString="Completed">Completed</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[6]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[6]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[6]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124145668" DisplayString="In Progress">In Progress</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[7]/VALUE[@TYPE='200']/ID[1]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Assignment</CollectionName>
+                                        <PropertyName>Task</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[7]/VALUE[@TYPE='200']/ID[2]</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericPropertyReference">
+                                        <CollectionName>Task</CollectionName>
+                                        <PropertyName>Status</PropertyName>
+                                    </Reference>
+                                </ReferenceInfo>
+                                <ReferenceInfo>
+                                    <Mapping>CONDITION[1]/CONDITION[7]/VALUE[@TYPE='201']</Mapping>
+                                    <Property>Condition</Property>
+                                    <Reference xsi:type="GenericObjectReference">
+                                        <CollectionName>TaskStatus</CollectionName>
+                                        <ObjectReferenceWrapper>
+                                            <ObjectReference xsi:type="TaskStatusReference" Key="124135428" DisplayString="Dispatched">Dispatched</ObjectReference>
+                                        </ObjectReferenceWrapper>
+                                    </Reference>
+                                </ReferenceInfo>
+                            </ReferenceInfos>
+                        </ImportExportObjectReferenceInfo>
+                    </ImportExportObjectReferenceInfos>
+                </ReferencedObjectsCollection>
+            </Item>
+        </ConfigurationStep>
+    </Settings>
+    <Scheme />
+</ConfigurationManagmentFile>
