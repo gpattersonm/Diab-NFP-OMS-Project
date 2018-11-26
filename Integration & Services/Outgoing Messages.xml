@@ -5,7 +5,7 @@
         <ConfigFileTitle>Configuration File</ConfigFileTitle>
         <BuildVersion>1</BuildVersion>
         <SOVersion>8.1.10(9467)</SOVersion>
-        <ExportTime>2018-11-16T11:50:21.3068-05:00</ExportTime>
+        <ExportTime>2018-11-26T11:37:45.4198-05:00</ExportTime>
         <ComputerName>WIN-RF015ULLERU</ComputerName>
         <Owner>gpatterson</Owner>
         <BuilderToolVersion>8.10.9467.105</BuilderToolVersion>
@@ -68,7 +68,7 @@
                     <Parameters>
                         <Properties>
                             <Engineer></Engineer>
-                            <Task>CallID;City;CompletedBy.Name;CompletionTime;Customer;CustomerPhoneNumber;DueDate;EarlyStart;Feeder;IncompletionReason.Name;Number;Outages.ActionTaken.ActionCode;Outages.ActionTaken.Name;Outages.ActionTakenDesc;Outages.Attachments.FileIndex;Outages.Attachments.FileName;Outages.Attachments.URL;Outages.Cause.CauseCode;Outages.CrewComments;Outages.EstimatedRepairDuration;Outages.ETR;Outages.FollowUpDetails;Outages.FollowUpRequired;Outages.OutageID;Outages.OutageLocation;Outages.OutagePriority.Name;Outages.SubCause.CauseCode;Outages.ThirdPartyDamage;ScheduleNotes;Status.Name;Street;TaskTitle;WorkLocation</Task>
+                            <Task>Attachments.FileIndex;Attachments.FileName;Attachments.URL;CallID;City;CompletedBy.Name;CompletionTime;Customer;CustomerPhoneNumber;DueDate;EarlyStart;Feeder;IncompletionReason.Name;Number;Outages.ActionTaken.ActionCode;Outages.ActionTaken.Name;Outages.ActionTakenDesc;Outages.Attachments.FileIndex;Outages.Attachments.FileName;Outages.Attachments.URL;Outages.Cause.CauseCode;Outages.CrewComments;Outages.EstimatedRepairDuration;Outages.ETR;Outages.FollowUpDetails;Outages.FollowUpRequired;Outages.OutageID;Outages.OutageLocation;Outages.OutagePriority.Name;Outages.SubCause.CauseCode;Outages.ThirdPartyDamage;ScheduleNotes;Status.Name;Street;TaskTitle;WorkLocation</Task>
                             <Assignment>Engineers.Engineer.ID;Engineers.Engineer.Name;Finish;Start</Assignment>
                             <PrevTask></PrevTask>
                         </Properties>
@@ -92,7 +92,7 @@
                     <Parameters>
                         <Properties>
                             <Engineer></Engineer>
-                            <Task>CallID;Number;Status.Name</Task>
+                            <Task>CallID;Number;SourceSystem;Status.Name</Task>
                             <Assignment></Assignment>
                         </Properties>
                         <Priority />
@@ -115,7 +115,7 @@
                     <Parameters>
                         <Properties>
                             <Engineer>ID;Name</Engineer>
-                            <Task>CallID;Number;Status.Name</Task>
+                            <Task>CallID;Number;SourceSystem;Status.Name</Task>
                             <Assignment>Finish;Start</Assignment>
                             <PrevAssignment></PrevAssignment>
                         </Properties>

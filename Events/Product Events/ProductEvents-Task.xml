@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigurationManagmentFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <GlobalMetaData>
+        <ConfigFileTitle>Configuration File</ConfigFileTitle>
+        <BuildVersion>1</BuildVersion>
+        <SOVersion>8.1.10(9467)</SOVersion>
+        <ExportTime>2018-11-26T11:47:57.2206-05:00</ExportTime>
+        <ComputerName>WIN-RF015ULLERU</ComputerName>
+        <Owner>gpatterson</Owner>
+        <BuilderToolVersion>8.10.9467.105</BuilderToolVersion>
+        <Description />
+    </GlobalMetaData>
+    <Queries />
+    <Settings>
+        <ConfigurationStep SerialNumber="6" TimeStamp="2018-11-26T11:42:41.7886-05:00" Title="Server Events" Description="" DisableEvents="false" IsCustom="true">
+            <Item xsi:type="ServerEvent" DisplayString="001 W6UtilitiesEvents.W6TaskDerivationEvent, W6UtilitiesEvents" Key="35717517" CollectionName="W6BFTask" PathInExTree="W6BFTask\001 W6UtilitiesEvents.W6TaskDerivationEvent, W6UtilitiesEvents" ParentInExTree="W6BFTask" ObjectType="ServerEvent" ImageKey="CentralSettingsItem" Version="1" User="gpatterson" IsCustom="true" MergeWithExMultiValue="false">
+                <ServerEvent AddBeforeProgID="W6UtilitiesEvents.W6JeopardyStateEvent, W6UtilitiesEvents">
+                    <Event Type="W6UtilitiesEvents.W6TaskDerivationEvent, W6UtilitiesEvents" Active="true" />
+                </ServerEvent>
+            </Item>
+            <Item xsi:type="ServerEvent" DisplayString="002 W6UtilitiesEvents.W6JeopardyStateEvent, W6UtilitiesEvents" Key="66939890" CollectionName="W6BFTask" PathInExTree="W6BFTask\002 W6UtilitiesEvents.W6JeopardyStateEvent, W6UtilitiesEvents" ParentInExTree="W6BFTask" ObjectType="ServerEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <ServerEvent AddBeforeProgID="W6UtilitiesEvents.W6CapacityReservationTaskEvent, W6UtilitiesEvents">
+                    <Event Type="W6UtilitiesEvents.W6JeopardyStateEvent, W6UtilitiesEvents" Active="true" />
+                </ServerEvent>
+            </Item>
+            <Item xsi:type="ServerEvent" DisplayString="003 W6UtilitiesEvents.W6CapacityReservationTaskEvent, W6UtilitiesEvents" Key="11036355" CollectionName="W6BFTask" PathInExTree="W6BFTask\003 W6UtilitiesEvents.W6CapacityReservationTaskEvent, W6UtilitiesEvents" ParentInExTree="W6BFTask" ObjectType="ServerEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <ServerEvent AddBeforeProgID="W6StatusFlowLib.W6StatusFlow, W6StatusFlowLib">
+                    <Event Active="true" Type="W6UtilitiesEvents.W6CapacityReservationTaskEvent, W6UtilitiesEvents" />
+                </ServerEvent>
+            </Item>
+            <Item xsi:type="ServerEvent" DisplayString="004 W6StatusFlowLib.W6StatusFlow, W6StatusFlowLib" Key="59548322" CollectionName="W6BFTask" PathInExTree="W6BFTask\004 W6StatusFlowLib.W6StatusFlow, W6StatusFlowLib" ParentInExTree="W6BFTask" ObjectType="ServerEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <ServerEvent AddBeforeProgID="W6UtilitiesEvents.W6DisplayStatusEvent, W6UtilitiesEvents">
+                    <Event Type="W6StatusFlowLib.W6StatusFlow, W6StatusFlowLib" Active="true" />
+                </ServerEvent>
+            </Item>
+            <Item xsi:type="ServerEvent" DisplayString="005 W6UtilitiesEvents.W6DisplayStatusEvent, W6UtilitiesEvents" Key="58400697" CollectionName="W6BFTask" PathInExTree="W6BFTask\005 W6UtilitiesEvents.W6DisplayStatusEvent, W6UtilitiesEvents" ParentInExTree="W6BFTask" ObjectType="ServerEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <ServerEvent AddBeforeProgID="W6GISGeocodeServices.W6TaskGeocodeEvent,W6GISGeocodeServices">
+                    <Event Type="W6UtilitiesEvents.W6DisplayStatusEvent, W6UtilitiesEvents" Active="true" />
+                </ServerEvent>
+            </Item>
+            <Item xsi:type="ServerEvent" DisplayString="006 W6GISGeocodeServices.W6TaskGeocodeEvent,W6GISGeocodeServices" Key="27089021" CollectionName="W6BFTask" PathInExTree="W6BFTask\006 W6GISGeocodeServices.W6TaskGeocodeEvent,W6GISGeocodeServices" ParentInExTree="W6BFTask" ObjectType="ServerEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <ServerEvent AddBeforeProgID="Diabsolut.SchedulePriority.SO.SetSchedulePriority, Diabsolut.SchedulePriority.SO">
+                    <Event Type="W6GISGeocodeServices.W6TaskGeocodeEvent,W6GISGeocodeServices" Active="true" />
+                </ServerEvent>
+            </Item>
+            <Item xsi:type="ServerEvent" DisplayString="007 Diabsolut.SchedulePriority.SO.SetSchedulePriority, Diabsolut.SchedulePriority.SO" Key="17890920" CollectionName="W6BFTask" PathInExTree="W6BFTask\007 Diabsolut.SchedulePriority.SO.SetSchedulePriority, Diabsolut.SchedulePriority.SO" ParentInExTree="W6BFTask" ObjectType="ServerEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <ServerEvent AddBeforeProgID="W6UtilitiesEvents.W6MetricDateEvent, W6UtilitiesEvents">
+                    <Event Type="Diabsolut.SchedulePriority.SO.SetSchedulePriority, Diabsolut.SchedulePriority.SO" Active="true" />
+                </ServerEvent>
+            </Item>
+            <Item xsi:type="ServerEvent" DisplayString="008 W6UtilitiesEvents.W6MetricDateEvent, W6UtilitiesEvents" Key="23361726" CollectionName="W6BFTask" PathInExTree="W6BFTask\008 W6UtilitiesEvents.W6MetricDateEvent, W6UtilitiesEvents" ParentInExTree="W6BFTask" ObjectType="ServerEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <ServerEvent AddBeforeProgID="W6IntEvents.W6IntTask, W6IntEvents">
+                    <Event Type="W6UtilitiesEvents.W6MetricDateEvent, W6UtilitiesEvents" Active="true" />
+                </ServerEvent>
+            </Item>
+            <Item xsi:type="ServerEvent" DisplayString="009 W6IntEvents.W6IntTask, W6IntEvents" Key="52155720" CollectionName="W6BFTask" PathInExTree="W6BFTask\009 W6IntEvents.W6IntTask, W6IntEvents" ParentInExTree="W6BFTask" ObjectType="ServerEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <ServerEvent AddBeforeProgID="NFPSvrLib.SetDispatchDate, NFPSvrLib">
+                    <Event Type="W6IntEvents.W6IntTask, W6IntEvents" Active="true" />
+                </ServerEvent>
+            </Item>
+            <Item xsi:type="ServerEvent" DisplayString="010 NFPSvrLib.SetDispatchDate, NFPSvrLib" Key="37903130" CollectionName="W6BFTask" PathInExTree="W6BFTask\010 NFPSvrLib.SetDispatchDate, NFPSvrLib" ParentInExTree="W6BFTask" ObjectType="ServerEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <ServerEvent AddBeforeProgID="W6GenericUtilities.W6GenericEvent, W6GenericUtilities">
+                    <Event Active="false" Type="NFPSvrLib.SetDispatchDate, NFPSvrLib" />
+                </ServerEvent>
+            </Item>
+            <Item xsi:type="ServerEvent" DisplayString="011 W6GenericUtilities.W6GenericEvent, W6GenericUtilities" Key="49639248" CollectionName="W6BFTask" PathInExTree="W6BFTask\011 W6GenericUtilities.W6GenericEvent, W6GenericUtilities" ParentInExTree="W6BFTask" ObjectType="ServerEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <ServerEvent AddBeforeProgID="W6CMServer.W6CMTaskEvent, W6CMServer">
+                    <Event Type="W6GenericUtilities.W6GenericEvent, W6GenericUtilities" Active="true" />
+                </ServerEvent>
+            </Item>
+            <Item xsi:type="ServerEvent" DisplayString="012 W6CMServer.W6CMTaskEvent, W6CMServer" Key="15334348" CollectionName="W6BFTask" PathInExTree="W6BFTask\012 W6CMServer.W6CMTaskEvent, W6CMServer" ParentInExTree="W6BFTask" ObjectType="ServerEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <ServerEvent AddBeforeProgID="W6AuditLib.W6Audit, W6AuditLib">
+                    <Event Type="W6CMServer.W6CMTaskEvent, W6CMServer" Active="true" />
+                </ServerEvent>
+            </Item>
+            <Item xsi:type="ServerEvent" DisplayString="013 W6AuditLib.W6Audit, W6AuditLib" Key="38668280" CollectionName="W6BFTask" PathInExTree="W6BFTask\013 W6AuditLib.W6Audit, W6AuditLib" ParentInExTree="W6BFTask" ObjectType="ServerEvent" ImageKey="CentralSettingsItem" IsCustom="true" MergeWithExMultiValue="false">
+                <ServerEvent AddBeforeProgID="">
+                    <Event Type="W6AuditLib.W6Audit, W6AuditLib" Active="true" />
+                </ServerEvent>
+            </Item>
+        </ConfigurationStep>
+    </Settings>
+    <Scheme />
+</ConfigurationManagmentFile>
