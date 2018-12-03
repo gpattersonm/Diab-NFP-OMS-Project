@@ -7,6 +7,22 @@
                 <xs:element minOccurs="0" maxOccurs="1" name="Task">
                     <xs:complexType>
                         <xs:sequence>
+                            <xs:element minOccurs="0" maxOccurs="1" name="Attachments">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element minOccurs="0" maxOccurs="unbounded" name="Value">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element minOccurs="0" maxOccurs="1" name="FileIndex" type="xs:int" />
+                                                    <xs:element minOccurs="0" maxOccurs="1" name="FileName" type="xs:string" />
+                                                    <xs:element minOccurs="0" maxOccurs="1" name="URL" type="xs:string" />
+                                                </xs:sequence>
+                                                <xs:attribute name="Key" type="xs:int" />
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
                             <xs:element minOccurs="0" maxOccurs="1" name="CallID" type="xs:string" />
                             <xs:element minOccurs="0" maxOccurs="1" name="City" type="xs:string" />
                             <xs:element minOccurs="0" maxOccurs="1" name="CompletedBy">
@@ -48,6 +64,13 @@
                                 </xs:complexType>
                             </xs:element>
                             <xs:element minOccurs="0" maxOccurs="1" name="Number" type="xs:int" />
+                            <xs:element minOccurs="0" maxOccurs="1" name="OutageLastUpdated">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:token">
+                                        <xs:pattern value="[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
                             <xs:element minOccurs="0" maxOccurs="1" name="Outages">
                                 <xs:complexType>
                                     <xs:sequence>
